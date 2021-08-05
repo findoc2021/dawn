@@ -46,19 +46,28 @@
           "footer-0": {
             "type": "link_list",
             "settings": {
-              "heading": "Quick links",
+              "heading": "Помощь клиентам",
               "menu": "footer"
+            }
+          },
+          "af300573-631c-4276-b480-99068ee2dba3": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/a5defe7405da82935d12f3edcfd3d96a_b1d1c345-cc8b-4c08-bea0-0f9bf3ddb9df.jpg",
+              "image_width": 100,
+              "alignment": "center"
             }
           }
         },
         "block_order": [
-          "footer-0"
+          "footer-0",
+          "af300573-631c-4276-b480-99068ee2dba3"
         ],
         "settings": {
           "color_scheme": "background-1",
           "newsletter_enable": true,
-          "newsletter_heading": "Sign up to our emails",
-          "show_social": false,
+          "newsletter_heading": "Подписывайтесь на новостную рассылку, информируем о скидках, новинках и тенденциях!",
+          "show_social": true,
           "enable_country_selector": true,
           "enable_language_selector": true,
           "payment_enable": true
