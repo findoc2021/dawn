@@ -5,26 +5,35 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "blocks": {
+          "8920e8c9-9a76-4b1d-b187-74269145e16b": {
+            "type": "announcement",
+            "settings": {
+              "text": "Добро пожаловать!",
+              "color_scheme": "background-1",
+              "link": "shopify:\/\/pages\/about-as"
+            }
+          },
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Добро пожаловать в магазин IrenFashion.shop. Наложенный платеж Укрпочта и новая почта (предоплата 100 грн) тел +380508050284",
+              "text": "IrenFashion.shop. Наложенный платеж Укрпочта и новая почта (предоплата 100 грн) тел +380508050284",
               "color_scheme": "accent-1",
               "link": "shopify:\/\/policies\/terms-of-service"
             }
           },
-          "0d40ee37-7308-4677-9c96-ad9f8fbb4346": {
+          "3fb252e2-b33e-472d-970b-95f827dff66f": {
             "type": "announcement",
             "settings": {
-              "text": "Welcome to our store",
+              "text": "Возврат и обмен в течении 30 дней после покупки!",
               "color_scheme": "background-1",
-              "link": ""
+              "link": "shopify:\/\/pages\/vozvrat-i-obmen"
             }
           }
         },
         "block_order": [
+          "8920e8c9-9a76-4b1d-b187-74269145e16b",
           "announcement-bar-0",
-          "0d40ee37-7308-4677-9c96-ad9f8fbb4346"
+          "3fb252e2-b33e-472d-970b-95f827dff66f"
         ],
         "settings": {
         }
