@@ -1,5 +1,6 @@
 {
   "current": {
+    "accent_icons": "outline-button",
     "social_facebook_link": "Htpps:\/\/Facebook.com\/",
     "sections": {
       "announcement-bar": {
@@ -42,7 +43,7 @@
         "type": "header",
         "settings": {
           "logo": "shopify:\/\/shop_images\/pinterest_board_photo.png",
-          "logo_width": 100,
+          "logo_width": 60,
           "logo_position": "top-left",
           "menu": "main-menu",
           "show_line_separator": true,
