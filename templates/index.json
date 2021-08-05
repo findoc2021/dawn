@@ -12,18 +12,25 @@
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
+            "button_label_1": "Подробнее",
+            "button_link_1": "shopify:\/\/collections\/zhenskie-platya-bolshikh-razmerov-optom-i-rozniczu-xxl",
             "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
+            "button_label_2": "Заказать",
+            "button_link_2": "shopify:\/\/pages\/about_as",
             "button_style_secondary_2": false
+          }
+        },
+        "3a1cc396-5588-44ce-a50d-d948d6d6329d": {
+          "type": "text",
+          "settings": {
+            "text": "Пляжные накидки, парео, платья и костюмы!"
           }
         }
       },
       "block_order": [
         "heading",
-        "button"
+        "button",
+        "3a1cc396-5588-44ce-a50d-d948d6d6329d"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/MyCollages_2_a057b695-a070-402c-a54a-e5111229c0fe.jpg",
@@ -54,27 +61,27 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "heading": "Модели производства нашей фабрики!"
           }
         },
         "button": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "Модели",
+            "button_link": "shopify:\/\/collections\/zhenskie-platya-bolshih-razmerov-nalozhennym-platezhom"
+          }
+        },
+        "1c1ad2b9-9aa9-4630-ad67-c293e35fa67c": {
+          "type": "text",
+          "settings": {
+            "text": "<p>﻿уже на протжнии 22 лет наши модльеры и швеи трудятся на элегантной, недорогой женской одеждой бошьших разеров! Модели нашего производста продаются наложенным платежом! Замена или обменпроизводятся уведомлению магазина! Скоро осенье новинки!<\/p>"
           }
         }
       },
       "block_order": [
         "heading",
-        "text",
-        "button"
+        "button",
+        "1c1ad2b9-9aa9-4630-ad67-c293e35fa67c"
       ],
       "settings": {
         "height": "adapt",
