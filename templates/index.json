@@ -130,12 +130,61 @@
         "stack_images_on_mobile": true,
         "adapt_height_first_image": true
       }
+    },
+    "16282050414252e21e": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "1628205071928c9169": {
+      "type": "collage",
+      "blocks": {
+        "1628205071928c9169-0": {
+          "type": "video",
+          "settings": {
+            "cover_image": "shopify:\/\/shop_images\/MyCollages_3.jpg",
+            "video_url": "https:\/\/youtu.be\/Zgw8UYPd8g8",
+            "description": "Промо ролик наших моделей",
+            "image_padding": false
+          }
+        },
+        "1628205071928c9169-1": {
+          "type": "product",
+          "settings": {
+            "product": "летнее-легкое-женское-платье-м-352",
+            "secondary_background": false,
+            "second_image": false,
+            "image_padding": true
+          }
+        },
+        "1628205071928c9169-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "odezhda-po-optovym-cenam",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        }
+      },
+      "block_order": [
+        "1628205071928c9169-0",
+        "1628205071928c9169-1",
+        "1628205071928c9169-2"
+      ],
+      "settings": {
+        "heading": "Трикотажные платья!",
+        "desktop_layout": "left",
+        "mobile_layout": "collage"
+      }
     }
   },
   "order": [
     "image_banner",
     "featured_products",
     "image_text",
-    "1628204174b90c6428"
+    "1628204174b90c6428",
+    "16282050414252e21e",
+    "1628205071928c9169"
   ]
 }
