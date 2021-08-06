@@ -46,9 +46,9 @@
       "settings": {
         "title": "Новинки сезона 2021!",
         "collection": "zhenskie-platya-bolshih-razmerov-sobstvennogo-proizvodstva-samye-goryachie-novinki-zhenskih-platev-kostyumov-bluzok-dzhemperov-tunik",
-        "products_to_show": 6,
+        "products_to_show": 12,
         "show_view_all": true,
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "image_ratio": "adapt",
         "show_secondary_image": true,
         "add_image_padding": false,
