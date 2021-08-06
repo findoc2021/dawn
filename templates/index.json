@@ -177,6 +177,42 @@
         "desktop_layout": "left",
         "mobile_layout": "collage"
       }
+    },
+    "1628212274e3ed1bd9": {
+      "type": "collection-list",
+      "blocks": {
+        "1628212274e3ed1bd9-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "1628212274e3ed1bd9-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "1628212274e3ed1bd9-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "1628212274e3ed1bd9-0",
+        "1628212274e3ed1bd9-1",
+        "1628212274e3ed1bd9-2"
+      ],
+      "settings": {
+        "title": "Коллекции",
+        "image_ratio": "adapt",
+        "color_scheme": "background-1",
+        "swipe_on_mobile": true,
+        "image_padding": true,
+        "show_view_all": true
+      }
     }
   },
   "order": [
@@ -185,6 +221,7 @@
     "image_text",
     "1628204174b90c6428",
     "16282050414252e21e",
-    "1628205071928c9169"
+    "1628205071928c9169",
+    "1628212274e3ed1bd9"
   ]
 }
