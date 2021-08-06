@@ -1,10 +1,53 @@
 {
   "sections": {
     "main": {
-      "type": "main-list-collections"
+      "type": "main-list-collections",
+      "settings": {
+        "title": "Каталоги женской одежды",
+        "sort": "date_reversed",
+        "image_ratio": "adapt",
+        "color_scheme": "background-1",
+        "image_padding": false
+      }
+    },
+    "16282110499d1d50a8": {
+      "type": "rich-text",
+      "blocks": {
+        "16282110499d1d50a8-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Задайте нам свой вопрос!",
+            "heading_size": "medium"
+          }
+        },
+        "16282110499d1d50a8-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Наш магазин ищет поставщиков качественной женской одежды. А так же с целью расширения продаж привлекаем дропшиперров к сотрудничеству! Полное обеспечивании отправок и логистики! Вы продавайте и не думайте о посылках, почтах и отказах!<\/p>"
+          }
+        },
+        "16282110499d1d50a8-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Узнать больше",
+            "button_link": "shopify:\/\/blogs\/news\/dropshipping",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "16282110499d1d50a8-0",
+        "16282110499d1d50a8-1",
+        "16282110499d1d50a8-2"
+      ],
+      "settings": {
+        "color_scheme": "accent-1",
+        "full_width": true
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "16282110499d1d50a8"
   ]
 }
