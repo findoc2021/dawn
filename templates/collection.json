@@ -1,14 +1,55 @@
 {
   "sections": {
     "banner": {
-      "type": "main-collection-banner"
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": true
+      }
     },
     "product-grid": {
-      "type": "main-collection-product-grid"
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 16,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_vendor": true,
+        "enable_filtering": true,
+        "enable_sorting": true
+      }
+    },
+    "16282107673d4c2c46": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": ""
+      }
+    },
+    "16282108303f90aac8": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "16282108546df0673a": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Статьи и новости",
+        "blog": "news",
+        "post_limit": 3,
+        "show_image": true,
+        "show_date": true,
+        "show_author": true,
+        "soft_background": false,
+        "show_view_all": true
+      }
     }
   },
   "order": [
     "banner",
-    "product-grid"
+    "product-grid",
+    "16282107673d4c2c46",
+    "16282108303f90aac8",
+    "16282108546df0673a"
   ]
 }
