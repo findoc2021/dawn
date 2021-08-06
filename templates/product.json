@@ -6,12 +6,14 @@
         "vendor": {
           "type": "text",
           "settings": {
-            "text_style": "uppercase",
-            "text": "{{ product.vendor }}"
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
           }
         },
         "title": {
-          "type": "title"
+          "type": "title",
+          "settings": {
+          }
         },
         "subtitle": {
           "type": "text",
@@ -21,22 +23,45 @@
           }
         },
         "price": {
-          "type": "price"
+          "type": "price",
+          "settings": {
+          }
         },
         "variant_picker": {
-          "type": "variant_picker"
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
         },
         "quantity_selector": {
-          "type": "quantity_selector"
+          "type": "quantity_selector",
+          "settings": {
+          }
         },
         "buy_buttons": {
-          "type": "buy_buttons"
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
         },
         "description": {
-          "type": "description"
+          "type": "description",
+          "settings": {
+          }
         },
         "share": {
-          "type": "share"
+          "type": "share",
+          "settings": {
+          }
+        },
+        "07742442-f1fd-4c53-8ccd-7896cc7d885f": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Правила доставки",
+            "content": "<p>Наш магазин сотрудничает со всеми существующими службами доставки. Но в приоритете Укрпочта и Новая почта! Наложенный и безналичный расчет!<\/p>",
+            "page": "politika-magazina-po-dostavke-i-oplate-izdelij",
+            "icon": "iron"
+          }
         }
       },
       "block_order": [
@@ -48,15 +73,72 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share"
-      ]
+        "share",
+        "07742442-f1fd-4c53-8ccd-7896cc7d885f"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "enable_video_looping": false
+      }
     },
     "product-recommendations": {
-      "type": "product-recommendations"
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "You may also like",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_vendor": false
+      }
+    },
+    "16282091560573a37b": {
+      "type": "multicolumn",
+      "blocks": {
+        "16282091560573a37b-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/png-clipart-warranty-logo-product-brand-artikel-warranty-logo-quality-thumbnail_45c73316-beb7-4c4a-92d9-023d3756e0c8.png",
+            "title": "3700 довольных клиентов за календарный год!",
+            "text": "<p>Наш магазин достаточно молодой и ему всего 2 года. Но за это время работниками и руководством магазина сделано не мало!<\/p>"
+          }
+        },
+        "16282091560573a37b-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3b6efbea2dacd54e28897e5f0bzl_de1f1823-c94a-44f1-a5de-fcf20e1fde45.png",
+            "title": "Удобные условия оплаты и доставки:",
+            "text": "<p>Сегодняшние тенденции на рынке розничной интернет торговли, идут в разрез с политикой нашей компании. На протяжении 2-х лет многие продавцы уходят от системы оплат наложенным платежом. У всех на то свои причины, но главный аргумент, что ни кто кроме службы доставки на наших с вами посылках не зарабатывает. Поэтому мы оставили наложку по Укрпоте и Новой почте, только для новой почты незначительная предоплата, покрывающая расходы на доставку товаров покупателям!  <\/p>"
+          }
+        },
+        "16282091560573a37b-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/images_3_03363885-bbf6-4ebd-84bb-91c7c8e66fd6.jpg",
+            "title": "Гарантии обмена  и возврата!",
+            "text": "<p>На протяжении работы нашего магазина, у на НЕТ кредиторской задолженности за товары перед покупателями! И это СУПЕР! Возвращаем деньги и обмениваем товары нашего и партнерского производства! В течении 30 дней Вы можете обменять и в 14 дней вернуть товары. Присоединяйтесь к нам! <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16282091560573a37b-0",
+        "16282091560573a37b-1",
+        "16282091560573a37b-2"
+      ],
+      "settings": {
+        "title": "Наши достижения{{ product.metafields.descriptors.subtitle.value }}",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Читать",
+        "button_link": "shopify:\/\/blogs\/news",
+        "swipe_on_mobile": false
+      }
     }
   },
   "order": [
     "main",
-    "product-recommendations"
+    "product-recommendations",
+    "16282091560573a37b"
   ]
 }
