@@ -10,10 +10,17 @@
       "settings": {
         "heading": "Контактная форма!"
       }
+    },
+    "1628208252b878ca31": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
-    "form"
+    "form",
+    "1628208252b878ca31"
   ]
 }
