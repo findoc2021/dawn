@@ -3,6 +3,7 @@
     "accent_icons": "outline-button",
     "social_facebook_link": "Htpps:\/\/Facebook.com\/",
     "favicon": "shopify:\/\/shop_images\/favicon_e97b4c0e-9d0e-4fb4-8d44-cc3e8162861f.png",
+    "checkout_header_image": "shopify:\/\/shop_images\/card-reader-payment_462185e7-b506-4044-a7be-55aeb4a0e31b.jpg",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
