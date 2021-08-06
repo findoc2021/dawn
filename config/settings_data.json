@@ -67,11 +67,19 @@
               "image_width": 100,
               "alignment": "center"
             }
+          },
+          "1904f996-d96d-44bd-9832-75783a6c5847": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Каталоги",
+              "menu": "collection-collection-handle"
+            }
           }
         },
         "block_order": [
           "footer-0",
-          "af300573-631c-4276-b480-99068ee2dba3"
+          "af300573-631c-4276-b480-99068ee2dba3",
+          "1904f996-d96d-44bd-9832-75783a6c5847"
         ],
         "settings": {
           "color_scheme": "background-1",
