@@ -104,11 +104,11 @@
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "heading": "You may also like",
+        "heading": "Выбор наших покупателей! Вам тоже может понравиться! {{ product.title }}",
         "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "add_image_padding": false,
-        "show_vendor": false
+        "show_secondary_image": true,
+        "add_image_padding": true,
+        "show_vendor": true
       }
     },
     "16282091560573a37b": {
