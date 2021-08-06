@@ -213,6 +213,12 @@
         "image_padding": true,
         "show_view_all": true
       }
+    },
+    "1628212321cfd976f8": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "src\/Draggable\/Plugins\/AutoScroll\/AutoScroll.js"
+      }
     }
   },
   "order": [
@@ -222,6 +228,7 @@
     "1628204174b90c6428",
     "16282050414252e21e",
     "1628205071928c9169",
-    "1628212274e3ed1bd9"
+    "1628212274e3ed1bd9",
+    "1628212321cfd976f8"
   ]
 }
