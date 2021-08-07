@@ -228,105 +228,45 @@
         "custom_liquid": ""
       }
     },
-    "1628359745eb66e195": {
-      "type": "slideshow",
+    "1628363935338af885": {
+      "type": "collage",
       "blocks": {
-        "1628359745eb66e195-0": {
-          "type": "image",
+        "1628363935338af885-0": {
+          "type": "video",
           "settings": {
-            "image": "shopify:\/\/shop_images\/photo_2021-08-03_11-58-00.jpg",
-            "alignment": "center",
-            "title": "женское платье м. FT - 2353",
-            "subheading": "",
-            "button_label": "Подробней",
-            "link": "shopify:\/\/products\/платье-tycrjt-ft-2350"
+            "cover_image": "shopify:\/\/shop_images\/photo_2021-05-16_19-38-49_2.jpg",
+            "video_url": "https:\/\/youtu.be\/etkscMFGnA4",
+            "description": "Наши модельные шедевры",
+            "image_padding": false
           }
         },
-        "1628359745eb66e195-1": {
-          "type": "image",
+        "1628363935338af885-1": {
+          "type": "product",
           "settings": {
-            "image": "shopify:\/\/shop_images\/photo_2021-08-03_11-55-59.jpg",
-            "alignment": "top",
-            "title": "ткань штапель размеры 52\/54\/56\/58",
-            "subheading": "Наши новинки",
-            "button_label": "Подробней",
-            "link": "shopify:\/\/products\/платье-tycrjt-ft-2350"
+            "product": "zhenskaya-letnyaya-tunika-fl-6952",
+            "secondary_background": true,
+            "second_image": true,
+            "image_padding": false
           }
         },
-        "e4c5f1a6-54b5-412a-bb57-db00fb2f493d": {
-          "type": "image",
+        "1628363935338af885-2": {
+          "type": "collection",
           "settings": {
-            "image": "shopify:\/\/shop_images\/MyCollages_4.jpg",
-            "alignment": "top",
-            "title": "хиты продаж",
-            "subheading": "",
-            "button_label": "Подробней",
-            "link": "shopify:\/\/products\/летнее-легкое-женское-платье-м-352"
-          }
-        },
-        "9557667e-e3fc-4d5b-a26d-2c2e4eda5ea4": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ANY_2920.jpg",
-            "alignment": "top",
-            "title": "м. 352 \/ 2 ткань трикотаж масло",
-            "subheading": "попробуй качество и стиль",
-            "button_label": "Подробней",
-            "link": "shopify:\/\/products\/летнее-платье-м-352-2"
+            "collection": "odezhda-po-optovym-cenam",
+            "image_padding": true,
+            "color_scheme": "background-1"
           }
         }
       },
       "block_order": [
-        "1628359745eb66e195-0",
-        "1628359745eb66e195-1",
-        "e4c5f1a6-54b5-412a-bb57-db00fb2f493d",
-        "9557667e-e3fc-4d5b-a26d-2c2e4eda5ea4"
+        "1628363935338af885-0",
+        "1628363935338af885-1",
+        "1628363935338af885-2"
       ],
       "settings": {
-        "autoplay": true,
-        "autoplay_speed": "5000",
-        "slideshow_height": "full",
-        "heading_divider": "full"
-      }
-    },
-    "16283601838b604a5e": {
-      "type": "index-lookbook",
-      "blocks": {
-        "6b1f2ac5-454a-4c84-a0a7-400fe3a1b122": {
-          "type": "lookbook_100",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/MyCollages_3.jpg",
-            "img_alignment": "top",
-            "item_product_1": "летнее-платье-м-245-2",
-            "item_x_1": 50,
-            "item_y_1": 50,
-            "item_horizontal_align_1": "left",
-            "item_vertical_align_1": "bottom",
-            "item_product_2": "летнее-легкое-женское-платье-м-351",
-            "item_x_2": 50,
-            "item_y_2": 50,
-            "item_horizontal_align_2": "left",
-            "item_vertical_align_2": "bottom",
-            "item_product_3": "летнее-платье-м-352-2",
-            "item_x_3": 50,
-            "item_y_3": 50,
-            "item_horizontal_align_3": "left",
-            "item_vertical_align_3": "bottom",
-            "item_product_4": "платье-женское-летние-из-льна-fn-2577",
-            "item_x_4": 50,
-            "item_y_4": 50,
-            "item_horizontal_align_4": "left",
-            "item_vertical_align_4": "bottom"
-          }
-        }
-      },
-      "block_order": [
-        "6b1f2ac5-454a-4c84-a0a7-400fe3a1b122"
-      ],
-      "settings": {
-        "lookbook_layout": "full_width",
-        "section_title": "",
-        "text_title": ""
+        "heading": "Женски платья",
+        "desktop_layout": "right",
+        "mobile_layout": "column"
       }
     }
   },
@@ -340,7 +280,6 @@
     "1628205071928c9169",
     "1628212274e3ed1bd9",
     "1628212321cfd976f8",
-    "1628359745eb66e195",
-    "16283601838b604a5e"
+    "1628363935338af885"
   ]
 }
