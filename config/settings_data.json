@@ -57,19 +57,19 @@
       "footer": {
         "type": "footer",
         "blocks": {
+          "af300573-631c-4276-b480-99068ee2dba3": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/258c2a8d0722ed94609cbd393fb106be.png",
+              "image_width": 185,
+              "alignment": ""
+            }
+          },
           "footer-0": {
             "type": "link_list",
             "settings": {
               "heading": "Помощь клиентам",
               "menu": "footer"
-            }
-          },
-          "af300573-631c-4276-b480-99068ee2dba3": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/a5defe7405da82935d12f3edcfd3d96a_b1d1c345-cc8b-4c08-bea0-0f9bf3ddb9df.jpg",
-              "image_width": 100,
-              "alignment": "center"
             }
           },
           "1904f996-d96d-44bd-9832-75783a6c5847": {
@@ -88,8 +88,8 @@
           }
         },
         "block_order": [
-          "footer-0",
           "af300573-631c-4276-b480-99068ee2dba3",
+          "footer-0",
           "1904f996-d96d-44bd-9832-75783a6c5847",
           "a83bb010-56d6-455a-b3d0-39d047456411"
         ],
