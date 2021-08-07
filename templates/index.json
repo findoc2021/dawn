@@ -15,7 +15,7 @@
             "button_label_1": "Подробнее",
             "button_link_1": "shopify:\/\/collections\/zhenskie-platya-bolshikh-razmerov-optom-i-rozniczu-xxl",
             "button_style_secondary_1": false,
-            "button_label_2": "Заказать",
+            "button_label_2": "",
             "button_link_2": "shopify:\/\/pages\/about_as",
             "button_style_secondary_2": false
           }
@@ -33,12 +33,12 @@
         "3a1cc396-5588-44ce-a50d-d948d6d6329d"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/MyCollages_2_a057b695-a070-402c-a54a-e5111229c0fe.jpg",
+        "image": "shopify:\/\/shop_images\/photo_2021-08-03_11-55-59.jpg",
         "image_2": "shopify:\/\/shop_images\/MyCollages_4.jpg",
         "desktop_text_box_position": "flex-end",
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
-        "adapt_height_first_image": true
+        "adapt_height_first_image": false
       }
     },
     "featured_products": {
@@ -49,7 +49,7 @@
         "products_to_show": 12,
         "show_view_all": true,
         "swipe_on_mobile": true,
-        "image_ratio": "adapt",
+        "image_ratio": "portrait",
         "show_secondary_image": true,
         "add_image_padding": false,
         "show_vendor": true
