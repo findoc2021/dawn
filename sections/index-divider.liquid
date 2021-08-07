@@ -1,12 +1,177 @@
+<div class="divider_item d-none d-lg-block{% if section.settings.section_view == 'boxed' %} container{% endif %}" style="
+	{%- if section.settings.padding_top > 0 -%}
+		padding-top: {{ section.settings.padding_top }}px;
+	{%- endif -%}
+	{%- if section.settings.padding_bottom > 0 -%}
+		padding-bottom: {{ section.settings.padding_bottom }}px;
+	{%- endif -%}
+	{%- if section.settings.margin_top > 0 -%}
+		margin-top: {{ section.settings.margin_top  }}px;
+	{%- endif -%}
+	{%- if section.settings.margin_bottom > 0 -%}
+		margin-bottom: {{ section.settings.margin_bottom }}px;
+	{%- endif -%} 
+	{%- if section.settings.background_color.size > 0 -%}
+		background-color: {{ section.settings.background_color }};
+	{%- endif -%}
+"></div>
+
+
+{% comment %} SHOW ON SIZE < 992 {% endcomment %}
+<div class="divider_item tablet_show d-lg-none d-block {% if section.settings.section_view == 'boxed' %} container{% endif %}" style="
+	{%- if section.settings.tablet_padding_top > 0 -%}
+		padding-top: {{ section.settings.tablet_padding_top }}px;
+	{%- elsif section.settings.padding_top > 0 -%} 
+		padding-top: {{ section.settings.padding_top }}px;
+	{%- endif -%}
+	{%- if section.settings.tablet_padding_bottom > 0 -%}
+		padding-bottom: {{ section.settings.tablet_padding_bottom }}px;
+	{%- elsif section.settings.padding_bottom > 0 -%} 
+		padding-bottom: {{ section.settings.padding_bottom }}px;
+	{%- endif -%}
+	{%- if section.settings.tablet_margin_top > 0 -%}
+		margin-top: {{ section.settings.tablet_margin_top  }}px;
+	{%- elsif section.settings.margin_top > 0 -%} 
+		margin-top: {{ section.settings.margin_top }}px;
+	{%- endif -%}
+	{%- if section.settings.tablet_margin_bottom > 0 -%}
+		margin-bottom: {{ section.settings.tablet_margin_bottom }}px;
+	{%- elsif section.settings.margin_bottom > 0 -%} 
+		margin-bottom: {{ section.settings.margin_bottom }}px;
+	{%- endif -%} 
+	{%- if section.settings.background_color.size > 0 -%}
+		background-color: {{ section.settings.background_color }};
+	{%- endif -%}
+"></div>
+
+	
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+	"name": "Divider",
+	"class": "section section_divider",
+	"settings": [
+		{
+			"type": "header",
+			"content": "Divider"
+		},
+		{
+			"type": "select",
+			"id": "section_view",
+			"label": "Section view",
+			"default": "boxed",
+			"options": [
+				{
+					"label": "Boxed",
+					"value": "boxed"
+				},
+				{
+					"label": "Full width",
+					"value": "full_width"
+				}
+			]
+		},
+		{
+	        "type":      "range",
+	        "id":        "padding_top",
+	        "min":       0,
+	        "max":        100,
+	        "step":       1,
+	        "unit":       "px",
+	        "label":     "Padding top",
+	        "default":   0
+		},
+		{
+	        "type":      "range",
+	        "id":        "padding_bottom",
+	        "min":       0,
+	        "max":        100,
+	        "step":       1,
+	        "unit":       "px",
+	        "label":     "Padding bottom",
+	        "default":   0
+		},
+		{
+	        "type":      "range",
+	        "id":        "margin_top",
+	        "min":       0,
+	        "max":        100,
+	        "step":       1,
+	        "unit":       "px",
+	        "label":     "Margin top",
+	        "default":   0
+		},
+		{
+	        "type":      "range",
+	        "id":        "margin_bottom",
+	        "min":       0,
+	        "max":        100,
+	        "step":       1,
+	        "unit":       "px",
+	        "label":     "Margin bottom",
+	        "default":   0
+		},
+		{
+			"type": "color",
+			"id": "background_color",
+			"label": "Background color"
+		},
+		
+
+		// TABLET VIEW ///////////////////////////////////////////////////////////////////////////////////////
+		{
+			"type": "header",
+			"content": "Tablet size (lower 992px)"
+		},
+		{
+			"type": "paragraph",
+			"content": "The value may be higher then '0'"
+		},
+		{
+	        "type":      "range",
+	        "id":        "tablet_padding_top",
+	        "min":       0,
+	        "max":        100,
+	        "step":       1,
+	        "unit":       "px",
+	        "label":     "Padding top",
+	        "default":   0
+		},
+		{
+	        "type":      "range",
+	        "id":        "tablet_padding_bottom",
+	        "min":       0,
+	        "max":        100,
+	        "step":       1,
+	        "unit":       "px",
+	        "label":     "Padding bottom",
+	        "default":   0
+		},
+		{
+	        "type":      "range",
+	        "id":        "tablet_margin_top",
+	        "min":       0,
+	        "max":        100,
+	        "step":       1,
+	        "unit":       "px",
+	        "label":     "Margin top",
+	        "default":   0
+		},
+		{
+	        "type":      "range",
+	        "id":        "tablet_margin_bottom",
+	        "min":       0,
+	        "max":        100,
+	        "step":       1,
+	        "unit":       "px",
+	        "label":     "Margin bottom",
+	        "default":   0
+		}
+	],
+	"presets": [
+		{
+			"name": "Divider",
+			"category": "Advanced layout"
+		}
+	]
+}
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
