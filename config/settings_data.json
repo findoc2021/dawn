@@ -51,7 +51,7 @@
         "settings": {
           "logo": "shopify:\/\/shop_images\/pinterest_board_photo.png",
           "logo_width": 120,
-          "logo_position": "top-left",
+          "logo_position": "top-center",
           "menu": "main-menu",
           "show_line_separator": true,
           "enable_sticky_header": true
