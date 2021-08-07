@@ -51,12 +51,6 @@
             "heading": "Летние платья наложенным платежом!"
           }
         },
-        "1628204174b90c6428-1": {
-          "type": "text",
-          "settings": {
-            "text": "Для товаров нашего. Производства (IrenFahion) всегда отправляются наложенным платежом! Так же в нашем магазине вы можете встретить товары производста иностранных производителей и украинских лидеров рынка! Они отпускаются при наличии предоплаты не менее 50% стоимости моделей!"
-          }
-        },
         "1628204174b90c6428-2": {
           "type": "buttons",
           "settings": {
@@ -71,14 +65,13 @@
       },
       "block_order": [
         "1628204174b90c6428-0",
-        "1628204174b90c6428-1",
         "1628204174b90c6428-2"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/ANY_2920.jpg",
         "image_2": "shopify:\/\/shop_images\/IMG_3521.jpg",
         "desktop_text_box_position": "flex-end",
-        "color_scheme": "background-2",
+        "color_scheme": "background-1",
         "stack_images_on_mobile": true,
         "adapt_height_first_image": false
       }
