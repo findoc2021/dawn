@@ -198,12 +198,26 @@
           "settings": {
             "collection": "kostumy"
           }
+        },
+        "5d4a7384-4542-487c-a2e0-7936ccbfa77e": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "2b694329-32b2-4325-a0bb-7669726984ce": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
         }
       },
       "block_order": [
         "1628212274e3ed1bd9-0",
         "1628212274e3ed1bd9-1",
-        "1628212274e3ed1bd9-2"
+        "1628212274e3ed1bd9-2",
+        "5d4a7384-4542-487c-a2e0-7936ccbfa77e",
+        "2b694329-32b2-4325-a0bb-7669726984ce"
       ],
       "settings": {
         "title": "Коллекции",
@@ -217,7 +231,7 @@
     "1628212321cfd976f8": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "src\/Draggable\/Plugins\/AutoScroll\/AutoScroll.js"
+        "custom_liquid": ""
       }
     }
   },
