@@ -293,7 +293,7 @@
         "autoplay": true,
         "autoplay_speed": "5000",
         "slideshow_height": "full",
-        "heading_divider": "none"
+        "heading_divider": "full"
       }
     }
   },
