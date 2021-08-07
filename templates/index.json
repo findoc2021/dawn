@@ -196,13 +196,13 @@
         "5d4a7384-4542-487c-a2e0-7936ccbfa77e": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "discounts"
           }
         },
         "2b694329-32b2-4325-a0bb-7669726984ce": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "для-молоденьких"
           }
         }
       },
@@ -215,7 +215,7 @@
       ],
       "settings": {
         "title": "Коллекции",
-        "image_ratio": "adapt",
+        "image_ratio": "portrait",
         "color_scheme": "background-1",
         "swipe_on_mobile": true,
         "image_padding": true,
