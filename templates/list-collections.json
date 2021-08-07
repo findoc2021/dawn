@@ -5,8 +5,8 @@
       "settings": {
         "title": "Каталоги женской одежды",
         "sort": "date_reversed",
-        "image_ratio": "adapt",
-        "color_scheme": "background-1",
+        "image_ratio": "portrait",
+        "color_scheme": "accent-1",
         "image_padding": false
       }
     },
