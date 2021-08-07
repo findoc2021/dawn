@@ -98,6 +98,7 @@
         {% comment %} TODO: metafield {% endcomment %}
         <span class="caption-large light">{{ block.settings.description | escape }}</span>
 
+        <div product-id="{{ product_card_product.id }}" class="arv-collection arv-collection--{{ product_card_product.id }}"></div>
         {% render 'price', product: product_card_product, price_class: '' %}
       </div>
     </div>

@@ -160,12 +160,18 @@
         "button_link": "shopify:\/\/blogs\/news",
         "swipe_on_mobile": false
       }
+    },
+    "alireviews-widget-78912": {
+      "type": "alireviews-widget-78912",
+      "settings": {
+      }
     }
   },
   "order": [
     "main",
     "1628209311a3be2f5d",
     "product-recommendations",
-    "16282091560573a37b"
+    "16282091560573a37b",
+    "alireviews-widget-78912"
   ]
 }
