@@ -44,10 +44,56 @@
         "color_scheme": "accent-1",
         "full_width": true
       }
+    },
+    "1628363563f04cd28c": {
+      "type": "index-cms-block",
+      "blocks": {
+        "1628363563f04cd28c-0": {
+          "type": "item",
+          "settings": {
+            "title": "Бесплатная доставка",
+            "text": "При заказе от 1000 грн. мы оплачиваем вам отправку посылок!",
+            "link": "shopify:\/\/pages\/mnenie-nashih-pokupatelej",
+            "icon_type": "icon_airplane"
+          }
+        },
+        "1628363563f04cd28c-1": {
+          "type": "item",
+          "settings": {
+            "title": "Возврат",
+            "text": "Item Text",
+            "link": "",
+            "icon_type": "icon_airplane"
+          }
+        },
+        "1628363563f04cd28c-2": {
+          "type": "item",
+          "settings": {
+            "title": "Item Title",
+            "text": "Item Text",
+            "link": "",
+            "icon_type": "icon_airplane"
+          }
+        }
+      },
+      "block_order": [
+        "1628363563f04cd28c-0",
+        "1628363563f04cd28c-1",
+        "1628363563f04cd28c-2"
+      ],
+      "settings": {
+        "section_title": "Наши преимущества и отличия",
+        "background_toggle": false,
+        "bg_color": "#F6F7F9",
+        "container_view": false,
+        "container_settings": "container-xl",
+        "style": "type_3"
+      }
     }
   },
   "order": [
     "main",
-    "16282110499d1d50a8"
+    "16282110499d1d50a8",
+    "1628363563f04cd28c"
   ]
 }
