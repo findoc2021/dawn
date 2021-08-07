@@ -295,6 +295,46 @@
         "slideshow_height": "full",
         "heading_divider": "full"
       }
+    },
+    "16283601838b604a5e": {
+      "type": "index-lookbook",
+      "blocks": {
+        "6b1f2ac5-454a-4c84-a0a7-400fe3a1b122": {
+          "type": "lookbook_100",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MyCollages_3.jpg",
+            "img_alignment": "top",
+            "item_product_1": "летнее-платье-м-245-2",
+            "item_x_1": 50,
+            "item_y_1": 50,
+            "item_horizontal_align_1": "left",
+            "item_vertical_align_1": "bottom",
+            "item_product_2": "летнее-легкое-женское-платье-м-351",
+            "item_x_2": 50,
+            "item_y_2": 50,
+            "item_horizontal_align_2": "left",
+            "item_vertical_align_2": "bottom",
+            "item_product_3": "летнее-платье-м-352-2",
+            "item_x_3": 50,
+            "item_y_3": 50,
+            "item_horizontal_align_3": "left",
+            "item_vertical_align_3": "bottom",
+            "item_product_4": "платье-женское-летние-из-льна-fn-2577",
+            "item_x_4": 50,
+            "item_y_4": 50,
+            "item_horizontal_align_4": "left",
+            "item_vertical_align_4": "bottom"
+          }
+        }
+      },
+      "block_order": [
+        "6b1f2ac5-454a-4c84-a0a7-400fe3a1b122"
+      ],
+      "settings": {
+        "lookbook_layout": "full_width",
+        "section_title": "",
+        "text_title": ""
+      }
     }
   },
   "order": [
@@ -307,6 +347,7 @@
     "1628205071928c9169",
     "1628212274e3ed1bd9",
     "1628212321cfd976f8",
-    "1628359745eb66e195"
+    "1628359745eb66e195",
+    "16283601838b604a5e"
   ]
 }
