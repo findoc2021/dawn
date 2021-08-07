@@ -74,12 +74,22 @@
             "link": "",
             "icon_type": "icon_airplane"
           }
+        },
+        "37860d77-2168-434b-beda-6d0a1ffecd66": {
+          "type": "item",
+          "settings": {
+            "title": "Item Title",
+            "text": "Item Text",
+            "link": "",
+            "icon_type": "icon_airplane"
+          }
         }
       },
       "block_order": [
         "1628363563f04cd28c-0",
         "1628363563f04cd28c-1",
-        "1628363563f04cd28c-2"
+        "1628363563f04cd28c-2",
+        "37860d77-2168-434b-beda-6d0a1ffecd66"
       ],
       "settings": {
         "section_title": "Наши преимущества и отличия",
