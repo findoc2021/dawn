@@ -3,12 +3,6 @@
     "image_banner": {
       "type": "image-banner",
       "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Женские модные летние платья сезона 2021!"
-          }
-        },
         "button": {
           "type": "buttons",
           "settings": {
@@ -19,24 +13,57 @@
             "button_link_2": "shopify:\/\/pages\/about_as",
             "button_style_secondary_2": false
           }
-        },
-        "3a1cc396-5588-44ce-a50d-d948d6d6329d": {
-          "type": "text",
-          "settings": {
-            "text": "Пляжные накидки, парео, платья и костюмы!"
-          }
         }
       },
       "block_order": [
-        "heading",
-        "button",
-        "3a1cc396-5588-44ce-a50d-d948d6d6329d"
+        "button"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/photo_2021-08-03_11-55-59.jpg",
         "image_2": "shopify:\/\/shop_images\/MyCollages_4.jpg",
         "desktop_text_box_position": "flex-end",
         "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "adapt_height_first_image": false
+      }
+    },
+    "1628204174b90c6428": {
+      "type": "image-banner",
+      "blocks": {
+        "1628204174b90c6428-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Летние платья наложенным платежом!"
+          }
+        },
+        "1628204174b90c6428-1": {
+          "type": "text",
+          "settings": {
+            "text": "Для товаров нашего. Производства (IrenFahion) всегда отправляются наложенным платежом! Так же в нашем магазине вы можете встретить товары производста иностранных производителей и украинских лидеров рынка! Они отпускаются при наличии предоплаты не менее 50% стоимости моделей!"
+          }
+        },
+        "1628204174b90c6428-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Правила магазина",
+            "button_link_1": "shopify:\/\/policies\/shipping-policy",
+            "button_style_secondary_1": false,
+            "button_label_2": "Коллекции женской одежды",
+            "button_link_2": "shopify:\/\/collections",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1628204174b90c6428-0",
+        "1628204174b90c6428-1",
+        "1628204174b90c6428-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/ANY_2920.jpg",
+        "image_2": "shopify:\/\/shop_images\/IMG_3521.jpg",
+        "desktop_text_box_position": "flex-end",
+        "color_scheme": "background-2",
         "stack_images_on_mobile": true,
         "adapt_height_first_image": false
       }
@@ -88,47 +115,6 @@
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first"
-      }
-    },
-    "1628204174b90c6428": {
-      "type": "image-banner",
-      "blocks": {
-        "1628204174b90c6428-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Летние платья наложенным платежом!"
-          }
-        },
-        "1628204174b90c6428-1": {
-          "type": "text",
-          "settings": {
-            "text": "Для товаров нашего. Производства (IrenFahion) всегда отправляются наложенным платежом! Так же в нашем магазине вы можете встретить товары производста иностранных производителей и украинских лидеров рынка! Они отпускаются при наличии предоплаты не менее 50% стоимости моделей!"
-          }
-        },
-        "1628204174b90c6428-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Правила магазина",
-            "button_link_1": "shopify:\/\/policies\/shipping-policy",
-            "button_style_secondary_1": false,
-            "button_label_2": "Коллекции женской одежды",
-            "button_link_2": "shopify:\/\/collections",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "1628204174b90c6428-0",
-        "1628204174b90c6428-1",
-        "1628204174b90c6428-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/ANY_2920.jpg",
-        "image_2": "shopify:\/\/shop_images\/IMG_3521.jpg",
-        "desktop_text_box_position": "center",
-        "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
-        "adapt_height_first_image": true
       }
     },
     "16282050414252e21e": {
@@ -237,9 +223,9 @@
   },
   "order": [
     "image_banner",
+    "1628204174b90c6428",
     "featured_products",
     "image_text",
-    "1628204174b90c6428",
     "16282050414252e21e",
     "1628205071928c9169",
     "1628212274e3ed1bd9",
