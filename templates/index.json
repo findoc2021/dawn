@@ -252,7 +252,7 @@
       "settings": {
         "title": "Коллекции",
         "image_ratio": "portrait",
-        "color_scheme": "background-1",
+        "color_scheme": "background-2",
         "swipe_on_mobile": true,
         "image_padding": true,
         "show_view_all": true
