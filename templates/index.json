@@ -233,7 +233,7 @@
     "162842061222dbf6b8": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "https:\/\/irenfashion.shop\/pages\/otzyvy-klientov-fb"
+        "custom_liquid": "<script src=\"https:\/\/apps.elfsight.com\/p\/platform.js\" defer><\/script>\n<div class=\"elfsight-app-fbd98a48-2f2d-4036-b27d-59e5651ba034\"><\/div>"
       }
     }
   },
