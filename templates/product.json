@@ -18,7 +18,7 @@
           "type": "text",
           "settings": {
             "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style": "uppercase"
+            "text_style": "subtitle"
           }
         },
         "price": {
@@ -30,11 +30,6 @@
           "type": "variant_picker",
           "settings": {
             "picker_type": "button"
-          }
-        },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {
           }
         },
         "buy_buttons": {
@@ -86,6 +81,15 @@
             "link_label": "Калькулятора определения размера",
             "page": "kalkulyator-razmera"
           }
+        },
+        "72e2785a-15e9-44b9-9fa7-2f9baa8fd14d": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Быстрый заказ!",
+            "content": "<p>Заполняйте форму и мы Вам перезвоним!<\/p>",
+            "page": "about_as",
+            "icon": "check_mark"
+          }
         }
       },
       "block_order": [
@@ -93,14 +97,14 @@
         "subtitle",
         "price",
         "variant_picker",
-        "quantity_selector",
         "buy_buttons",
         "description",
         "share",
         "07742442-f1fd-4c53-8ccd-7896cc7d885f",
         "a1d60f74-0fbf-48d7-8986-dab4deab3635",
         "fc24e06d-164f-4924-ad3b-f5ccaf837e00",
-        "8de0c428-aa67-4506-ac74-deede7ea7fc7"
+        "8de0c428-aa67-4506-ac74-deede7ea7fc7",
+        "72e2785a-15e9-44b9-9fa7-2f9baa8fd14d"
       ],
       "settings": {
         "enable_sticky_info": true,
