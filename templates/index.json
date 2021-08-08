@@ -37,6 +37,21 @@
         "adapt_height_first_image": false
       }
     },
+    "162843431706b07aa1": {
+      "type": "index-divider",
+      "settings": {
+        "section_view": "boxed",
+        "padding_top": 6,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": 9,
+        "background_color": "#1A1B18",
+        "tablet_padding_top": 0,
+        "tablet_padding_bottom": 0,
+        "tablet_margin_top": 0,
+        "tablet_margin_bottom": 0
+      }
+    },
     "162843377755ffd3d4": {
       "type": "image-banner",
       "blocks": {
@@ -283,6 +298,7 @@
     "image_banner",
     "1628359737dfafff99",
     "1628204174b90c6428",
+    "162843431706b07aa1",
     "162843377755ffd3d4",
     "featured_products",
     "image_text",
