@@ -1,0 +1,20 @@
+<div class="custom-fields-section">
+  
+    {% if resource_type == "products" %}
+    <div class="custom-fields-section__products">
+      {% for block in blocks %}
+      {% if block.type contains "cf_" %}
+      <div class="custom-fields-section__item custom-fields-section__item--{{ block.type }} custom-fields-section__item--{{ block.type }}--{{ block.settings.key }}" {{ block.shopify_attributes }}>
+        {% case block.settings.key %}
+        
+          {% when "image" %}
+            {% render "custom_fields.products.image" %}
+        
+        {% endcase %}
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+    {% endif %}
+  
+</div>

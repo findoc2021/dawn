@@ -1,0 +1,8 @@
+{% if product.metafields.custom_fields["image"] != blank %}
+  <div class="custom-field custom-field__image custom-field__type--image">
+    <h3 class="custom-field--title">image</h3>
+    <div class="custom-field--value">  
+      {% render 'cf-image' with image: product.metafields.custom_fields["image"] %}
+    </div>
+  </div>
+{% endif %}
