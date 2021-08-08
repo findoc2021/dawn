@@ -1,11 +1,12 @@
 {
   "current": {
-    "colors_solid_button_labels": "rgba(0,0,0,0)",
-    "colors_accent_1": "#e22120",
+    "colors_solid_button_labels": "#1a1b18",
+    "colors_accent_1": "#ffffff",
     "colors_accent_2": "#e22120",
     "colors_background_1": "#FFFFFF",
-    "colors_background_2": "#FFFFFF",
-    "accent_icons": "outline-button",
+    "colors_background_2": "#445958",
+    "sale_badge_color_scheme": "accent-2",
+    "accent_icons": "accent-2",
     "social_facebook_link": "https:\/\/facebook.com\/irinamatveeva1961",
     "social_pinterest_link": "https:\/\/pin.it\/2AVbKZo",
     "social_instagram_link": "https:\/\/www.instagram.com\/iren_fashion_shop_odessa",
