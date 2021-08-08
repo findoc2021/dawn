@@ -45,7 +45,7 @@
         "padding_bottom": 0,
         "margin_top": 0,
         "margin_bottom": 9,
-        "background_color": "#1A1B18",
+        "background_color": "#1a1b18",
         "tablet_padding_top": 0,
         "tablet_padding_bottom": 0,
         "tablet_margin_top": 0,
@@ -87,10 +87,10 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/MyCollages12.jpg",
         "image_2": "shopify:\/\/shop_images\/photo_2021-08-03_12-04-06_4.jpg",
-        "desktop_text_box_position": "center",
-        "color_scheme": "background-1",
+        "desktop_text_box_position": "flex-end",
+        "color_scheme": "accent-1",
         "stack_images_on_mobile": false,
-        "adapt_height_first_image": false
+        "adapt_height_first_image": true
       }
     },
     "featured_products": {
