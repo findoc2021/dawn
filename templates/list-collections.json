@@ -99,11 +99,17 @@
         "container_settings": "container-xl",
         "style": "type_3"
       }
+    },
+    "alireviews-widget-79165": {
+      "type": "alireviews-widget-79165",
+      "settings": {
+      }
     }
   },
   "order": [
     "main",
     "16282110499d1d50a8",
-    "1628363563f04cd28c"
+    "1628363563f04cd28c",
+    "alireviews-widget-79165"
   ]
 }
