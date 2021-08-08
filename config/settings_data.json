@@ -13,6 +13,7 @@
     "social_youtube_link": "https:\/\/www.youtube.com\/channel\/UC44B_L_EHGMLLUcx1J1TwHg",
     "favicon": "shopify:\/\/shop_images\/favicon_e97b4c0e-9d0e-4fb4-8d44-cc3e8162861f.png",
     "checkout_header_image": "shopify:\/\/shop_images\/card-reader-payment_462185e7-b506-4044-a7be-55aeb4a0e31b.jpg",
+    "checkout_logo_size": "large",
     "checkout_accent_color": "#e22120",
     "checkout_button_color": "#445958",
     "sections": {
