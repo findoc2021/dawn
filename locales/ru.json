@@ -392,6 +392,9 @@
       "general": {
         "continue_to_shipping_method": "Перейти к выбору доставки",
         "continue_to_payment_method": "Перейти к выбору способа оплаты"
+      },
+      "contact": {
+        "email_or_phone_label": "Номер телефона или адрес электронной почты"
       }
     }
   }
