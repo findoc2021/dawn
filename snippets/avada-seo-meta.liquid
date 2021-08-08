@@ -1,0 +1,33 @@
+{%- assign avada_seo_ovr_product_ids = "6660525654201,6629810634937,6629806014649,6547825885369,6736146399417,5569506214037" -%}
+{%- assign avada_seo_ovr_collection_ids = "243598426297" -%}
+{% if request.page_type == 'product' %}
+{%- unless avada_seo_ovr_product_ids contains product.id -%}
+{%- capture avada_seo_meta_title -%}Женские платья больших размеров собственного производства, женская одежда наложенным платежом интернет магазин женской одежды больших размеров предлагает {{ product.title }}  в Украине. {%- endcapture -%}
+{%- capture avada_seo_meta_description -%}Интернет магазин женской одежды больших размеров, который находится в Одессе, Украина и называется IrenFashion.shop. Покупайте  {{ product.title }} в {{ shop.name }}  по самой низкой цене в {{ shop.address.country }}. интернет магазин женской одежды больших размеров {{ shop.name }}. Проверить отзывы и купить {{ product.title }} сегодня. Собственное производство оптовые цены. Доставка через новую почту и Укрпочту. Наложенный платеж и онлайн оплата. Платья, сарафаны. туники, джемпера, блузки, худи, костюмы женские, спортивные и повседневные костюмы. Верхняя одежда пуховики, куртки, ветровки, пальто, кардиганы собственного производства, а так же импортных производителей из Китая, США и Европы!{%- endcapture -%}
+{% endunless %}
+{% endif %}
+
+{% if request.page_type == 'collection' %}
+{%- unless avada_seo_ovr_collection_ids contains collection.id -%}
+{%- capture avada_seo_meta_title -%}{{ collection.title }} интернет магазина  женской одежды больших и не только, размеров IrenFashion.shop{%- endcapture -%}
+{%- capture avada_seo_meta_description -%}Покупайте  {{ collection.title }} по самой низкой цене в {{ shop.address.country }}. Проверить отзывы и купить {{ product.title }} сегодня. Собственное производство оптовые цены. Доставка через новую почту и Укрпочту. Наложенный платеж и онлайн оплата. Платья, сарафаны. туники, джемпера, блузки, худи, костюмы женские, спортивные и повседневные костюмы. Верхняя одежда пуховики, куртки, ветровки, пальто, кардиганы собственного производства, а так же импортных производителей из Китая, США и Европы!{%- endcapture -%}
+{% endunless %}
+{% endif %}
+
+{% if request.page_type == 'article' %}
+{%- unless avada_seo_ovr_article_ids contains article.id -%}
+{%- capture avada_seo_meta_title -%}{{ article.title }} Блог, новости интернет магазина женской одежды больших размеров и не только IrenFashion.shop{%- endcapture -%}
+{%- capture avada_seo_meta_description -%}{{ article.excerpt_or_content }} интернет магазина женской одежды больших размеров и не только. Опт, розница, собственное производство в Украине. Доставка и оплата через Новую почту и Укрпочту. Деловой и повседневный стили для всех женщин.{%- endcapture -%}
+{% endunless %}
+{% endif %}
+
+{% if avada_seo_meta_title %}
+{%- assign seo_title = avada_seo_meta_title | strip_html | strip -%}
+{%- assign page_title = seo_title -%}
+{%- assign og_title = seo_title -%}
+{% endif %}
+
+{% if avada_seo_meta_description %}
+{%- assign page_description = avada_seo_meta_description | strip_html | strip -%}
+{%- assign og_description = page_description -%}
+{% endif %}
