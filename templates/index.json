@@ -14,13 +14,13 @@
     "1628359737dfafff99": {
       "type": "index-divider",
       "settings": {
-        "section_view": "full_width",
-        "padding_top": 42,
+        "section_view": "boxed",
+        "padding_top": 3,
         "padding_bottom": 21,
         "margin_top": 25,
         "margin_bottom": 25,
         "background_color": "#1878b9",
-        "tablet_padding_top": 17,
+        "tablet_padding_top": 44,
         "tablet_padding_bottom": 13,
         "tablet_margin_top": 14,
         "tablet_margin_bottom": 11
@@ -33,7 +33,48 @@
         "image_2": "shopify:\/\/shop_images\/IMG_3521.jpg",
         "desktop_text_box_position": "flex-end",
         "color_scheme": "background-2",
-        "stack_images_on_mobile": true,
+        "stack_images_on_mobile": false,
+        "adapt_height_first_image": false
+      }
+    },
+    "162843377755ffd3d4": {
+      "type": "image-banner",
+      "blocks": {
+        "162843377755ffd3d4-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Большие размеры"
+          }
+        },
+        "162843377755ffd3d4-1": {
+          "type": "text",
+          "settings": {
+            "text": "Всегда в наличии большие размеры для наших леди!"
+          }
+        },
+        "162843377755ffd3d4-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Смотреть",
+            "button_link_1": "",
+            "button_style_secondary_1": true,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "162843377755ffd3d4-0",
+        "162843377755ffd3d4-1",
+        "162843377755ffd3d4-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/MyCollages12.jpg",
+        "image_2": "shopify:\/\/shop_images\/photo_2021-08-03_12-04-06_4.jpg",
+        "desktop_text_box_position": "center",
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": false,
         "adapt_height_first_image": false
       }
     },
@@ -63,7 +104,7 @@
         "button": {
           "type": "button",
           "settings": {
-            "button_label": "Модели",
+            "button_label": "Смотреть",
             "button_link": "shopify:\/\/collections\/zhenskie-platya-bolshih-razmerov-nalozhennym-platezhom"
           }
         },
@@ -84,12 +125,6 @@
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first"
-      }
-    },
-    "16282050414252e21e": {
-      "type": "apps",
-      "settings": {
-        "include_margins": true
       }
     },
     "1628205071928c9169": {
@@ -165,6 +200,12 @@
           "settings": {
             "collection": "для-молоденьких"
           }
+        },
+        "89ea0e19-43b3-4933-bebd-7bc67ab27d36": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "zhenskuyu-tuniku-bolshogo-razmera"
+          }
         }
       },
       "block_order": [
@@ -172,7 +213,8 @@
         "1628212274e3ed1bd9-1",
         "1628212274e3ed1bd9-2",
         "5d4a7384-4542-487c-a2e0-7936ccbfa77e",
-        "2b694329-32b2-4325-a0bb-7669726984ce"
+        "2b694329-32b2-4325-a0bb-7669726984ce",
+        "89ea0e19-43b3-4933-bebd-7bc67ab27d36"
       ],
       "settings": {
         "title": "Коллекции",
@@ -241,9 +283,9 @@
     "image_banner",
     "1628359737dfafff99",
     "1628204174b90c6428",
+    "162843377755ffd3d4",
     "featured_products",
     "image_text",
-    "16282050414252e21e",
     "1628205071928c9169",
     "1628212274e3ed1bd9",
     "1628212321cfd976f8",
