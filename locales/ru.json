@@ -390,7 +390,8 @@
   "shopify": {
     "checkout": {
       "general": {
-        "continue_to_shipping_method": "Перейти к выбору доставки"
+        "continue_to_shipping_method": "Перейти к выбору доставки",
+        "continue_to_payment_method": "Перейти к выбору способа оплаты"
       }
     }
   }
