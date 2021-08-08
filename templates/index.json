@@ -70,6 +70,22 @@
     },
     "162843377755ffd3d4": {
       "type": "image-banner",
+      "blocks": {
+        "e066a412-9043-4c27-a511-7d09ae499827": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "м. 267",
+            "button_link_1": "shopify:\/\/products\/летнее-платье-м-267",
+            "button_style_secondary_1": false,
+            "button_label_2": "FT - 2436",
+            "button_link_2": "shopify:\/\/products\/платье-женское-люкс-класс-ft-2428",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "e066a412-9043-4c27-a511-7d09ae499827"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/MyCollages12.jpg",
         "image_2": "shopify:\/\/shop_images\/photo_2021-08-03_12-04-06_4.jpg",
