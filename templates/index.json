@@ -229,6 +229,12 @@
         "desktop_layout": "right",
         "mobile_layout": "column"
       }
+    },
+    "162842061222dbf6b8": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "https:\/\/irenfashion.shop\/pages\/otzyvy-klientov-fb"
+      }
     }
   },
   "order": [
@@ -241,6 +247,7 @@
     "1628205071928c9169",
     "1628212274e3ed1bd9",
     "1628212321cfd976f8",
-    "1628363935338af885"
+    "1628363935338af885",
+    "162842061222dbf6b8"
   ]
 }
