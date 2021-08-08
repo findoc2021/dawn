@@ -101,7 +101,7 @@
         "products_to_show": 12,
         "show_view_all": true,
         "swipe_on_mobile": true,
-        "image_ratio": "portrait",
+        "image_ratio": "square",
         "show_secondary_image": true,
         "add_image_padding": false,
         "show_vendor": true
