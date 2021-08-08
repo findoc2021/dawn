@@ -64,7 +64,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Отзывы клиентов!",
-            "content": "<p>Пожалуйста оставьте свое мнение о наших моделях. Чем больше мнений тем лучше выбор и точнее покупки! Оставить отзыв займет 5 мин. а прочитать будет полезно! Спасибо!<\/p>",
+            "content": "<p>Пожалуйста оставьте свое мнение о наших моделях. Чем больше мнений тем лучше выбор и точнее покупки! Оставить отзыв займет 5 мин. а прочитать будет полезно! Спасибо!{{ product.metafields.descriptors.care_guide | metafield_tag }}<\/p>",
             "page": "otzyvy-klientov-fb",
             "icon": "check_mark"
           }
@@ -113,8 +113,8 @@
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "heading": "Выбор наших покупателей! Вам тоже может понравиться! {{ product.title }}",
-        "image_ratio": "adapt",
+        "heading": "Выбор наших покупателей! Вам тоже может понравиться! {{ product.vendor }}",
+        "image_ratio": "portrait",
         "show_secondary_image": true,
         "add_image_padding": true,
         "show_vendor": true
