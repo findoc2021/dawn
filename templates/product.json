@@ -88,7 +88,7 @@
             "heading": "Быстрый заказ!",
             "content": "<p>Заполняйте форму и мы Вам перезвоним!<\/p>",
             "page": "about_as",
-            "icon": "check_mark"
+            "icon": "leaf"
           }
         }
       },
@@ -169,6 +169,18 @@
         "button_link": "shopify:\/\/blogs\/news",
         "swipe_on_mobile": false
       }
+    },
+    "16284491176d9548fd": {
+      "type": "page",
+      "settings": {
+        "page": "wishlist"
+      }
+    },
+    "1628449161a7316627": {
+      "type": "page",
+      "settings": {
+        "page": "wishlist-1"
+      }
     }
   },
   "order": [
@@ -176,6 +188,8 @@
     "main",
     "alireviews-widget-78912",
     "product-recommendations",
-    "16282091560573a37b"
+    "16282091560573a37b",
+    "16284491176d9548fd",
+    "1628449161a7316627"
   ]
 }
