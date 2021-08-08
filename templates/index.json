@@ -71,9 +71,9 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Смотреть",
-            "button_link_1": "",
-            "button_style_secondary_1": true,
-            "button_label_2": "Button label",
+            "button_link_1": "shopify:\/\/collections\/all-products-bolshie-razmery-optom-i-v-roznicu",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
           }
@@ -88,8 +88,8 @@
         "image": "shopify:\/\/shop_images\/MyCollages12.jpg",
         "image_2": "shopify:\/\/shop_images\/photo_2021-08-03_12-04-06_4.jpg",
         "desktop_text_box_position": "flex-end",
-        "color_scheme": "accent-1",
-        "stack_images_on_mobile": false,
+        "color_scheme": "inverse",
+        "stack_images_on_mobile": true,
         "adapt_height_first_image": true
       }
     },
