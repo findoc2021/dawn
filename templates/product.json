@@ -154,14 +154,14 @@
         "16282091560573a37b-2"
       ],
       "settings": {
-        "title": "Наши достижения{{ product.metafields.descriptors.subtitle.value }}",
+        "title": "Наши достижения",
         "image_width": "full",
         "image_ratio": "adapt",
         "column_alignment": "left",
         "background_style": "primary",
         "button_label": "Читать",
         "button_link": "shopify:\/\/blogs\/news",
-        "swipe_on_mobile": false
+        "swipe_on_mobile": true
       }
     }
   },
