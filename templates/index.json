@@ -160,6 +160,47 @@
         "layout": "image_first"
       }
     },
+    "1628363935338af885": {
+      "type": "collage",
+      "blocks": {
+        "1628363935338af885-1": {
+          "type": "product",
+          "settings": {
+            "product": "пляжная-туника-fp-9402",
+            "secondary_background": true,
+            "second_image": true,
+            "image_padding": false
+          }
+        },
+        "1628363935338af885-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "пляжная-женская-одежда",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        },
+        "d48b979c-79ab-4c99-b58d-40a3e5e85c4c": {
+          "type": "product",
+          "settings": {
+            "product": "купальник-fi-1971",
+            "secondary_background": false,
+            "second_image": true,
+            "image_padding": false
+          }
+        }
+      },
+      "block_order": [
+        "1628363935338af885-1",
+        "1628363935338af885-2",
+        "d48b979c-79ab-4c99-b58d-40a3e5e85c4c"
+      ],
+      "settings": {
+        "heading": "Предоплата",
+        "desktop_layout": "right",
+        "mobile_layout": "collage"
+      }
+    },
     "1628205071928c9169": {
       "type": "collage",
       "blocks": {
@@ -257,47 +298,6 @@
         "image_padding": true,
         "show_view_all": true
       }
-    },
-    "1628363935338af885": {
-      "type": "collage",
-      "blocks": {
-        "1628363935338af885-1": {
-          "type": "product",
-          "settings": {
-            "product": "пляжная-туника-fp-9402",
-            "secondary_background": true,
-            "second_image": true,
-            "image_padding": false
-          }
-        },
-        "1628363935338af885-2": {
-          "type": "collection",
-          "settings": {
-            "collection": "пляжная-женская-одежда",
-            "image_padding": false,
-            "color_scheme": "background-1"
-          }
-        },
-        "d48b979c-79ab-4c99-b58d-40a3e5e85c4c": {
-          "type": "product",
-          "settings": {
-            "product": "купальник-fi-1971",
-            "secondary_background": false,
-            "second_image": true,
-            "image_padding": false
-          }
-        }
-      },
-      "block_order": [
-        "1628363935338af885-1",
-        "1628363935338af885-2",
-        "d48b979c-79ab-4c99-b58d-40a3e5e85c4c"
-      ],
-      "settings": {
-        "heading": "Предоплата",
-        "desktop_layout": "right",
-        "mobile_layout": "collage"
-      }
     }
   },
   "order": [
@@ -308,8 +308,8 @@
     "162843377755ffd3d4",
     "featured_products",
     "image_text",
+    "1628363935338af885",
     "1628205071928c9169",
-    "1628212274e3ed1bd9",
-    "1628363935338af885"
+    "1628212274e3ed1bd9"
   ]
 }
