@@ -125,41 +125,6 @@
         "show_vendor": true
       }
     },
-    "image_text": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Модели производства нашей фабрики!"
-          }
-        },
-        "button": {
-          "type": "button",
-          "settings": {
-            "button_label": "Смотреть",
-            "button_link": "shopify:\/\/collections\/zhenskie-platya-bolshih-razmerov-nalozhennym-platezhom"
-          }
-        },
-        "1c1ad2b9-9aa9-4630-ad67-c293e35fa67c": {
-          "type": "text",
-          "settings": {
-            "text": "<p>﻿уже на протяжении 22 лет наши модельеры и швеи трудятся на элегантной, недорогой женской одеждой <a href=\"\/collections\/novelties\" title=\"Новые поступления\">больших размеров!<\/a> Модели нашего производства продаются наложенным платежом! Замена или обмен производятся уведомлению магазина! Скоро осенние новинки!<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "button",
-        "1c1ad2b9-9aa9-4630-ad67-c293e35fa67c"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/SAVE_20210626_114238.jpg",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "image_first"
-      }
-    },
     "1628363935338af885": {
       "type": "collage",
       "blocks": {
@@ -242,6 +207,41 @@
         "mobile_layout": "collage"
       }
     },
+    "image_text": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Модели производства нашей фабрики!"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Смотреть",
+            "button_link": "shopify:\/\/collections\/zhenskie-platya-bolshih-razmerov-nalozhennym-platezhom"
+          }
+        },
+        "1c1ad2b9-9aa9-4630-ad67-c293e35fa67c": {
+          "type": "text",
+          "settings": {
+            "text": "<p>﻿уже на протяжении 22 лет наши модельеры и швеи трудятся на элегантной, недорогой женской одеждой <a href=\"\/collections\/novelties\" title=\"Новые поступления\">больших размеров!<\/a> Модели нашего производства продаются наложенным платежом! Замена или обмен производятся уведомлению магазина! Скоро осенние новинки!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "button",
+        "1c1ad2b9-9aa9-4630-ad67-c293e35fa67c"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/SAVE_20210626_114238.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
     "1628212274e3ed1bd9": {
       "type": "collection-list",
       "blocks": {
@@ -307,9 +307,9 @@
     "162843431706b07aa1",
     "162843377755ffd3d4",
     "featured_products",
-    "image_text",
     "1628363935338af885",
     "1628205071928c9169",
+    "image_text",
     "1628212274e3ed1bd9"
   ]
 }
