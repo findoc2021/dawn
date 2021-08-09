@@ -218,8 +218,8 @@
           "settings": {
             "product": "летнее-легкое-женское-платье-м-352",
             "secondary_background": false,
-            "second_image": false,
-            "image_padding": true
+            "second_image": true,
+            "image_padding": false
           }
         },
         "1628205071928c9169-2": {
