@@ -11,7 +11,7 @@
             "button_style_secondary_1": true,
             "button_label_2": "мод 352",
             "button_link_2": "shopify:\/\/products\/летнее-легкое-женское-платье-м-352",
-            "button_style_secondary_2": true
+            "button_style_secondary_2": false
           }
         }
       },
@@ -50,7 +50,7 @@
           "settings": {
             "button_label_1": "м. 352\/2",
             "button_link_1": "shopify:\/\/products\/летнее-платье-м-352-2",
-            "button_style_secondary_1": true,
+            "button_style_secondary_1": false,
             "button_label_2": "м. 342",
             "button_link_2": "shopify:\/\/products\/plate-zhenskoe-vesenne-m-342",
             "button_style_secondary_2": true
@@ -92,7 +92,7 @@
           "settings": {
             "button_label_1": "м. 267",
             "button_link_1": "shopify:\/\/products\/летнее-платье-м-267",
-            "button_style_secondary_1": true,
+            "button_style_secondary_1": false,
             "button_label_2": "FT - 2436",
             "button_link_2": "shopify:\/\/products\/платье-женское-люкс-класс-ft-2428",
             "button_style_secondary_2": true
@@ -184,7 +184,7 @@
         "1628205071928c9169-2": {
           "type": "collection",
           "settings": {
-            "collection": "odezhda-po-optovym-cenam",
+            "collection": "zhenskie-platya-bolshih-razmerov-nalozhennym-platezhom",
             "image_padding": false,
             "color_scheme": "background-1"
           }
@@ -196,7 +196,7 @@
         "1628205071928c9169-2"
       ],
       "settings": {
-        "heading": "Трикотажные платья!",
+        "heading": "Наложенный платеж",
         "desktop_layout": "left",
         "mobile_layout": "collage"
       }
@@ -261,19 +261,10 @@
     "1628363935338af885": {
       "type": "collage",
       "blocks": {
-        "1628363935338af885-0": {
-          "type": "video",
-          "settings": {
-            "cover_image": "shopify:\/\/shop_images\/photo_2021-05-16_19-38-49_2.jpg",
-            "video_url": "https:\/\/youtu.be\/etkscMFGnA4",
-            "description": "Наши модельные шедевры",
-            "image_padding": false
-          }
-        },
         "1628363935338af885-1": {
           "type": "product",
           "settings": {
-            "product": "zhenskaya-letnyaya-tunika-fl-6952",
+            "product": "пляжная-туника-fp-9402",
             "secondary_background": true,
             "second_image": true,
             "image_padding": false
@@ -282,21 +273,30 @@
         "1628363935338af885-2": {
           "type": "collection",
           "settings": {
-            "collection": "odezhda-po-optovym-cenam",
-            "image_padding": true,
+            "collection": "пляжная-женская-одежда",
+            "image_padding": false,
             "color_scheme": "background-1"
+          }
+        },
+        "d48b979c-79ab-4c99-b58d-40a3e5e85c4c": {
+          "type": "product",
+          "settings": {
+            "product": "купальник-fi-1971",
+            "secondary_background": false,
+            "second_image": true,
+            "image_padding": false
           }
         }
       },
       "block_order": [
-        "1628363935338af885-0",
         "1628363935338af885-1",
-        "1628363935338af885-2"
+        "1628363935338af885-2",
+        "d48b979c-79ab-4c99-b58d-40a3e5e85c4c"
       ],
       "settings": {
-        "heading": "Женски платья",
+        "heading": "Предоплата",
         "desktop_layout": "right",
-        "mobile_layout": "column"
+        "mobile_layout": "collage"
       }
     }
   },
