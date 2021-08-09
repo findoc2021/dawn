@@ -1,0 +1,188 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "subtitle": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+          }
+        },
+        "07742442-f1fd-4c53-8ccd-7896cc7d885f": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Правила доставки",
+            "content": "<p>Наш магазин сотрудничает со всеми существующими службами доставки. Но в приоритете Укрпочта и Новая почта! Наложенный и безналичный расчет!<\/p>",
+            "page": "politika-magazina-po-dostavke-i-oplate-izdelij",
+            "icon": "box"
+          }
+        },
+        "a1d60f74-0fbf-48d7-8986-dab4deab3635": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Правила оплаты товаров",
+            "content": "<p>Принимаем 3 вида оплаты за товары: 1. Наложенный платеж. 2. Оплата через онлайн кассу. 3. Оплата на счет магазина с карт или счетов клиентов. При оплате через онлайн кассу покупатели защищены гарантией платежного провайдера! Наложенный платеж с каждым годом дорожает! Особенно у Новой почты!<\/p>",
+            "page": "oplata",
+            "icon": "price_tag"
+          }
+        },
+        "fc24e06d-164f-4924-ad3b-f5ccaf837e00": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Отзывы клиентов!",
+            "content": "<p>Пожалуйста оставьте свое мнение о наших моделях. Чем больше мнений тем лучше выбор и точнее покупки! Оставить отзыв займет 5 мин. а прочитать будет полезно! Спасибо!{{ product.metafields.descriptors.care_guide | metafield_tag }}<\/p>",
+            "page": "otzyvy-klientov-fb",
+            "icon": "check_mark"
+          }
+        },
+        "72e2785a-15e9-44b9-9fa7-2f9baa8fd14d": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Быстрый заказ!",
+            "content": "<p>Заполняйте форму и мы Вам перезвоним!<\/p>",
+            "page": "about_as",
+            "icon": "leaf"
+          }
+        },
+        "8de0c428-aa67-4506-ac74-deede7ea7fc7": {
+          "type": "popup",
+          "settings": {
+            "link_label": "Калькулятора определения размера",
+            "page": "kalkulyator-razmera"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "subtitle",
+        "price",
+        "variant_picker",
+        "buy_buttons",
+        "description",
+        "share",
+        "07742442-f1fd-4c53-8ccd-7896cc7d885f",
+        "a1d60f74-0fbf-48d7-8986-dab4deab3635",
+        "fc24e06d-164f-4924-ad3b-f5ccaf837e00",
+        "72e2785a-15e9-44b9-9fa7-2f9baa8fd14d",
+        "8de0c428-aa67-4506-ac74-deede7ea7fc7"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "enable_video_looping": true
+      }
+    },
+    "alireviews-widget-78912": {
+      "type": "alireviews-widget-78912",
+      "settings": {
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "Выбор наших покупателей! Вам тоже может понравиться",
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "add_image_padding": true,
+        "show_vendor": true
+      }
+    },
+    "16282091560573a37b": {
+      "type": "multicolumn",
+      "blocks": {
+        "16282091560573a37b-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/png-clipart-warranty-logo-product-brand-artikel-warranty-logo-quality-thumbnail_45c73316-beb7-4c4a-92d9-023d3756e0c8.png",
+            "title": "3700 довольных клиентов за календарный год!",
+            "text": "<p>Наш магазин достаточно молодой и ему всего 2 года. Но за это время работниками и руководством магазина сделано не мало!<\/p>"
+          }
+        },
+        "16282091560573a37b-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3b6efbea2dacd54e28897e5f0bzl_de1f1823-c94a-44f1-a5de-fcf20e1fde45.png",
+            "title": "Удобные условия оплаты и доставки:",
+            "text": "<p>Сегодняшние тенденции на рынке розничной интернет торговли, идут в разрез с политикой нашей компании. На протяжении 2-х лет многие продавцы уходят от системы оплат наложенным платежом. У всех на то свои причины, но главный аргумент, что ни кто кроме службы доставки на наших с вами посылках не зарабатывает. Поэтому мы оставили наложку по Укрпоте и Новой почте, только для новой почты незначительная предоплата, покрывающая расходы на доставку товаров покупателям!  <\/p>"
+          }
+        },
+        "16282091560573a37b-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/images_3_03363885-bbf6-4ebd-84bb-91c7c8e66fd6.jpg",
+            "title": "Гарантии обмена  и возврата!",
+            "text": "<p>На протяжении работы нашего магазина, у на НЕТ кредиторской задолженности за товары перед покупателями! И это СУПЕР! Возвращаем деньги и обмениваем товары нашего и партнерского производства! В течении 30 дней Вы можете обменять и в 14 дней вернуть товары. Присоединяйтесь к нам! <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16282091560573a37b-0",
+        "16282091560573a37b-1",
+        "16282091560573a37b-2"
+      ],
+      "settings": {
+        "title": "Наши достижения",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Читать",
+        "button_link": "shopify:\/\/blogs\/news",
+        "swipe_on_mobile": true
+      }
+    },
+    "1628461291b0a2f429": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": ""
+      }
+    },
+    "1628461313ab631ea7": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "alireviews-widget-78912",
+    "product-recommendations",
+    "16282091560573a37b",
+    "1628461291b0a2f429",
+    "1628461313ab631ea7"
+  ]
+}
