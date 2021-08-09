@@ -209,6 +209,7 @@
     },
     "image_text": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -298,6 +299,47 @@
         "image_padding": true,
         "show_view_all": true
       }
+    },
+    "162854529615676c73": {
+      "type": "collage",
+      "blocks": {
+        "162854529615676c73-1": {
+          "type": "product",
+          "settings": {
+            "product": "model-236-belyj",
+            "secondary_background": false,
+            "second_image": true,
+            "image_padding": false
+          }
+        },
+        "162854529615676c73-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "zhenskie-platya-bolshih-razmerov",
+            "image_padding": false,
+            "color_scheme": "accent-1"
+          }
+        },
+        "39e029d7-983c-47fd-9aee-2ea66dffc744": {
+          "type": "product",
+          "settings": {
+            "product": "длинное-шикарное-женское-платье-в-пол-ft-4719",
+            "secondary_background": false,
+            "second_image": true,
+            "image_padding": false
+          }
+        }
+      },
+      "block_order": [
+        "162854529615676c73-1",
+        "162854529615676c73-2",
+        "39e029d7-983c-47fd-9aee-2ea66dffc744"
+      ],
+      "settings": {
+        "heading": "Женские платья",
+        "desktop_layout": "left",
+        "mobile_layout": "collage"
+      }
     }
   },
   "order": [
@@ -310,6 +352,7 @@
     "1628363935338af885",
     "1628205071928c9169",
     "image_text",
-    "1628212274e3ed1bd9"
+    "1628212274e3ed1bd9",
+    "162854529615676c73"
   ]
 }
