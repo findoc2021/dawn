@@ -8,10 +8,10 @@
           "settings": {
             "button_label_1": "FT - 2350",
             "button_link_1": "shopify:\/\/products\/платье-tycrjt-ft-2350",
-            "button_style_secondary_1": false,
+            "button_style_secondary_1": true,
             "button_label_2": "мод 352",
             "button_link_2": "shopify:\/\/products\/летнее-легкое-женское-платье-м-352",
-            "button_style_secondary_2": false
+            "button_style_secondary_2": true
           }
         }
       },
@@ -50,10 +50,10 @@
           "settings": {
             "button_label_1": "м. 352\/2",
             "button_link_1": "shopify:\/\/products\/летнее-платье-м-352-2",
-            "button_style_secondary_1": false,
+            "button_style_secondary_1": true,
             "button_label_2": "м. 342",
             "button_link_2": "shopify:\/\/products\/plate-zhenskoe-vesenne-m-342",
-            "button_style_secondary_2": false
+            "button_style_secondary_2": true
           }
         }
       },
@@ -106,9 +106,9 @@
         "image": "shopify:\/\/shop_images\/MyCollages12.jpg",
         "image_2": "shopify:\/\/shop_images\/photo_2021-08-03_12-04-06_4.jpg",
         "desktop_text_box_position": "flex-end",
-        "color_scheme": "inverse",
+        "color_scheme": "background-1",
         "stack_images_on_mobile": true,
-        "adapt_height_first_image": true
+        "adapt_height_first_image": false
       }
     },
     "featured_products": {
@@ -258,12 +258,6 @@
         "show_view_all": true
       }
     },
-    "1628212321cfd976f8": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": ""
-      }
-    },
     "1628363935338af885": {
       "type": "collage",
       "blocks": {
@@ -316,7 +310,6 @@
     "image_text",
     "1628205071928c9169",
     "1628212274e3ed1bd9",
-    "1628212321cfd976f8",
     "1628363935338af885"
   ]
 }

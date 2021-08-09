@@ -80,7 +80,7 @@
             "type": "link_list",
             "settings": {
               "heading": "Помощь клиентам",
-              "menu": "footer"
+              "menu": "faqs-menu"
             }
           },
           "1904f996-d96d-44bd-9832-75783a6c5847": {
