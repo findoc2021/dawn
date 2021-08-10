@@ -28,12 +28,6 @@
         "show_cart_note": true
       }
     },
-    "16284479409cad7d5b": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<script data-b24-form=\"inline\/6\/81okju\" data-skip-moving=\"true\">\n        (function(w,d,u){\n                var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()\/180000|0);\n                var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);\n        })(window,document,'https:\/\/cdn.bitrix24.ua\/b14703797\/crm\/form\/loader_6.js');\n<\/script>"
-      }
-    },
     "1628211400ed14864a": {
       "type": "custom-liquid",
       "settings": {
@@ -58,7 +52,6 @@
   "order": [
     "cart-items",
     "cart-footer",
-    "16284479409cad7d5b",
     "1628211400ed14864a",
     "1628211456f08a3a92"
   ]
