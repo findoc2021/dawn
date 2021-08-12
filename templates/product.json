@@ -159,19 +159,12 @@
         "button_link": "shopify:\/\/blogs\/news",
         "swipe_on_mobile": true
       }
-    },
-    "16287691687a40f82e": {
-      "type": "apps",
-      "settings": {
-        "include_margins": true
-      }
     }
   },
   "order": [
     "main",
     "alireviews-widget-78912",
     "product-recommendations",
-    "16282091560573a37b",
-    "16287691687a40f82e"
+    "16282091560573a37b"
   ]
 }
