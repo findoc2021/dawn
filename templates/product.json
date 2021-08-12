@@ -112,7 +112,7 @@
         "heading": "Выбор наших покупателей! Вам тоже может понравиться",
         "image_ratio": "portrait",
         "show_secondary_image": true,
-        "add_image_padding": true,
+        "add_image_padding": false,
         "show_vendor": true
       }
     },
