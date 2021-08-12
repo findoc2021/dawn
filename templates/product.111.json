@@ -160,7 +160,7 @@
     "1628461291b0a2f429": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": ""
+        "custom_liquid": "<script data-b24-form=\"inline\/8\/fx2epc\" data-skip-moving=\"true\">\n        (function(w,d,u){\n                var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()\/180000|0);\n                var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);\n        })(window,document,'https:\/\/cdn.bitrix24.ua\/b14703797\/crm\/form\/loader_8.js');\n<\/script>"
       }
     }
   },
