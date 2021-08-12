@@ -31,7 +31,7 @@ GloboSwatchConfig.settings = {
                     hover_effects:{
                         background: 'no effect',
                         zoom_image: 'no zoom',
-                        size_change: 'no change'
+                        size_change: 'increase size'
                     }
                 },
                 customize_button: {
@@ -54,7 +54,7 @@ GloboSwatchConfig.settings = {
                         selected: '#000000'
                     },
                     hover_effects:{
-                        background: 'no effect',
+                        background: 'add glow',
                     }
                 },
                 show_number_stock: '',
