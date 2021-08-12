@@ -108,11 +108,11 @@
     <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
   {% include 'alireviews_core' %} 
  {% include "s10g_tracking" %}
- <!-- GSSTART Code for Swatches head. Do not change -->
+ 
+<!-- GSSTART Code for Swatches head. Do not change -->
 
-{%- if  collection.products  or  product  -%}<script type="text/javascript" src="https://gravity-software.com/showswatches/js/shopify/variantswatches5572.js?v=fb5964f51f8e776a1e9b8d6c75c993c6"></script> {%- endif -%}
-<!-- Code for Swatches head. Do not change GSEND -->
-</head>
+{%- if  collection.products  or  template == "index"  or  product  -%}<script type="text/javascript" src="https://gravity-software.com/showswatches/js/shopify/variantswatches5572.js?v=ba2aef23a56c17bc00413311f086abd9"></script> {%- endif -%}
+<!-- Code for Swatches head. Do not change GSEND --></head>
 
   <body>
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
