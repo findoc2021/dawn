@@ -69,7 +69,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Быстрый заказ!",
-            "content": "<p>Заполняйте форму и мы Вам перезвоним!<\/p>",
+            "content": "<p>Заполняйте форму и мы Вам перезвоним!<\/p><p>Форма быстрого <a href=\"https:\/\/b24-0ax925.bitrix24site.ua\/  crm_form3  \/\" target=\"_blank\" title=\"https:\/\/b24-0ax925.bitrix24site.ua\/  crm_form3  \/\">заказа!<\/a><\/p>",
             "page": "about_as",
             "icon": "leaf"
           }
