@@ -162,12 +162,6 @@
       "settings": {
         "custom_liquid": ""
       }
-    },
-    "1628461313ab631ea7": {
-      "type": "apps",
-      "settings": {
-        "include_margins": true
-      }
     }
   },
   "order": [
@@ -175,7 +169,6 @@
     "alireviews-widget-78912",
     "product-recommendations",
     "16282091560573a37b",
-    "1628461291b0a2f429",
-    "1628461313ab631ea7"
+    "1628461291b0a2f429"
   ]
 }
