@@ -111,7 +111,7 @@
  {% include 'hulkcode_common' %}{% if template contains 'product' or template contains 'cart' %}<script src='https://ha-product-option.nyc3.digitaloceanspaces.com/assets/api/v2/hulkcode.js' defer='defer'></script>{% endif %}
 <!-- GSSTART Code for Swatches head. Do not change -->
 
-{%- if  collection.products  or  template == "index"  -%}{%- if product -%}{%- else -%}<script type="text/javascript" src="https://gravity-software.com/showswatches/js/shopify/variantswatches5572.js?v=7b58d6c343ad65e883a9fac5d3bf61c0"></script>{%- endif -%} {%- endif -%}
+{%- if  collection.products  or  template == "index"  or  product  -%}<script type="text/javascript" src="https://gravity-software.com/showswatches/js/shopify/variantswatches5572.js?v=7639339ed840b4efe8fbe0f0e933db22"></script> {%- endif -%}
 <!-- Code for Swatches head. Do not change GSEND --></head>
 
   <body>
