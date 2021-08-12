@@ -31,6 +31,12 @@
             "show_dynamic_checkout": true
           }
         },
+        "e4395b20-f04a-4149-83c2-e1fda5a80a59": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -82,6 +88,7 @@
         "price",
         "19689471-b8b9-4941-9f7d-7f74df70e7bb",
         "buy_buttons",
+        "e4395b20-f04a-4149-83c2-e1fda5a80a59",
         "description",
         "share",
         "07742442-f1fd-4c53-8ccd-7896cc7d885f",
@@ -156,7 +163,7 @@
     "1628770878a7985877": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "лента в социальных сетях! \n<script src=\"https:\/\/apps.elfsight.com\/p\/platform.js\" defer><\/script>\n<div class=\"elfsight-app-fbd98a48-2f2d-4036-b27d-59e5651ba034\"><\/div>"
+        "custom_liquid": "<h3> лента в социальных сетях! <H3\/>\n<script src=\"https:\/\/apps.elfsight.com\/p\/platform.js\" defer><\/script>\n<div class=\"elfsight-app-fbd98a48-2f2d-4036-b27d-59e5651ba034\"><\/div>"
       }
     }
   },
