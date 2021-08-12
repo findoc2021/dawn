@@ -108,7 +108,11 @@
     <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
   {% include 'alireviews_core' %} 
  {% include "s10g_tracking" %}
- </head>
+ <!-- GSSTART Code for Swatches head. Do not change -->
+
+{%- if  collection.products  or  product  -%}<script type="text/javascript" src="https://gravity-software.com/showswatches/js/shopify/variantswatches5572.js?v=fb5964f51f8e776a1e9b8d6c75c993c6"></script> {%- endif -%}
+<!-- Code for Swatches head. Do not change GSEND -->
+</head>
 
   <body>
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
@@ -149,5 +153,101 @@
 
     <script src="{{ 'slider.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'variants.js' | asset_url }}" defer="defer"></script>
-  </body>
+  <!-- GSSTART Code for Swatches body. Do not change -->
+{%- if collection.products or search.results or product or template == 'index' -%}
+
+
+<div id="gs-image-preload" style="display:none !important;">
+
+  {%- assign product_variants = "" -%}
+  {%- assign productsFound = '' -%}
+  {%- assign paginationLoop = (8..30) -%}
+
+    {%- if product -%}
+
+    {% assign option1Images = "" %}
+    {% assign option2Images = "" %}
+    {% assign option3Images = "" %}
+            {%- for variant in product.variants -%}
+                         {% assign curoption1Images = "&&" | append: variant.option1 | append: "&&" %}{% if option1Images contains curoption1Images %}  {% else %}{% if option1Images contains variant.featured_image  %}{% assign option1Images = option1Images | append: curoption1Images   %}{% else %}{% assign option1Images = option1Images | append: curoption1Images | append: "||" | append: "&&" | append: variant.featured_image  %}{% endif %}{% endif %}  
+                         {% assign curoption2Images = "&&" | append: variant.option2 | append: "&&" %}{% if option2Images contains curoption2Images %}  {% else %}{% if option2Images contains variant.featured_image  %}{% assign option2Images = option2Images | append: curoption2Images   %}{% else %}{% assign option2Images = option2Images | append: curoption2Images | append: "||" | append: "&&" | append: variant.featured_image  %}{% endif %}{% endif %}  
+                         {% assign curoption3Images = "&&" | append: variant.option3 | append: "&&" %}{% if option3Images contains curoption3Images %}  {% else %}{% if option3Images contains variant.featured_image  %}{% assign option3Images = option3Images | append: curoption3Images   %}{% else %}{% assign option3Images = option3Images | append: curoption3Images | append: "||" | append: "&&" | append: variant.featured_image  %}{% endif %}{% endif %}  
+            {%- endfor -%} 
+
+      <span class="gs-variant-data"
+            data-product-id="{{product.id}}"
+            data-product-handle="{{product.handle}}"
+            data-src="{{ product.featured_image | img_url: '256x' }}"
+            data-product-options='{{product.options | join: ',' | escape }}'
+            data-srcset='
+                        {%- for variant in product.variants -%}
+                             variantOptions={{ variant.option1 | replace: ",", "" | escape }};{{ variant.option2 | replace: ",", "" | escape }};{{ variant.option3 | replace: ",", "" | escape }}&&thumbSrc={{ variant.featured_image | img_url: '50x' }}&&variantId={{ variant.id }}&&inventoryPolicy={{ variant.inventory_policy }}&&inventoryQuantity={{ variant.inventory_quantity }},
+                                      {%- endfor -%}' option1Images="{{ option1Images }}" option2Images="{{ option2Images }}" option3Images="{{ option3Images }}" ></span>
+	  
+
+    {%- elsif search.results -%}
+      {%- for i in paginationLoop -%}
+        {%- paginate search.results by i -%}
+          {%- for product in search.results -%}
+
+            {%- if product.object_type != 'product' -%}
+                {%- continue -%}
+            {%- endif -%}
+  			{%- if productsFound contains product.id -%}{%- else -%}
+                {%- assign productsFound = productsFound | append: product.id | append: " " -%}
+    {% assign option1Images = "" %}
+  {% assign option2Images = "" %}
+  {% assign option3Images = "" %}
+          {%- for variant in product.variants -%}
+                       {% assign curoption1Images = "&&" | append: variant.option1 | append: "&&" %}{% if option1Images contains curoption1Images %}  {% else %}{% if option1Images contains variant.featured_image  %}{% assign option1Images = option1Images | append: curoption1Images   %}{% else %}{% assign option1Images = option1Images | append: curoption1Images | append: "||" | append: "&&" | append: variant.featured_image  %}{% endif %}{% endif %}  
+                       {% assign curoption2Images = "&&" | append: variant.option2 | append: "&&" %}{% if option2Images contains curoption2Images %}  {% else %}{% if option2Images contains variant.featured_image  %}{% assign option2Images = option2Images | append: curoption2Images   %}{% else %}{% assign option2Images = option2Images | append: curoption2Images | append: "||" | append: "&&" | append: variant.featured_image  %}{% endif %}{% endif %}  
+                       {% assign curoption3Images = "&&" | append: variant.option3 | append: "&&" %}{% if option3Images contains curoption3Images %}  {% else %}{% if option3Images contains variant.featured_image  %}{% assign option3Images = option3Images | append: curoption3Images   %}{% else %}{% assign option3Images = option3Images | append: curoption3Images | append: "||" | append: "&&" | append: variant.featured_image  %}{% endif %}{% endif %}                           
+          {%- endfor -%}  
+               <span class="gs-variant-data"
+                     data-product-id="{{product.id}}"
+                     data-product-handle="{{product.handle}}"
+                     data-src="{{ product.featured_image | img_url: '256x' }}"
+                     data-product-options='{{product.options | join: ',' | escape }}'
+                     data-srcset='
+                    {%- for variant in product.variants -%}
+                         variantOptions={{ variant.option1 | replace: ",", "" | escape }};{{ variant.option2 | replace: ",", "" | escape }};{{ variant.option3 | replace: ",", "" | escape }}&&thumbSrc={{ variant.featured_image | img_url: '50x' }}&&&variantId={{ variant.id }}&&inventoryPolicy={{ variant.inventory_policy }}&&inventoryQuantity={{ variant.inventory_quantity }},
+                    {%- endfor -%}' option1Images="{{ option1Images }}" option2Images="{{ option2Images }}" option3Images="{{ option3Images }}"></span>
+
+  			{%- endif -%}
+          {%- endfor -%}
+        {%- endpaginate -%}
+      {%- endfor -%}
+      {%- elsif collection.products -%}
+        {%- for i in paginationLoop -%}
+          {%- paginate collection.products by i -%}
+            {%- for product in collection.products -%}
+
+    			{%- if productsFound contains product.id -%}{%- else -%}
+                  {%- assign productsFound = productsFound | append: product.id | append: " " -%}
+      {% assign option1Images = "" %}
+    {% assign option2Images = "" %}
+    {% assign option3Images = "" %}
+            {%- for variant in product.variants -%}
+                         {% assign curoption1Images = "&&" | append: variant.option1 | append: "&&" %}{% if option1Images contains curoption1Images %}  {% else %}{% if option1Images contains variant.featured_image  %}{% assign option1Images = option1Images | append: curoption1Images   %}{% else %}{% assign option1Images = option1Images | append: curoption1Images | append: "||" | append: "&&" | append: variant.featured_image  %}{% endif %}{% endif %}  
+                         {% assign curoption2Images = "&&" | append: variant.option2 | append: "&&" %}{% if option2Images contains curoption2Images %}  {% else %}{% if option2Images contains variant.featured_image  %}{% assign option2Images = option2Images | append: curoption2Images   %}{% else %}{% assign option2Images = option2Images | append: curoption2Images | append: "||" | append: "&&" | append: variant.featured_image  %}{% endif %}{% endif %}  
+                         {% assign curoption3Images = "&&" | append: variant.option3 | append: "&&" %}{% if option3Images contains curoption3Images %}  {% else %}{% if option3Images contains variant.featured_image  %}{% assign option3Images = option3Images | append: curoption3Images   %}{% else %}{% assign option3Images = option3Images | append: curoption3Images | append: "||" | append: "&&" | append: variant.featured_image  %}{% endif %}{% endif %}                           
+            {%- endfor -%}  
+                 <span class="gs-variant-data"
+                       data-product-id="{{product.id}}"
+                       data-product-handle="{{product.handle}}"
+                       data-src="{{ product.featured_image | img_url: '256x' }}"
+                       data-product-options='{{product.options | join: ',' | escape }}'
+                       data-srcset='
+                      {%- for variant in product.variants -%}
+                           variantOptions={{ variant.option1 | replace: ",", "" | escape  }};{{ variant.option2 | replace: ",", "" | escape }};{{ variant.option3 | replace: ",", "" | escape }}&&thumbSrc={{ variant.featured_image | img_url: '50x' }}&&variantId={{ variant.id }}&&inventoryPolicy={{ variant.inventory_policy }}&&inventoryQuantity={{ variant.inventory_quantity }},
+                      {%- endfor -%}' option1Images="{{ option1Images }}" option2Images="{{ option2Images }}" option3Images="{{ option3Images }}"></span>
+
+    			{%- endif -%}
+            {%- endfor -%}
+          {%- endpaginate -%}
+        {%- endfor -%}
+    {%- endif -%}
+</div>
+ {%- endif -%}
+<!-- Code for Swatches body. Do not change GSEND --></body>
 </html>
