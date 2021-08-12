@@ -20,12 +20,6 @@
           "settings": {
           }
         },
-        "e4395b20-f04a-4149-83c2-e1fda5a80a59": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button"
-          }
-        },
         "description": {
           "type": "description",
           "settings": {
@@ -86,7 +80,6 @@
         "title",
         "subtitle",
         "price",
-        "e4395b20-f04a-4149-83c2-e1fda5a80a59",
         "description",
         "19689471-b8b9-4941-9f7d-7f74df70e7bb",
         "buy_buttons",
