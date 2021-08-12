@@ -12,18 +12,12 @@
           "type": "text",
           "settings": {
             "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
+            "text_style": "body"
           }
         },
         "price": {
           "type": "price",
           "settings": {
-          }
-        },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button"
           }
         },
         "buy_buttons": {
@@ -90,7 +84,6 @@
         "title",
         "subtitle",
         "price",
-        "variant_picker",
         "buy_buttons",
         "description",
         "share",
