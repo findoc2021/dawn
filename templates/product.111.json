@@ -78,6 +78,13 @@
             "link_label": "Калькулятора определения размера",
             "page": "kalkulyator-razmera"
           }
+        },
+        "0b96aec7-1f8a-46cf-8c5e-7d8e2eeab466": {
+          "type": "popup",
+          "settings": {
+            "link_label": "Pop-up link text",
+            "page": "otzyvy-klientov-fb"
+          }
         }
       },
       "block_order": [
@@ -91,7 +98,8 @@
         "a1d60f74-0fbf-48d7-8986-dab4deab3635",
         "fc24e06d-164f-4924-ad3b-f5ccaf837e00",
         "72e2785a-15e9-44b9-9fa7-2f9baa8fd14d",
-        "8de0c428-aa67-4506-ac74-deede7ea7fc7"
+        "8de0c428-aa67-4506-ac74-deede7ea7fc7",
+        "0b96aec7-1f8a-46cf-8c5e-7d8e2eeab466"
       ],
       "settings": {
         "enable_sticky_info": true,
