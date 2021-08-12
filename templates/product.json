@@ -163,13 +163,7 @@
     "1628461291b0a2f429": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": ""
-      }
-    },
-    "1628461313ab631ea7": {
-      "type": "apps",
-      "settings": {
-        "include_margins": true
+        "custom_liquid": "<script src=\"https:\/\/apps.elfsight.com\/p\/platform.js\" defer><\/script>\n<div class=\"elfsight-app-fbd98a48-2f2d-4036-b27d-59e5651ba034\"><\/div>"
       }
     }
   },
@@ -178,7 +172,6 @@
     "alireviews-widget-78912",
     "product-recommendations",
     "16282091560573a37b",
-    "1628461291b0a2f429",
-    "1628461313ab631ea7"
+    "1628461291b0a2f429"
   ]
 }
