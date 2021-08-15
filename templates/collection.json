@@ -25,12 +25,6 @@
         "custom_liquid": ""
       }
     },
-    "16282108303f90aac8": {
-      "type": "apps",
-      "settings": {
-        "include_margins": true
-      }
-    },
     "16282108546df0673a": {
       "type": "featured-blog",
       "settings": {
@@ -55,7 +49,6 @@
     "banner",
     "product-grid",
     "16282107673d4c2c46",
-    "16282108303f90aac8",
     "16282108546df0673a",
     "16284497582eec7c55"
   ]
