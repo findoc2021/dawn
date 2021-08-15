@@ -37,19 +37,12 @@
         "soft_background": false,
         "show_view_all": true
       }
-    },
-    "16284497582eec7c55": {
-      "type": "contact-form",
-      "settings": {
-        "heading": "Обратная связь"
-      }
     }
   },
   "order": [
     "banner",
     "product-grid",
     "16282107673d4c2c46",
-    "16282108546df0673a",
-    "16284497582eec7c55"
+    "16282108546df0673a"
   ]
 }
