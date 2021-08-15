@@ -340,6 +340,14 @@
         "desktop_layout": "left",
         "mobile_layout": "collage"
       }
+    },
+    "162903309855fb6159": {
+      "type": "call-to-action",
+      "settings": {
+        "text-box": "Успей купить!",
+        "link": "shopify:\/\/collections\/zhenskie-platya-bolshih-razmerov-sobstvennogo-proizvodstva-samye-goryachie-novinki-zhenskih-platev-kostyumov-bluzok-dzhemperov-tunik",
+        "linktext": "Бесплатная доставка"
+      }
     }
   },
   "order": [
@@ -353,6 +361,7 @@
     "1628205071928c9169",
     "image_text",
     "1628212274e3ed1bd9",
-    "162854529615676c73"
+    "162854529615676c73",
+    "162903309855fb6159"
   ]
 }
