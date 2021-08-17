@@ -33,7 +33,7 @@
             "type": "announcement",
             "settings": {
               "text": "Наложенный платеж Укрпочта и новая почта (предоплата 100 грн) тел +380508050284",
-              "color_scheme": "accent-2",
+              "color_scheme": "inverse",
               "link": "shopify:\/\/policies\/terms-of-service"
             }
           },
