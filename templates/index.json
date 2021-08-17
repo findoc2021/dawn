@@ -72,7 +72,7 @@
     "162843431706b07aa1": {
       "type": "index-divider",
       "settings": {
-        "section_view": "boxed",
+        "section_view": "full_width",
         "padding_top": 6,
         "padding_bottom": 0,
         "margin_top": 0,
