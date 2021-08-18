@@ -6,11 +6,11 @@
         "5ca37e34-4077-4b17-b37f-c6cf87b8967e": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "FT - 2350",
-            "button_link_1": "shopify:\/\/products\/платье-tycrjt-ft-2350",
+            "button_label_1": "FT-9348",
+            "button_link_1": "shopify:\/\/products\/спортивное-платье-ft-9348",
             "button_style_secondary_1": true,
-            "button_label_2": "мод 352",
-            "button_link_2": "shopify:\/\/products\/летнее-легкое-женское-платье-м-352",
+            "button_label_2": "FT-9345",
+            "button_link_2": "shopify:\/\/products\/осеннее-женское-платье-ft-9345",
             "button_style_secondary_2": false
           }
         }
@@ -19,8 +19,8 @@
         "5ca37e34-4077-4b17-b37f-c6cf87b8967e"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/photo_2021-06-06_11-28-03_3_8ee05702-512e-482f-a00d-69c7f4ff92dc.jpg",
-        "image_2": "shopify:\/\/shop_images\/MyCollages_4.jpg",
+        "image": "shopify:\/\/shop_images\/photo_2021-08-17_22-21-01.jpg",
+        "image_2": "shopify:\/\/shop_images\/photo_2021-08-17_22-17-01.jpg",
         "desktop_text_box_position": "flex-end",
         "color_scheme": "background-2",
         "stack_images_on_mobile": true,
