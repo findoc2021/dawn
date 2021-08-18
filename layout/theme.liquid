@@ -1,11 +1,6 @@
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
   <head>
-  <link rel="stylesheet" href="https://obscure-escarpment-2240.herokuapp.com/stylesheets/bcpo-front.css">
-  <script>var bcpo_product={{ product | json }}; {% if product.metafields.bcpo.bcpo_data %}var bcpo_data={{ product.metafields.bcpo.bcpo_data }};{% endif %} {% if shop.metafields.bcpo.bcpo_settings %}var bcpo_settings={{ shop.metafields.bcpo.bcpo_settings }};{% endif %}var inventory_quantity = [];{% for v in product.variants %}inventory_quantity.push({{v.inventory_quantity}});{% endfor %}if(bcpo_product) { for (var i = 0; i < bcpo_product.variants.length; i += 1) { bcpo_product.variants[i].inventory_quantity = inventory_quantity[i]; }}window.bcpo = window.bcpo || {}; bcpo.cart = {{cart | json}}; bcpo.ogFormData = FormData;</script>
-
-    
-    
 <!-- Added by AVADA SEO Suite -->
 {% include 'avada-seo' %}
 <!-- /Added by AVADA SEO Suite -->
@@ -38,7 +33,7 @@
 <!-- This code is automatically managed by StarApps Studio -->
 <!-- Please contact support@starapps.studio for any help -->
 {% include "starapps-language-meta" %}
-<script type="text/javascript" src="https://assets-cdn.starapps.studio/apps/vsk/iren-fashion-shop/script-1629008044.js?shop={{shop.permanent_domain}}" async></script>
+<script type="text/javascript" src="https://assets-cdn.starapps.studio/apps/vsk/iren-fashion-shop/script-1628812591.js?shop={{shop.permanent_domain}}" async></script>
 <!-- starapps_scripts_end -->
 {{ content_for_header }}
 
@@ -107,71 +102,6 @@
       }
     {% endstyle %}
 
-{%- unless template == 'index' or template == 'cart' or template == 'list-collections' or template == '404' -%}
-{%- assign t = template | split: '.' | first -%}
-
-<nav class="breadcrumbs" role="navigation" aria-label="breadcrumbs">
-  <ol class="breadcrumbs__list">
-    <li class="breadcrumbs__item">
-      <a class="breadcrumbs__link" href="/">Home</a>
-    </li>
-    {%- case t -%}
-      {%- when 'page' -%}
-        <li class="breadcrumbs__item">
-          <a class="breadcrumbs__link" href="{{ page.url }}" aria-current="page">{{ page.title }}</a>
-        </li>
-      {%- when 'product' -%}
-        {%- if collection.url -%}
-          <li class="breadcrumbs__item">
-            {{ collection.title | link_to: collection.url }}
-          </li>
-        {%- endif -%}
-        <li class="breadcrumbs__item">
-          <a class="breadcrumbs__link" href="{{ product.url }}" aria-current="page">{{ product.title }}</a>
-        </li>
-      {%- when 'collection' and collection.handle -%}
-        {%- if current_tags -%}
-          <li class="breadcrumbs__item">
-            {{ collection.title | link_to: collection.url }}
-          </li>
-          <li class="breadcrumbs__item">
-            {%- capture tag_url -%}{{ collection.url }}/{{ current_tags | join: "+"}}{%- endcapture -%}
-            <a class="breadcrumbs__link" href="{{ tag_url }}" aria-current="page">{{ current_tags | join: " + "}}</a>
-          </li>
-        {%- else -%}
-          <li class="breadcrumbs__item">
-            <a class="breadcrumbs__link" href="{{ collection.url }}" aria-current="page">{{ collection.title }}</a>
-          </li>
-        {%- endif -%}
-      {%- when 'blog' -%}
-        {%- if current_tags -%}
-          <li class="breadcrumbs__item">
-            {{ blog.title | link_to: blog.url }}
-          </li>
-          <li class="breadcrumbs__item">
-            {%- capture tag_url -%}{{blog.url}}/tagged/{{ current_tags | join: "+" }}{%- endcapture -%}
-            <a class="breadcrumbs__link" href="{{ tag_url }}" aria-current="page">{{ current_tags | join: " + " }}</a>
-          </li>
-        {%- else -%}
-          <li class="breadcrumbs__item">
-            <a class="breadcrumbs__link" href="{{ blog.url }}" aria-current="page">{{ blog.title }}</a>
-          </li>
-        {%- endif -%}
-      {%- when 'article' -%}
-        <li class="breadcrumbs__item">
-          {{ blog.title | link_to: blog.url }}
-        </li>
-        <li class="breadcrumbs__item">
-          <a class="breadcrumbs__link" href="{{ article.url }}" aria-current="page">{{ article.title }}</a>
-        </li>
-      {%- else -%}
-        <li class="breadcrumbs__item">
-          <a class="breadcrumbs__link" href="{{ request.path }}" aria-current="page">{{ page_title }}</a>
-        </li>
-    {%- endcase -%}
-  </ol>
-</nav>
-{%- endunless -%}
     {{ 'base.css' | asset_url | stylesheet_tag }}
 
     {%- unless settings.type_body_font.system? -%}
@@ -189,96 +119,6 @@
 
 {%- if  collection.products  or  search.results  or  template == "index"  or  product  -%}<script type="text/javascript" src="https://gravity-software.com/showswatches/js/shopify/variantswatchesirenfashion5572.js?v=8845ebfdf7dd674b780e6ae8111b26b2"></script> {%- endif -%}
 <!-- Code for Swatches head. Do not change GSEND -->{%- comment -%}Start of Clean Canvas Size Chart App code{%- endcomment -%}{% if product %}<script>ccPops=window.ccPops||{};ccPops.sizeChart=ccPops.sizeChart||{};ccPops.sizeChart.collections={{ product.collections | map: 'id' | json }};</script>{% endif %}{%- comment -%}End of Clean Canvas Size Chart App code{%- endcomment -%}
-<!-- GSSTART Slider code start. Do not change -->{% if product.id > 1 %}
-<script type="text/javascript" src="https://gravity-software.com/js/shopify/slider_shop29959.js?v=574a673b6ec0036e37dde333d01b7530"></script> 
- {% if product.variants.size > 1 %}<script>
-gsSliderDefaultV = "{{ product.selected_or_first_available_variant.id }}";
-var variantImagesByVarianName = {};
-var variantImagesByVarianNameMix = {};
- var variantImagesGS = {},
-    thumbnails,
-    variant,
-    variantImage,
-    optionValue,
-    cntImages;
-    productOptions = [];
-    cntImages = 0;
-    {% for variant in product.variants %}
-       variant = {{ variant | json }};
-       if ( typeof variant.featured_image !== 'undefined' && variant.featured_image !== null ) {
-         variantImage =  variant.featured_image.src.split('?')[0].replace(/http(s)?:/,'');
-         variantImagesGS[variant.id] = variantImage;
-         variantImagesByVarianName[variant.option1] = variantImage;
-var variantMixName = "";
-if(variant.option1 != null) {
-variantMixName = variant.option1;
-}
-	 if(variant.option2 != null) {
-		variantImagesByVarianName[variant.option2] = variantImage;
-		variantMixName = variantMixName + ";gs;" + variant.option2;
-	 }
-         if(variant.option3 != null) {
-                variantImagesByVarianName[variant.option3] = variantImage;
-		variantMixName = variantMixName + ";gs;" + variant.option3;
-         }
-
-if(variantMixName != "") {
-variantImagesByVarianNameMix[variantMixName] = variantImage;
-}
-
-         cntImages++;
-       }
-    {% endfor %}
-                if(cntImages == 0) {
-          variantImagesGS = undefined;
-                }
-</script> {% endif %}
-<script>
-
-var imageDimensionsWidth = {};
-var imageDimensionsHeight = {};
-var imageSrcAttr = {};
-var altTag = {};  
-
-var mediaGS = [];  
-  var productImagesGS = [];
-var productImagesGSUrls = [];
-{% for image in product.images %}
-  var productImageUrl = "{{ image.src }}";
-  var dotPosition = productImageUrl.lastIndexOf(".");
-  productImageUrl = productImageUrl.substr(0, dotPosition);
-  productImagesGS.push(productImageUrl);
-  imageDimensionsWidth[{{ image.id }}] = "{{ image.width }}";
-  imageDimensionsHeight[{{ image.id }}] = "{{ image.height }}";
-  altTag[{{ image.id }}] = "{{ image.alt | replace: '\"', '"' | replace: '"', '\"' | strip | strip_newlines }}";
-  imageSrcAttr[{{ image.id }}] = "{{ image.src }}";
-  productImagesGSUrls.push("{{ image.src | img_url: '240x' }}");
-{% endfor %}
-
-{%- for media in product.media -%}
-    {% case media.media_type %}
-	{% when "image" %}                           
-                           var mediaObjectGS ={id: "{{ media.image.id  }}", mediaType:"{{ media.media_type }}", previewImgURL:"{{ media.image.src | img_url: "240x" }}", previewImg:"{{ media.image.src }}", tag:"{{ media.image.src | img_url: "240x" }}"};  
-            mediaGS.push(mediaObjectGS);
-    {% when "video" %}
-              var productImageUrl = "{{ media.preview_image }}";
-  var dotPosition = productImageUrl.lastIndexOf(".");
-  productImageUrl = productImageUrl.substr(0, dotPosition);                     
-  var mediaObjectGS ={id: "{{ media.id }}", mediaType:"{{ media.media_type }}", width: "{{ media.preview_image.width }}", height: "{{ media.preview_image.height }}", previewImgURL:"{{ media.preview_image | img_url: "500x" }}", previewImg:"" + productImageUrl +  "", tag:'{{ media | video_tag: controls: true }}'};                                  
-            mediaGS.push(mediaObjectGS);                                
-	{% when "external_video" %}                
-              var productImageUrl = "{{ media.preview_image }}";
-  var dotPosition = productImageUrl.lastIndexOf(".");
-  productImageUrl = productImageUrl.substr(0, dotPosition);                     
-            var mediaObjectGS ={id: "{{ media.id }}", mediaType:"{{ media.media_type }}", width: "{{ media.preview_image.width }}", height: "{{ media.preview_image.height }}", previewImgURL:"{{ media.preview_image | img_url: "500x" }}", previewImg:"" + productImageUrl +  "", tag:'{{ media | external_video_tag }}'};                                  
-            mediaGS.push(mediaObjectGS);
-    {% endcase %}
-{%- endfor -%}      
-                    
-
-</script>
-
-{% endif %}<!-- Slider code end. Do not change GSEND -->
 </head>
 
   <body>
@@ -422,5 +262,5 @@ var productImagesGSUrls = [];
                 var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
         })(window,document,'https://cdn.bitrix24.ua/b14703797/crm/site_button/loader_2_sn2rq7.js');
 </script>
-<!-- Code for Swatches body. Do not change GSEND --><link rel="stylesheet" href="https://gravity-software.com/js/shopify/rondell/jquery.rondellf85.css?v=123"/></body>
+<!-- Code for Swatches body. Do not change GSEND --></body>
 </html>
