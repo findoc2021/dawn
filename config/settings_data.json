@@ -25,7 +25,7 @@
             "type": "announcement",
             "settings": {
               "text": "Добро пожаловать в магазин женской одежды IrenFashion.shop",
-              "color_scheme": "background-1",
+              "color_scheme": "accent-2",
               "link": ""
             }
           },
@@ -41,7 +41,7 @@
             "type": "announcement",
             "settings": {
               "text": "Возврат и обмен в течении 30 дней после покупки!",
-              "color_scheme": "background-1",
+              "color_scheme": "accent-1",
               "link": "shopify:\/\/pages\/vozvrat-i-obmen"
             }
           }
