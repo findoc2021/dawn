@@ -169,15 +169,6 @@
     "1628205071928c9169": {
       "type": "collage",
       "blocks": {
-        "1628205071928c9169-0": {
-          "type": "video",
-          "settings": {
-            "cover_image": "shopify:\/\/shop_images\/MyCollages_3.jpg",
-            "video_url": "https:\/\/youtu.be\/Zgw8UYPd8g8",
-            "description": "Промо ролик наших моделей",
-            "image_padding": false
-          }
-        },
         "1628205071928c9169-1": {
           "type": "product",
           "settings": {
@@ -190,19 +181,28 @@
         "1628205071928c9169-2": {
           "type": "collection",
           "settings": {
-            "collection": "zhenskie-platya-bolshih-razmerov-nalozhennym-platezhom",
+            "collection": "осень-2021",
             "image_padding": false,
             "color_scheme": "background-1"
+          }
+        },
+        "d3df8447-07fd-457f-a58b-38daef059fc8": {
+          "type": "product",
+          "settings": {
+            "product": "осеннее-женское-платье-ft-9345",
+            "secondary_background": false,
+            "second_image": false,
+            "image_padding": false
           }
         }
       },
       "block_order": [
-        "1628205071928c9169-0",
         "1628205071928c9169-1",
-        "1628205071928c9169-2"
+        "1628205071928c9169-2",
+        "d3df8447-07fd-457f-a58b-38daef059fc8"
       ],
       "settings": {
-        "heading": "Наложенный платеж",
+        "heading": "Осень 2021",
         "desktop_layout": "left",
         "mobile_layout": "collage"
       }
