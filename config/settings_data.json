@@ -33,7 +33,7 @@
             "type": "announcement",
             "settings": {
               "text": "Наложенный платеж Укрпочта и новая почта (предоплата 100 грн) тел +38(050) 8050284",
-              "color_scheme": "inverse",
+              "color_scheme": "background-1",
               "link": ""
             }
           },
