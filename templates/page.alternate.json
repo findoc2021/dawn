@@ -1,8 +1,71 @@
 {
   "sections": {
     "main": {
-      "type": "main-page",
+      "type": "index-lookbook",
+      "blocks": {
+        "7fa981a8-8e0d-4543-b70a-431c51b7b94d": {
+          "type": "lookbook_100",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/photo_2021-08-17_23-08-01.jpg",
+            "img_alignment": "top",
+            "item_product_1": "tangada-women-amy-green-oversize-long-parkas-thick-2020-winter-long-sleeve-buttons-pockets-female-warm-coat-asf73",
+            "item_x_1": 50,
+            "item_y_1": 50,
+            "item_horizontal_align_1": "left",
+            "item_vertical_align_1": "bottom",
+            "item_product_2": "bluzka-barkhat-model-329",
+            "item_x_2": 17,
+            "item_y_2": 18,
+            "item_horizontal_align_2": "right",
+            "item_vertical_align_2": "bottom",
+            "item_product_3": "",
+            "item_x_3": 50,
+            "item_y_3": 50,
+            "item_horizontal_align_3": "left",
+            "item_vertical_align_3": "bottom",
+            "item_product_4": "",
+            "item_x_4": 50,
+            "item_y_4": 50,
+            "item_horizontal_align_4": "left",
+            "item_vertical_align_4": "bottom"
+          }
+        },
+        "ba9684ee-db86-4dcd-974b-2bf00e316b99": {
+          "type": "lookbook_100",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/photo_2021-08-17_22-17-01.jpg",
+            "img_alignment": "top",
+            "item_product_1": "",
+            "item_x_1": 50,
+            "item_y_1": 50,
+            "item_horizontal_align_1": "left",
+            "item_vertical_align_1": "bottom",
+            "item_product_2": "",
+            "item_x_2": 50,
+            "item_y_2": 50,
+            "item_horizontal_align_2": "left",
+            "item_vertical_align_2": "bottom",
+            "item_product_3": "",
+            "item_x_3": 50,
+            "item_y_3": 50,
+            "item_horizontal_align_3": "left",
+            "item_vertical_align_3": "bottom",
+            "item_product_4": "",
+            "item_x_4": 50,
+            "item_y_4": 50,
+            "item_horizontal_align_4": "left",
+            "item_vertical_align_4": "bottom"
+          }
+        }
+      },
+      "block_order": [
+        "7fa981a8-8e0d-4543-b70a-431c51b7b94d",
+        "ba9684ee-db86-4dcd-974b-2bf00e316b99"
+      ],
       "settings": {
+        "lookbook_layout": "full_width",
+        "section_title": "",
+        "text_title": ""
       }
     }
   },
