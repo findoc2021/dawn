@@ -90,8 +90,8 @@
         "e066a412-9043-4c27-a511-7d09ae499827": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "м. 267",
-            "button_link_1": "shopify:\/\/products\/летнее-платье-м-267",
+            "button_label_1": "FU-0092",
+            "button_link_1": "",
             "button_style_secondary_1": false,
             "button_label_2": "FT - 2436",
             "button_link_2": "shopify:\/\/products\/платье-женское-люкс-класс-ft-2428",
@@ -103,7 +103,7 @@
         "e066a412-9043-4c27-a511-7d09ae499827"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/MyCollages12.jpg",
+        "image": "shopify:\/\/shop_images\/photo_2021-08-17_23-08-01.jpg",
         "image_2": "shopify:\/\/shop_images\/photo_2021-08-03_12-04-06_4.jpg",
         "desktop_text_box_position": "flex-end",
         "color_scheme": "background-1",
