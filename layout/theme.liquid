@@ -102,8 +102,9 @@
     {%- endunless -%}
 
     <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
-  {% include 'hulkcode_common' %}{% if template contains 'product' or template contains 'cart' %}<script src='https://ha-product-option.nyc3.digitaloceanspaces.com/assets/api/v2/hulkcode.js' defer='defer'></script>{% endif %}<!-- GSSTART Slider code start. Do not change -->{% if product.id > 1 %}
-<script type="text/javascript" src="https://gravity-software.com/js/shopify/slider_shop29959.js?v=574a673b6ec0036e37dde333d01b7530"></script> 
+  {% include 'hulkcode_common' %}{% if template contains 'product' or template contains 'cart' %}<script src='https://ha-product-option.nyc3.digitaloceanspaces.com/assets/api/v2/hulkcode.js' defer='defer'></script>{% endif %}
+<!-- GSSTART Slider code start. Do not change -->{% if product.id > 1 %}
+<script type="text/javascript" src="https://gravity-software.com/js/shopify/slider_shop29959.js?v=923fc70ddd2eb976ec2d175dad3c25b5"></script> 
  {% if product.variants.size > 1 %}<script>
 gsSliderDefaultV = "{{ product.selected_or_first_available_variant.id }}";
 var variantImagesByVarianName = {};
@@ -191,8 +192,7 @@ var productImagesGSUrls = [];
 
 </script>
 
-{% endif %}<!-- Slider code end. Do not change GSEND -->
-</head>
+{% endif %}<!-- Slider code end. Do not change GSEND --></head>
 
   <body>
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
