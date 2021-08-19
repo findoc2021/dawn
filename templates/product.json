@@ -27,7 +27,6 @@
         },
         "1892003f-33bf-4db0-9d2e-168c0712ef9b": {
           "type": "variant_picker",
-          "disabled": true,
           "settings": {
             "picker_type": "button"
           }
