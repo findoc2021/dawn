@@ -163,7 +163,7 @@
     "1628770878a7985877": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<h3> лента в социальных сетях! <H3\/>\n<script src=\"https:\/\/apps.elfsight.com\/p\/platform.js\" defer><\/script>\n<div class=\"elfsight-app-fbd98a48-2f2d-4036-b27d-59e5651ba034\"><\/div>"
+        "custom_liquid": "#rcorners3 {\n    border-radius: 25px;\n    background: url(paper.gif);\n    background-position: left top;\n    background-repeat: repeat;\n    padding: 20px;\n    width: 200px;\n    height: 150px;\n}"
       }
     }
   },
