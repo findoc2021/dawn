@@ -23,8 +23,7 @@
         <a class="skip-to-content-link button visually-hidden" href="#ProductInfo-{{ section.id }}">
           {{ "accessibility.skip_to_product_info" | t }}
         </a>
-        {% render "easy-accounts-wishlist", product: product%}
-        <ul class="product__media-list grid grid--peek list-unstyled slider slider--mobile" role="list">
+               <ul class="product__media-list grid grid--peek list-unstyled slider slider--mobile" role="list">
           {%- if product.selected_or_first_available_variant.featured_media != null -%}
             {%- assign media = product.selected_or_first_available_variant.featured_media -%}
             <li class="product__media-item grid__item slider__slide{% if media.media_type != 'image' %} product__media-item--full{% endif %}" data-media-id="{{ section.id }}-{{ media.id }}">
@@ -60,7 +59,7 @@
           data-shopify-model3d-id="{{ first_3d_model.id }}"
           data-shopify-title="{{ product.title | escape }}"
           data-shopify-xr-hidden
-        >
+        > {% render "easy-accounts-wishlist", product: product%}
           {% render 'icon-3d-model' %}
           {{ 'products.product.xr_button' | t }}
         </button>
