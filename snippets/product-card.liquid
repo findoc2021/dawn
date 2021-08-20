@@ -88,13 +88,12 @@
 
     <div class="card-information">
       <div class="card-information__wrapper">
-        {%- if show_vendor -%}
-        
+        {%- if show_vendor -%}{ % render "easy-accounts-wishlist" , product: product% }
           <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
           <div class="caption-with-letter-spacing light">{{ product_card_product.vendor }}</div>
         {%- endif -%}
            
-{% render "easy-accounts-wishlist", product: product %}
+
         {%- if product_card_product.featured_media -%}
           <span class="card-information__text h5">
             {{ product_card_product.title | escape }}
