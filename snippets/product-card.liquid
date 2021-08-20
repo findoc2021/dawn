@@ -69,7 +69,7 @@
         {%- else -%}
           <div class="card__content"><h2 class="card__text h2">{{ product_card_product.title }}</h2></div>
         {%- endif -%}
-        {% render "easy-accounts-wishlist", product: product %}
+
 
         <div class="card__badge">
           {%- if product_card_product.available == false -%}
@@ -100,7 +100,7 @@
 
         {% comment %} TODO: metafield {% endcomment %}
         <span class="caption-large light">{{ block.settings.description | escape }}</span>
-
+        {% render "easy-accounts-wishlist", product: product %}
         <div product-id="{{ product_card_product.id }}" class="arv-collection arv-collection--{{ product_card_product.id }}"></div>
         {% render 'price', product: product_card_product, price_class: '' %}
       </div>
