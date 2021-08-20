@@ -38,7 +38,7 @@
             {%- endunless -%}
           {%- endfor -%}
         </ul>
-        {% render "easy-accounts-wishlist", product: product %}
+
         <div class="slider-buttons slider-buttons--overlay no-js-hidden{% if product.media.size < 2 %} small-hide{% endif %}">
           <div class="slider-counter caption">
             <span class="slider-counter--current">1</span>
@@ -65,6 +65,7 @@
         </button>
       {%- endif -%}
     </div>
+            {% render "easy-accounts-wishlist", product: product %}
     <div class="product__info-wrapper grid__item">
       <div id="ProductInfo-{{ section.id }}" class="product__info-container{% if section.settings.enable_sticky_info %} product__info-container--sticky{% endif %}">
         {%- assign product_form_id = 'product-form-' | append: section.id -%}
