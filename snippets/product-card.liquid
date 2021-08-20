@@ -12,7 +12,7 @@
     {% render 'product-card', show_vendor: section.settings.show_vendor %}
 
 {% endcomment %}
-     {{% render "easy-accounts-wishlist", product: product %}}
+    
 <div class="card-wrapper">
   <a href="{{ product_card_product.url | default: '#' }}" class="full-unstyled-link">
     
@@ -67,7 +67,7 @@
             </div>
           </div>
         {%- else -%}
-          <div class="card__content"><h2 class="card__text h2">{{ product_card_product.title }}</h2></div>
+          <div class="card__content"><h2 class="card__text h2">{{ product_card_product.title }}{% render "easy-accounts-wishlist", product: product %}</h2></div>
         {%- endif -%}
 
 
