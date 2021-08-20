@@ -10,9 +10,9 @@
 
     Usage:
     {% render 'product-card', show_vendor: section.settings.show_vendor %}
-
+   {% render "easy-accounts-wishlist", product: product %}
 {% endcomment %}
-       {% render "easy-accounts-wishlist", product: product %}
+    
 <div class="card-wrapper">
   <a href="{{ product_card_product.url | default: '#' }}" class="full-unstyled-link">
     
