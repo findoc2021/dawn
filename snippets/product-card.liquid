@@ -76,9 +76,9 @@
             <span class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}" aria-hidden="true">
               {{ 'products.product.sold_out' | t }}
             </span>
-          {%- elsif product_card_product.compare_at_price > product_card_product.price and product_card_product.available -%}
+          {%- elsif product_card_product.compare_at_price > product_card_product.price and product_card_product.available -%}{% render "easy-accounts-wishlist", product: product%}
             <span class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}" aria-hidden="true">
-              {{ 'products.product.on_sale' | t }}{% render "easy-accounts-wishlist", product: product%}
+              {{ 'products.product.on_sale' | t }}
             </span>
           {%- endif -%}
         </div>
