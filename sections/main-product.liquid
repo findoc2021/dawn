@@ -38,6 +38,7 @@
             {%- endunless -%}
           {%- endfor -%}
         </ul>
+        {% render "easy-accounts-wishlist", product: product %}
         <div class="slider-buttons slider-buttons--overlay no-js-hidden{% if product.media.size < 2 %} small-hide{% endif %}">
           <div class="slider-counter caption">
             <span class="slider-counter--current">1</span>
