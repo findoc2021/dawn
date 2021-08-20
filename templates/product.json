@@ -78,7 +78,7 @@
           "type": "popup",
           "settings": {
             "link_label": "Калькулятора определения размера",
-            "page": "kalkulyator-razmera"
+            "page": "copy-of-калькулятор-размера"
           }
         }
       },
@@ -98,7 +98,7 @@
       ],
       "settings": {
         "enable_sticky_info": true,
-        "enable_video_looping": true
+        "enable_video_looping": false
       }
     },
     "alireviews-widget-78912": {
@@ -165,6 +165,11 @@
       "settings": {
         "custom_liquid": ""
       }
+    },
+    "1629461534a7b69a02": {
+      "type": "alireviews-widget-78920",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -172,6 +177,7 @@
     "alireviews-widget-78912",
     "product-recommendations",
     "16282091560573a37b",
-    "1628770878a7985877"
+    "1628770878a7985877",
+    "1629461534a7b69a02"
   ]
 }
