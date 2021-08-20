@@ -27,19 +27,19 @@
         "adapt_height_first_image": false
       }
     },
-    "1628359737dfafff99": {
+    "162843431706b07aa1": {
       "type": "index-divider",
       "settings": {
-        "section_view": "boxed",
-        "padding_top": 3,
-        "padding_bottom": 21,
-        "margin_top": 25,
-        "margin_bottom": 25,
-        "background_color": "#1878b9",
-        "tablet_padding_top": 44,
-        "tablet_padding_bottom": 13,
-        "tablet_margin_top": 14,
-        "tablet_margin_bottom": 11
+        "section_view": "full_width",
+        "padding_top": 6,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": 9,
+        "background_color": "#1a1b18",
+        "tablet_padding_top": 0,
+        "tablet_padding_bottom": 0,
+        "tablet_margin_top": 0,
+        "tablet_margin_bottom": 0
       }
     },
     "1628204174b90c6428": {
@@ -69,15 +69,15 @@
         "adapt_height_first_image": false
       }
     },
-    "162843431706b07aa1": {
+    "16294647273f5facad": {
       "type": "index-divider",
       "settings": {
-        "section_view": "full_width",
-        "padding_top": 6,
+        "section_view": "boxed",
+        "padding_top": 0,
         "padding_bottom": 0,
         "margin_top": 0,
-        "margin_bottom": 9,
-        "background_color": "#1a1b18",
+        "margin_bottom": 0,
+        "background_color": "",
         "tablet_padding_top": 0,
         "tablet_padding_bottom": 0,
         "tablet_margin_top": 0,
@@ -207,42 +207,6 @@
         "mobile_layout": "collage"
       }
     },
-    "image_text": {
-      "type": "image-with-text",
-      "disabled": true,
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Модели производства нашей фабрики!"
-          }
-        },
-        "button": {
-          "type": "button",
-          "settings": {
-            "button_label": "Смотреть",
-            "button_link": "shopify:\/\/collections\/zhenskie-platya-bolshih-razmerov-nalozhennym-platezhom"
-          }
-        },
-        "1c1ad2b9-9aa9-4630-ad67-c293e35fa67c": {
-          "type": "text",
-          "settings": {
-            "text": "<p>﻿уже на протяжении 22 лет наши модельеры и швеи трудятся на элегантной, недорогой женской одеждой <a href=\"\/collections\/novelties\" title=\"Новые поступления\">больших размеров!<\/a> Модели нашего производства продаются наложенным платежом! Замена или обмен производятся уведомлению магазина! Скоро осенние новинки!<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "button",
-        "1c1ad2b9-9aa9-4630-ad67-c293e35fa67c"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/SAVE_20210626_114238.jpg",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "image_first"
-      }
-    },
     "1628212274e3ed1bd9": {
       "type": "collection-list",
       "blocks": {
@@ -350,14 +314,13 @@
   },
   "order": [
     "image_banner",
-    "1628359737dfafff99",
-    "1628204174b90c6428",
     "162843431706b07aa1",
+    "1628204174b90c6428",
+    "16294647273f5facad",
     "162843377755ffd3d4",
     "featured_products",
     "1628363935338af885",
     "1628205071928c9169",
-    "image_text",
     "1628212274e3ed1bd9",
     "162854529615676c73",
     "16294116831b908970"
