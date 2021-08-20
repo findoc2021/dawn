@@ -167,7 +167,20 @@
       </form>
     </div>
 
-    <style type="text/css">// Variables$sample-component-flex-basis: 100px !important;$sample-component-large-breakpoint: 800px !important;//// Mixins@mixin sample-component-breakpoint-large {  @media only screen and (min-width: $sample-component-large-breakpoint) {    @content !important;  }}//// Base component.sample-component {  display: flex !important;}//// Variations.sample-component--featured {  border-style: solid !important;}//// Sub-components.sample-component__section {  flex: 1 1 $sample-component-flex-basis !important;  @include sample-component-breakpoint-large {    padding: 0 !important;  }}</style>
+    <style type="text/css"><html>
+<head>
+<style type="text/css">
+table, td, th
+{
+border:1px solid green !important;
+}
+th
+{
+background-color:black !important;
+color:white !important;
+}
+</style>
+</head></style>
         {% assign page_template = template | replace: '.', ' ' | truncatewords: 1, '' | handle %}
     {% assign easyorderShow = false %}
     
