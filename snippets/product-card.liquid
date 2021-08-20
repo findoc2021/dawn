@@ -12,7 +12,7 @@
     {% render 'product-card', show_vendor: section.settings.show_vendor %}
 
 {% endcomment %}
-     <div{% render "easy-accounts-wishlist", product: product %}/div>
+     {% render "easy-accounts-wishlist", product: product %}
 <div class="card-wrapper">
   <a href="{{ product_card_product.url | default: '#' }}" class="full-unstyled-link">
     
