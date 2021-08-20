@@ -98,7 +98,7 @@
       ],
       "settings": {
         "enable_sticky_info": true,
-        "enable_video_looping": false
+        "enable_video_looping": true
       }
     },
     "alireviews-widget-78912": {
@@ -163,7 +163,7 @@
     "1628770878a7985877": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<iframe>https:\/\/www.vxzone.com\/calc\/2992-men-clothes-sizes-calculator.html<\/iframe>"
+        "custom_liquid": ""
       }
     }
   },
