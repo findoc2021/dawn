@@ -95,12 +95,13 @@
         {%- if product_card_product.featured_media -%}
           <span class="card-information__text h5">
             {{ product_card_product.title | escape }}
+               {% render "easy-accounts-wishlist", product: product %}
           </span>
         {%- endif -%}
 
         {% comment %} TODO: metafield {% endcomment %}
         <span class="caption-large light">{{ block.settings.description | escape }}</span>
-        {% render "easy-accounts-wishlist", product: product %}
+     
         <div product-id="{{ product_card_product.id }}" class="arv-collection arv-collection--{{ product_card_product.id }}"></div>
         {% render 'price', product: product_card_product, price_class: '' %}
       </div>
