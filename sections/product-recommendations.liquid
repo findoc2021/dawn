@@ -14,6 +14,7 @@
     <ul class="grid grid--2-col grid--3-col-tablet{% if recommendations.products_count > 3 %} grid--4-col-desktop grid--quarter-max{% endif %}" role="list">
       {% for recommendation in recommendations.products %}
         <li class="grid__item">
+          {% render "easy-accounts-wishlist", product: product%}
           {% render 'product-card',
             product_card_product: recommendation,
             media_size: section.settings.image_ratio,
