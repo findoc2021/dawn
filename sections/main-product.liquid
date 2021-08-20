@@ -65,7 +65,7 @@
         </button>
       {%- endif -%}
     </div>
-            {% render "easy-accounts-wishlist", product: product %}
+  {% render "easy-accounts-wishlist", product: product %}
     <div class="product__info-wrapper grid__item">
       <div id="ProductInfo-{{ section.id }}" class="product__info-container{% if section.settings.enable_sticky_info %} product__info-container--sticky{% endif %}">
         {%- assign product_form_id = 'product-form-' | append: section.id -%}
