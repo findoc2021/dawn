@@ -8,14 +8,14 @@
     - add_image_padding: {Boolean} Enables padding on the image to space out the grid
     - show_vendor: {Boolean} Show the product vendor. Default: false
 
-    Usage:
+    Usage:{% render "easy-accounts-wishlist", product: product%}
     {% render 'product-card', show_vendor: section.settings.show_vendor %}
 
 {% endcomment %}
     
 <div class="card-wrapper">
   <a href="{{ product_card_product.url | default: '#' }}" class="full-unstyled-link">
-    {% render "easy-accounts-wishlist", product: product%}
+    
     <span class="visually-hidden">{{ product_card_product.title | escape }}</span>
 
     <div class="card card--product{% if product_card_product.featured_media == nil %} card--text-only card--soft{% endif %}" tabindex="-1">
