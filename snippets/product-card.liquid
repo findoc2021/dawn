@@ -28,7 +28,6 @@
               assign featured_media_aspect_ratio = 1
             endif
           -%}
-        {% render "easy-accounts-wishlist", product: product %}
 
           <div{% if add_image_padding %} class="card__media-full-spacer"{% endif %}>
             <div class="media media--transparent media--{{ media_size }} media--hover-effect"
@@ -70,6 +69,7 @@
         {%- else -%}
           <div class="card__content"><h2 class="card__text h2">{{ product_card_product.title }}</h2></div>
         {%- endif -%}
+        {% render "easy-accounts-wishlist", product: product %}
 
         <div class="card__badge">
           {%- if product_card_product.available == false -%}
