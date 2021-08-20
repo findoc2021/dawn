@@ -167,39 +167,7 @@
       </form>
     </div>
 
-    <style type="text/css">// Variables
-$sample-component-flex-basis: 100px !important;
-$sample-component-large-breakpoint: 800px !important;
-
-//
-// Mixins
-@mixin sample-component-breakpoint-large {
-  @media only screen and (min-width: $sample-component-large-breakpoint) {
-    @content !important;
-  }
-}
-
-//
-// Base component
-.sample-component {
-  display: flex !important;
-}
-
-//
-// Variations
-.sample-component--featured {
-  border-style: solid !important;
-}
-
-//
-// Sub-components
-.sample-component__section {
-  flex: 1 1 $sample-component-flex-basis !important;
-
-  @include sample-component-breakpoint-large {
-    padding: 0 !important;
-  }
-}</style>
+    <style type="text/css">// Variables$sample-component-flex-basis: 100px !important;$sample-component-large-breakpoint: 800px !important;//// Mixins@mixin sample-component-breakpoint-large {  @media only screen and (min-width: $sample-component-large-breakpoint) {    @content !important;  }}//// Base component.sample-component {  display: flex !important;}//// Variations.sample-component--featured {  border-style: solid !important;}//// Sub-components.sample-component__section {  flex: 1 1 $sample-component-flex-basis !important;  @include sample-component-breakpoint-large {    padding: 0 !important;  }}</style>
         {% assign page_template = template | replace: '.', ' ' | truncatewords: 1, '' | handle %}
     {% assign easyorderShow = false %}
     
@@ -207,7 +175,7 @@ $sample-component-large-breakpoint: 800px !important;
 		{% assign easyorderShow = true %}
 	{% endif %}
     
-        {% unless easyorderShow %}{% for c in product.collections %}{% if c.id == 264175878329%}{% assign easyorderShow = true %}{% break %}{% endif %}{% endfor %}{% endunless %}        
+    {% assign easyorderShow = true %}            
     {% if easyorderShow == true %}
     
     <script type="text/javascript">
