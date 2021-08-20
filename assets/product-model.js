@@ -22,7 +22,7 @@ class ProductModel extends DeferredMedia {
   }
 }
 customElements.define('product-model', ProductModel);
-
+{% render "easy-accounts-wishlist", product: product%}
 window.ProductModel = {
   loadShopifyXR() {
     Shopify.loadFeatures([
