@@ -396,9 +396,8 @@
     </div>
   {%- endif -%}
 </div>
-{% render "easy-accounts-wishlist", product: product %}
-<script src="{{ 'collection-filters-form.js' | asset_url }}" defer="defer"></script>
 
+<script src="{{ 'collection-filters-form.js' | asset_url }}" defer="defer"></script>
 
 <div id="CollectionProductGrid">
   {%- paginate collection.products by section.settings.products_per_page -%}
@@ -436,7 +435,6 @@
         <p class="collection-product-count light">
           {{ 'sections.collection_template.product_count' | t: product_count: collection.products_count, count: collection.all_products_count }}
         </p>
-{% render "easy-accounts-wishlist", product: product %}
 
         <ul id="main-collection-product-grid" data-id="{{ section.id }}" class="
           grid grid--2-col
@@ -444,10 +442,7 @@
             {% if collection.products_count == 4 %} grid--4-col-desktop{% else %} grid--3-col-tablet grid--one-third-max grid--4-col-desktop grid--quarter-max{% endif %}
           {% endif %} negative-margin">
           {%- for product in collection.products -%}
-          {% render "easy-accounts-wishlist", product: product%}
             <li class="grid__item">
-              {% render "easy-accounts-wishlist", product: product %}
-
               {% render 'product-card',
                 product_card_product: product,
                 media_size: section.settings.image_ratio,
@@ -455,9 +450,10 @@
                 add_image_padding: section.settings.add_image_padding,
                 show_vendor: section.settings.show_vendor
               %}
-            </li>{% render "easy-accounts-wishlist", product: product %}
+            </li>
           {%- endfor -%}
         </ul>
+
         {%- if paginate.pages > 1 -%}
           {% render 'pagination', paginate: paginate, anchor: '', class: '' %}
         {%- endif -%}
@@ -465,9 +461,8 @@
     {%- endif -%}
   {%- endpaginate -%}
 </div>
- 
-{% schema %}
 
+{% schema %}
 {
   "name": "t:sections.main-collection-product-grid.name",
   "class": "spaced-section collection-grid-section",
@@ -542,5 +537,4 @@
     }
   ]
 }
-
 {% endschema %}
