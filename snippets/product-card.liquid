@@ -91,7 +91,6 @@
         {%- if show_vendor -%}
           <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
           <div class="caption-with-letter-spacing light">{{ product_card_product.vendor }}</div>
-        { % render "easy-accounts-wishlist" , product: product% }
         {%- endif -%}
            
 
@@ -111,3 +110,7 @@
     </div>
   </a>
 </div>
+    
+{% render "easy-accounts-wishlist", product: product%}
+  
+  
