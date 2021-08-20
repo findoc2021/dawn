@@ -10,7 +10,7 @@
 
     Usage:
     {% render 'product-card', show_vendor: section.settings.show_vendor %}
-{% render "easy-accounts-wishlist", product: product %}
+
 {% endcomment %}
 
 <div class="card-wrapper">
@@ -28,6 +28,7 @@
               assign featured_media_aspect_ratio = 1
             endif
           -%}
+        {% render "easy-accounts-wishlist", product: product %}
 
           <div{% if add_image_padding %} class="card__media-full-spacer"{% endif %}>
             <div class="media media--transparent media--{{ media_size }} media--hover-effect"
