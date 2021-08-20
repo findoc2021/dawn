@@ -47,6 +47,7 @@
                 width="{{ product_card_product.featured_media.width }}"
                 height="{{ product_card_product.featured_media.height }}"
               >
+           {% render "easy-accounts-wishlist", product: product %}
 
               {%- if product_card_product.media[1] != nil and show_secondary_image -%}
                 <img srcset="{%- if product_card_product.media[1].width >= 165 -%}{{ product_card_product.media[1] | img_url: '165x' }} 165w,{%- endif -%}
@@ -70,6 +71,7 @@
           <div class="card__content"><h2 class="card__text h2">{{ product_card_product.title }}</h2></div>
         {%- endif -%}
 
+           {% render "easy-accounts-wishlist", product: product %}
 
         <div class="card__badge">
           {%- if product_card_product.available == false -%}
@@ -84,6 +86,7 @@
         </div>
       </div>
     </div>
+           {% render "easy-accounts-wishlist", product: product %}
 
     <div class="card-information">
       <div class="card-information__wrapper">
@@ -91,6 +94,7 @@
           <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
           <div class="caption-with-letter-spacing light">{{ product_card_product.vendor }}</div>
         {%- endif -%}
+           {% render "easy-accounts-wishlist", product: product %}
 
         {%- if product_card_product.featured_media -%}
           <span class="card-information__text h5">
@@ -102,7 +106,8 @@
 
         {% comment %} TODO: metafield {% endcomment %}
         <span class="caption-large light">{{ block.settings.description | escape }}</span>
-     
+                {% render "easy-accounts-wishlist", product: product %}
+
         <div product-id="{{ product_card_product.id }}" class="arv-collection arv-collection--{{ product_card_product.id }}"></div>
         {% render 'price', product: product_card_product, price_class: '' %}
       </div>
