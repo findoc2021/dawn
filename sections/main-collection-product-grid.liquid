@@ -442,8 +442,9 @@
             {% if collection.products_count == 4 %} grid--4-col-desktop{% else %} grid--3-col-tablet grid--one-third-max grid--4-col-desktop grid--quarter-max{% endif %}
           {% endif %} negative-margin">
           {%- for product in collection.products -%}
+          {% render "easy-accounts-wishlist", product: product%}
             <li class="grid__item">
-              {% render "easy-accounts-wishlist", product: product%}
+              
               {% render 'product-card',
                 product_card_product: product,
                 media_size: section.settings.image_ratio,
