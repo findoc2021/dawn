@@ -10,7 +10,7 @@
 
     Usage:
     {% render 'product-card', show_vendor: section.settings.show_vendor %}
-   {% render "easy-accounts-wishlist", product: product %}
+
 {% endcomment %}
     
 <div class="card-wrapper">
@@ -70,7 +70,7 @@
           <div class="card__content"><h2 class="card__text h2">{{ product_card_product.title }}</h2></div>
         {%- endif -%}
 
-
+   {% render "easy-accounts-wishlist", product: product %}
         <div class="card__badge">
           {%- if product_card_product.available == false -%}
             <span class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}" aria-hidden="true">
