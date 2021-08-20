@@ -59,7 +59,7 @@
           data-shopify-model3d-id="{{ first_3d_model.id }}"
           data-shopify-title="{{ product.title | escape }}"
           data-shopify-xr-hidden
-        > {% render "easy-accounts-wishlist", product: product%}
+        > 
           {% render 'icon-3d-model' %}
           {{ 'products.product.xr_button' | t }}
         </button>
@@ -309,7 +309,7 @@
     </div>
   </div>
   {%- render 'cart-notification' -%}
-
+{% render "easy-accounts-wishlist", product: product%}
   <product-modal id="ProductModal-{{ section.id }}" class="product-media-modal">
     <div class="product-media-modal__dialog" role="dialog" aria-label="{{ 'products.modal.label' | t }}" aria-modal="true" tabindex="-1">
       <button id="ModalClose-{{ section.id }}" type="button" class="product-media-modal__toggle" aria-label="{{ 'accessibility.close' | t }}">{% render 'icon-close' %}</button>
