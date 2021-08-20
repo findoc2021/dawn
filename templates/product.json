@@ -163,7 +163,7 @@
     "1628770878a7985877": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "#rcorners3 {\n    border-radius: 25px;\n    background: url(paper.gif);\n    background-position: left top;\n    background-repeat: repeat;\n    padding: 20px;\n    width: 200px;\n    height: 150px;\n}"
+        "custom_liquid": "<iframe>https:\/\/www.vxzone.com\/calc\/2992-men-clothes-sizes-calculator.html<\/iframe>"
       }
     }
   },

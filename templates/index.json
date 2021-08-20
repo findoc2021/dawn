@@ -340,6 +340,12 @@
         "desktop_layout": "left",
         "mobile_layout": "collage"
       }
+    },
+    "16294116831b908970": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": ""
+      }
     }
   },
   "order": [
@@ -353,6 +359,7 @@
     "1628205071928c9169",
     "image_text",
     "1628212274e3ed1bd9",
-    "162854529615676c73"
+    "162854529615676c73",
+    "16294116831b908970"
   ]
 }
