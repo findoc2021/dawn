@@ -1,0 +1,12 @@
+{% comment %}
+NOTE: DO NOT OVERWRITE THIS FILE
+this is a snippet used for the EasyAccounts app, do not overwrite or edit this file.
+{% endcomment %}
+{% capture ea_wishlist %}
+  {% if product %}
+    <div class='ea-wishlist' data-product-handle='{{product.handle | default:''}}' ></div>
+  {% endif %}
+{% endcapture %}
+{% unless ea_wishlist contains 'error' %}
+  {% echo ea_wishlist %}
+{% endunless %}

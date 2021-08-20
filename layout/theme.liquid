@@ -209,9 +209,11 @@ var productImagesGSUrls = [];
 </script>
 
 {% endif %}<!-- Slider code end. Do not change GSEND -->
+  {% if content_for_header contains 'easyaccounts.js' %}
+    {% render 'easyaccounts' %}
+  {% endif %}
 </head>
-
-  <body>
+<body>
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ "accessibility.skip_to_text" | t }}
     </a>
