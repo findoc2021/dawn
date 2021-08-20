@@ -100,7 +100,7 @@
                    
           </span>
         {%- endif -%}
-
+{% render "easy-accounts-wishlist", product: product%}
         {% comment %} TODO: metafield {% endcomment %}
         <span class="caption-large light">{{ block.settings.description | escape }}</span>
      
@@ -111,6 +111,6 @@
   </a>
 </div>
     
-{% render "easy-accounts-wishlist", product: product%}
+
   
   
