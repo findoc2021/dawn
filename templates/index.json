@@ -7,7 +7,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "FT-9348",
-            "button_link_1": "shopify:\/\/products\/спортивное-платье-ft-9348",
+            "button_link_1": "shopify:\/\/products\/sportivnoe-plate-ft-9348",
             "button_style_secondary_1": true,
             "button_label_2": "FT-9345",
             "button_link_2": "shopify:\/\/products\/осеннее-женское-платье-ft-9345",
@@ -172,7 +172,7 @@
         "1628205071928c9169-1": {
           "type": "product",
           "settings": {
-            "product": "спортивное-платье-ft-9348",
+            "product": "sportivnoe-plate-ft-9348",
             "secondary_background": false,
             "second_image": true,
             "image_padding": false
