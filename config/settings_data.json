@@ -32,7 +32,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Наложенный платеж Укрпочта и новая почта (предоплата 100 грн)",
+              "text": "Наложенный платеж Укрпочта и новая почта (предоплата 100 грн) тел. 0508050284",
               "color_scheme": "background-1",
               "link": ""
             }
@@ -40,7 +40,7 @@
           "3fb252e2-b33e-472d-970b-95f827dff66f": {
             "type": "announcement",
             "settings": {
-              "text": "Возврат и обмен в течении 30 дней после покупки! тел. 0508050284",
+              "text": "Возврат и обмен в течении 30 дней после покупки!",
               "color_scheme": "accent-1",
               "link": "shopify:\/\/pages\/vozvrat-i-obmen"
             }
