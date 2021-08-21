@@ -7,7 +7,7 @@
     "colors_background_1": "#ffffff",
     "colors_background_2": "#f3f9e9",
     "sale_badge_color_scheme": "accent-2",
-    "accent_icons": "text",
+    "accent_icons": "outline-button",
     "social_facebook_link": "https:\/\/facebook.com\/irinamatveeva1961",
     "social_pinterest_link": "https:\/\/pin.it\/2AVbKZo",
     "social_instagram_link": "https:\/\/www.instagram.com\/iren_fashion_shop_odessa",
@@ -57,8 +57,7 @@
       "header": {
         "type": "header",
         "settings": {
-          "logo": "shopify:\/\/shop_images\/pinterest_board_photo.png",
-          "logo_width": 110,
+          "logo_width": 100,
           "logo_position": "middle-left",
           "menu": "main-menu",
           "show_line_separator": true,
