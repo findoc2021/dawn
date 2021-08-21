@@ -140,7 +140,7 @@
         "1628363935338af885-2": {
           "type": "collection",
           "settings": {
-            "collection": "пляжная-женская-одежда",
+            "collection": "plyazhnaya-zhenskaya-odezhda",
             "image_padding": false,
             "color_scheme": "background-1"
           }
@@ -181,7 +181,7 @@
         "1628205071928c9169-2": {
           "type": "collection",
           "settings": {
-            "collection": "осень-2021",
+            "collection": "osen-2021",
             "image_padding": false,
             "color_scheme": "background-1"
           }
@@ -237,7 +237,7 @@
         "2b694329-32b2-4325-a0bb-7669726984ce": {
           "type": "featured_collection",
           "settings": {
-            "collection": "для-молоденьких"
+            "collection": "dlya-molodenkih"
           }
         },
         "89ea0e19-43b3-4933-bebd-7bc67ab27d36": {
