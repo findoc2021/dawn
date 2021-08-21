@@ -212,7 +212,8 @@ var productImagesGSUrls = [];
   {% if content_for_header contains 'easyaccounts.js' %}
     {% render 'easyaccounts' %}
   {% endif %}
-</head>
+{% include 'fa_translate_core' %} 
+ </head>
 <body>
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ "accessibility.skip_to_text" | t }}
