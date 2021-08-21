@@ -7,11 +7,17 @@
         "show_collection_image": false
       }
     },
+    "1629504180714db3a0": {
+      "type": "apps",
+      "settings": {
+        "include_margins": false
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
-        "products_per_page": 16,
-        "image_ratio": "square",
+        "products_per_page": 12,
+        "image_ratio": "portrait",
         "show_secondary_image": true,
         "add_image_padding": false,
         "show_vendor": true,
@@ -41,6 +47,7 @@
   },
   "order": [
     "banner",
+    "1629504180714db3a0",
     "product-grid",
     "16282107673d4c2c46",
     "16282108546df0673a"
