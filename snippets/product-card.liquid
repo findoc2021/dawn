@@ -3,7 +3,7 @@
 
     Accepts:
     - product_card_product: {Object} Product Liquid object (optional)
-    - media_size: {String} Size of the product image card. Values are "square" and "portrait". Default is "square" (optional){% render "easy-accounts-wishlist", product: product%}
+    - media_size: {String} Size of the product image card. Values are "square" and "portrait". Default is "square" (optional)
     - show_secondary_image: {Boolean} Show the secondary image on hover. Default: false (optional)
     - add_image_padding: {Boolean} Enables padding on the image to space out the grid
     - show_vendor: {Boolean} Show the product vendor. Default: false
@@ -67,6 +67,7 @@
             </div>
           </div>
         {%- else -%}
+        {% render "easy-accounts-wishlist", product: product%}
           <div class="card__content"><h2 class="card__text h2">{{ product_card_product.title }}</h2></div>
         {%- endif -%}
 
