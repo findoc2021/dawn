@@ -4,13 +4,7 @@
       "type": "main-collection-banner",
       "settings": {
         "show_collection_description": true,
-        "show_collection_image": false
-      }
-    },
-    "1629504180714db3a0": {
-      "type": "apps",
-      "settings": {
-        "include_margins": false
+        "show_collection_image": true
       }
     },
     "product-grid": {
@@ -30,26 +24,11 @@
       "settings": {
         "custom_liquid": ""
       }
-    },
-    "16282108546df0673a": {
-      "type": "featured-blog",
-      "settings": {
-        "heading": "Статьи и новости",
-        "blog": "news",
-        "post_limit": 3,
-        "show_image": true,
-        "show_date": true,
-        "show_author": true,
-        "soft_background": false,
-        "show_view_all": true
-      }
     }
   },
   "order": [
     "banner",
-    "1629504180714db3a0",
     "product-grid",
-    "16282107673d4c2c46",
-    "16282108546df0673a"
+    "16282107673d4c2c46"
   ]
 }
