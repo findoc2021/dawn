@@ -167,20 +167,7 @@
       </form>
     </div>
 
-    <style type="text/css"><html>
-<head>
-<style type="text/css">
-table, td, th
-{
-border:1px solid green !important;
-}
-th
-{
-background-color:black !important;
-color:white !important;
-}
-</style>
-</head></style>
+    <style type="text/css"><html><head><style type="text/css">table, td, th{border:1px solid green !important;}th{background-color:black !important;color:white !important;}</style></head></style>
         {% assign page_template = template | replace: '.', ' ' | truncatewords: 1, '' | handle %}
     {% assign easyorderShow = false %}
     
@@ -188,7 +175,7 @@ color:white !important;
 		{% assign easyorderShow = true %}
 	{% endif %}
     
-    {% assign easyorderShow = true %}            
+        {% unless easyorderShow %}{% for c in product.collections %}{% if c.id == 264175878329%}{% assign easyorderShow = true %}{% break %}{% endif %}{% endfor %}{% endunless %}        
     {% if easyorderShow == true %}
     
     <script type="text/javascript">
