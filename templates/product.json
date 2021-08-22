@@ -98,7 +98,7 @@
       ],
       "settings": {
         "enable_sticky_info": true,
-        "enable_video_looping": false
+        "enable_video_looping": true
       }
     },
     "alireviews-widget-78912": {
