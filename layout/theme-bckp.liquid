@@ -119,8 +119,9 @@
 
 {%- if  collection.products  or  search.results  or  template == "index"  or  product  -%}<script type="text/javascript" src="https://gravity-software.com/showswatches/js/shopify/variantswatchesirenfashion5572.js?v=8845ebfdf7dd674b780e6ae8111b26b2"></script> {%- endif -%}
 <!-- Code for Swatches head. Do not change GSEND -->{%- comment -%}Start of Clean Canvas Size Chart App code{%- endcomment -%}{% if product %}<script>ccPops=window.ccPops||{};ccPops.sizeChart=ccPops.sizeChart||{};ccPops.sizeChart.collections={{ product.collections | map: 'id' | json }};</script>{% endif %}{%- comment -%}End of Clean Canvas Size Chart App code{%- endcomment -%}
+
 <!-- GSSTART Slider code start. Do not change -->{% if product.id > 1 %}
-<script type="text/javascript" src="https://gravity-software.com/js/shopify/slider_shop29959.js?v=923fc70ddd2eb976ec2d175dad3c25b5"></script> 
+<script type="text/javascript" src="https://gravity-software.com/js/shopify/slider_shop29959.js?v=2e335f3dc7c6839bba4f6739b425f5bc"></script> 
  {% if product.variants.size > 1 %}<script>
 gsSliderDefaultV = "{{ product.selected_or_first_available_variant.id }}";
 var variantImagesByVarianName = {};
@@ -208,8 +209,7 @@ var productImagesGSUrls = [];
 
 </script>
 
-{% endif %}<!-- Slider code end. Do not change GSEND -->
-</head>
+{% endif %}<!-- Slider code end. Do not change GSEND --></head>
 
   <body>
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">

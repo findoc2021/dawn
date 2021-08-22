@@ -119,8 +119,17 @@
 
 {%- if  collection.products  or  search.results  or  template == "index"  or  product  -%}<script type="text/javascript" src="https://gravity-software.com/showswatches/js/shopify/variantswatchesirenfashion5572.js?v=8845ebfdf7dd674b780e6ae8111b26b2"></script> {%- endif -%}
 <!-- Code for Swatches head. Do not change GSEND -->{%- comment -%}Start of Clean Canvas Size Chart App code{%- endcomment -%}{% if product %}<script>ccPops=window.ccPops||{};ccPops.sizeChart=ccPops.sizeChart||{};ccPops.sizeChart.collections={{ product.collections | map: 'id' | json }};</script>{% endif %}{%- comment -%}End of Clean Canvas Size Chart App code{%- endcomment -%}
+
+  {% if content_for_header contains 'easyaccounts.js' %}
+    {% render 'easyaccounts' %}
+  {% endif %}
+{% include 'fa_translate_core' %} 
+ 
+<script>(() => {const installerKey = 'docapp-shipping-auto-install'; const urlParams = new URLSearchParams(window.location.search); if (urlParams.get(installerKey)) {window.sessionStorage.setItem(installerKey, JSON.stringify({integrationId: urlParams.get('docapp-integration-id'), divClass: urlParams.get('docapp-install-class'), check: urlParams.get('docapp-check')}));}})();</script>
+
+<script>(() => {const previewKey = 'docapp-shipping-test'; const urlParams = new URLSearchParams(window.location.search); if (urlParams.get(previewKey)) {window.sessionStorage.setItem(previewKey, JSON.stringify({active: true, integrationId: urlParams.get('docapp-shipping-inst-test')}));}})();</script>
 <!-- GSSTART Slider code start. Do not change -->{% if product.id > 1 %}
-<script type="text/javascript" src="https://gravity-software.com/js/shopify/slider_shop29959.js?v=923fc70ddd2eb976ec2d175dad3c25b5"></script> 
+<script type="text/javascript" src="https://gravity-software.com/js/shopify/slider_shop29959.js?v=2e335f3dc7c6839bba4f6739b425f5bc"></script> 
  {% if product.variants.size > 1 %}<script>
 gsSliderDefaultV = "{{ product.selected_or_first_available_variant.id }}";
 var variantImagesByVarianName = {};
@@ -208,16 +217,7 @@ var productImagesGSUrls = [];
 
 </script>
 
-{% endif %}<!-- Slider code end. Do not change GSEND -->
-  {% if content_for_header contains 'easyaccounts.js' %}
-    {% render 'easyaccounts' %}
-  {% endif %}
-{% include 'fa_translate_core' %} 
- 
-<script>(() => {const installerKey = 'docapp-shipping-auto-install'; const urlParams = new URLSearchParams(window.location.search); if (urlParams.get(installerKey)) {window.sessionStorage.setItem(installerKey, JSON.stringify({integrationId: urlParams.get('docapp-integration-id'), divClass: urlParams.get('docapp-install-class'), check: urlParams.get('docapp-check')}));}})();</script>
-
-<script>(() => {const previewKey = 'docapp-shipping-test'; const urlParams = new URLSearchParams(window.location.search); if (urlParams.get(previewKey)) {window.sessionStorage.setItem(previewKey, JSON.stringify({active: true, integrationId: urlParams.get('docapp-shipping-inst-test')}));}})();</script>
-</head>
+{% endif %}<!-- Slider code end. Do not change GSEND --></head>
 <body>
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ "accessibility.skip_to_text" | t }}
@@ -359,8 +359,8 @@ var productImagesGSUrls = [];
                 var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
         })(window,document,'https://cdn.bitrix24.ua/b14703797/crm/site_button/loader_2_sn2rq7.js');
 </script>
-<!-- Code for Swatches body. Do not change GSEND --><link rel="stylesheet" href="https://gravity-software.com/js/shopify/rondell/jquery.rondellf85.css?v=123"/>{% render 'easyorder' %}
+<!-- Code for Swatches body. Do not change GSEND -->{% render 'easyorder' %}
 
 
-</body>
+<link rel="stylesheet" href="https://gravity-software.com/js/shopify/rondell/jquery.rondellf85.css?v=123"/></body>
 </html>
