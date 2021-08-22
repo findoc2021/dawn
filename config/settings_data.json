@@ -57,7 +57,7 @@
       "header": {
         "type": "header",
         "settings": {
-          "logo_width": 140,
+          "logo_width": 100,
           "logo_position": "top-left",
           "menu": "main-menu",
           "show_line_separator": true,
