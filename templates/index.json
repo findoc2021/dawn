@@ -12,10 +12,10 @@
         "9dc9bfe0-7ed1-4bb4-93d0-83f81ff52b33": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "МОДЕЛЬ 363",
+            "button_label_1": "☝🏻 МОДЕЛЬ 363",
             "button_link_1": "shopify:\/\/products\/женское-осеннее-платье-спортивного-стиля-модель-363",
             "button_style_secondary_1": true,
-            "button_label_2": "🔽 МОДЕЛЬ 272",
+            "button_label_2": "👇🏻 МОДЕЛЬ 272",
             "button_link_2": "shopify:\/\/products\/plate-m-272-blyu",
             "button_style_secondary_2": true
           }
@@ -28,25 +28,10 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/photo_2021-08-17_22-21-01.jpg",
         "image_2": "shopify:\/\/shop_images\/6858C1A7-498D-43C2-88D9-4285D8C9C135.jpg",
-        "desktop_text_box_position": "flex-end",
+        "desktop_text_box_position": "center",
         "color_scheme": "accent-2",
         "stack_images_on_mobile": true,
-        "adapt_height_first_image": false
-      }
-    },
-    "162843431706b07aa1": {
-      "type": "index-divider",
-      "settings": {
-        "section_view": "full_width",
-        "padding_top": 6,
-        "padding_bottom": 0,
-        "margin_top": 0,
-        "margin_bottom": 9,
-        "background_color": "#1a1b18",
-        "tablet_padding_top": 0,
-        "tablet_padding_bottom": 0,
-        "tablet_margin_top": 0,
-        "tablet_margin_bottom": 0
+        "adapt_height_first_image": true
       }
     },
     "1628204174b90c6428": {
@@ -55,23 +40,30 @@
         "1623fb31-602b-419e-b2c7-ebd2b5f81252": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "м. 352\/2",
-            "button_link_1": "shopify:\/\/products\/летнее-платье-м-352-2",
-            "button_style_secondary_1": false,
-            "button_label_2": "м. 342",
-            "button_link_2": "shopify:\/\/products\/plate-zhenskoe-vesenne-m-342",
+            "button_label_1": "☝🏻 модель 343 Велюр",
+            "button_link_1": "shopify:\/\/products\/plate-elegantnoe-bolshogo-razmera-m-323",
+            "button_style_secondary_1": true,
+            "button_label_2": "👇🏻 МОДЕЛЬ 272",
+            "button_link_2": "shopify:\/\/products\/plate-m-272-grin",
             "button_style_secondary_2": true
+          }
+        },
+        "341a84e8-04c2-40c1-aa5c-dba2570d4487": {
+          "type": "heading",
+          "settings": {
+            "heading": "Успей получить скидку 15%!"
           }
         }
       },
       "block_order": [
-        "1623fb31-602b-419e-b2c7-ebd2b5f81252"
+        "1623fb31-602b-419e-b2c7-ebd2b5f81252",
+        "341a84e8-04c2-40c1-aa5c-dba2570d4487"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/ANY_2920.jpg",
-        "image_2": "shopify:\/\/shop_images\/IMG_3521.jpg",
-        "desktop_text_box_position": "flex-end",
-        "color_scheme": "background-1",
+        "image": "shopify:\/\/shop_images\/9899220F-8CD2-4C41-A3AE-10FCD784369D.jpg",
+        "image_2": "shopify:\/\/shop_images\/07F9E3D1-5811-4D8B-B4C3-C8BE3B1588FA.jpg",
+        "desktop_text_box_position": "center",
+        "color_scheme": "accent-2",
         "stack_images_on_mobile": true,
         "adapt_height_first_image": false
       }
@@ -370,7 +362,6 @@
   },
   "order": [
     "image_banner",
-    "162843431706b07aa1",
     "1628204174b90c6428",
     "16294647273f5facad",
     "162843377755ffd3d4",
