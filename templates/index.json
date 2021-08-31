@@ -47,17 +47,10 @@
             "button_link_2": "shopify:\/\/products\/plate-m-272-grin",
             "button_style_secondary_2": true
           }
-        },
-        "341a84e8-04c2-40c1-aa5c-dba2570d4487": {
-          "type": "heading",
-          "settings": {
-            "heading": "Успей получить скидку 15%!"
-          }
         }
       },
       "block_order": [
-        "1623fb31-602b-419e-b2c7-ebd2b5f81252",
-        "341a84e8-04c2-40c1-aa5c-dba2570d4487"
+        "1623fb31-602b-419e-b2c7-ebd2b5f81252"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/9899220F-8CD2-4C41-A3AE-10FCD784369D.jpg",
@@ -89,25 +82,32 @@
         "e066a412-9043-4c27-a511-7d09ae499827": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "FU-0092",
-            "button_link_1": "shopify:\/\/products\/osennee-plate-fu-0092",
-            "button_style_secondary_1": false,
-            "button_label_2": "FT - 2436",
-            "button_link_2": "shopify:\/\/products\/платье-женское-люкс-класс-ft-2428",
+            "button_label_1": "☝🏻 МОДЕЛЬ 352",
+            "button_link_1": "shopify:\/\/products\/летнее-легкое-женское-платье-м-352",
+            "button_style_secondary_1": true,
+            "button_label_2": "👇🏻 МОДЕЛЬ 352\/2",
+            "button_link_2": "shopify:\/\/products\/летнее-платье-м-352-2",
             "button_style_secondary_2": true
+          }
+        },
+        "234f794f-704e-45c5-9c9b-50727d4b29fc": {
+          "type": "text",
+          "settings": {
+            "text": "Провожая лето скидка на летние хиты!! 15%!"
           }
         }
       },
       "block_order": [
-        "e066a412-9043-4c27-a511-7d09ae499827"
+        "e066a412-9043-4c27-a511-7d09ae499827",
+        "234f794f-704e-45c5-9c9b-50727d4b29fc"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/photo_2021-08-17_23-08-01.jpg",
-        "image_2": "shopify:\/\/shop_images\/photo_2021-08-03_12-04-06_4.jpg",
-        "desktop_text_box_position": "flex-end",
-        "color_scheme": "background-1",
+        "image": "shopify:\/\/shop_images\/MyCollages_4.jpg",
+        "image_2": "shopify:\/\/shop_images\/MyCollages_9104272b-4f2c-49b4-9962-a97bbb9f6731.jpg",
+        "desktop_text_box_position": "center",
+        "color_scheme": "background-2",
         "stack_images_on_mobile": true,
-        "adapt_height_first_image": false
+        "adapt_height_first_image": true
       }
     },
     "featured_products": {
