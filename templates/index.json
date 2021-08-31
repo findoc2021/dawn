@@ -3,24 +3,19 @@
     "image_banner": {
       "type": "image-banner",
       "blocks": {
-        "5ca37e34-4077-4b17-b37f-c6cf87b8967e": {
-          "type": "buttons",
+        "23a0c117-523b-48c7-ba8f-27ef5b02ff0f": {
+          "type": "heading",
           "settings": {
-            "button_label_1": "FT-9348",
-            "button_link_1": "shopify:\/\/products\/sportivnoe-plate-ft-9348",
-            "button_style_secondary_1": true,
-            "button_label_2": "FT-9345",
-            "button_link_2": "shopify:\/\/products\/osennee-zhenskoe-plate-ft-9345",
-            "button_style_secondary_2": false
+            "heading": "Осенние новинки!"
           }
         }
       },
       "block_order": [
-        "5ca37e34-4077-4b17-b37f-c6cf87b8967e"
+        "23a0c117-523b-48c7-ba8f-27ef5b02ff0f"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/photo_2021-08-17_22-21-01.jpg",
-        "image_2": "shopify:\/\/shop_images\/photo_2021-08-17_22-17-01.jpg",
+        "image_2": "shopify:\/\/shop_images\/6858C1A7-498D-43C2-88D9-4285D8C9C135.jpg",
         "desktop_text_box_position": "flex-end",
         "color_scheme": "background-2",
         "stack_images_on_mobile": true,
