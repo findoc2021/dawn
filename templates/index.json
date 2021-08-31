@@ -339,11 +339,12 @@
         "cf15dad0-4a2f-46a9-907c-72fdc3aaa25c": {
           "type": "image",
           "settings": {
-            "alignment": "top",
+            "image": "shopify:\/\/shop_images\/photo_2021-08-03_11-55-59.jpg",
+            "alignment": "center",
             "title": "Image slide",
-            "subheading": "Tell your brand's story through video and images",
-            "button_label": "",
-            "link": ""
+            "subheading": "",
+            "button_label": "Подробней",
+            "link": "shopify:\/\/products\/povsednevnoe-dlinnoe-zhenskoe-plate-ft-9317"
           }
         }
       },
