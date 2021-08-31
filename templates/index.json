@@ -310,6 +310,53 @@
       "settings": {
         "custom_liquid": ""
       }
+    },
+    "1630428452487db913": {
+      "type": "slideshow",
+      "blocks": {
+        "1630428452487db913-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/photo_2021-08-17_22-21-01.jpg",
+            "alignment": "center",
+            "title": "модель 363",
+            "subheading": "Осенние новинки!",
+            "button_label": "Женское платье модель 363",
+            "link": "shopify:\/\/products\/женское-осеннее-платье-спортивного-стиля-модель-363"
+          }
+        },
+        "1630428452487db913-1": {
+          "type": "image",
+          "settings": {
+            "alignment": "top",
+            "title": "Image slide",
+            "subheading": "Tell your brand's story through video and images",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "cf15dad0-4a2f-46a9-907c-72fdc3aaa25c": {
+          "type": "image",
+          "settings": {
+            "alignment": "top",
+            "title": "Image slide",
+            "subheading": "Tell your brand's story through video and images",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1630428452487db913-0",
+        "1630428452487db913-1",
+        "cf15dad0-4a2f-46a9-907c-72fdc3aaa25c"
+      ],
+      "settings": {
+        "autoplay": true,
+        "autoplay_speed": "5000",
+        "slideshow_height": "small",
+        "heading_divider": "none"
+      }
     }
   },
   "order": [
@@ -323,6 +370,7 @@
     "1628205071928c9169",
     "1628212274e3ed1bd9",
     "162854529615676c73",
-    "16294116831b908970"
+    "16294116831b908970",
+    "1630428452487db913"
   ]
 }
