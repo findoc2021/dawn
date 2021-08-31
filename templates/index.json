@@ -328,11 +328,12 @@
         "1630428452487db913-1": {
           "type": "image",
           "settings": {
-            "alignment": "top",
+            "image": "shopify:\/\/shop_images\/photo_2021-08-17_22-17-01.jpg",
+            "alignment": "center",
             "title": "Image slide",
-            "subheading": "Tell your brand's story through video and images",
-            "button_label": "",
-            "link": ""
+            "subheading": "",
+            "button_label": "Подробней",
+            "link": "shopify:\/\/products\/sportivnoe-plate-ft-9348"
           }
         },
         "cf15dad0-4a2f-46a9-907c-72fdc3aaa25c": {
@@ -354,8 +355,8 @@
       "settings": {
         "autoplay": true,
         "autoplay_speed": "5000",
-        "slideshow_height": "small",
-        "heading_divider": "none"
+        "slideshow_height": "large",
+        "heading_divider": "full"
       }
     }
   },
