@@ -29,9 +29,24 @@
         "image": "shopify:\/\/shop_images\/photo_2021-08-17_22-21-01.jpg",
         "image_2": "shopify:\/\/shop_images\/6858C1A7-498D-43C2-88D9-4285D8C9C135.jpg",
         "desktop_text_box_position": "center",
-        "color_scheme": "accent-2",
+        "color_scheme": "inverse",
         "stack_images_on_mobile": true,
-        "adapt_height_first_image": true
+        "adapt_height_first_image": false
+      }
+    },
+    "1630452319c1c0a00d": {
+      "type": "index-divider",
+      "settings": {
+        "section_view": "boxed",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "background_color": "",
+        "tablet_padding_top": 0,
+        "tablet_padding_bottom": 0,
+        "tablet_margin_top": 0,
+        "tablet_margin_bottom": 0
       }
     },
     "1628204174b90c6428": {
@@ -47,10 +62,17 @@
             "button_link_2": "shopify:\/\/products\/plate-m-272-grin",
             "button_style_secondary_2": true
           }
+        },
+        "341a84e8-04c2-40c1-aa5c-dba2570d4487": {
+          "type": "heading",
+          "settings": {
+            "heading": "Успей получить скидку 15%!"
+          }
         }
       },
       "block_order": [
-        "1623fb31-602b-419e-b2c7-ebd2b5f81252"
+        "1623fb31-602b-419e-b2c7-ebd2b5f81252",
+        "341a84e8-04c2-40c1-aa5c-dba2570d4487"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/9899220F-8CD2-4C41-A3AE-10FCD784369D.jpg",
@@ -82,32 +104,25 @@
         "e066a412-9043-4c27-a511-7d09ae499827": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "☝🏻 МОДЕЛЬ 352",
-            "button_link_1": "shopify:\/\/products\/летнее-легкое-женское-платье-м-352",
-            "button_style_secondary_1": true,
-            "button_label_2": "👇🏻 МОДЕЛЬ 352\/2",
-            "button_link_2": "shopify:\/\/products\/летнее-платье-м-352-2",
+            "button_label_1": "FU-0092",
+            "button_link_1": "shopify:\/\/products\/osennee-plate-fu-0092",
+            "button_style_secondary_1": false,
+            "button_label_2": "FT - 2436",
+            "button_link_2": "shopify:\/\/products\/платье-женское-люкс-класс-ft-2428",
             "button_style_secondary_2": true
-          }
-        },
-        "234f794f-704e-45c5-9c9b-50727d4b29fc": {
-          "type": "text",
-          "settings": {
-            "text": "Провожая лето скидка на летние хиты!! 15%!"
           }
         }
       },
       "block_order": [
-        "e066a412-9043-4c27-a511-7d09ae499827",
-        "234f794f-704e-45c5-9c9b-50727d4b29fc"
+        "e066a412-9043-4c27-a511-7d09ae499827"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/MyCollages_4.jpg",
-        "image_2": "shopify:\/\/shop_images\/MyCollages_9104272b-4f2c-49b4-9962-a97bbb9f6731.jpg",
-        "desktop_text_box_position": "center",
-        "color_scheme": "background-2",
+        "image": "shopify:\/\/shop_images\/photo_2021-08-17_23-08-01.jpg",
+        "image_2": "shopify:\/\/shop_images\/photo_2021-08-03_12-04-06_4.jpg",
+        "desktop_text_box_position": "flex-end",
+        "color_scheme": "background-1",
         "stack_images_on_mobile": true,
-        "adapt_height_first_image": true
+        "adapt_height_first_image": false
       }
     },
     "featured_products": {
@@ -140,15 +155,15 @@
           "type": "collection",
           "settings": {
             "collection": "plyazhnaya-zhenskaya-odezhda",
-            "image_padding": false,
-            "color_scheme": "background-1"
+            "image_padding": true,
+            "color_scheme": "background-2"
           }
         },
         "d48b979c-79ab-4c99-b58d-40a3e5e85c4c": {
           "type": "product",
           "settings": {
             "product": "купальник-fi-1971",
-            "secondary_background": false,
+            "secondary_background": true,
             "second_image": true,
             "image_padding": false
           }
@@ -160,9 +175,9 @@
         "d48b979c-79ab-4c99-b58d-40a3e5e85c4c"
       ],
       "settings": {
-        "heading": "Пляжный сезон",
+        "heading": "ПРОВОЖАЕМ ЛЕТО - 20%!!!!",
         "desktop_layout": "right",
-        "mobile_layout": "collage"
+        "mobile_layout": "column"
       }
     },
     "1628205071928c9169": {
@@ -299,7 +314,7 @@
         "39e029d7-983c-47fd-9aee-2ea66dffc744"
       ],
       "settings": {
-        "heading": "Женские платья",
+        "heading": "ЖЕНСКИЕ ПЛАТЬЯ НА ВСЕ ВКУСЫ И РАЗМЕРЫ! ЛЕТО - 15% ПЛЯЖ - 20%",
         "desktop_layout": "left",
         "mobile_layout": "collage"
       }
@@ -309,59 +324,11 @@
       "settings": {
         "custom_liquid": ""
       }
-    },
-    "1630428452487db913": {
-      "type": "slideshow",
-      "blocks": {
-        "1630428452487db913-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/photo_2021-08-17_22-21-01.jpg",
-            "alignment": "center",
-            "title": "модель 363",
-            "subheading": "Осенние новинки!",
-            "button_label": "Женское платье модель 363",
-            "link": "shopify:\/\/products\/женское-осеннее-платье-спортивного-стиля-модель-363"
-          }
-        },
-        "1630428452487db913-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/photo_2021-08-17_22-17-01.jpg",
-            "alignment": "center",
-            "title": "Image slide",
-            "subheading": "",
-            "button_label": "Подробней",
-            "link": "shopify:\/\/products\/sportivnoe-plate-ft-9348"
-          }
-        },
-        "cf15dad0-4a2f-46a9-907c-72fdc3aaa25c": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/photo_2021-08-03_11-55-59.jpg",
-            "alignment": "center",
-            "title": "Image slide",
-            "subheading": "",
-            "button_label": "Подробней",
-            "link": "shopify:\/\/products\/povsednevnoe-dlinnoe-zhenskoe-plate-ft-9317"
-          }
-        }
-      },
-      "block_order": [
-        "1630428452487db913-0",
-        "1630428452487db913-1",
-        "cf15dad0-4a2f-46a9-907c-72fdc3aaa25c"
-      ],
-      "settings": {
-        "autoplay": true,
-        "autoplay_speed": "5000",
-        "slideshow_height": "large",
-        "heading_divider": "full"
-      }
     }
   },
   "order": [
     "image_banner",
+    "1630452319c1c0a00d",
     "1628204174b90c6428",
     "16294647273f5facad",
     "162843377755ffd3d4",
@@ -370,7 +337,6 @@
     "1628205071928c9169",
     "1628212274e3ed1bd9",
     "162854529615676c73",
-    "16294116831b908970",
-    "1630428452487db913"
+    "16294116831b908970"
   ]
 }
