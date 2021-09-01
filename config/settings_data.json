@@ -4,7 +4,7 @@
     "colors_accent_1": "#1A1B18",
     "colors_accent_2": "#e22120",
     "colors_text": "rgba(0,0,0,0)",
-    "colors_outline_button_labels": "#1a1b18",
+    "colors_outline_button_labels": "rgba(0,0,0,0)",
     "colors_background_1": "#ffffff",
     "colors_background_2": "#f3f9e9",
     "sale_badge_color_scheme": "accent-2",
