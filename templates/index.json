@@ -266,6 +266,12 @@
           "settings": {
             "collection": "zhenskuyu-tuniku-bolshogo-razmera"
           }
+        },
+        "263ca1cd-ddc0-4a57-b088-882a1c75afad": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "zhenskie-platya-bolshih-razmerov"
+          }
         }
       },
       "block_order": [
@@ -274,10 +280,11 @@
         "1628212274e3ed1bd9-2",
         "5d4a7384-4542-487c-a2e0-7936ccbfa77e",
         "2b694329-32b2-4325-a0bb-7669726984ce",
-        "89ea0e19-43b3-4933-bebd-7bc67ab27d36"
+        "89ea0e19-43b3-4933-bebd-7bc67ab27d36",
+        "263ca1cd-ddc0-4a57-b088-882a1c75afad"
       ],
       "settings": {
-        "title": "Коллекции",
+        "title": "КАТАЛОГИ ЖЕНСКОЙ ОДЕЖДЫ НА ВСЕ ВКУСЫ И РАЗМЕРЫ",
         "image_ratio": "portrait",
         "color_scheme": "background-2",
         "swipe_on_mobile": true,
