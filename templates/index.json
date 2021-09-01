@@ -30,7 +30,7 @@
         "image_2": "shopify:\/\/shop_images\/6858C1A7-498D-43C2-88D9-4285D8C9C135.jpg",
         "desktop_text_box_position": "flex-end",
         "color_scheme": "background-2",
-        "stack_images_on_mobile": true,
+        "stack_images_on_mobile": false,
         "adapt_height_first_image": false
       }
     },
@@ -111,16 +111,23 @@
             "button_link_2": "shopify:\/\/products\/платье-женское-люкс-класс-ft-2428",
             "button_style_secondary_2": true
           }
+        },
+        "10eeb99c-d8ab-4683-b45f-ea7f2b0f332c": {
+          "type": "text",
+          "settings": {
+            "text": "РЕГИСТРИРУЙТЕСЬ И ПОЛУЧАЙТЕ ДОСТАВКУ БЕСПЛАТНО ДО КОНЦА 2021 года"
+          }
         }
       },
       "block_order": [
-        "e066a412-9043-4c27-a511-7d09ae499827"
+        "e066a412-9043-4c27-a511-7d09ae499827",
+        "10eeb99c-d8ab-4683-b45f-ea7f2b0f332c"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/photo_2021-08-17_23-08-01.jpg",
         "image_2": "shopify:\/\/shop_images\/photo_2021-08-03_12-04-06_4.jpg",
         "desktop_text_box_position": "flex-end",
-        "color_scheme": "background-1",
+        "color_scheme": "background-2",
         "stack_images_on_mobile": true,
         "adapt_height_first_image": false
       }
