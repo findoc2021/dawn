@@ -112,7 +112,7 @@
           "newsletter_heading": "Подписывайтесь на новостную рассылку, информируем о скидках, новинках и тенденциях!",
           "show_social": true,
           "enable_country_selector": true,
-          "enable_language_selector": false,
+          "enable_language_selector": true,
           "payment_enable": true
         }
       },

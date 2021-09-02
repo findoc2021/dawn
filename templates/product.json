@@ -151,8 +151,8 @@
       ],
       "settings": {
         "title": "Наши достижения",
-        "image_width": "half",
-        "image_ratio": "portrait",
+        "image_width": "third",
+        "image_ratio": "circle",
         "column_alignment": "left",
         "background_style": "none",
         "button_label": "Читать",
