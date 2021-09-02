@@ -63,10 +63,17 @@
             "button_link_2": "shopify:\/\/products\/plate-m-272-grin",
             "button_style_secondary_2": false
           }
+        },
+        "1ca29635-6f0f-4bb1-a58f-c2506beb3585": {
+          "type": "text",
+          "settings": {
+            "text": "Платья, костюмы, джемпера, верхняя одежда"
+          }
         }
       },
       "block_order": [
-        "1623fb31-602b-419e-b2c7-ebd2b5f81252"
+        "1623fb31-602b-419e-b2c7-ebd2b5f81252",
+        "1ca29635-6f0f-4bb1-a58f-c2506beb3585"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/9899220F-8CD2-4C41-A3AE-10FCD784369D.jpg",
