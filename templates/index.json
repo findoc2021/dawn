@@ -53,6 +53,12 @@
     "1628204174b90c6428": {
       "type": "image-banner",
       "blocks": {
+        "1ca29635-6f0f-4bb1-a58f-c2506beb3585": {
+          "type": "text",
+          "settings": {
+            "text": "Платья, костюмы, джемпера, верхняя одежда"
+          }
+        },
         "1623fb31-602b-419e-b2c7-ebd2b5f81252": {
           "type": "buttons",
           "settings": {
@@ -61,26 +67,20 @@
             "button_style_secondary_1": true,
             "button_label_2": "👇🏻 МОДЕЛЬ 272",
             "button_link_2": "shopify:\/\/products\/plate-m-272-grin",
-            "button_style_secondary_2": false
-          }
-        },
-        "1ca29635-6f0f-4bb1-a58f-c2506beb3585": {
-          "type": "text",
-          "settings": {
-            "text": "Платья, костюмы, джемпера, верхняя одежда"
+            "button_style_secondary_2": true
           }
         }
       },
       "block_order": [
-        "1623fb31-602b-419e-b2c7-ebd2b5f81252",
-        "1ca29635-6f0f-4bb1-a58f-c2506beb3585"
+        "1ca29635-6f0f-4bb1-a58f-c2506beb3585",
+        "1623fb31-602b-419e-b2c7-ebd2b5f81252"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/9899220F-8CD2-4C41-A3AE-10FCD784369D.jpg",
         "image_2": "shopify:\/\/shop_images\/07F9E3D1-5811-4D8B-B4C3-C8BE3B1588FA.jpg",
         "desktop_text_box_position": "flex-end",
         "color_scheme": "background-2",
-        "stack_images_on_mobile": false,
+        "stack_images_on_mobile": true,
         "adapt_height_first_image": false
       }
     },
@@ -285,12 +285,6 @@
           "settings": {
             "collection": "recommended-products-seguno"
           }
-        },
-        "55d32755-23f1-4352-9ebb-cb3bed388890": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
         }
       },
       "block_order": [
@@ -302,8 +296,7 @@
         "89ea0e19-43b3-4933-bebd-7bc67ab27d36",
         "263ca1cd-ddc0-4a57-b088-882a1c75afad",
         "b00e03fc-94a0-417f-ab64-4c5253dbf1f9",
-        "04648c0d-d436-4200-90cd-ded0575fb817",
-        "55d32755-23f1-4352-9ebb-cb3bed388890"
+        "04648c0d-d436-4200-90cd-ded0575fb817"
       ],
       "settings": {
         "title": "КАТАЛОГИ ЖЕНСКОЙ ОДЕЖДЫ НА ВСЕ ВКУСЫ И РАЗМЕРЫ",
