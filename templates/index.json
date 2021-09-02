@@ -344,6 +344,19 @@
       "type": "alireviews-widget-78920",
       "settings": {
       }
+    },
+    "1630556942b1916b16": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Статьи о женской моде и новости магазина",
+        "blog": "news",
+        "post_limit": 3,
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "soft_background": false,
+        "show_view_all": true
+      }
     }
   },
   "order": [
@@ -358,6 +371,7 @@
     "1628212274e3ed1bd9",
     "162854529615676c73",
     "16294116831b908970",
-    "1630526221d8aed4fe"
+    "1630526221d8aed4fe",
+    "1630556942b1916b16"
   ]
 }
