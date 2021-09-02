@@ -285,6 +285,12 @@
           "settings": {
             "collection": "recommended-products-seguno"
           }
+        },
+        "55d32755-23f1-4352-9ebb-cb3bed388890": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
         }
       },
       "block_order": [
@@ -296,7 +302,8 @@
         "89ea0e19-43b3-4933-bebd-7bc67ab27d36",
         "263ca1cd-ddc0-4a57-b088-882a1c75afad",
         "b00e03fc-94a0-417f-ab64-4c5253dbf1f9",
-        "04648c0d-d436-4200-90cd-ded0575fb817"
+        "04648c0d-d436-4200-90cd-ded0575fb817",
+        "55d32755-23f1-4352-9ebb-cb3bed388890"
       ],
       "settings": {
         "title": "КАТАЛОГИ ЖЕНСКОЙ ОДЕЖДЫ НА ВСЕ ВКУСЫ И РАЗМЕРЫ",
@@ -323,7 +330,7 @@
           "type": "collection",
           "settings": {
             "collection": "zhenskie-platya-bolshih-razmerov",
-            "image_padding": false,
+            "image_padding": true,
             "color_scheme": "accent-1"
           }
         },
@@ -331,7 +338,7 @@
           "type": "product",
           "settings": {
             "product": "dlinnoe-shikarnoe-zhenskoe-plate-v-pol-ft-4719",
-            "secondary_background": false,
+            "secondary_background": true,
             "second_image": true,
             "image_padding": false
           }
@@ -344,7 +351,7 @@
       ],
       "settings": {
         "heading": "ЖЕНСКИЕ ПЛАТЬЯ НА ВСЕ ВКУСЫ И РАЗМЕРЫ! ЛЕТО - 15% ПЛЯЖ - 20%",
-        "desktop_layout": "left",
+        "desktop_layout": "right",
         "mobile_layout": "collage"
       }
     },
@@ -360,17 +367,6 @@
         "soft_background": false,
         "show_view_all": true
       }
-    },
-    "16294116831b908970": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<style>\n* {box-sizing: border-box;}\nbody {font-family: Verdana, sans-serif;}\n.mySlides {display: none;}\nimg {vertical-align: middle;}\n\n\/* Slideshow container *\/\n.slideshow-container {\n  max-width: 400px;\n  position: relative;\n  margin: auto;\n}\n\n\/* Caption text *\/\n.text {\n  color: #B22222\t;\n  font-size: 20px;\n  padding: 10px 12px;\n  position: absolute;\n  bottom: 8px;\n  width: 100%;\n  text-align: right;\n}\n\n\/* Number text (1\/3 etc) *\/\n.numbertext {\n  color: #B22222;\n  font-size: 12px;\n  padding: 8px 12px;\n  position: absolute;\n  top: 0;\n}\n\n\/* The dots\/bullets\/indicators *\/\n.dot {\n  height: 15px;\n  width: 15px;\n  margin: 0 2px;\n  background-color: #bbb;\n  border-radius: 50%;\n  display: inline-block;\n  transition: background-color 0.6s ease;\n}\n\n.active {\n  background-color: #717171;\n}\n\n\/* Fading animation *\/\n.fade {\n  -webkit-animation-name: fade;\n  -webkit-animation-duration: 1.5s;\n  animation-name: fade;\n  animation-duration: 1.5s;\n}\n\n@-webkit-keyframes fade {\n  from {opacity: .4} \n  to {opacity: 1}\n}\n\n@keyframes fade {\n  from {opacity: .4} \n  to {opacity: 1}\n}\n\n\/* On smaller screens, decrease text size *\/\n@media only screen and (max-width: 300px) {\n  .text {font-size: 14px}\n}\n<\/style>\n<\/head>\n<body>\n\n<h2>МЫ ВСЕГДА РЯДОМ<\/h2>\n<p>НАШИ УСЛУГИ ДЛЯ ЗАРЕГИСТРИРОВАННЫХ ПОКУПАТЕЛЕЙ:<\/p>\n\n<div class=\"slideshow-container\">\n\n<div class=\"mySlides fade\">\n  <div class=\"numbertext\">1 \/ 3<\/div>\n  <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0330\/0022\/6861\/files\/messanger_0bee4b32-e220-404e-8fa3-1b5ee2bc2da8.png?v=1624576712\" style=\"width:90%\">\n  <div class=\"text pozition: down-left\"><p>  24\/7<\/p><\/div>\n<\/div>\n\n<div class=\"mySlides fade\">\n  <div class=\"numbertext\">2 \/ 3<\/div>\n  <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0330\/0022\/6861\/files\/w512h5121390857049freeshipping512.png?v=1614502003\" style=\"width:60%\">\n  <\/div>\n<\/div>\n\n<div class=\"mySlides fade\">\n  <div class=\"numbertext\">3 \/ 3<\/div>\n  <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0330\/0022\/6861\/files\/images_3.jpg?v=1614513415\" style=\"width:70%\">\n  <div class=\"text\">ГАРАНТИРОВАННЫЙ ВОЗВРАТ СРЕДСТВ<\/div>\n<\/div>\n\n<\/div>\n<br>\n\n<div style=\"text-align:center\">\n  <span class=\"dot\"><\/span> \n  <span class=\"dot\"><\/span> \n  <span class=\"dot\"><\/span> \n<\/div>\n\n<script>\nvar slideIndex = 0;\nshowSlides();\n\nfunction showSlides() {\n    var i;\n    var slides = document.getElementsByClassName(\"mySlides\");\n    var dots = document.getElementsByClassName(\"dot\");\n    for (i = 0; i < slides.length; i++) {\n       slides[i].style.display = \"none\";  \n    }\n    slideIndex++;\n    if (slideIndex > slides.length) {slideIndex = 1}    \n    for (i = 0; i < dots.length; i++) {\n        dots[i].className = dots[i].className.replace(\" active\", \"\");\n    }\n    slides[slideIndex-1].style.display = \"block\";  \n    dots[slideIndex-1].className += \" active\";\n    setTimeout(showSlides, 5000); \/\/ Change image every 2 seconds\n}\n<\/script>"
-      }
-    },
-    "1630526221d8aed4fe": {
-      "type": "alireviews-widget-78920",
-      "settings": {
-      }
     }
   },
   "order": [
@@ -384,8 +380,6 @@
     "1628205071928c9169",
     "1628212274e3ed1bd9",
     "162854529615676c73",
-    "1630556942b1916b16",
-    "16294116831b908970",
-    "1630526221d8aed4fe"
+    "1630556942b1916b16"
   ]
 }
