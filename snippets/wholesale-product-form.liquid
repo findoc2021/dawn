@@ -1,4 +1,4 @@
-{% comment %} DO NOT EDIT! This snippet is automatically added by EasyWholesale app, all changes will be overwritten {% endcomment %}{% assign easywholesaleShow = false %}
+{% comment %} DO NOT EDIT! This snippet is automatically added by EasyWholesale app, all changes will be overwritten {% endcomment %}{% assign easywholesaleShow = false %}{% unless easywholesaleShow %}{% for c in product.collections %}{% if c.id == 264175878329 or c.id == 239674065081%}{% assign easywholesaleShow = true %}{% break %}{% endif %}{% endfor %}{% endunless %}
 {% if easywholesaleShow %}
             <style>
             .nm-primary-background-color { background-color:#343d47 !important}
@@ -31,6 +31,12 @@
 {% assign nm_easywholesale_add_to_cart = "Добавить в корзину" %}  
 {% assign nm_easywholesale_showAllOutOfStock = false %}
 {% assign nm_easywholesale_showForm = true %} 
+
+
+
+{% unless customer %}
+	{% assign nm_easywholesale_showPrices = false %}
+{% endunless %}
 
  
 
@@ -114,8 +120,8 @@
                             {% assign set_foto = 0 %}
                             
                             {% for variant in product.variants %}
-                                {% unless variant.inventory_policy == "deny" and variant.inventory_quantity == 0 and variant.inventory_management == "shopify" %}
-                                  	{% if variant.available %}
+                                {% unless variant.inventory_policy == "deny" and variant.inventory_quantity == 0 and variant.inventory_management == "shopify" and false %}
+                                  	{% if variant.available or true %}
                             			{% if variant.image and nm_easywholesale_showVariantImage %}
                             				{% assign set_foto = 1 %}
                             		    {% endif %} 
@@ -138,8 +144,8 @@
 
 
               {% for variant in product.variants %}
-                {% unless variant.inventory_policy == "deny" and variant.inventory_quantity == 0 and variant.inventory_management == "shopify" %}
-                  	{% if variant.available %}
+                {% unless variant.inventory_policy == "deny" and variant.inventory_quantity == 0 and variant.inventory_management == "shopify" and false %}
+                  	{% if variant.available or true %}
                     
                         {% assign variant_title = variant.title %}
                         
@@ -167,7 +173,7 @@
 {% capture the_snippet_content %}{% include "wholesale-page-callback-price" %}{% endcapture %}
 
                         <div class="nm-easywholesale-name-and-price-only">
-                            <div class="nm-easywholesale-name nm-primary-color">{{ variant_title }}{% if variant.inventory_quantity > 0 or nm_easywholesale_showAllOutOfStock %} <small>(in stock: {{ variant.inventory_quantity }})</small>{% endif %}</div>
+                            <div class="nm-easywholesale-name nm-primary-color">{{ variant_title }}{% if variant.inventory_quantity > 0 or nm_easywholesale_showAllOutOfStock %} <small>(in stock: {{ variant.inventory_quantity }})</small>{% endif %}{% if variant.inventory_quantity == 0 and variant.available == false  %}{% unless nm_easywholesale_deleteTextOutOfStock contains variant.id %} <small>({{ nm_easywholesale_textOutOfStock }})</small>{% endunless %}{% endif %}</div>
                             {% if nm_easywholesale_showPrices %}<div class="nm-easywholesale-price nm-primary-color" data-priceid="{{ variant.id }}">{{ variant_price | money }}</div>{% endif %}
                         </div>
                       </div>
