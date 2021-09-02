@@ -152,12 +152,12 @@
       "settings": {
         "title": "Наши достижения",
         "image_width": "half",
-        "image_ratio": "adapt",
+        "image_ratio": "portrait",
         "column_alignment": "left",
         "background_style": "none",
         "button_label": "Читать",
         "button_link": "shopify:\/\/blogs\/news",
-        "swipe_on_mobile": true
+        "swipe_on_mobile": false
       }
     }
   },
