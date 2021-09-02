@@ -36,13 +36,14 @@
     },
     "1630452319c1c0a00d": {
       "type": "index-divider",
+      "disabled": true,
       "settings": {
-        "section_view": "boxed",
+        "section_view": "full_width",
         "padding_top": 0,
         "padding_bottom": 0,
         "margin_top": 0,
         "margin_bottom": 0,
-        "background_color": "",
+        "background_color": "#f3f9e9",
         "tablet_padding_top": 0,
         "tablet_padding_bottom": 0,
         "tablet_margin_top": 0,
@@ -57,22 +58,15 @@
           "settings": {
             "button_label_1": "☝🏻 модель 343 Велюр",
             "button_link_1": "shopify:\/\/products\/plate-elegantnoe-bolshogo-razmera-m-323",
-            "button_style_secondary_1": true,
+            "button_style_secondary_1": false,
             "button_label_2": "👇🏻 МОДЕЛЬ 272",
             "button_link_2": "shopify:\/\/products\/plate-m-272-grin",
-            "button_style_secondary_2": true
-          }
-        },
-        "341a84e8-04c2-40c1-aa5c-dba2570d4487": {
-          "type": "heading",
-          "settings": {
-            "heading": "ЕСТЬ ЛИЧНЫЙ АККАУНТ?"
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "1623fb31-602b-419e-b2c7-ebd2b5f81252",
-        "341a84e8-04c2-40c1-aa5c-dba2570d4487"
+        "1623fb31-602b-419e-b2c7-ebd2b5f81252"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/9899220F-8CD2-4C41-A3AE-10FCD784369D.jpg",
@@ -140,7 +134,7 @@
         "products_to_show": 12,
         "show_view_all": true,
         "swipe_on_mobile": true,
-        "image_ratio": "square",
+        "image_ratio": "portrait",
         "show_secondary_image": true,
         "add_image_padding": false,
         "show_vendor": true
