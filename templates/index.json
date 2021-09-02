@@ -58,7 +58,7 @@
           "settings": {
             "button_label_1": "☝🏻 модель 343 Велюр",
             "button_link_1": "shopify:\/\/products\/plate-elegantnoe-bolshogo-razmera-m-323",
-            "button_style_secondary_1": false,
+            "button_style_secondary_1": true,
             "button_label_2": "👇🏻 МОДЕЛЬ 272",
             "button_link_2": "shopify:\/\/products\/plate-m-272-grin",
             "button_style_secondary_2": false
@@ -72,8 +72,8 @@
         "image": "shopify:\/\/shop_images\/9899220F-8CD2-4C41-A3AE-10FCD784369D.jpg",
         "image_2": "shopify:\/\/shop_images\/07F9E3D1-5811-4D8B-B4C3-C8BE3B1588FA.jpg",
         "desktop_text_box_position": "flex-end",
-        "color_scheme": "accent-2",
-        "stack_images_on_mobile": true,
+        "color_scheme": "background-2",
+        "stack_images_on_mobile": false,
         "adapt_height_first_image": false
       }
     },
