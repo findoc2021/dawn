@@ -30,7 +30,7 @@
         "image_2": "shopify:\/\/shop_images\/6858C1A7-498D-43C2-88D9-4285D8C9C135.jpg",
         "desktop_text_box_position": "flex-end",
         "color_scheme": "background-2",
-        "stack_images_on_mobile": false,
+        "stack_images_on_mobile": true,
         "adapt_height_first_image": false
       }
     },
@@ -156,7 +156,7 @@
           "type": "collection",
           "settings": {
             "collection": "plyazhnaya-zhenskaya-odezhda",
-            "image_padding": true,
+            "image_padding": false,
             "color_scheme": "background-2"
           }
         },
@@ -176,7 +176,7 @@
         "d48b979c-79ab-4c99-b58d-40a3e5e85c4c"
       ],
       "settings": {
-        "heading": "ПРОВОЖАЕМ ЛЕТО - 20%!!!!",
+        "heading": "ПРОВОЖАЕМ ЛЕТО - 15%!!!!",
         "desktop_layout": "right",
         "mobile_layout": "column"
       }
