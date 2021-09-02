@@ -380,5 +380,7 @@ var productImagesGSUrls = [];
 <!-- Code for Swatches body. Do not change GSEND -->{% render 'easyorder' %}
 
 
-<link rel="stylesheet" href="https://gravity-software.com/js/shopify/rondell/jquery.rondellf85.css?v=123"/></body>
+<link rel="stylesheet" href="https://gravity-software.com/js/shopify/rondell/jquery.rondellf85.css?v=123"/>{{ 'zifyapp-fblogin.css' | asset_url | stylesheet_tag }}
+{% if shop.customer_accounts_enabled %}{% unless customer  %}{{ 'zifyapp-fblogin.js' | asset_url | script_tag }}{% endunless %}{% endif %}
+</body>
 </html>
