@@ -330,8 +330,8 @@
           "type": "collection",
           "settings": {
             "collection": "zhenskie-platya-bolshih-razmerov",
-            "image_padding": true,
-            "color_scheme": "accent-1"
+            "image_padding": false,
+            "color_scheme": "background-2"
           }
         },
         "39e029d7-983c-47fd-9aee-2ea66dffc744": {
