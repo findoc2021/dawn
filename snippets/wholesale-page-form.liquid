@@ -44,7 +44,7 @@
 {% assign nm_easywholesale_textOutOfStock = "out of stock" %}
 {% assign nm_easywholesale_deleteTextOutOfStock = "" %}
 {% assign nm_easywholesale_hidePricesProductIds = "" %}
-{% assign nm_easywholesale_setLinkOnProductTitle = true %}
+{% assign nm_easywholesale_setLinkOnProductTitle = false %}
 {% assign nm_easywholesale_add_to_cart = "Добавить в корзину" %}
 {% assign nm_easywholesale_showAllOutOfStock = false %}
 {% assign nm_easywholesale_showViewOtherLink = true %}
@@ -223,8 +223,8 @@ function nm_wholesale_show_spinner()
                             {% assign set_foto = 0 %}
                             
                             {% for variant in product_temp.variants %}
-                                {% unless variant.inventory_policy == "deny" and variant.inventory_quantity == 0 and variant.inventory_management == "shopify" and false %}
-                                  	{% if variant.available or true %}
+                                {% unless variant.inventory_policy == "deny" and variant.inventory_quantity == 0 and variant.inventory_management == "shopify" %}
+                                  	{% if variant.available %}
                             			{% if variant.image and nm_easywholesale_showVariantImage %}
                             				{% assign set_foto = 1 %}
                             		    {% endif %} 
@@ -354,8 +354,8 @@ function nm_wholesale_show_spinner()
                             {% assign set_div_hide = 0 %}
                             
                               {% for variant in product_temp.variants %}
-                                {% unless variant.inventory_policy == "deny" and variant.inventory_quantity == 0 and variant.inventory_management == "shopify" and false %}
-                                  	{% if variant.available or true %}
+                                {% unless variant.inventory_policy == "deny" and variant.inventory_quantity == 0 and variant.inventory_management == "shopify" %}
+                                  	{% if variant.available %}
                                         {% assign variant_title = variant.title %}
                                         {% if nm_easywholesale_variant_as_product %}
                                             {% assign variant_title = product_temp.title | append: " " | append: variant_title %}
@@ -391,7 +391,7 @@ function nm_wholesale_show_spinner()
                                         {% endif %} 
                                         <div class="nm-easywholesale-name-and-price-only"{% if nm_easywholesale_variant_as_product %} style="margin-left: 10px;"{% endif %}>
                                         
-                                            <div class="nm-easywholesale-name nm-primary-color">{{ variant_title }}{% if variant.sku != null and variant.sku != "" %} <small>({{ variant.sku }})</small>{% endif %}{% if variant.inventory_quantity > 0  or nm_easywholesale_showAllOutOfStock %} <small>(in stock: {{ variant.inventory_quantity }})</small>{% endif %}{% if variant.inventory_quantity == 0 and variant.available == false %}{% unless nm_easywholesale_deleteTextOutOfStock contains variant.id %} <small>({{ nm_easywholesale_textOutOfStock }})</small>{% endunless %}{% endif %}</div>
+                                            <div class="nm-easywholesale-name nm-primary-color">{{ variant_title }}{% if variant.sku != null and variant.sku != "" %} <small>({{ variant.sku }})</small>{% endif %}{% if variant.inventory_quantity > 0  or nm_easywholesale_showAllOutOfStock %} <small>(in stock: {{ variant.inventory_quantity }})</small>{% endif %}</div>
                             
 {% assign variant_price = variant.price %}           
 {% if nm_easywholesale_callback_price %}{% capture the_snippet_content %}{% include "wholesale-page-callback-price" %}{% endcapture %}{% endif %}                                        
@@ -475,8 +475,8 @@ function nm_wholesale_show_spinner()
                             {% assign set_foto = 0 %}
                             
                             {% for variant in product_temp.variants %}
-                                {% unless variant.inventory_policy == "deny" and variant.inventory_quantity == 0 and variant.inventory_management == "shopify" and false %}
-                                  	{% if variant.available or true %}
+                                {% unless variant.inventory_policy == "deny" and variant.inventory_quantity == 0 and variant.inventory_management == "shopify" %}
+                                  	{% if variant.available %}
                             			{% if variant.image and nm_easywholesale_showVariantImage %}
                             				{% assign set_foto = 1 %}
                             		    {% endif %} 
@@ -605,8 +605,8 @@ function nm_wholesale_show_spinner()
                             {% assign set_div_hide = 0 %}
                             
                             {% for variant in product_temp.variants %}
-                                {% unless variant.inventory_policy == "deny" and variant.inventory_quantity == 0 and variant.inventory_management == "shopify" and false %}
-                                  	{% if variant.available or true %}
+                                {% unless variant.inventory_policy == "deny" and variant.inventory_quantity == 0 and variant.inventory_management == "shopify" %}
+                                  	{% if variant.available %}
                             			{% if variant.image and nm_easywholesale_showVariantImage %}
                             				{% assign set_foto = 1 %}
                             		    {% endif %} 
@@ -615,8 +615,8 @@ function nm_wholesale_show_spinner()
                             {% endfor %}
                             
                               {% for variant in product_temp.variants %}
-                                {% unless variant.inventory_policy == "deny" and variant.inventory_quantity == 0 and variant.inventory_management == "shopify" and false %}
-                                  	{% if variant.available or true %}
+                                {% unless variant.inventory_policy == "deny" and variant.inventory_quantity == 0 and variant.inventory_management == "shopify" %}
+                                  	{% if variant.available %}
                                         {% assign variant_title = variant.title %}
                                         {% if nm_easywholesale_variant_as_product %}
                                             {% assign variant_title = product_temp.title | append: " " | append: variant_title %}
@@ -652,7 +652,7 @@ function nm_wholesale_show_spinner()
                                         {% endif %} 
                                         <div class="nm-easywholesale-name-and-price-only"{% if nm_easywholesale_variant_as_product %} style="margin-left: 10px;"{% endif %}>
                                         
-                                            <div class="nm-easywholesale-name nm-primary-color">{{ variant_title }}{% if variant.sku != null and variant.sku != "" %} <small>({{ variant.sku }})</small>{% endif %}{% if variant.inventory_quantity > 0  or nm_easywholesale_showAllOutOfStock %} <small>(in stock: {{ variant.inventory_quantity }})</small>{% endif %}{% if variant.inventory_quantity == 0 and variant.available == false %}{% unless nm_easywholesale_deleteTextOutOfStock contains variant.id %} <small>({{ nm_easywholesale_textOutOfStock }})</small>{% endunless %}{% endif %}</div>
+                                            <div class="nm-easywholesale-name nm-primary-color">{{ variant_title }}{% if variant.sku != null and variant.sku != "" %} <small>({{ variant.sku }})</small>{% endif %}{% if variant.inventory_quantity > 0  or nm_easywholesale_showAllOutOfStock %} <small>(in stock: {{ variant.inventory_quantity }})</small>{% endif %}</div>
                                             
 {% assign variant_price = variant.price %}           
 {% if nm_easywholesale_callback_price %}{% capture the_snippet_content %}{% include "wholesale-page-callback-price" %}{% endcapture %}{% endif %} 
