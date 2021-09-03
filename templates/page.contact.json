@@ -14,7 +14,7 @@
     "1628208252b878ca31": {
       "type": "apps",
       "settings": {
-        "include_margins": true
+        "include_margins": false
       }
     },
     "1628363253ad1d930b": {
@@ -47,12 +47,19 @@
         "color_scheme": "background-1",
         "full_width": true
       }
+    },
+    "163070765350d05f65": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"sharethis-inline-share-buttons\"><\/div>"
+      }
     }
   },
   "order": [
     "main",
     "form",
     "1628208252b878ca31",
-    "1628363253ad1d930b"
+    "1628363253ad1d930b",
+    "163070765350d05f65"
   ]
 }
