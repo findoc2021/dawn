@@ -299,7 +299,7 @@
       ],
       "settings": {
         "title": "КАТАЛОГИ ЖЕНСКОЙ ОДЕЖДЫ НА ВСЕ ВКУСЫ И РАЗМЕРЫ",
-        "image_ratio": "portrait",
+        "image_ratio": "square",
         "color_scheme": "background-2",
         "swipe_on_mobile": true,
         "image_padding": false,
