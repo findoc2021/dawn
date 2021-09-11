@@ -1,6 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
   <head>
+<script src="{{ 'jquery.3.4.0.ets.js' | asset_url }}" defer="defer"></script>
 <!-- Added by AVADA SEO Suite -->
 {% include 'avada-seo' %}
 <!-- /Added by AVADA SEO Suite -->
@@ -146,7 +147,7 @@
   src="https://www.facebook.com/tr?id=389792472510262&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Facebook Pixel Code -->
-  {% include 'sohead-reply-common' %}</head>
+  {% include 'sohead-reply-common' %}{% include 'ets_social_login_css' %}</head>
 <body>
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ "accessibility.skip_to_text" | t }}
@@ -293,5 +294,5 @@
 
 {{ 'zifyapp-fblogin.css' | asset_url | stylesheet_tag }}
 {% if shop.customer_accounts_enabled %}{% unless customer  %}{{ 'zifyapp-fblogin.js' | asset_url | script_tag }}{% endunless %}{% endif %}
-{% include 'wholesale-product-form' %}<link rel="stylesheet" href="https://gravity-software.com/js/shopify/rondell/jquery.rondellf85.css?v=123"/></body>
+{% include 'wholesale-product-form' %}<link rel="stylesheet" href="https://gravity-software.com/js/shopify/rondell/jquery.rondellf85.css?v=123"/>{% include 'ets_social_login_js' %}</body>
 </html>

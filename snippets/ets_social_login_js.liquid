@@ -1,0 +1,8 @@
+{% if customer %}
+<div class="ets-social-login--customer_logged_in"></div>
+{% endif %}
+<script type="text/javascript">
+    const ETS_SOLO_DOMAIN_SHOP = "{{ shop.domain }}";
+</script>
+<script src="{{ 'ets_social_login_config.js' | asset_url }}" type="text/javascript"></script>
+<script src="{{ 'ets_social_login.js' | asset_url }}" defer="defer" type="text/javascript"></script>
