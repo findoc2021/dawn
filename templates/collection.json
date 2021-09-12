@@ -9,7 +9,6 @@
     },
     "163055643988c2e010": {
       "type": "call-to-action",
-      "disabled": true,
       "settings": {
         "text-box": "Скидки на сезонные товары",
         "link": "shopify:\/\/collections\/plyazhnaya-zhenskaya-odezhda",
