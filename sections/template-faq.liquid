@@ -1,0 +1,81 @@
+<div class="container">
+	{% if section.settings.show_title %}
+		<div class="text-center">
+			<h3 class="page_heading">{{ page_title }}</h3>
+			<p>{{ section.settings.text_title }}</p>
+		</div>
+	{% endif %}
+
+	<div class="page_content row">
+		{% if page.content.size > 0 %}
+			<div class="col-12 rte">
+				{{ page.content }}
+			</div>
+		{% endif %}
+
+		<div class="mt-3 mt-xl-5 container container-770">
+			
+			{% if section.settings.block_title.size > 0 %}
+				<h4>{{ section.settings.block_title }}</h4>
+			{% endif %}
+			
+			{%- include 'widget-accordion-pages' -%}
+		</div>
+	</div>
+</div>
+
+{% schema %}
+{
+	"name": "Faq",
+	"class": "section section_template section_template__faq",
+	"settings": [
+		{
+			"type": "header",
+			"content": "«Faq» page"
+		},
+		{
+			"type": "checkbox",
+			"id": "show_title",
+			"label": "Show Page title"
+		},
+		{
+			"type": "text",
+			"id": "text_title",
+			"label": "Faqs subtitle",
+			"default": "Frequently Asked Questions"
+		},
+		{
+			"type": "text",
+			"id": "block_title",
+			"label": "Faqs title",
+			"default": "How can we help you?"
+		}
+	],
+
+	"blocks": [
+		{
+			"type": "tab-block",
+			"name": "Tab block",
+			"settings": [
+				{
+					"type": "checkbox",
+					"id": "widget_open_toggle_1",
+					"label": "Set Open title"
+				},
+				{
+					"type": "text",
+					"id": "element_1_header",
+					"label": "Element 1 title"
+				},
+				{
+					"type": "richtext",
+					"id": "element_1_text",
+					"label": "Element 1 text"
+				}
+			]
+		}
+
+	]
+
+}
+{% endschema %}
