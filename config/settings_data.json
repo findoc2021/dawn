@@ -28,7 +28,7 @@
             "type": "announcement",
             "settings": {
               "text": "Добро пожаловать в магазин женской одежды IrenFashion.shop",
-              "color_scheme": "background-1",
+              "color_scheme": "inverse",
               "link": ""
             }
           },
