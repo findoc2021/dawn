@@ -108,34 +108,42 @@
     "162843377755ffd3d4": {
       "type": "image-banner",
       "blocks": {
+        "10eeb99c-d8ab-4683-b45f-ea7f2b0f332c": {
+          "type": "text",
+          "settings": {
+            "text": "НОВАЯ ЦЕНА 450 ГРН РАЗМЕРЫ 52\/54\/56\/58      ЦВЕТ: МЯТА"
+          }
+        },
+        "9866d2dd-5465-411d-9ac1-cbc04c34e10d": {
+          "type": "heading",
+          "settings": {
+            "heading": "РАСПРОДАЖА"
+          }
+        },
         "e066a412-9043-4c27-a511-7d09ae499827": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "получить по скидке",
+            "button_label_1": "ЗАКАЗАТЬ",
             "button_link_1": "shopify:\/\/products\/женское-осеннее-платье-спортивного-стиля-модель-363",
-            "button_style_secondary_1": true,
+            "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
           }
-        },
-        "10eeb99c-d8ab-4683-b45f-ea7f2b0f332c": {
-          "type": "text",
-          "settings": {
-            "text": "скидка - 25%"
-          }
         }
       },
       "block_order": [
-        "e066a412-9043-4c27-a511-7d09ae499827",
-        "10eeb99c-d8ab-4683-b45f-ea7f2b0f332c"
+        "10eeb99c-d8ab-4683-b45f-ea7f2b0f332c",
+        "9866d2dd-5465-411d-9ac1-cbc04c34e10d",
+        "e066a412-9043-4c27-a511-7d09ae499827"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/viber_2021-08-31_10-41-41-342.jpg",
+        "image_2": "shopify:\/\/shop_images\/viber_2021-08-31_10-41-39-834.jpg",
         "desktop_text_box_position": "flex-end",
         "color_scheme": "background-2",
         "stack_images_on_mobile": true,
-        "adapt_height_first_image": true
+        "adapt_height_first_image": false
       }
     },
     "featured_products": {
