@@ -71,14 +71,6 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "af300573-631c-4276-b480-99068ee2dba3": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/258c2a8d0722ed94609cbd393fb106be.png",
-              "image_width": 185,
-              "alignment": ""
-            }
-          },
           "footer-0": {
             "type": "link_list",
             "settings": {
@@ -99,21 +91,28 @@
               "heading": "Общее меню магазина",
               "menu": "footer"
             }
+          },
+          "07d75b0d-ec1a-40e3-aa1c-0ebb898b279f": {
+            "type": "text",
+            "settings": {
+              "heading": "Котнтактная информация",
+              "subtext": "<p>месторасположение: Одесса, улица Оптовиков, 25. <\/p><p>телефон: <a href=\"tel:+380953171784\" target=\"_blank\" title=\"tel:+380953171784\">+380953171784<\/a><\/p><p><a href=\"https:\/\/invite.viber.com\/?g=pj0zQASMjEt7iGKH6aQSeY1bAk055u_e\" target=\"_blank\" title=\"https:\/\/invite.viber.com\/?g=pj0zQASMjEt7iGKH6aQSeY1bAk055u_e\">Вайбер-группа <\/a><\/p><p><a href=\"https:\/\/t.me\/irenfashion\" target=\"_blank\" title=\"https:\/\/t.me\/irenfashion\">Телеграмм-канал<\/a><\/p><p><a href=\"https:\/\/chat.whatsapp.com\/L2BODrriZe75B4ohrFZ6Yd\" target=\"_blank\" title=\"https:\/\/chat.whatsapp.com\/L2BODrriZe75B4ohrFZ6Yd\">Ватсапп-группа<\/a><\/p><p><\/p>"
+            }
           }
         },
         "block_order": [
-          "af300573-631c-4276-b480-99068ee2dba3",
           "footer-0",
           "1904f996-d96d-44bd-9832-75783a6c5847",
-          "a83bb010-56d6-455a-b3d0-39d047456411"
+          "a83bb010-56d6-455a-b3d0-39d047456411",
+          "07d75b0d-ec1a-40e3-aa1c-0ebb898b279f"
         ],
         "settings": {
           "color_scheme": "background-1",
-          "newsletter_enable": true,
+          "newsletter_enable": false,
           "newsletter_heading": "Подписывайтесь на новостную рассылку, информируем о скидках, новинках и тенденциях!",
           "show_social": true,
           "enable_country_selector": true,
-          "enable_language_selector": true,
+          "enable_language_selector": false,
           "payment_enable": true
         }
       },
