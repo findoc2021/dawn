@@ -373,6 +373,47 @@
         "soft_background": false,
         "show_view_all": true
       }
+    },
+    "1648748271af971426": {
+      "type": "collage",
+      "blocks": {
+        "164874827113459c32-1": {
+          "type": "product",
+          "settings": {
+            "product": "платье-женское-весеннее-шифон-модель-372",
+            "secondary_background": false,
+            "second_image": true,
+            "image_padding": false
+          }
+        },
+        "164874827113459c32-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "zhenskie-platya-bolshih-razmerov-sobstvennogo-proizvodstva-samye-goryachie-novinki-zhenskih-platev-kostyumov-bluzok-dzhemperov-tunik",
+            "image_padding": true,
+            "color_scheme": "background-1"
+          }
+        },
+        "adc39506-3ec5-42e1-90c3-7c14bdfe86ba": {
+          "type": "product",
+          "settings": {
+            "product": "платье-женское-м-371",
+            "secondary_background": false,
+            "second_image": false,
+            "image_padding": false
+          }
+        }
+      },
+      "block_order": [
+        "164874827113459c32-1",
+        "164874827113459c32-2",
+        "adc39506-3ec5-42e1-90c3-7c14bdfe86ba"
+      ],
+      "settings": {
+        "heading": "Новинки сезона",
+        "desktop_layout": "left",
+        "mobile_layout": "collage"
+      }
     }
   },
   "order": [
@@ -386,6 +427,7 @@
     "1628363935338af885",
     "1628205071928c9169",
     "162854529615676c73",
-    "1630556942b1916b16"
+    "1630556942b1916b16",
+    "1648748271af971426"
   ]
 }
