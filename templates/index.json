@@ -62,7 +62,7 @@
         "1ca29635-6f0f-4bb1-a58f-c2506beb3585": {
           "type": "text",
           "settings": {
-            "text": "Платья, костюмы, джемпера, верхняя одежда"
+            "text": ""
           }
         },
         "1623fb31-602b-419e-b2c7-ebd2b5f81252": {
@@ -83,11 +83,11 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/9899220F-8CD2-4C41-A3AE-10FCD784369D.jpg",
-        "image_2": "shopify:\/\/shop_images\/07F9E3D1-5811-4D8B-B4C3-C8BE3B1588FA.jpg",
+        "image_2": "shopify:\/\/shop_images\/viber_2022-02-22_18-28-27-177.jpg",
         "desktop_text_box_position": "flex-end",
         "color_scheme": "background-2",
         "stack_images_on_mobile": true,
-        "adapt_height_first_image": false
+        "adapt_height_first_image": true
       }
     },
     "16294647273f5facad": {
@@ -111,18 +111,18 @@
         "e066a412-9043-4c27-a511-7d09ae499827": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "МОДЕЛЬ 363",
+            "button_label_1": "получить по скидке",
             "button_link_1": "shopify:\/\/products\/женское-осеннее-платье-спортивного-стиля-модель-363",
             "button_style_secondary_1": true,
-            "button_label_2": "ПОДРОБНЕЕ",
-            "button_link_2": "shopify:\/\/policies\/subscription-policy",
-            "button_style_secondary_2": true
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         },
         "10eeb99c-d8ab-4683-b45f-ea7f2b0f332c": {
           "type": "text",
           "settings": {
-            "text": "РЕГИСТРИРУЙТЕСЬ И ПОЛУЧАЙТЕ ДОСТАВКУ БЕСПЛАТНО ДО КОНЦА 2021 года"
+            "text": "скидка - 25%"
           }
         }
       },
@@ -131,12 +131,11 @@
         "10eeb99c-d8ab-4683-b45f-ea7f2b0f332c"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/viber_2021-08-31_10-41-41-193.jpg",
-        "image_2": "shopify:\/\/shop_images\/viber_2021-08-31_10-41-39-098.jpg",
+        "image": "shopify:\/\/shop_images\/viber_2021-08-31_10-41-41-342.jpg",
         "desktop_text_box_position": "flex-end",
         "color_scheme": "background-2",
-        "stack_images_on_mobile": false,
-        "adapt_height_first_image": false
+        "stack_images_on_mobile": true,
+        "adapt_height_first_image": true
       }
     },
     "featured_products": {
