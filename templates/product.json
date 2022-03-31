@@ -109,7 +109,7 @@
         "image_ratio": "square",
         "show_secondary_image": true,
         "add_image_padding": false,
-        "show_vendor": true
+        "show_vendor": false
       }
     },
     "16282091560573a37b": {
@@ -153,7 +153,7 @@
         "background_style": "none",
         "button_label": "Читать",
         "button_link": "shopify:\/\/blogs\/news",
-        "swipe_on_mobile": false
+        "swipe_on_mobile": true
       }
     }
   },
