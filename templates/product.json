@@ -87,8 +87,8 @@
         "8de0c428-aa67-4506-ac74-deede7ea7fc7"
       ],
       "settings": {
-        "enable_sticky_info": false,
-        "enable_video_looping": true
+        "enable_sticky_info": true,
+        "enable_video_looping": false
       }
     },
     "1630707386bd13eb60": {
