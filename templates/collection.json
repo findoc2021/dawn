@@ -14,9 +14,9 @@
         "image_ratio": "square",
         "show_secondary_image": true,
         "add_image_padding": true,
-        "show_vendor": true,
+        "show_vendor": false,
         "enable_filtering": true,
-        "enable_sorting": true
+        "enable_sorting": false
       }
     }
   },
