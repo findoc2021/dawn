@@ -23,11 +23,57 @@
       "type": "alireviews-widget-78920",
       "settings": {
       }
+    },
+    "16487404668c037191": {
+      "type": "index-cms-block",
+      "blocks": {
+        "164874046656cbc335-0": {
+          "type": "item",
+          "settings": {
+            "title": "Item Title",
+            "text": "Item Text",
+            "link": "",
+            "icon_type": "icon_airplane"
+          }
+        },
+        "164874046656cbc335-1": {
+          "type": "item",
+          "settings": {
+            "title": "Item Title",
+            "text": "Item Text",
+            "link": "",
+            "icon_type": "icon_airplane"
+          }
+        },
+        "164874046656cbc335-2": {
+          "type": "item",
+          "settings": {
+            "title": "Item Title",
+            "text": "Item Text",
+            "link": "",
+            "icon_type": "icon_airplane"
+          }
+        }
+      },
+      "block_order": [
+        "164874046656cbc335-0",
+        "164874046656cbc335-1",
+        "164874046656cbc335-2"
+      ],
+      "settings": {
+        "section_title": "Section title",
+        "background_toggle": false,
+        "bg_color": "#F6F7F9",
+        "container_view": false,
+        "container_settings": "container-xl",
+        "style": "type_2"
+      }
     }
   },
   "order": [
     "banner",
     "product-grid",
-    "1648739932aa888eb3"
+    "1648739932aa888eb3",
+    "16487404668c037191"
   ]
 }
