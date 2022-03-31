@@ -73,11 +73,11 @@
             "page": "copy-of-калькулятор-размера"
           }
         },
-        "c3e08da2-fc36-4fb7-b8bb-70baf0335b51": {
-          "type": "text",
+        "82619ff0-dc4e-4ea4-96f1-87d23ed09a55": {
+          "type": "popup",
           "settings": {
-            "text": "<script data-b24-form=\"inline\/17\/61gqvb\" data-skip-moving=\"true\">(function(w,d,u){var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()\/180000|0);var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);})(window,document,'https:\/\/cdn.bitrix24.ua\/b20466817\/crm\/form\/loader_17.js');<\/script>",
-            "text_style": "body"
+            "link_label": "<script data-b24-form=\"inline\/17\/61gqvb\" data-skip-moving=\"true\">(function(w,d,u){var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()\/180000|0);var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);})(window,document,'https:\/\/cdn.bitrix24.ua\/b20466817\/crm\/form\/loader_17.js');<\/script>",
+            "page": ""
           }
         }
       },
@@ -93,7 +93,7 @@
         "a1d60f74-0fbf-48d7-8986-dab4deab3635",
         "72e2785a-15e9-44b9-9fa7-2f9baa8fd14d",
         "8de0c428-aa67-4506-ac74-deede7ea7fc7",
-        "c3e08da2-fc36-4fb7-b8bb-70baf0335b51"
+        "82619ff0-dc4e-4ea4-96f1-87d23ed09a55"
       ],
       "settings": {
         "enable_sticky_info": true,
