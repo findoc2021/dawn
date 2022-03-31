@@ -77,7 +77,7 @@
         "82619ff0-dc4e-4ea4-96f1-87d23ed09a55": {
           "type": "popup",
           "settings": {
-            "link_label": "{{ product.metafields.descriptors.subtitle.value }}",
+            "link_label": "Оформление наложенным платежом!",
             "page": "quice-chekout"
           }
         }
