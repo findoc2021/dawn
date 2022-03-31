@@ -60,7 +60,7 @@
       "header": {
         "type": "header",
         "settings": {
-          "logo": "shopify:\/\/shop_images\/facebook_profile_image.jpg",
+          "logo": "shopify:\/\/shop_images\/12001.png",
           "logo_width": 150,
           "logo_position": "middle-left",
           "menu": "main-menu",
@@ -128,6 +128,16 @@
         "type": "main-password-footer",
         "settings": {
           "color_scheme": "background-1"
+        }
+      },
+      "alireviews-widget-78920": {
+        "type": "alireviews-widget-78920",
+        "settings": {
+        }
+      },
+      "alireviews-widget-79165": {
+        "type": "alireviews-widget-79165",
+        "settings": {
         }
       }
     },
