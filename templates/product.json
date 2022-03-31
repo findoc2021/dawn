@@ -15,13 +15,13 @@
             "text_style": "uppercase"
           }
         },
-        "price": {
-          "type": "price",
+        "description": {
+          "type": "description",
           "settings": {
           }
         },
-        "description": {
-          "type": "description",
+        "price": {
+          "type": "price",
           "settings": {
           }
         },
@@ -76,8 +76,8 @@
       "block_order": [
         "title",
         "subtitle",
-        "price",
         "description",
+        "price",
         "1892003f-33bf-4db0-9d2e-168c0712ef9b",
         "19689471-b8b9-4941-9f7d-7f74df70e7bb",
         "buy_buttons",

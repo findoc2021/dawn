@@ -11,7 +11,7 @@
     "type_body_font": "bitter_n4",
     "sale_badge_color_scheme": "accent-1",
     "sold_out_badge_color_scheme": "background-1",
-    "accent_icons": "accent-1",
+    "accent_icons": "accent-2",
     "social_facebook_link": "https:\/\/facebook.com\/irinamatveeva1961",
     "social_pinterest_link": "https:\/\/pin.it\/2AVbKZo",
     "social_instagram_link": "https:\/\/www.instagram.com\/iren_fashion_shop_odessa",
@@ -148,6 +148,12 @@
     "blocks": {
       "3847134708050210359": {
         "type": "shopify:\/\/apps\/language-translate-currency\/blocks\/switcher_embed_block\/bce4f1c0-c18c-43b0-b0b2-a1aefaa44573",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "1513253815146976218": {
+        "type": "shopify:\/\/apps\/omnisend-email-marketing-sms\/blocks\/app-embed\/44704aa2-794f-4c5d-8c8e-039c841158e9",
         "disabled": false,
         "settings": {
         }
