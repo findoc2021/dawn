@@ -141,7 +141,7 @@
     "featured_products": {
       "type": "featured-collection",
       "settings": {
-        "title": "Новинки сезона 2021!",
+        "title": "Новинки сезона 2022",
         "collection": "zhenskie-platya-bolshih-razmerov-sobstvennogo-proizvodstva-samye-goryachie-novinki-zhenskih-platev-kostyumov-bluzok-dzhemperov-tunik",
         "products_to_show": 12,
         "show_view_all": true,
@@ -188,7 +188,7 @@
         "d48b979c-79ab-4c99-b58d-40a3e5e85c4c"
       ],
       "settings": {
-        "heading": "ПРОВОЖАЕМ ЛЕТО - 15%!!!!",
+        "heading": "Готовимся загароть в стиле Iren- 15%!!!!",
         "desktop_layout": "right",
         "mobile_layout": "column"
       }
@@ -229,7 +229,7 @@
         "d3df8447-07fd-457f-a58b-38daef059fc8"
       ],
       "settings": {
-        "heading": "ОСЕНЬ 2021 КАТАЛОГ ЖЕНСКОЙ ОДЕЖДЫ",
+        "heading": "Весна полна сюрпризов",
         "desktop_layout": "left",
         "mobile_layout": "column"
       }
