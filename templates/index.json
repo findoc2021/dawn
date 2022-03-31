@@ -62,17 +62,17 @@
         "1ca29635-6f0f-4bb1-a58f-c2506beb3585": {
           "type": "text",
           "settings": {
-            "text": ""
+            "text": "Платья ниже колена"
           }
         },
         "1623fb31-602b-419e-b2c7-ebd2b5f81252": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "☝🏻 модель 343 Велюр",
+            "button_label_1": "модель 343",
             "button_link_1": "shopify:\/\/products\/plate-elegantnoe-bolshogo-razmera-m-323",
             "button_style_secondary_1": true,
-            "button_label_2": "👇🏻 МОДЕЛЬ 272",
-            "button_link_2": "shopify:\/\/products\/plate-m-272-grin",
+            "button_label_2": "модель 375",
+            "button_link_2": "shopify:\/\/collections\/all",
             "button_style_secondary_2": true
           }
         }
