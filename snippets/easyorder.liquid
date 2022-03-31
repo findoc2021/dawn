@@ -5,164 +5,167 @@
       </style>
 
   <style type='text/css' id="easyorder-hpbtn-style">
-          form[action*='/cart/add'] *[type=submit],form[action*='/cart/add'] *[data-product-submit],
+          form[action*='/cart/add'] *[type=submit],form[action*='/cart/add'] *[data-product-submit], form[action*='/cart/add'] *[name=checkout], form[action*='/cart/add'] .shopify-payment-button__button, form[action*='/cart/add'] .btn-addtocart, form[action*='/cart/add'] .nm-wholesale-btn-add-to-cart,
         .easyorder-hidden-purchase { display: none; opacity: 0.4 !important; pointer-events: none; }
   </style>
 
   <noscript><div style="display: none; position: fixed; z-index: 9999; top: 0; right: 0; left: 0; bottom: 0; padding: 150px 100px 0 100px; color: #333; background: #fff; font-size: 27px; font-weight: bold; line-height: 37px; text-align: center; text-transform: uppercase;">Oops! Your browser has JavaScript disabled.<br/>Please enable it by following<br>the instructions <a href="//www.enable-javascript.com" target="_blank">here.</a></div></noscript>
   <div id="easyorder-popup-holder"></div>
   <div id="easyorder-popup-blank-holder" style="display:none;">
-    <div id="easyorder-popup">
-      <div class="easyorder-popup-result">
-        <p>Спасибо! Ожидайте смс сообщение на ваш номер с номером посылки!</p>
+    <div id="easyorder-popup" style="margin-top: -40px;">
+      <div class="easyorder-popup-result" style="margin-top:60px !important;">
+        <div>Спасибо! Ожидайте смс сообщение на ваш номер с номером посылки!</div>
         <div class="easyorder-ok-btn-holder">
           <a href="javascript:void(0);" class="easyorder-btn easyorder-ok-btn" onclick="easyorder.jq.featherlight.close();"
-            style='background: #cc4900 !important;'>
+            style='background: #cc4900 !important; color: #ffffff !important;'>
             {% unless easyorderOKButton %}Ok{% else %}{{ easyorderOKButton }}{% endunless %}
+          
           </a>
         </div>
       </div>
       <div class="easyorder-loader"><div class="next-spinner"><svg class="next-icon next-icon--40" preserveAspectRatio="xMinYMin"><circle class="next-spinner__ring" cx="50%" cy="50%" r="45%"></circle></svg></div></div>
-      <form class="easyorder-popup-content">
-        <h3>Заказать наложенным платежом для товаров нашего производства</h3>
-        <div class="easyorder-popup-products"></div>
-        <div class="easyorder-popup-form-fields">
-                                            
-            <div class="easyorder-field-holder grid"  id="easyorder-field-47331" data-related-to="0" data-required="1">
-                                <div class="grid__item one-third easyorder-text-right">
+      <form class="easyorder-popup-content" style="margin: 0px!important;">
+      
+        <div class="easyorder-main_header">
+          <div class="easyorder-main_header_div">
+            <div class="easyorder-main_header_div_inner">
+              <div class="easyorder-main_header_div_inner_text">Заказать наложенным платежом для товаров нашего производства</div>
+              <div class="eorder_featherlight-close easyorder-main_header_div_inner_close">&#10005;</div>
+            </div>
+            <div class="easyorder-popup-products easyorder-product_table"></div>
+          </div>
+        </div>
+   
+        <div style="background-color: #ffffff;">
+          <div class="easyorder-main_fields">
+
+                                                        
+            <div class="easyorder-field-holder eorder_tooltips"  id="easyorder-field-47331" data-related-to="0" data-required="1">  
+          
+                                <div class="easyorder-head_field">
                                           Имя*                                      </div>
-                  <div class="grid__item two-thirds">
-                    <div class="eorder_tooltips">
+                  <div class="easyorder-body_field">
                       <input type="text" name="field_47331" placeholder=""
                              id="easyorder-field-element-47331" />
-                                              <span class="eorder_tooltip"><em> Это поле обязательно к заполнению</em></span>
-                                          </div>
-                  </div>
-                            </div>
-                                  
-            <div class="easyorder-field-holder grid"  id="easyorder-field-47333" data-related-to="0" data-required="1">
-                                <div class="grid__item one-third easyorder-text-right">
+                      <div class="eorder_tooltip_new2"> Это поле обязательно к заполнению</div>                  </div>
+                              </div>
+                                              
+            <div class="easyorder-field-holder eorder_tooltips"  id="easyorder-field-47333" data-related-to="0" data-required="1">  
+          
+                                <div class="easyorder-head_field">
                                           Фамилия*                                      </div>
-                  <div class="grid__item two-thirds">
-                    <div class="eorder_tooltips">
+                  <div class="easyorder-body_field">
                       <input type="text" name="field_47333" placeholder=""
                              id="easyorder-field-element-47333" />
-                                              <span class="eorder_tooltip"><em> Это поле обязательно к заполнению</em></span>
+                      <div class="eorder_tooltip_new2"> Это поле обязательно к заполнению</div>                  </div>
+                              </div>
+                                              
+            <div class="easyorder-field-holder eorder_tooltips"  id="easyorder-field-47341" data-related-to="0" data-required="1">  
+          
+                                <div class="easyorder-head_field">
+                                          Служба доставки*                                      </div>
+                  <div class="easyorder-body_field">
+                      <div class="radio-holder">
+                        <div class="easyorder-radio_block"><input type="radio" name="field_47341"  value="1615747699623" data-option-id="742078" id="easyorder-option-742078" /><label for="easyorder-option-742078"><div class="eorder_label_error"></div><span>Укрпочта</span></label></div><div class="easyorder-radio_block"><input type="radio" name="field_47341"  value="1615747703886" data-option-id="742079" id="easyorder-option-742079" /><label for="easyorder-option-742079"><div class="eorder_label_error"></div><span>Новая почта</span></label></div>                      </div>
+                      <div class="eorder_tooltip_new2">Ошибка</div>  
+                  </div>
+                              </div>
+                                              
+            <div class="easyorder-field-holder eorder_tooltips" style="display:none;" id="easyorder-field-47336" data-related-to="742078" data-required="1">  
+          
+                                <div class="easyorder-head_field">
+                                          Адрес для Укрпочты*                                      </div>
+                  <div class="easyorder-body_field">
+                      <textarea name="field_47336" placeholder="Индекс, населенный пункт, улица, № дома" id="easyorder-field-element-47336"></textarea>
+                      <div class="eorder_tooltip_new2">Ошибка</div>                  </div>
+                              </div>
+                                              
+            <div class="easyorder-field-holder eorder_tooltips" style="display:none;" id="easyorder-field-47335" data-related-to="742079" data-required="1">  
+          
+                                <div class="easyorder-head_field">
+                                          Адрес для Новой почты*                                      </div>
+                  <div class="easyorder-body_field">
+                      <textarea name="field_47335" placeholder="Населенный пункт, Номер отделения НП" id="easyorder-field-element-47335"></textarea>
+                      <div class="eorder_tooltip_new2">Ошибка</div>                  </div>
+                              </div>
+                                              
+            <div class="easyorder-field-holder eorder_tooltips"  id="easyorder-field-47338" data-related-to="0" data-required="1">  
+          
+                                <div class="easyorder-body_field">
+                    <div class="eorder_tooltips">
+                        <div class="checkbox-holder">
+                            <div class="easyorder-checkbox_block easyorder-checkbox_block2"><input type="checkbox" name="field_47338[]"  value=""   id="easyorder-option-marketing" /><label for="easyorder-option-marketing"></label></div>
+                        </div>
                                           </div>
                   </div>
-                            </div>
-                                  
-            <div class="easyorder-field-holder grid"  id="easyorder-field-47341" data-related-to="0" data-required="1">
-                                <div class="grid__item one-third easyorder-text-right">Служба доставки*</div>
-                  <div class="grid__item two-thirds">
-                    <div class="eorder_tooltips">
-                      <div class="radio-holder">
-                        <div class="radio-row-holder"><input type="radio" name="field_47341"  value="1615747699623" data-option-id="742078" id="easyorder-option-742078" /><label for="easyorder-option-742078">Укрпочта</label></div><div class="radio-row-holder"><input type="radio" name="field_47341"  value="1615747703886" data-option-id="742079" id="easyorder-option-742079" /><label for="easyorder-option-742079">Новая почта</label></div>                      </div>
-                      <span class="eorder_tooltip"><em>Ошибка</em></span>                    </div>
-                  </div>
-                            </div>
-                                  
-            <div class="easyorder-field-holder grid" style="display:none;" id="easyorder-field-47336" data-related-to="742078" data-required="1">
-                                <div class="grid__item one-third easyorder-text-right">Адрес для Укрпочты*</div>
-                  <div class="grid__item two-thirds">
-                    <div class="eorder_tooltips">
-                      <textarea name="field_47336" placeholder="Индекс, населенный пункт, улица, № дома" id="easyorder-field-element-47336"></textarea>
-                      <span class="eorder_tooltip"><em>Ошибка</em></span>                    </div>
-                  </div>
-                            </div>
-                                  
-            <div class="easyorder-field-holder grid" style="display:none;" id="easyorder-field-47335" data-related-to="742079" data-required="1">
-                                <div class="grid__item one-third easyorder-text-right">Адрес для Новой почты*</div>
-                  <div class="grid__item two-thirds">
-                    <div class="eorder_tooltips">
-                      <textarea name="field_47335" placeholder="Населенный пункт, Номер отделения НП" id="easyorder-field-element-47335"></textarea>
-                      <span class="eorder_tooltip"><em>Ошибка</em></span>                    </div>
-                  </div>
-                            </div>
-                                  
-            <div class="easyorder-field-holder grid"  id="easyorder-field-47338" data-related-to="0" data-required="0">
-                                <div class="grid__item one-third easyorder-text-right">
-                      Получать новости на эл. почту 
-                  </div>
-                  <div class="grid__item two-thirds">
-                    <div class="eorder_tooltips">
-                      <div class="checkbox-holder">
-                        <div class="checkbox-row-holder"><input type="checkbox" name="field_47338"  value="" /></div>
-                      </div>
-                    </div>
-                  </div>
-                            </div>
-                                  
-            <div class="easyorder-field-holder grid"  id="easyorder-field-47332" data-related-to="0" data-required="1">
-                                <div class="grid__item one-third easyorder-text-right">
-                                          Номер телефона*                                      </div>
-                  <div class="grid__item two-thirds">
-                    <div class="eorder_tooltips">
-
+                              </div>
+                                              
+            <div class="easyorder-field-holder eorder_tooltips"  id="easyorder-field-47332" data-related-to="0" data-required="1">  
+          
+                                <div class="easyorder-head_field">
+                                          Номер телефона*                        <div style="display: none;" data-error-rel="required">This field is required</div>
+                                                  <div style="display: none;" data-error-rel="invalid_email">Please enter valid email address</div>                                                            </div>
+                  <div class="easyorder-body_field" style="position: relative">
                                               <input type="tel" name="field_47332" placeholder="+380 99 888 7766"
-                               id="easyorder-field-element-47332" data-type="email-or-phone"
-                               value="{% if customer %}{% if customer.email %}{{ customer.email }}{% endif %}{% else %}{% if customer.phone %}{{ customer.phone }}{% endif %}{% endif %}" />
-                      
-                                                                        <span class="eorder_tooltip"><em>This field is required</em></span>
-                        
-                                                  <span class="eorder_tooltip" data-error-rel="invalid_email"><em>Please enter valid email address</em></span>                                                                  </div>
+                               id="easyorder-field-element-47332" data-type="phone"
+                               value="{% if customer %}{% if customer.phone %}{{ customer.phone }}{% endif %}{% endif %}" />  
+
+                                            <div class="eorder_tooltip_new2">This field is required</div>                  </div>
+                              </div>
+                                              
+            <div class="easyorder-field-holder eorder_tooltips"  id="easyorder-field-47337" data-related-to="0" data-required="0">  
+          
+                                <div class="easyorder-head_field">
+                                          Желаемая дата доставки                                         
                   </div>
-                            </div>
-                                  
-            <div class="easyorder-field-holder grid"  id="easyorder-field-47337" data-related-to="0" data-required="0">
-                                <div class="grid__item one-third easyorder-text-right">
-                                          Желаемая дата доставки                                       </div>
-                  <div class="grid__item two-thirds">
-                    <div class="eorder_tooltips">
-                                                <div class="input-range-datepicker input-group" id="datepicker" style="display: flex; align-items: center">
-                            <input type="text" class="input-sm form-control datepicker_from" name="field_47337-start" id="easyorder-field-element-47337-1" placeholder="YYYY-MM-DD"/>
-                            <span style='margin-left: 10px; margin-right: 10px;'>-</span>
-                            <input type="text" class="input-sm form-control datepicker_to" name="field_47337-end" id="easyorder-field-element-47337-2" placeholder="YYYY-MM-DD"/>
+                  <div class="easyorder-body_field">
+
+                                              <div class="input-range-datepicker input-group" id="datepicker" style="display: flex; align-items: center">
+                          <input type="text" class="input-sm form-control datepicker_from" name="field_47337-start" id="easyorder-field-element-47337-1" placeholder="YYYY-MM-DD"/>
+                          <span style='margin-left: 10px; margin-right: 10px;'>-</span>
+                          <input type="text" class="input-sm form-control datepicker_to" name="field_47337-end" id="easyorder-field-element-47337-2" placeholder="YYYY-MM-DD"/>
                         </div>
-
-                                                     
-                                              <span class="eorder_tooltip"><em>This field is required</em></span>
-                      
-                    </div>
-                  </div>
-
-                            </div>
-                                  
-            <div class="easyorder-field-holder grid"  id="easyorder-field-47339" data-related-to="0" data-required="0">
-                                <div class="grid__item one-third easyorder-text-right">
-                                          укажите электронный адрес                                      </div>
-                  <div class="grid__item two-thirds">
-                    <div class="eorder_tooltips">
-
+                                            <div class="eorder_tooltip_new2">This field is required</div>                  </div>
+                              </div>
+                                              
+            <div class="easyorder-field-holder eorder_tooltips"  id="easyorder-field-47339" data-related-to="0" data-required="0">  
+          
+                                <div class="easyorder-head_field">
+                                          укажите электронный адрес                        <div style="display: none;" data-error-rel="required"></div>
+                                                  <div style="display: none;" data-error-rel="invalid_email">неверный формат адреса</div>                                                            </div>
+                  <div class="easyorder-body_field" style="position: relative">
                                               <input type="email" name="field_47339" placeholder="ggg@ukr.net"
                                id="easyorder-field-element-47339"
                                value="{% if customer and customer.email %}{{ customer.email }}{% endif %}" />
-
-                      
+                                                              </div>
+                              </div>
                                               
-                                                  <span class="eorder_tooltip" data-error-rel="invalid_email"><em>неверный формат адреса</em></span>                                                                  </div>
-                  </div>
-                            </div>
-                                  
-            <div class="easyorder-field-holder grid" style="display:none;" id="easyorder-field-59763" data-related-to="742079" data-required="0">
-                                <div class="grid__item one-third easyorder-text-right">
+            <div class="easyorder-field-holder eorder_tooltips" style="display:none;" id="easyorder-field-59763" data-related-to="742079" data-required="0">  
+          
+                                <div class="easyorder-head_field">
                                           Для заказа наложенным платежом через Новую Почту оплатите предоплату 100 грн на счет 4441 1144 2001 7079                                      </div>
-                  <div class="grid__item two-thirds">
-                    <div class="eorder_tooltips">
+                  <div class="easyorder-body_field">
                       <input type="text" name="1004441114420017079_59763" placeholder="время оплаты "
                              id="easyorder-field-element-59763" />
-                                              <span class="eorder_tooltip"><em>This field is required</em></span>
-                                          </div>
-                  </div>
-                            </div>
+                      <div class="eorder_tooltip_new2">This field is required</div>                  </div>
+                              </div>
                     <div class="easyorder-field-holder"><input type="hidden" name="shop" value="{{ shop.permanent_domain }}" /></div>
+          
+          <div class="easyorder-body_field" style="text-align: left;">  
+		  	<a href="#" class="easyorder-btn easyorder-popup-submit" style='background: #cc4900 !important; color: #ffffff !important;'>Оформить заказ</a>
+          </div>   
+                  
         </div>
 
-        <div class="easyorder-popup-submit-holder easyorder-field-holder grid">
-          <div class="grid__item one-whole easyorder-text-center">
-            <a href="#" class="easyorder-btn easyorder-popup-submit" style='background: #cc4900; color: #ffffff !important;'>Оформить заказ</a>
-          </div>
-        </div>
+<style>
+
+.easyorder-popup-content .easyorder-total_price, #easyorder-total-price {
+    color: #cc4900 !important; 
+}
+.qs-square:not(.qs-empty):not(.qs-disabled):not(.qs-day):not(.qs-active):hover{
+    background:  #cc4900 !important;    color: #ffffff !important;</style>
+          
+
         <span class="easyorder-popup-currency">{{ 0 | money_without_trailing_zeros | replace: '0', 'eopmarker' }}</span>
       </form>
     </div>
@@ -170,43 +173,41 @@
     <style type="text/css"><html><head><style type="text/css">table, td, th{border:1px solid green !important;}th{background-color:black !important;color:white !important;}</style></head></style>
         {% assign page_template = template | replace: '.', ' ' | truncatewords: 1, '' | handle %}
     {% assign easyorderShow = false %}
-    
+
     {% if page_template == 'cart' %}
-		{% assign easyorderShow = true %}
-	{% endif %}
-    
-        {% unless easyorderShow %}{% for c in product.collections %}{% if c.id == 264175878329%}{% assign easyorderShow = true %}{% break %}{% endif %}{% endfor %}{% endunless %}        
+    {% assign easyorderShow = true %}
+    {% endif %}
+
+        {% unless easyorderShow %}{% for c in product.collections %}{% if c.id == 264175878329%}{% assign easyorderShow = true %}{% break %}{% endif %}{% endfor %}{% endunless %}    
     {% if easyorderShow == true %}
-    
-    <script type="text/javascript">
-      var easyorderForms = document.getElementsByTagName('form');
-      for( var i = 0; i < easyorderForms.length; i++ ) {
-        if( easyorderForms[i].getAttribute('class') != "easyorder-popup-content" ) {
-          var act = easyorderForms[i].getAttribute('action');
-                      if( act && act.indexOf('/cart/add') !== -1 ) {
-                      easyorderForms[i].setAttribute('onsubmit', 'return false;');
+      <script type="text/javascript">
+                var easyorderForms = document.getElementsByTagName('form');
+        for( var i = 0; i < easyorderForms.length; i++ ) {
+          if( easyorderForms[i].getAttribute('class') != "easyorder-popup-content" ) {
+            var act = easyorderForms[i].getAttribute('action');
+                          if( act && act.indexOf('/cart/add') !== -1 ) {
+                            easyorderForms[i].setAttribute('onsubmit', 'return false;');
+              }
           }
         }
-      }
-      document.addEventListener('easyorder_init', function (e) {
-                easyorder.shop     = '{{ shop.permanent_domain }}';
-        easyorder.currency = '{{ shop.currency }}';
-        easyorder.roundPriceTo   = {% assign easyorderMWCtmp = 0 | money_without_currency | size %}{% if easyorderMWCtmp > 2 %}{{ easyorderMWCtmp | minus: 2 }}{% else %}0{% endif %};
-        easyorder.shopCountryCode= '{{ shop.address.country_code }}';
-        easyorder.showProducts   = true;
-        easyorder.showVendor     = true;
-        easyorder.singlePurchase = false;
-        easyorder.reload         = true;
-        easyorder.fbPixel        = '618037098745861';
-        {% if easyorderDoNotResetUptadeButton %}easyorder.resetButtons.update = false;{% endif %}
-        {% if easyorderDoNotResetNativeButton %}easyorder.resetButtons.native = false;{% endif %}
-        {% if easyorderResetNativeButton %}easyorder.resetButtons.native = true;{% endif %}
-        easyorder.bindingPopup();
-        easyorder.bindingForms("body .easyorder-preorder-container form[action*='/cart/add'], .nm-easywholesale-form, body form[action*='/cart/add']");
-              }, false);
-    </script>
-    
+                document.addEventListener('easyorder_init', function (e) {
+                    easyorder.shop     = '{{ shop.permanent_domain }}';
+          easyorder.currency = '{{ shop.currency }}';
+          easyorder.roundPriceTo   = {% assign easyorderMWCtmp = 0 | money_without_currency | size %}{% if easyorderMWCtmp > 2 %}{{ easyorderMWCtmp | minus: 2 }}{% else %}0{% endif %};
+          easyorder.shopCountryCode= '{{ shop.address.country_code }}';
+          easyorder.showProducts   = true;
+          easyorder.showVendor     = true;
+          easyorder.singlePurchase = false;
+          easyorder.reload         = true;
+          easyorder.fbPixel        = '618037098745861';
+          {% if easyorderDoNotResetUptadeButton %}easyorder.resetButtons.update = false;{% endif %}
+          {% if easyorderDoNotResetNativeButton %}easyorder.resetButtons.native = false;{% endif %}
+          {% if easyorderResetNativeButton %}easyorder.resetButtons.native = true;{% endif %}
+          easyorder.bindingPopup();
+          easyorder.bindingForms("body .easyorder-preorder-container form[action*='/cart/add'], .nm-easywholesale-form, body form[action*='/cart/add']");                  }, false);
+      </script>
     {% endif %}
-    
+
       </div>
 </div>
+
