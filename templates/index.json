@@ -19,11 +19,18 @@
             "button_link_2": "",
             "button_style_secondary_2": false
           }
+        },
+        "f8437880-e186-4332-90a0-3e1e421a83df": {
+          "type": "text",
+          "settings": {
+            "text": "размеры 50\/52\/54 длина 117 см"
+          }
         }
       },
       "block_order": [
         "23a0c117-523b-48c7-ba8f-27ef5b02ff0f",
-        "9dc9bfe0-7ed1-4bb4-93d0-83f81ff52b33"
+        "9dc9bfe0-7ed1-4bb4-93d0-83f81ff52b33",
+        "f8437880-e186-4332-90a0-3e1e421a83df"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/viber_2022-02-22_18-34-22-530.jpg",
