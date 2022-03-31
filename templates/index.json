@@ -56,6 +56,84 @@
         "tablet_margin_bottom": 0
       }
     },
+    "1628212274e3ed1bd9": {
+      "type": "collection-list",
+      "blocks": {
+        "1628212274e3ed1bd9-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "verkhnyaya-odezhda-kurtki-kardigany-palto"
+          }
+        },
+        "1628212274e3ed1bd9-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "kupit-zhenskij-dzhemper-bolshogo-razmera-ot-proizvoditelya"
+          }
+        },
+        "1628212274e3ed1bd9-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "kostumy"
+          }
+        },
+        "5d4a7384-4542-487c-a2e0-7936ccbfa77e": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "discounts"
+          }
+        },
+        "2b694329-32b2-4325-a0bb-7669726984ce": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dlya-molodenkih"
+          }
+        },
+        "89ea0e19-43b3-4933-bebd-7bc67ab27d36": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "zhenskuyu-tuniku-bolshogo-razmera"
+          }
+        },
+        "263ca1cd-ddc0-4a57-b088-882a1c75afad": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "zhenskie-platya-bolshih-razmerov"
+          }
+        },
+        "b00e03fc-94a0-417f-ab64-4c5253dbf1f9": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "domashnyaya-zhenskaya-odezhda"
+          }
+        },
+        "04648c0d-d436-4200-90cd-ded0575fb817": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "recommended-products-seguno"
+          }
+        }
+      },
+      "block_order": [
+        "1628212274e3ed1bd9-0",
+        "1628212274e3ed1bd9-1",
+        "1628212274e3ed1bd9-2",
+        "5d4a7384-4542-487c-a2e0-7936ccbfa77e",
+        "2b694329-32b2-4325-a0bb-7669726984ce",
+        "89ea0e19-43b3-4933-bebd-7bc67ab27d36",
+        "263ca1cd-ddc0-4a57-b088-882a1c75afad",
+        "b00e03fc-94a0-417f-ab64-4c5253dbf1f9",
+        "04648c0d-d436-4200-90cd-ded0575fb817"
+      ],
+      "settings": {
+        "title": "КАТАЛОГИ ЖЕНСКОЙ ОДЕЖДЫ НА ВСЕ ВКУСЫ И РАЗМЕРЫ",
+        "image_ratio": "square",
+        "color_scheme": "background-2",
+        "swipe_on_mobile": true,
+        "image_padding": false,
+        "show_view_all": true
+      }
+    },
     "1628204174b90c6428": {
       "type": "image-banner",
       "blocks": {
@@ -242,84 +320,6 @@
         "mobile_layout": "column"
       }
     },
-    "1628212274e3ed1bd9": {
-      "type": "collection-list",
-      "blocks": {
-        "1628212274e3ed1bd9-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "verkhnyaya-odezhda-kurtki-kardigany-palto"
-          }
-        },
-        "1628212274e3ed1bd9-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "kupit-zhenskij-dzhemper-bolshogo-razmera-ot-proizvoditelya"
-          }
-        },
-        "1628212274e3ed1bd9-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "kostumy"
-          }
-        },
-        "5d4a7384-4542-487c-a2e0-7936ccbfa77e": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "discounts"
-          }
-        },
-        "2b694329-32b2-4325-a0bb-7669726984ce": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "dlya-molodenkih"
-          }
-        },
-        "89ea0e19-43b3-4933-bebd-7bc67ab27d36": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "zhenskuyu-tuniku-bolshogo-razmera"
-          }
-        },
-        "263ca1cd-ddc0-4a57-b088-882a1c75afad": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "zhenskie-platya-bolshih-razmerov"
-          }
-        },
-        "b00e03fc-94a0-417f-ab64-4c5253dbf1f9": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "domashnyaya-zhenskaya-odezhda"
-          }
-        },
-        "04648c0d-d436-4200-90cd-ded0575fb817": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "recommended-products-seguno"
-          }
-        }
-      },
-      "block_order": [
-        "1628212274e3ed1bd9-0",
-        "1628212274e3ed1bd9-1",
-        "1628212274e3ed1bd9-2",
-        "5d4a7384-4542-487c-a2e0-7936ccbfa77e",
-        "2b694329-32b2-4325-a0bb-7669726984ce",
-        "89ea0e19-43b3-4933-bebd-7bc67ab27d36",
-        "263ca1cd-ddc0-4a57-b088-882a1c75afad",
-        "b00e03fc-94a0-417f-ab64-4c5253dbf1f9",
-        "04648c0d-d436-4200-90cd-ded0575fb817"
-      ],
-      "settings": {
-        "title": "КАТАЛОГИ ЖЕНСКОЙ ОДЕЖДЫ НА ВСЕ ВКУСЫ И РАЗМЕРЫ",
-        "image_ratio": "square",
-        "color_scheme": "background-2",
-        "swipe_on_mobile": true,
-        "image_padding": false,
-        "show_view_all": true
-      }
-    },
     "162854529615676c73": {
       "type": "collage",
       "blocks": {
@@ -378,13 +378,13 @@
   "order": [
     "image_banner",
     "1630452319c1c0a00d",
+    "1628212274e3ed1bd9",
     "1628204174b90c6428",
     "16294647273f5facad",
     "162843377755ffd3d4",
     "featured_products",
     "1628363935338af885",
     "1628205071928c9169",
-    "1628212274e3ed1bd9",
     "162854529615676c73",
     "1630556942b1916b16"
   ]
