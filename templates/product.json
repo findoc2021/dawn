@@ -60,7 +60,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Быстрый заказ!",
-            "content": "<p><a href=\"https:\/\/b24-yyxq7u.bitrix24site.ua\/crm_form_fu8sq\/\" target=\"_blank\" title=\"https:\/\/b24-yyxq7u.bitrix24site.ua\/crm_form_fu8sq\/\">Форма заказа наложенным платежом <\/a><\/p>",
+            "content": "<p>Перейдите по ссылке и заполните форму заказа, после отправки данных, менеджер свяжеться с Вами для уточнения заказа.{{ product.metafields.descriptors.subtitle.value }}<\/p><p><a href=\"https:\/\/b24-yyxq7u.bitrix24site.ua\/crm_form_fu8sq\/\" target=\"_blank\" title=\"https:\/\/b24-yyxq7u.bitrix24site.ua\/crm_form_fu8sq\/\">Форма заказа наложенным платежом <\/a><\/p>",
             "page": "about_us",
             "icon": "leaf"
           }
