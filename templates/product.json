@@ -67,6 +67,7 @@
         },
         "8de0c428-aa67-4506-ac74-deede7ea7fc7": {
           "type": "popup",
+          "disabled": true,
           "settings": {
             "link_label": "Калькулятора определения размера",
             "page": "copy-of-калькулятор-размера"
