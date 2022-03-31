@@ -42,11 +42,6 @@
             "show_dynamic_checkout": true
           }
         },
-        "share": {
-          "type": "share",
-          "settings": {
-          }
-        },
         "a1d60f74-0fbf-48d7-8986-dab4deab3635": {
           "type": "collapsible_tab",
           "settings": {
@@ -82,7 +77,6 @@
         "1892003f-33bf-4db0-9d2e-168c0712ef9b",
         "19689471-b8b9-4941-9f7d-7f74df70e7bb",
         "buy_buttons",
-        "share",
         "a1d60f74-0fbf-48d7-8986-dab4deab3635",
         "72e2785a-15e9-44b9-9fa7-2f9baa8fd14d",
         "8de0c428-aa67-4506-ac74-deede7ea7fc7"
