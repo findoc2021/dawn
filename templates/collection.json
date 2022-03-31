@@ -3,16 +3,8 @@
     "banner": {
       "type": "main-collection-banner",
       "settings": {
-        "show_collection_description": true,
+        "show_collection_description": false,
         "show_collection_image": true
-      }
-    },
-    "163055643988c2e010": {
-      "type": "call-to-action",
-      "settings": {
-        "text-box": "Скидки на сезонные товары",
-        "link": "shopify:\/\/collections\/plyazhnaya-zhenskaya-odezhda",
-        "linktext": "Получить скидку"
       }
     },
     "product-grid": {
@@ -26,11 +18,16 @@
         "enable_filtering": true,
         "enable_sorting": true
       }
+    },
+    "1648739932aa888eb3": {
+      "type": "alireviews-widget-78920",
+      "settings": {
+      }
     }
   },
   "order": [
     "banner",
-    "163055643988c2e010",
-    "product-grid"
+    "product-grid",
+    "1648739932aa888eb3"
   ]
 }
