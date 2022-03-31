@@ -58,7 +58,6 @@
         },
         "72e2785a-15e9-44b9-9fa7-2f9baa8fd14d": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
             "heading": "Быстрый заказ!",
             "content": "<p>Заполняйте форму и мы Вам перезвоним!<\/p><p><a href=\"https:\/\/b24-yyxq7u.bitrix24site.ua\/crm_form_fu8sq\/\" target=\"_blank\" title=\"https:\/\/b24-yyxq7u.bitrix24site.ua\/crm_form_fu8sq\/\">Форма быстрого заказа! <\/a><\/p><p><a>&lt;script data-b24-form=\"inline\/17\/61gqvb\" data-skip-moving=\"true\"&gt;<br\/>(function(w,d,u)&lcub;<br\/>var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()\/180000|0);<br\/>var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);<br\/>&rcub;)(window,document,'https:\/\/cdn.bitrix24.ua\/b20466817\/crm\/form\/loader_17.js');<br\/>&lt;\/script&gt;<\/a><\/p>",
