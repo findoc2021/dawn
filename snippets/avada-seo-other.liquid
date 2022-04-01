@@ -37,3 +37,34 @@
 
 {{ tw_social_image }}
 <script>window.FPConfig = {};window.FPConfig.ignoreKeywords=["/cart","/account"]</script>
+
+{% assign avadaImg1px = '<img alt="website" width="99999" height="99999" style="pointer-events: none; position: absolute; top: 0; left: 0; width: 99vw; height: 99vh; max-width: 99vw; max-height: 99vh;" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5OTk5OSIgaGVpZ2h0PSI5OTk5OSIgdmlld0JveD0iMCAwIDk5OTk5IDk5OTk5IiAvPg==" />' %}
+{% assign content_for_header = content_for_header | prepend: avadaImg1px %}
+
+<script>
+const lightJsExclude = [];
+</script>
+{% assign lightJsReplace = "if (lightJsExclude.indexOf(urls[i]) === -1) s.type = 'lightJs'; else s.type = 'text/javascript'" %}
+
+{% assign lightJsContent = content_for_header | split: 'asyncLoad()' %}
+{% if lightJsContent.size > 1 %}
+  {% assign lightJsParts = lightJsContent[1] | split: 'asyncLoad' %}
+  {% if lightJsParts.size > 1 %}
+    {% assign lightJsTemp = '' %}
+    {% for lightJsItem in lightJsParts %}
+      {% if forloop.first == true and lightJsItem contains 'text/javascript' %}
+      {% assign lightJsTemp = lightJsItem | replace: "s.type = 'text/javascript'", lightJsReplace | prepend: lightJsTemp %}
+      {% else %}
+      {% assign lightJsTemp = lightJsItem | prepend: lightJsTemp %}
+      {% endif %}
+      {% if forloop.last == false %}
+      {% assign lightJsTemp = lightJsTemp | append: 'asyncLoad' %}
+      {% endif %}
+    {% endfor %}
+    {% assign content_for_header = lightJsContent[0] | append: 'asyncLoad()' | append: lightJsTemp %}
+  {% endif %}
+{% endif %}
+
+<script>
+class LightJsLoader{constructor(e){this.jQs=[],this.listener=this.handleListener.bind(this,e),this.scripts=["default","defer","async"].reduce(((e,t)=>({...e,[t]:[]})),{});const t=this;e.forEach((e=>window.addEventListener(e,t.listener,{passive:!0})))}handleListener(e){const t=this;return e.forEach((e=>window.removeEventListener(e,t.listener))),"complete"===document.readyState?this.handleDOM():document.addEventListener("readystatechange",(e=>{if("complete"===e.target.readyState)return setTimeout(t.handleDOM.bind(t),1)}))}async handleDOM(){this.suspendEvent(),this.suspendJQuery(),this.findScripts(),this.preloadScripts();for(const e of Object.keys(this.scripts))await this.replaceScripts(this.scripts[e]);for(const e of["DOMContentLoaded","readystatechange"])await this.requestRepaint(),document.dispatchEvent(new Event("lightJS-"+e));document.lightJSonreadystatechange&&document.lightJSonreadystatechange();for(const e of["DOMContentLoaded","load"])await this.requestRepaint(),window.dispatchEvent(new Event("lightJS-"+e));await this.requestRepaint(),window.lightJSonload&&window.lightJSonload(),await this.requestRepaint(),this.jQs.forEach((e=>e(window).trigger("lightJS-jquery-load"))),window.dispatchEvent(new Event("lightJS-pageshow")),await this.requestRepaint(),window.lightJSonpageshow&&window.lightJSonpageshow()}async requestRepaint(){return new Promise((e=>requestAnimationFrame(e)))}findScripts(){document.querySelectorAll("script[type=lightJs]").forEach((e=>{e.hasAttribute("src")?e.hasAttribute("async")&&e.async?this.scripts.async.push(e):e.hasAttribute("defer")&&e.defer?this.scripts.defer.push(e):this.scripts.default.push(e):this.scripts.default.push(e)}))}preloadScripts(){const e=this,t=Object.keys(this.scripts).reduce(((t,n)=>[...t,...e.scripts[n]]),[]),n=document.createDocumentFragment();t.forEach((e=>{const t=e.getAttribute("src");if(!t)return;const s=document.createElement("link");s.href=t,s.rel="preload",s.as="script",n.appendChild(s)})),document.head.appendChild(n)}async replaceScripts(e){let t;for(;t=e.shift();)await this.requestRepaint(),new Promise((e=>{const n=document.createElement("script");[...t.attributes].forEach((e=>{"type"!==e.nodeName&&n.setAttribute(e.nodeName,e.nodeValue)})),t.hasAttribute("src")?(n.addEventListener("load",e),n.addEventListener("error",e)):(n.text=t.text,e()),t.parentNode.replaceChild(n,t)}))}suspendEvent(){const e={};[{obj:document,name:"DOMContentLoaded"},{obj:window,name:"DOMContentLoaded"},{obj:window,name:"load"},{obj:window,name:"pageshow"},{obj:document,name:"readystatechange"}].map((t=>function(t,n){function s(n){return e[t].list.indexOf(n)>=0?"lightJS-"+n:n}e[t]||(e[t]={list:[n],add:t.addEventListener,remove:t.removeEventListener},t.addEventListener=(...n)=>{n[0]=s(n[0]),e[t].add.apply(t,n)},t.removeEventListener=(...n)=>{n[0]=s(n[0]),e[t].remove.apply(t,n)})}(t.obj,t.name))),[{obj:document,name:"onreadystatechange"},{obj:window,name:"onpageshow"}].map((e=>function(e,t){let n=e[t];Object.defineProperty(e,t,{get:()=>n||function(){},set:s=>{e["lightJS"+t]=n=s}})}(e.obj,e.name)))}suspendJQuery(){const e=this;let t=window.jQuery;Object.defineProperty(window,"jQuery",{get:()=>t,set(n){if(!n||!n.fn||!e.jQs.includes(n))return void(t=n);n.fn.ready=n.fn.init.prototype.ready=e=>{e.bind(document)(n)};const s=n.fn.on;n.fn.on=n.fn.init.prototype.on=function(...e){if(window!==this[0])return s.apply(this,e),this;const t=e=>e.split(" ").map((e=>"load"===e||0===e.indexOf("load.")?"lightJS-jquery-load":e)).join(" ");return"string"==typeof e[0]||e[0]instanceof String?(e[0]=t(e[0]),s.apply(this,e),this):("object"==typeof e[0]&&Object.keys(e[0]).forEach((n=>{delete Object.assign(e[0],{[t(n)]:e[0][n]})[n]})),s.apply(this,e),this)},e.jQs.push(n),t=n}})}}new LightJsLoader(["keydown","mousemove","touchend","touchmove","touchstart","wheel"]);
+</script>
