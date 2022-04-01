@@ -138,7 +138,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "ЗАКАЗАТЬ",
-            "button_link_1": "shopify:\/\/products\/женское-осеннее-платье-спортивного-стиля-модель-363",
+            "button_link_1": "shopify:\/\/products\/zhenskoe-osennee-plate-sportivnogo-stilya-model-363",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -285,7 +285,7 @@
         "1628205071928c9169-1": {
           "type": "product",
           "settings": {
-            "product": "женское-осеннее-платье-спортивного-стиля-модель-363",
+            "product": "zhenskoe-osennee-plate-sportivnogo-stilya-model-363",
             "secondary_background": true,
             "second_image": true,
             "image_padding": false
