@@ -37,7 +37,7 @@
         "image_2": "shopify:\/\/shop_images\/viber_2022-02-22_18-35-03-863.jpg",
         "desktop_text_box_position": "flex-end",
         "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
+        "stack_images_on_mobile": false,
         "adapt_height_first_image": false
       }
     },
@@ -75,6 +75,7 @@
       "blocks": {
         "1ca29635-6f0f-4bb1-a58f-c2506beb3585": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Платья ниже колена"
           }
@@ -100,7 +101,7 @@
         "image_2": "shopify:\/\/shop_images\/viber_2022-02-22_18-28-27-177.jpg",
         "desktop_text_box_position": "flex-end",
         "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
+        "stack_images_on_mobile": false,
         "adapt_height_first_image": false
       }
     },
