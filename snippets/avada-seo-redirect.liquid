@@ -1,5 +1,6 @@
 {%- if template == '404' -%}
 <script>
+
 function avadaMakeRequest(url, method = 'GET', data = null) {
   // Create the XHR request
   const request = new XMLHttpRequest();
@@ -112,6 +113,7 @@ function avadaMakeRequest(url, method = 'GET', data = null) {
         }
     }
 })("docReady", window);
+
 var avadaInterval404 = setInterval(avadaHandle404, 100);
 function avadaHandle404() {if (window.Shopify) {clearInterval(avadaInterval404);avadaMakeRequest('https://seo.apps.avada.io/proxy/save404', 'POST', {domain: Shopify.shop, url: window.location.pathname});}}
 docReady(function() {document.querySelector('body').style.opacity = 0;});

@@ -4,10 +4,11 @@
 {% capture avada_structured_data %}
 
 {%- if request.page_type == 'product' -%}
+{%- assign avada_product_review = false -%}
 {
 "@context": "https://schema.org/",
 "@type": "Product",
-"@id": {{ canonical_url | json }},
+"@id": "{{ canonical_url | default product.id }}",
 "name": "{{ product.title | strip_html | strip_newlines | strip | escape }}",
 "description": "{{ product.description | strip_html | strip_newlines | strip | escape }}",
 "brand": {
@@ -33,26 +34,13 @@
 "mpn": "{{ product.selected_or_first_available_variant.barcode | default: product.selected_or_first_available_variant.sku }}"
 {%- endif -%}
 
-{%- capture ssw_rich_snippet -%}{% render 'ssw-widget-avg-rate-rich', rich_snippet_type: 'json' %}{%- endcapture -%}
-{%- unless ssw_rich_snippet contains 'Liquid error' -%}
-{{ ssw_rich_snippet }}
-{%- endunless -%}
-{%- assign stamped = product.metafields.stamped -%}
-{%- if stamped.reviews_count and stamped.reviews_count != "0" -%}
-,
-"aggregateRating": {
- "@type": "AggregateRating",
- "ratingValue": {{ stamped.reviews_average | round:2 }},
- "reviewCount": {{ stamped.reviews_count }}
-}
-{%- endif -%}
-
 {%- assign ryviu = product.metafields.ryviu -%}
 {%- if ryviu -%}
   {%- assign aggregateRating = ryviu.product_reviews_info | split: ";" -%}
   {%- assign r_avg = aggregateRating[1] | plus: 0 -%}
   {%- assign r_count = aggregateRating[0] | plus: 0 -%}
-  {%- if r_count > 0 -%}
+  {%- if r_count > 0 and avada_product_review == false -%}
+  {%- assign avada_product_review = true -%}
 ,
 "aggregateRating": {
  "@type": "AggregateRating",
@@ -61,6 +49,26 @@
 }
   {%- endif -%}
 {%- endif -%}
+
+{%- capture ssw_rich_snippet -%}{% render 'ssw-widget-avg-rate-rich', rich_snippet_type: 'json' %}{%- endcapture -%}
+{%- unless ssw_rich_snippet contains 'Liquid error' -%}
+{%- if avada_product_review == false -%}
+{%- assign avada_product_review = true -%}
+{{ ssw_rich_snippet }}
+{%- endif -%}
+{%- endunless -%}
+
+{%- assign stamped = product.metafields.stamped -%}
+{%- if stamped.reviews_count and stamped.reviews_count != "0" and avada_product_review == false -%}
+{%- assign avada_product_review = true -%}
+,
+"aggregateRating": {
+ "@type": "AggregateRating",
+ "ratingValue": {{ stamped.reviews_average | round:2 }},
+ "reviewCount": {{ stamped.reviews_count }}
+}
+{%- endif -%}
+
 }
 {%- endif -%}
 
