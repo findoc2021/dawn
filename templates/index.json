@@ -37,7 +37,7 @@
         "image_2": "shopify:\/\/shop_images\/viber_2022-02-22_18-35-03-863.jpg",
         "desktop_text_box_position": "flex-end",
         "color_scheme": "background-2",
-        "stack_images_on_mobile": false,
+        "stack_images_on_mobile": true,
         "adapt_height_first_image": false
       }
     },
