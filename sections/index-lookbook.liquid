@@ -28,7 +28,7 @@
 		<div class="{{ grid_item }} type_{{ block.type }} lookbook_item_wrap">
 			<div class="lookbook_img">
 				{%- if bl_it.image.size > 0 -%}
-						<img class="img-fluid{% if item.lookbook_layout != 'container' %} w-100{% endif %}" src="{{ bl_it.image | img_url: img_size, crop: bl_it.img_alignment }}" alt="">
+						<img loading="lazy" class="img-fluid{% if item.lookbook_layout != 'container' %} w-100{% endif %}" src="{{ bl_it.image | img_url: img_size, crop: bl_it.img_alignment }}" alt="">
 					{% comment %}<div class="img_placeholder__wrap" style="background-image: url( {{ item.image | img_url: img_size, crop: bl_it.img_alignment }} );"></div>{% endcomment %}
 				{%- else -%}
 					<div class="img_placeholder__wrap img_placeholder__{{ bl_it.img_size }}">
@@ -57,7 +57,7 @@
 								</a>
 								<a class="lookbook_item__caption" href="{{ itemProduct.url }}">
 									<div class="d-flex align-items-center">
-										<img class="img-fluid w-100" src="{{ itemProduct.featured_image.src | product_img_url: '88x112', crop: 'top'  }}" alt="{{ itemProduct.featured_image.alt }}">
+										<img loading="lazy" class="img-fluid w-100" src="{{ itemProduct.featured_image.src | product_img_url: '88x112', crop: 'top'  }}" alt="{{ itemProduct.featured_image.alt }}">
 										<div>
 											<span class="product_name d-block">{{ itemProduct.title | truncate:38 }}</span>
 											<span class="product-price money">{{ itemProduct.price | money }}</span>
