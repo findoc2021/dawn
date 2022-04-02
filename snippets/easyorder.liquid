@@ -179,7 +179,7 @@
     {% assign easyorderShow = true %}
     {% endif %}
 
-        {% unless easyorderShow %}{% for c in product.collections %}{% if c.id == 264175878329%}{% assign easyorderShow = true %}{% break %}{% endif %}{% endfor %}{% endunless %}    
+    {% assign easyorderShow = true %}        
     {% if easyorderShow == true %}
       <script type="text/javascript">
                 var easyorderForms = document.getElementsByTagName('form');
