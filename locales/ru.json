@@ -1083,7 +1083,55 @@
         "attempted_delivery": "Попытка доставки",
         "attempted_delivery_title": "Была предпринята попытка доставить ваш заказ",
         "attempted_delivery_description_html": "Была предпринята попытка доставить ваш заказ, но она не удалась. %{contact_us} для организации еще одной попытки доставки.",
-        "attempted_delivery_local_title": "Пропущенная доставка"
+        "attempted_delivery_local_title": "Пропущенная доставка",
+        "attempted_delivery_local_description_html": "Мы не смогли доставить ваш заказ. Чтобы запланировать другую доставку, %{contact_us}.",
+        "delivered": "Доставленный",
+        "delivered_title": "Ваш заказ доставлен",
+        "delivered_description_html": "Ваш заказ доставлен по указанному вами адресу. Если вы его не получили или у вас возникли другие проблемы, %{contact_us}.",
+        "delivered_local_title": "Ваш заказ доставлен",
+        "delivered_local_description_html": "Не получили свой заказ? %{let_us_know}.",
+        "picked_up_title": "Ваш заказ принят",
+        "picked_up_description_html": "Ваш заказ был получен в %{location_name} %{date}.",
+        "contact_us": "Связаться с нами",
+        "contact_us_lowercase": "Связаться с нами",
+        "contact_us_html": "Нужна помощь? %{contact_us}",
+        "updated_time": "Обновлен %{time_ago} назад",
+        "failure": "Не поставляется",
+        "failed_title": "Ваш заказ не может быть доставлен",
+        "failed_contact_merchant": "Свяжитесь с %{company}, чтобы организовать доставку.",
+        "failed_contact_merchant_no_company": "Свяжитесь с нами, чтобы договориться о доставке.",
+        "non_shippable_title": "Ваш заказ выполнен",
+        "let_us_know": "Дайте нам знать",
+        "login_title": "Войдите, чтобы просмотреть все детали заказа",
+        "login_description": "Вы можете найти номер вашего заказа в квитанции, которую вы получили по электронной почте.",
+        "login_description_phone": "Вы можете найти номер вашего заказа в квитанции, которую вы получили в текстовом сообщении.",
+        "login_not_customer_html": "Не %{name}? Вы можете %{link}",
+        "login_reorder_link_text": {
+          "one": "купи и этот товар",
+          "other": "покупайте и эти продукты"
+        },
+        "customer_information_hidden_fields_message": "Войдите, чтобы просмотреть всю информацию о клиенте.",
+        "cancelled_title": "Ваш заказ был отменен",
+        "cancelled_description": "Ваш заказ был отменен %{date}. Свяжитесь с нами если у вас есть какие-либо вопросы.",
+        "order_number_label": "Номер заказа",
+        "customer_validation_error": "Введите действующий адрес электронной почты или номер заказа.",
+        "customer_validation_error_phone": "Введите действительный номер телефона или номер заказа.",
+        "login": "Авторизоваться",
+        "unfulfilled_items_title": "Подготовка к отправке",
+        "unfulfilled_items_description": "В настоящее время мы готовим эти товары к отправке.",
+        "marker": {
+          "current": "Текущее местоположение отгрузки",
+          "shipping": "Адреса доставки"
+        },
+        "pick_up_in_store_marker": {
+          "current": "Текущее местоположение отгрузки",
+          "shipping": "Выбрать место"
+        },
+        "fulfillment": {
+          "fulfilled_table_title": "Товар в этой посылке",
+          "unfulfilled_table_title": "Предметы готовятся к отправке",
+          "product_image_label": "Изображение продукта"
+        }
       }
     }
   },
