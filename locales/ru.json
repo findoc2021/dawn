@@ -717,7 +717,7 @@
         "supported_card_brands_more_label": "и более…",
         "detected_card_brand": "Марка обнаруженной карты: {brand}",
         "credit_card_vaulting_sign_in_banner_title": "Сохраните свою кредитную карту",
-        "credit_card_vaulting_sign_in_banner_info": "Войдите в систему или создайте учетную запись, чтобы сохранить свою кредитную карту для будущих покупок.",
+        "credit_card_vaulting_sign_in_banner_info": "Войдите или создайте учетную запись, чтобы сохранить свою кредитную карту для будущих покупок.",
         "credit_card_vaulting_sign_in_banner_button_label": "Авторизоваться",
         "ftd_vault_credit_card_label": "Сохраните эту кредитную карту в моем аккаунте, чтобы быстрее оформить заказ.",
         "card_number_label": "Номер карты",
