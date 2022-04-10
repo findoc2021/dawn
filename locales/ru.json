@@ -604,7 +604,58 @@
         "estimated_tax_label": "Приблизительный налог",
         "multiple_shipping_lines_label": "Всего за доставку",
         "recurring_total_label": "Общая сумма",
-        "recurring_total_tooltip": "Не включает доставку, налоги, пошлины или любые применимые скидки."
+        "recurring_total_tooltip": "Не включает доставку, налоги, пошлины или любые применимые скидки.",
+        "confirmation_number_label": "Подтверждение #%{confirmation_number}",
+        "higher_value_discount_already_applied": "Уже применена более высокая скидка.",
+        "percent_off_shipping": "%{percent}% скидка на доставку",
+        "amount_off_shipping": "%{amount} скидка на доставку",
+        "deferred_payment_info": {
+          "title": "Оплата %{amount_due} должна быть произведена %{due_at}",
+          "description": "Когда придет срок платежа, вы получите напоминание по электронной почте."
+        }
+      },
+      "shipping": {
+        "title": "Перевозки",
+        "shipping_method_title": "Способ доставки",
+        "shipping_method_one_time_purchase_group_title": "Разовая покупка",
+        "shipping_method_subscription_group_title": "Подписка",
+        "subscription_shipping": "Доставка по подписке",
+        "waiting_on_rate_notice": "Получение доступных тарифов на доставку…",
+        "waiting_on_pickup_location_notice": "Получение доступных пунктов выдачи…",
+        "no_rates_for_cart_or_destination_notice": "Нет доступных способов доставки для вашей корзины или адреса",
+        "no_pickup_location_notice": "Как минимум один из ваших товаров недоступен для самовывоза",
+        "no_rates_for_country_notice": "Тарифы на доставку для этого адреса не найдены.",
+        "no_rates_contact_notice": "Свяжитесь с нами для получения дополнительной информации",
+        "free_rate_label": "Бесплатно",
+        "cheapest_rate_label": "Самый дешевый",
+        "please_enter_your_shipping_information_notice": "Пожалуйста, введите информацию о доставке.",
+        "estimated_delivery_date": {
+          "one": "%{count} рабочий день",
+          "other": "%{count} рабочих дней"
+        },
+        "estimated_delivery_date_range": "%{minimum} до %{maximum} рабочих дней",
+        "estimated_delivery_time": "Расчетная доставка %{time}",
+        "estimated_delivery_time_range": "Расчетная доставка %{min_time}–%{max_time}",
+        "arrives_time": "Прибывает %{time}",
+        "arrives_time_range": "Прибытие %{min_time}–%{max_time}",
+        "shipping_line_phone_label": "Номер мобильного телефона (обязательно)",
+        "shipping_line_phone": "Ваш курьер может использовать этот номер для связи с вами.",
+        "shipping_line_delivery_phone_label": "номер мобильного телефона",
+        "shipping_line_delivery_phone": "Мы можем использовать этот номер, чтобы позвонить или написать вам о доставке.",
+        "optional_shipping_line_delivery_instructions_label": "Инструкции по доставке (необязательно)",
+        "shipping_line_delivery_instructions": "Введите необходимую информацию, такую ​​как коды дверей или инструкции по высадке.",
+        "other_method": {
+          "zero": "Других способов нет",
+          "one": "%{count} другой метод, доступный в",
+          "other": "%{count} доступны другие методы, начиная с"
+        },
+        "shipping_rate_discounted_amount": "Было: %{original_amount}. Сейчас: %{amount}",
+        "local_delivery": "Местная доставка",
+        "subscription_delivery_description": {
+          "prepaid_delivery_frequency": {
+            "one": "для доставки %{count}"
+          }
+        }
       }
     }
   },
