@@ -1330,6 +1330,61 @@
       "words_connector": ",",
       "two_words_connector": "и",
       "last_word_connector": ", и"
+    },
+    "pagination": {
+      "previous": "Предыдущий",
+      "next": "Следующий"
+    },
+    "links": {
+      "powered_by_shopify": "Работает на Shopify",
+      "learn_more": "Учить больше"
+    },
+    "feed": {
+      "more": "Более"
+    },
+    "attributes": {
+      "email": "Эл. адрес",
+      "password": "пароль",
+      "password_confirmation": "Подтверждение пароля",
+      "first_name": "имя",
+      "last_name": "фамилия",
+      "body": "тело",
+      "signature": "Адрес"
+    },
+    "addresses": {
+      "zip_code": "почтовый индекс",
+      "postal_code": "Почтовый Код",
+      "postcode": "Почтовый индекс",
+      "pincode": "Пин-код",
+      "region": "Область, край",
+      "prefecture": "Префектура",
+      "province": "Провинция",
+      "state": "Состояние",
+      "state_and_territory": "Штат\/территория",
+      "county": "округ",
+      "emirate": "Эмират",
+      "governorate": "мухафаза",
+      "confirm": "Вы уверены, что хотите удалить этот адрес?"
+    },
+    "collections": {
+      "sorting": {
+        "manual": "Избранное",
+        "best_selling": "Бестселлер",
+        "az": "По алфавиту, А-Я",
+        "za": "По алфавиту Z-A",
+        "price_ascending": "Цена, от низкой к высокой",
+        "price_descending": "Цена, от высокой к низкой",
+        "date_ascending": "Дата, старая к новой",
+        "date_descending": "Дата, от нового к старому"
+      }
+    },
+    "errors": {
+      "blank": "не может быть пустым",
+      "blocked_address": "Это местоположение не поддерживается.",
+      "credit_card_session_expired": "Срок действия авторизации кредитной карты истек, введите платежную информацию еще раз. Ваша карта не была списана.",
+      "empty": "не может быть пустым",
+      "invalid_email": "Адрес эл. почты должен быть действительным",
+      "discount_disabled": "Эта скидка отключена"
     }
   },
   "easyaccounts": {
