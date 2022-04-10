@@ -943,7 +943,65 @@
         "or": "ИЛИ"
       },
       "alternative_payment_method": {
-        "button_html": "Оформить заказ с помощью: %{method}"
+        "button_html": "Оформить заказ с помощью: %{method}",
+        "button_label": "Оформить заказ с помощью: %{method}"
+      },
+      "paypal": {
+        "button_html": "Оформить заказ с помощью %{logo}"
+      },
+      "apple_pay": {
+        "button_html": "Купить с %{logo}"
+      },
+      "post_purchase": {
+        "page_title": "После покупки",
+        "title": "После покупки",
+        "escape_confirmation": "Вы оплатили заказ.",
+        "escape_action": "Посмотреть подтверждение заказа ›",
+        "components": {
+          "close": "Закрывать",
+          "expand": "Посмотреть больше",
+          "processing": "Обработка…",
+          "submit": "Представлять на рассмотрение"
+        }
+      },
+      "processing": {
+        "redirecting_page_title": "Перенаправление…",
+        "redirecting_title": "Перенаправление…",
+        "redirecting_notice": "Подождите, пока мы перенаправим вас.",
+        "complete_your_purchase_title": "Завершите покупку",
+        "continue_to_payment_gateway_notice": "Перейдите к оплате, чтобы добавить платежную информацию.",
+        "continue_to_payment_gateway_button_label": "Перейти к оплате",
+        "complete_your_purchase_title_error": "Исправьте платежную информацию",
+        "continue_to_payment_gateway_notice_error": "Не удалось проверить вашу платежную информацию.",
+        "continue_to_payment_gateway_button_label_error": "Обновить платежную информацию",
+        "page_title": "Порядок обработки",
+        "title": "Порядок обработки",
+        "your_order_has_been_received_title": "Спасибо за ваш заказ",
+        "you_will_receive_confirmation": "У нас сейчас много заказов. Вскоре вы должны получить подтверждение по электронной почте или в текстовом сообщении. Если вы не получите его в течение часа, сообщите нам об этом.",
+        "you_will_not_be_charged": "С вас пока не будет взиматься плата",
+        "wait": {
+          "short": "Ваш заказ обрабатывается.",
+          "medium": {
+            "one": "Ваш заказ обрабатывается. Расчетное время ожидания составляет %{count} минут.",
+            "other": "Ваш заказ обрабатывается. Расчетное время ожидания составляет %{count} минут."
+          },
+          "long": "Вы получите электронное письмо, как только ваш заказ будет обработан. Сейчас большой объем заказов.",
+          "no_auto_refresh_html": "Если вы не перенаправлены автоматически, %{link}.",
+          "refresh_this_page": "обновить эту страницу"
+        }
+      },
+      "failed_payment": {
+        "page_title": "Платеж не может быть обработан",
+        "title": "Платеж не может быть обработан",
+        "payment_not_processed_title": "Ваш платеж не может быть обработан",
+        "payment_not_processed_text": "Вам не было предъявлено обвинение. Вернитесь в корзину, чтобы завершить покупку.",
+        "return_to_cart_button_label": "Вернуться в корзину"
+      },
+      "payment_gateway": {
+        "credit_card_label": "Кредитная карта",
+        "bank_deposit_label": "Банковский депозит",
+        "cash_on_delivery_label": "Наложенный платеж (COD)",
+        "money_order_label": "Денежный перевод"
       }
     }
   },
