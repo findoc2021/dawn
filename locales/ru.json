@@ -1130,8 +1130,63 @@
         "fulfillment": {
           "fulfilled_table_title": "Товар в этой посылке",
           "unfulfilled_table_title": "Предметы готовятся к отправке",
-          "product_image_label": "Изображение продукта"
+          "product_image_label": "Изображение продукта",
+          "description_label": "Описание",
+          "quantity_label": "Количество"
+        },
+        "opt_in_message_html": "Ваша информация была успешно сохранена с помощью %{shopify_pay}",
+        "order_updates_description_missing": "Вы не получаете уведомления о доставке.",
+        "order_updates_subscribe_to_email_notifications": "Получайте обновления о доставке по электронной почте",
+        "order_updates_subscribe_to_email_or_phone_notifications": "Получайте обновления о доставке по электронной почте или в текстовом сообщении",
+        "order_updates_subscribe_to_phone_notifications": "Получайте уведомления о доставке по тексту",
+        "order_updates_submit_subscription": "Представлять на рассмотрение",
+        "track_shipment": "Отследить доставку",
+        "shopify_pay": {
+          "order_completed_html": "Заказ выполнен с %{shopify_pay}",
+          "learn_more_label": "Узнать больше о Shop Pay"
+        },
+        "other_options": "Другие варианты",
+        "delivery_information_label": "Информация о доставке:",
+        "gift_card_sent_confirmation": "Подарочные карты отправлены",
+        "qr_code": {
+          "send_link_to_phone": "Или пришлите ссылку на телефон",
+          "title": "Отслеживайте на своем телефоне",
+          "subtitle": "Отсканируйте код камерой вашего телефона, чтобы отслеживать его в магазине."
+        },
+        "shop_qr_with_sms_upsell": {
+          "qr_code": {
+            "title": "Сканируйте с помощью телефона",
+            "description": "Магазин отправит вам обновления доставки в режиме реального времени, как только ваш заказ будет отправлен."
+          },
+          "sms": {
+            "title": "Или пришлите ссылку на телефон"
+          }
+        },
+        "view_business_customer_account": "Посмотреть аккаунт"
+      },
+      "review": {
+        "title": "Рассмотрение",
+        "review_title": "Просмотреть заказ",
+        "checkout_as_guest": "Оформить заказ как гость",
+        "blocks": {
+          "contact_method_title": "Контакт",
+          "billing_address_title": "Выставление счетов",
+          "shipping_address_title": "Доставка до",
+          "shipping_method_title": "Метод",
+          "payment_method_title": "Оплата",
+          "change_link_label": "Сдача",
+          "change_contact_method_link_label": "Изменить контактную информацию",
+          "change_billing_address_link_label": "Изменить платежный адрес",
+          "change_shipping_address_link_label": "Изменить адрес доставки",
+          "change_shipping_method_link_label": "Изменить способ доставки",
+          "change_payment_method_link_label": "Изменить способ оплаты",
+          "pick_up_in_store_shipping_method_html": "Забрать в магазине · %{location_name}"
         }
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "Пишите мне с новостями и предложениями",
+        "post_accept_marketing_checkbox_label": "Вы подписаны на получение новостей и предложений по электронной почте",
+        "pending_accept_marketing_checkbox_label": "Проверьте свою электронную почту, чтобы подтвердить подписку на новости и предложения"
       }
     }
   },
