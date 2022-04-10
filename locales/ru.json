@@ -1246,7 +1246,7 @@
           "subtracted": "%{count} удален"
         },
         "additional_payment_requested": "Требуется оплата %{total_outstanding}",
-        "checkout_review_and_pay": "Ваш заказ %{order_name} обновлен. Просмотрите эти изменения, затем оплатите, чтобы подтвердить свой заказ.",
+        "checkout_review_and_pay": "Ваш заказ %{order_name} обновлен. Просмотрите эти изменения, а затем оплатите, чтобы подтвердить свой заказ.",
         "order_updated_on": "Ваш заказ был обновлен %{last_edited_at}.",
         "order_review_and_pay": "Ваш заказ обновлен. Просмотрите и оплатите, чтобы подтвердить свой заказ.",
         "pay_now": "Заплатить сейчас"
