@@ -40,47 +40,16 @@ window.addEventListener("load", loadCSS(), false);
 </script>
 
 <script type="text/javascript"> 
-  var isLoadedWidgetAR = false;
-  var timerScrollIframeWidgetAR = null;
   const EL_IFRAME_AR = 'iframe[widget-id][class=aliReviewsFrame]:not([src])';
-  function handleIframeWidget(){
-    let iframes = document.querySelectorAll(EL_IFRAME_AR);
-    if(iframes.length){
-      loadIframeWidget();
-      !isLoadedWidgetAR && document.addEventListener("scroll", loadIframeWidget, false);
-    }
-  }
-  function loadIframeWidget(){
-    if(timerScrollIframeWidgetAR){
-      clearTimeout(timerScrollIframeWidgetAR);
-    }
-    timerScrollIframeWidgetAR = setTimeout(function() {
-      let iframes = document.querySelectorAll(EL_IFRAME_AR);
-      let offsetTopNearest = iframes.length && iframes[0].offsetTop || 0;
-      let scrollTop = document.documentElement.scrollTop;
-      let heightScreen = document.documentElement.clientHeight;
-      let contentHeight = offsetTopNearest - heightScreen;
-      if (contentHeight <= scrollTop && !isLoadedWidgetAR){
-        isLoadedWidgetAR = true;
-        document.removeEventListener("scroll", loadIframeWidget, false);
-        renderIframe(iframes);
-      }
-    }, 100);
-  }
-
   function renderIframe(iframes){
     iframes.length && iframes.forEach((iframe, index) => {
-      let iframeSrc = iframe.getAttribute('data-ar-src');
+      let iframeSrc = iframe.getAttribute('data-ar-src') || iframe.getAttribute('data-src');
       iframe.setAttribute('src', iframeSrc || '');
     });
-  }
+  };
   document.addEventListener("DOMContentLoaded", function () { 
-    if(window.matchMedia('screen and (max-width: 768px)').matches){
-      handleIframeWidget();
-    }else{
-      let iframes = document.querySelectorAll(EL_IFRAME_AR);
-      renderIframe(iframes);
-    }
+    let iframes = document.querySelectorAll(EL_IFRAME_AR);
+    renderIframe(iframes);
   });
 </script>
 
