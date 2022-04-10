@@ -390,8 +390,49 @@
   "shopify": {
     "checkout": {
       "general": {
-        "continue_to_shipping_method": "Перейти к выбору доставки",
-        "continue_to_payment_method": "Перейти к выбору способа оплаты"
+        "continue_to_shipping_method": "Продолжить доставку",
+        "continue_to_payment_method": "Перейти к оплате",
+        "page_title": "Проверить",
+        "error_page_title": "Ошибка",
+        "skip_to_content": "перейти к содержанию",
+        "breadcrumb": "хлебные крошки",
+        "continue_button_label": "Продолжать",
+        "complete_purchase_button_label": "Полный заказ",
+        "pay_now_button_label": "Заплатить сейчас",
+        "authenticate_purchase_button_label": "Подтвердить платеж",
+        "edit_link_label": "Редактировать",
+        "all_rights_reserved": "Все права защищены %{shop_name}",
+        "print_policies_link_label": "Распечатать",
+        "cart": "Корзина",
+        "close_modal_label": "Закрывать",
+        "close_notice_label": "Закрывать",
+        "expand_notice_label": "Посмотреть больше",
+        "continue_to_review": "Просмотреть заказ",
+        "back_to_cart": "Вернуться в корзину",
+        "back_to_contact_information": "Вернуться к информации",
+        "back_to_shipping_method": "Вернуться к доставке",
+        "back_to_payment_method": "Возврат к оплате",
+        "choose_shipping_method": "Выберите способ доставки",
+        "choose_payment_method": "Выберите способ оплаты",
+        "choose_billing_address": "Выберите адрес для выставления счета",
+        "contact_us_html": "Свяжитесь с нами для получения дополнительной информации",
+        "autocomplete_title": "Предложения",
+        "autocomplete_single_item": "1 товар в наличии",
+        "autocomplete_multi_item": "Доступно {{number}} элементов",
+        "autocomplete_selection": "{{number}} из {{total}}",
+        "autocomplete_close": "Закрыть предложения",
+        "forwarding_indicator": {
+          "new_window": "Открывается в новом окне.",
+          "external": "Открывает внешний сайт.",
+          "external_and_new_window": "Открывает внешний сайт в новом окне."
+        },
+        "checkout_context": {
+          "step_one": "%{shop_name} - Оформить заказ"
+        },
+        "tooltip_accessibility_label": "Дополнительная информация",
+        "errors": {
+          "session_identifier_not_unique_error": "Что-то пошло не так с вашим заказом, попробуйте проверить еще раз."
+        }
       },
       "contact": {
         "email_or_phone_label": "Номер телефона или адрес электронной почты",
