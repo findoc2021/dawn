@@ -1325,6 +1325,11 @@
           "success_message": "Ваш способ оплаты успешно удален"
         }
       }
+    },
+    "sentence": {
+      "words_connector": ",",
+      "two_words_connector": "и",
+      "last_word_connector": ", и"
     }
   },
   "easyaccounts": {
