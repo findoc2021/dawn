@@ -1,52 +1,52 @@
 {
   "general": {
     "password_page": {
-      "login_form_heading": "Вход в магазин с помощью пароля:",
+      "login_form_heading": "Войдите в магазин, используя пароль:",
       "login_password_button": "Войти с помощью пароля",
       "login_form_password_label": "Пароль",
       "login_form_password_placeholder": "Ваш пароль",
-      "login_form_error": "Неправильный пароль.",
-      "login_form_submit": "Ввести",
-      "modal": "Модальное окно входа с паролем",
+      "login_form_error": "Неправильный пароль!",
+      "login_form_submit": "Войти",
+      "modal": "Модальный пароль",
       "admin_link_html": "Вы владелец магазина? <a href=\"\/admin\" class=\"link underlined-link\">Войдите здесь<\/a>",
-      "powered_by_shopify_html": "Этот магазин работает на платформе {{ shopify }}"
+      "powered_by_shopify_html": "Этот магазин будет питаться от {{ shopify }}"
     },
     "social": {
       "alt_text": {
-        "share_on_facebook": "Поделиться в Facebook",
-        "share_on_twitter": "Опубликовать в Твиттере",
-        "share_on_pinterest": "Сохранить в Pinterest"
+        "share_on_facebook": "Поделиться через фейсбук",
+        "share_on_twitter": "Твитнуть в Твиттере",
+        "share_on_pinterest": "Пин на Pinterest"
       },
       "links": {
         "twitter": "Твиттер",
-        "facebook": "Facebook",
-        "pinterest": "Pinterest",
-        "instagram": "Instagram",
-        "tumblr": "Tumblr",
-        "snapchat": "Snapchat",
+        "facebook": "Фейсбук",
+        "pinterest": "Пинтерест",
+        "instagram": "Инстаграм",
+        "tumblr": "Тамблер",
+        "snapchat": "Снапчат",
         "youtube": "YouTube",
-        "vimeo": "Vimeo",
-        "tiktok": "TikTok"
+        "vimeo": "видео",
+        "tiktok": "ТИК Так"
       }
     },
     "continue_shopping": "Продолжить покупки",
     "pagination": {
-      "label": "Разбивка на страницы",
+      "label": "Пагинация",
       "page": "Страница {{ number }}",
-      "next": "Следующая страница",
+      "next": "Следущая страница",
       "previous": "Предыдущая страница"
     },
     "search": {
       "search": "Поиск"
     },
     "cart": {
-      "view": "Просмотреть корзину ({{ count }})",
-      "item_added": "Товар добавлен в корзину."
+      "view": "Посмотреть мою корзину ({{ count }})",
+      "item_added": "Товар добавлен в Вашу корзину"
     },
     "share": {
       "copy_to_clipboard": "Копировать ссылку",
-      "share": "Поделиться",
-      "share_url": "Ссылка",
+      "share": "Делиться",
+      "share_url": "Связь",
       "success_message": "Ссылка скопирована в буфер обмена!"
     }
   },
@@ -108,52 +108,52 @@
       "description": "Описание",
       "on_sale": "Распродажа",
       "product_variants": "Варианты продукта",
-      "share": "Поделиться этим продуктом",
-      "sold_out": "Продано",
-      "unavailable": "Недоступно",
+      "share": "Поделитесь этим продуктом",
+      "sold_out": "Распроданный",
+      "unavailable": "Недоступен",
       "vendor": "Продавец",
-      "video_exit_message": "{{ title }} – в том же окне открывается полноэкранное видео.",
-      "xr_button": "Просматривайте в реальных условиях",
-      "xr_button_label": "При просмотре в реальных условиях элемент загружается в окне дополненной реальности",
+      "video_exit_message": "{{ title }} открывает полноэкранное видео в том же окне.",
+      "xr_button": "Просмотр в вашем пространстве",
+      "xr_button_label": "Посмотреть в своем пространстве, загрузить элемент в окне дополненной реальности",
       "quantity": {
         "label": "Количество",
-        "input_label": "Количество: {{ product }}",
-        "increase": "Увеличить количество {{ product }}",
-        "decrease": "Уменьшить количество {{ product }}"
+        "input_label": "Количество для {{ product }}",
+        "increase": "Увеличить количество для {{ product }}",
+        "decrease": "Уменьшить количество для {{ product }}"
       },
       "price": {
-        "from_price_html": "От {{ price }}",
+        "from_price_html": "Из {{ price }}",
         "regular_price": "Обычная цена",
-        "sale_price": "Цена со скидкой",
+        "sale_price": "Цена продажи",
         "unit_price": "Цена за единицу"
       },
       "pickup_availability": {
-        "view_store_info": "Сведения о магазине",
-        "check_other_stores": "Проверить наличие в других магазинах",
-        "pick_up_available": "Самовывоз доступен",
-        "pick_up_available_at_html": "Самовывоз доступен: <span class=\"color-foreground\">{{ location_name }}<\/span>",
-        "pick_up_unavailable_at_html": "Самовывоз сейчас недоступен: <span class=\"color-foreground\">{{ location_name }}<\/span>",
-        "unavailable": "Не удалось загрузить сведения о доступности самовывоза",
+        "view_store_info": "Посмотреть информацию о магазине",
+        "check_other_stores": "Уточняйте наличие в других магазинах",
+        "pick_up_available": "Возможен самовывоз",
+        "pick_up_available_at_html": "Пикап доступен в <span class=\"color-foreground\">{{ location_name }}<\/span>",
+        "pick_up_unavailable_at_html": "Пикап в настоящее время недоступен в <span class=\"color-foreground\">{{ location_name }}<\/span>",
+        "unavailable": "Не удалось загрузить информацию о доступности самовывоза.",
         "refresh": "Обновить"
       },
       "media": {
         "open_featured_media": "Открыть избранные медиафайлы в виде галереи",
         "open_media": "Открыть медиафайл {{ index }} в представлении галереи",
-        "play_model": "Открыть объемную модель",
-        "play_video": "Воспроизвести видео"
+        "play_model": "Воспроизвести средство 3D-просмотра",
+        "play_video": "Проиграть видео"
       }
     },
     "modal": {
-      "label": "Галерея мультимедиа"
+      "label": "Медиа-галерея"
     }
   },
   "templates": {
     "search": {
-      "no_results": "По запросу «{{ terms }}» ничего не найдено. Проверьте правописание или выберите другие слова либо фразу.",
+      "no_results": "По запросу “{{ terms }}” ничего не найдено. Проверьте написание или используйте другое слово или фразу.",
       "title": "Результаты поиска",
       "results_with_count": {
-        "one": "{{ count }} рез. по запросу «{{ terms }}»",
-        "other": "{{ count }} рез. по запросу «{{ terms }}»",
+        "one": "{{ count }} результат найден для “{{ terms }}”",
+        "other": "{{ count }} результаты найдены для “{{ terms }}”",
         "few": "{{ count }} рез. по запросу «{{ terms }}»",
         "many": "{{ count }} рез. по запросу «{{ terms }}»"
       },
@@ -165,12 +165,12 @@
     "contact": {
       "form": {
         "name": "Имя",
-        "email": "Адрес электронной почты",
-        "phone": "Номер телефона",
+        "email": "Эл. адрес",
+        "phone": "Телефонный номер",
         "comment": "Комментарий",
-        "send": "Отправить",
-        "post_success": "Спасибо за обращение. Мы свяжемся с вами как можно скорее.",
-        "error_heading": "Измените следующие элементы:"
+        "send": "Отправлять",
+        "post_success": "Спасибо что связались с нами. Мы свяжемся с вами как можно скорее.",
+        "error_heading": "Пожалуйста, отрегулируйте следующее:"
       }
     },
     "404": {
@@ -230,11 +230,11 @@
     },
     "collection_template": {
       "title": "Коллекция",
-      "sort_by_label": "Сортировка",
-      "sort_button": "Сортировка",
+      "sort_by_label": "Сортировать по",
+      "sort_button": "Сортировать",
       "product_count": {
-        "one": "Показано {{ product_count }} из {{ count }} прод.",
-        "other": "Показано {{ product_count }} из {{ count }} прод.",
+        "one": "Отображение {{ product_count }} продукта {{ count }}",
+        "other": "Показаны {{ product_count }} из {{ count }} продуктов",
         "few": "Показано {{ product_count }} из {{ count }} прод.",
         "many": "Показано {{ product_count }} из {{ count }} прод."
       },
@@ -247,9 +247,9 @@
       "filter_by_label": "Сортировать по",
       "filter_button": "Фильтр",
       "max_price": "Самая высокая цена {{ price }}",
-      "reset": "Сбросить",
-      "to": "До",
-      "use_fewer_filters_html": "Используйте меньше фильтров или <a class=\"{{ class }}\" href=\"{{ link }}\">удалите фильтры<\/a>",
+      "reset": "Перезагрузить",
+      "to": "К",
+      "use_fewer_filters_html": "Используйте меньше фильтров или <a class=\"{{ class }}\" href=\"{{ link }}\">очистить все<\/a>",
       "filters_selected": {
         "one": "{{ count }} выбран",
         "other": "{{ count }} выбран",
