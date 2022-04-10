@@ -1079,7 +1079,7 @@
         "out_for_delivery_title": "Ваш заказ готов к доставке",
         "out_for_delivery_description_html": "Ваш заказ находится в пути и должен быть доставлен сегодня. Если он не будет доставлен в течение следующих 2 дней, %{contact_us}.",
         "out_for_delivery_local_title": "Ваш заказ готов к доставке",
-        "out_for_delivery_local_description_html": "Ваш заказ скоро прибудет.",
+        "out_for_delivery_local_description_html": "Ваш заказ прибудет в ближайшее время.",
         "attempted_delivery": "Попытка доставки",
         "attempted_delivery_title": "Была предпринята попытка доставить ваш заказ",
         "attempted_delivery_description_html": "Была предпринята попытка доставить ваш заказ, но она не удалась. %{contact_us} для организации еще одной попытки доставки.",
