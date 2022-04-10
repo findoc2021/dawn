@@ -183,47 +183,47 @@
       "announcement": "Объявление",
       "menu": "Меню",
       "cart_count": {
-        "one": "Элементы: {{ count }}",
-        "other": "Элементов: {{ count }}",
+        "one": "элемент {{ count }}",
+        "other": "{{ count }} элементов",
         "few": "Элементов: {{ count }}",
         "many": "Элементов: {{ count }}"
       }
     },
     "cart": {
-      "title": "Корзина",
-      "caption": "Товары в корзине",
-      "remove_title": "Удалить «{{ title }}»",
+      "title": "Ваша корзина",
+      "caption": "Корзина товаров",
+      "remove_title": "Удалить {{ title }}",
       "subtotal": "Промежуточный итог",
       "new_subtotal": "Новый промежуточный итог",
-      "note": "Получить специальные инструкции",
-      "checkout": "Оформить заказ",
-      "empty": "Корзина пуста.",
-      "cart_error": "Не удалось обновить корзину. Повторите попытку.",
-      "cart_quantity_error_html": "Максимально допустимое количество единиц этого товара в корзине: [количество].",
-      "taxes_and_shipping_policy_at_checkout_html": "Налоги и стоимость <a href=\"{{ link }}\">доставки<\/a>, рассчитанные при оформлении заказа",
-      "taxes_included_but_shipping_at_checkout": "Сумма налога и стоимость доставки, рассчитанные при оформлении заказа",
-      "taxes_included_and_shipping_policy_html": "Налоги включены. <a href=\"{{ link }}\">Стоимость доставки<\/a> рассчитывается при оформлении заказа.",
-      "taxes_and_shipping_at_checkout": "Налоги и стоимость доставки, рассчитанные при оформлении заказа",
-      "update": "Обновить",
+      "note": "Заказать специальные инструкции",
+      "checkout": "Проверить",
+      "empty": "Ваша корзина пуста",
+      "cart_error": "При обновлении корзины произошла ошибка. Пожалуйста, попробуйте еще раз.",
+      "cart_quantity_error_html": "Вы можете добавить только [количество] этого товара в корзину.",
+      "taxes_and_shipping_policy_at_checkout_html": "Налоги и <a href=\"{{ link }}\">доставка<\/a> рассчитываются при оформлении заказа",
+      "taxes_included_but_shipping_at_checkout": "Включенный налог и стоимость доставки рассчитывается при оформлении заказа",
+      "taxes_included_and_shipping_policy_html": "Включая налоги. <a href=\"{{ link }}\">Доставка<\/a> рассчитывается при оформлении заказа.",
+      "taxes_and_shipping_at_checkout": "Налоги и стоимость доставки рассчитываются при оформлении заказа",
+      "update": "Обновлять",
       "headings": {
-        "product": "Товар",
+        "product": "Продукт",
         "price": "Цена",
-        "total": "Всего",
+        "total": "Общее",
         "quantity": "Количество"
       }
     },
     "footer": {
       "payment": "Способы оплаты",
-      "social_placeholder": "Подпишитесь на нас в социальных сетях!"
+      "social_placeholder": "Следите за нами в социальных сетях!"
     },
     "featured_blog": {
       "view_all": "Посмотреть все",
-      "onboarding_title": "Статья в блоге",
-      "onboarding_content": "Напишите краткое содержание вашего статьи в блоге."
+      "onboarding_title": "Сообщение блога",
+      "onboarding_content": "Дайте своим клиентам краткое изложение вашего сообщения в блоге"
     },
     "featured_collection": {
       "view_all": "Посмотреть все",
-      "view_all_label": "Посмотреть все продукты в коллекции \"{{ collection_name }}\""
+      "view_all_label": "Посмотреть все продукты в коллекции {{ collection_name }}"
     },
     "collection_list": {
       "view_all": "Посмотреть все"
@@ -238,21 +238,21 @@
         "few": "Показано {{ product_count }} из {{ count }} прод.",
         "many": "Показано {{ product_count }} из {{ count }} прод."
       },
-      "empty": "Продукты не найдены",
-      "apply": "Добавить",
-      "clear": "Удалить",
-      "clear_all": "Удалить все",
+      "empty": "Товары не найдены",
+      "apply": "Применять",
+      "clear": "Прозрачный",
+      "clear_all": "Очистить все",
       "from": "От",
-      "filter_and_sort": "Фильтр и сортировка",
-      "filter_by_label": "Фильтр",
-      "filter_button": "Фильтровать",
-      "max_price": "Максимальная цена: {{ price }}",
+      "filter_and_sort": "Фильтровать и сортировать",
+      "filter_by_label": "Сортировать по",
+      "filter_button": "Фильтр",
+      "max_price": "Самая высокая цена {{ price }}",
       "reset": "Сбросить",
       "to": "До",
       "use_fewer_filters_html": "Используйте меньше фильтров или <a class=\"{{ class }}\" href=\"{{ link }}\">удалите фильтры<\/a>",
       "filters_selected": {
-        "one": "Выбрано: {{ count }}",
-        "other": "Выбрано: {{ count }}",
+        "one": "{{ count }} выбран",
+        "other": "{{ count }} выбран",
         "few": "Выбрано: {{ count }}",
         "many": "Выбрано: {{ count }}"
       }
