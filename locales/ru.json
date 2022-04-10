@@ -1384,7 +1384,115 @@
       "credit_card_session_expired": "Срок действия авторизации кредитной карты истек, введите платежную информацию еще раз. Ваша карта не была списана.",
       "empty": "не может быть пустым",
       "invalid_email": "Адрес эл. почты должен быть действительным",
-      "discount_disabled": "Эта скидка отключена"
+      "discount_disabled": "Эта скидка отключена",
+      "discount_expired": "Эта скидка больше не действует",
+      "discount_limit_reached": "Эта скидка достигла предела использования",
+      "discount_not_found": "Не удалось найти действительную скидку, соответствующую введенному коду",
+      "customer_already_used_once_per_customer_discount_notice": "Эта скидка достигла предела использования",
+      "gift_card_already_applied": "Код уже применен к вашей кассе",
+      "gift_card_code_invalid": "Код недействителен",
+      "gift_card_currency_mismatch": "Подарочные карты %{gift_card_currency} не могут быть применены к заказам %{checkout_currency}",
+      "gift_card_depleted": "На этой подарочной карте не осталось средств",
+      "gift_card_disabled": "Подарочная карта отключена",
+      "gift_card_expired": "Срок действия подарочной карты истек",
+      "invalid": "является недействительным",
+      "bad_domain": "содержит недопустимое доменное имя",
+      "taken": "уже использовано",
+      "contains_html_tags": "не может содержать теги HTML",
+      "too_short": "слишком короткий (минимум - %{count} символов)",
+      "too_long": "слишком длинный (максимум %{count} символов)",
+      "password_mismatch": "должен совпадать с предоставленным паролем",
+      "contains_spaces": "начинается или заканчивается пробелами.",
+      "email_domain_invalid": "провайдер не поддерживается",
+      "invalid_for_country": "недействителен для %{country}",
+      "invalid_for_country_and_province": "недействителен для %{province} и %{country}",
+      "invalid_province_in_country": "недопустимая провинция в %{country}",
+      "invalid_state_in_country": "недопустимое состояние в %{country}",
+      "invalid_region_in_country": "недопустимая область в %{country}",
+      "less_than_or_equal_to": "должно быть меньше или равно %{count}",
+      "not_supported": "не поддерживается",
+      "full_name_required": "Введите имя и фамилию",
+      "invalid_for_card_type": "не действует",
+      "invalid_type": "извините, мы не принимаем карты этого типа",
+      "invalid_format": "формат недействителен",
+      "expired": "истек",
+      "invalid_start_date_or_issue_number_for_debit": "требуется действительная дата начала или номер выпуска",
+      "invalid_expiry_year": "недействительный год истечения срока действия",
+      "reset_password_html": "Этот адрес электронной почты уже связан с учетной записью. Если эта учетная запись принадлежит вам, вы можете <a href=\"\/account\/login#recover\">сбросить пароль<\/a>",
+      "verify_email": "Мы отправили электронное письмо на адрес %{customer_email}. Пожалуйста, нажмите на ссылку, чтобы подтвердить свой адрес электронной почты."
+    },
+    "filters": {
+      "product_type": {
+        "label": "Тип продукта"
+      },
+      "boolean": {
+        "true_label": "Да",
+        "false_label": "Нет"
+      }
+    },
+    "search": {
+      "sorting": {
+        "relevance": "Актуальность",
+        "price_ascending": "Цена, от низкой к высокой",
+        "price_descending": "Цена, от высокой к низкой"
+      }
+    },
+    "page_titles": {
+      "blog_or_article_with_error": "Ошибка - %{title}",
+      "products": "Товары",
+      "shopping_cart": "Ваша Корзина",
+      "account": "Счет",
+      "create_account": "Зарегистрироваться",
+      "reset_account": "Сбросить учетную запись",
+      "addresses": "Адреса",
+      "order": "Заказ %{name}",
+      "search": "Поиск",
+      "search_results": {
+        "one": "Поиск: найден результат %{count} для \"%{terms}\"",
+        "other": "Поиск: найдено %{count} результатов для \"%{terms}\""
+      },
+      "collections": "Коллекции",
+      "not_found": "404 Не Найдено",
+      "challenge": "Вызов",
+      "checkpoint": "Контрольно-пропускной пункт"
+    },
+    "cart": {
+      "discounts_with_count": "применены %{count} скидки"
+    },
+    "challenge": {
+      "message": "Чтобы продолжить, сообщите нам, что вы не робот.",
+      "error": "Ваш ответ неверен, попробуйте еще раз.",
+      "submit_button_text": "Представлять на рассмотрение"
+    },
+    "checkpoint": {
+      "message": "Решите капчу, чтобы продолжить",
+      "error": "Проверка капчи не удалась",
+      "submit_button_text": "Представлять на рассмотрение"
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "one_hour": "Обычно готов через 1 час",
+        "two_hours": "Обычно готов через 2 часа",
+        "four_hours": "Обычно готов через 4 часа",
+        "twenty_four_hours": "Обычно готов в течение 24 часов",
+        "two_to_four_days": "Обычно готов через 2-4 дня",
+        "five_or_more_days": "Обычно готов через 5+ дней",
+        "zero_to_two_hours": "Обычно готов через 2 часа",
+        "two_to_four_hours": "Обычно готов через 4 часа",
+        "immediately": "Готов забрать сейчас",
+        "next_day": "Готов забрать на следующий день"
+      }
+    },
+    "notices": {
+      "customer": {
+        "password_reset_error": "Ошибка сброса пароля",
+        "no_account_found": "Учетная запись с таким адресом электронной почты не найдена.",
+        "invalid_credentials": "Неправильный адрес электронной почты или пароль.",
+        "denylisted_reset_password": "Не удалось получить доступ к вашей учетной записи, поскольку текущий пароль не является безопасным. Вы получите электронное письмо для обновления пароля."
+      },
+      "address": {
+        "updated": "Адрес успешно обновлен."
+      }
     }
   },
   "easyaccounts": {
