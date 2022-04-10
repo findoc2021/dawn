@@ -647,7 +647,7 @@
         "other_method": {
           "zero": "Других способов нет",
           "one": "%{count} другой метод, доступный в",
-          "other": "%{count} доступны другие методы, начиная с"
+          "other": "%{count} другие доступные методы, начиная с"
         },
         "shipping_rate_discounted_amount": "Было: %{original_amount}. Сейчас: %{amount}",
         "local_delivery": "Местная доставка",
