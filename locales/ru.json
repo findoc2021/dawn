@@ -653,9 +653,69 @@
         "local_delivery": "Местная доставка",
         "subscription_delivery_description": {
           "prepaid_delivery_frequency": {
-            "one": "для доставки %{count}"
+            "one": "для доставки %{count}",
+            "other": "для доставок %{count}"
+          },
+          "subscription_delivery_frequency": {
+            "day": {
+              "one": "ежедневно",
+              "other": "каждые %{count} дней"
+            },
+            "week": {
+              "one": "каждую неделю",
+              "other": "каждые %{count} недель"
+            },
+            "month": {
+              "one": "каждый месяц",
+              "other": "каждые %{count} месяцев"
+            },
+            "year": {
+              "one": "каждый год",
+              "other": "каждые %{count} лет"
+            }
+          },
+          "multiple_subscriptions_shipping_price_label": "%{shipping_price} за доставку",
+          "prepaid_shipping_price_label": "%{shipping_price} на доставку x %{delivery_interval_count}",
+          "initial_order_discounted": "Сначала стоимость доставки %{discounted_shipping_cost}, затем %{frequency_description}",
+          "prepaid_initial_order_discounted": "Стоимость первой доставки %{discounted_shipping_price} %{prepaid_delivery_frequency}",
+          "prepaid_initial_order_discounted_with_per_delivery_price": "Стоимость первой доставки %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery})",
+          "prepaid_initial_order_discounted_with_renewal": "Сначала стоимость доставки %{discounted_shipping_price} %{prepaid_delivery_frequency}, затем %{shipping_price} %{billing_cycle}",
+          "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "Сначала стоимость доставки %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery}), затем %{shipping_price} %{billing_cycle}",
+          "shipping_price_included": "Включено",
+          "recurring_order_shipping_price": "затем %{recurring_order_shipping_price}",
+          "first_order_shipping_price_included": "Включен первый заказ, за ​​которым следует %{recurring_order_shipping_price}",
+          "first_order_different_shipping_price": "%{first_order_shipping_price} (%{per_delivery_price} на доставку), за которым следует %{recurring_order_shipping_price}",
+          "first_n_order_free": {
+            "one": "Первый заказ бесплатно",
+            "other": "Первые %{count} заказы бесплатно"
+          },
+          "free_for_first_n_order": {
+            "one": "Для первого заказа",
+            "other": "Для первых заказов %{count}"
           }
+        },
+        "one_time_purchase_shipping": "Разовая доставка"
+      },
+      "localized_fields": {
+        "additional_information": {
+          "title": "Дополнительная информация"
         }
+      },
+      "payment": {
+        "amazon_payments_label": "Амазон Пэй",
+        "amazon_payments_login_hint": "Вам будет предложено войти в систему с помощью Amazon.",
+        "amazon_payments_logout": "Выйти из Amazon Pay",
+        "amazon_payments_failed_mfa_challenge": "Выбранный способ оплаты не может быть использован. Выберите другой метод или свяжитесь с вашим банком или эмитентом карты.",
+        "amazon_payments_abandoned_mfa_challenge": "Ваш платеж не может быть завершен. Попробуйте другой способ оплаты или свяжитесь с вашим банком или эмитентом карты.",
+        "amazon_payments_could_not_enqueue_authorize": "При обработке платежа возникла проблема. Попробуйте еще раз или используйте другой способ оплаты.",
+        "title": "Оплата",
+        "amount_left_to_pay_label": "Заплатить до:",
+        "discount_button_action_label": "Применить код скидки",
+        "gift_card_code_label": "Код подарочной карты",
+        "apply_gift_card_button_label": "Применять",
+        "gift_card_balance_label": "Остаток средств:",
+        "supported_card_brands_more_label": "и более…",
+        "detected_card_brand": "Марка обнаруженной карты: {brand}"
       }
     }
   },
