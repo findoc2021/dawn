@@ -474,7 +474,53 @@
         "emirate_placeholder": "Эмират",
         "state_and_territory_label": "Штат\/территория",
         "state_and_territory_placeholder": "Штат\/территория",
-        "phone_label": "Телефон"
+        "phone_label": "Телефон",
+        "optional_phone_label": "Телефон опционально)",
+        "phone_placeholder": "Телефон",
+        "phone_tooltip": "В случае, если нам нужно связаться с вами по поводу вашего заказа",
+        "zip_code_label": "почтовый индекс",
+        "zip_code_placeholder": "почтовый индекс",
+        "postal_code_label": "Почтовый Код",
+        "postal_code_placeholder": "Почтовый Код",
+        "postcode_label": "Почтовый индекс",
+        "postcode_placeholder": "Почтовый индекс",
+        "pincode_label": "Пин-код",
+        "pincode_placeholder": "Пин-код",
+        "civic_number_warning": "Добавьте номер дома, если он у вас есть"
+      },
+      "delivery_options": {
+        "free_total_label": "Бесплатно",
+        "ship": "Судно",
+        "shipping_address": "Адреса доставки",
+        "pick_up": "Подбирать",
+        "pick_up_locations": "Пункты выдачи",
+        "pick_up_in_one_hour": "Обычно готов через 1 час",
+        "pick_up_in_two_hours": "Обычно готов через 2 часа",
+        "pick_up_in_four_hours": "Обычно готов через 4 часа",
+        "pick_up_in_twenty_four_hours": "Обычно готов в течение 24 часов",
+        "pick_up_in_two_to_four_days": "Обычно готов через 2-4 дня",
+        "pick_up_in_five_or_more_days": "Обычно готов через 5+ дней",
+        "pick_up_in_zero_to_two_hours": "Готов забрать через 2 часа",
+        "pick_up_in_two_to_four_hours": "Готов забрать через 4 часа",
+        "pick_up_immediately": "Готов забрать сейчас",
+        "pick_up_next_day": "Готов забрать на следующий день"
+      },
+      "customer_account": {
+        "not_user_label": "Не %{first_name}?",
+        "have_an_account_label": "У вас уже есть аккаунт?",
+        "sign_in_link_label": "Авторизоваться",
+        "sign_out_link_label": "Выйти",
+        "save_my_information_label": "Сохраните эту информацию для следующего раза"
+      },
+      "stock": {
+        "page_title": "Проблемы с инвентарем",
+        "title": "Распродано",
+        "items_unavailable_notice": "Некоторые предметы больше не доступны. Ваша корзина была обновлена.",
+        "product_column_header": "Товары",
+        "quantity_column_header": "Количество",
+        "price_column_header": "Цена",
+        "status_column_header": "Статус",
+        "removed_from_cart_notice": "Удалено из корзины"
       }
     }
   },
