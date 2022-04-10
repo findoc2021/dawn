@@ -799,7 +799,57 @@
         "subscription_card_update_agreement_label": "Изменение способа оплаты обновит вашу подписку и будущие регулярные платежи.",
         "subscription_agreement_label": "Я понимаю, что соглашаюсь на подписку. Он будет продлеваться с указанной ценой и периодичностью, пока не закончится или не будет %{cancelled}.",
         "subscription_agreement_cancelled": "отменен",
-        "subscription_agreement_label_html": "Я понимаю, что соглашаюсь на подписку. Он будет продлеваться с указанной ценой и периодичностью, пока не закончится или не будет\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">отменено<\/a>."
+        "subscription_agreement_label_html": "Я понимаю, что соглашаюсь на подписку. Он будет продлеваться с указанной ценой и периодичностью, пока не закончится или не будет\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">отменено<\/a>.",
+        "change_currency_section_description": "Выберите вариант валюты",
+        "no_real_orders_dev_store": "Этот магазин не может принимать реальные заказы или реальные платежи.",
+        "waiting_on_payment_methods": "Получение доступных способов оплаты...",
+        "apple_pay_payment_error": "Ваш платеж не может быть завершен. Попробуйте еще раз или используйте другой способ оплаты.",
+        "taxes_not_included": "Налоги не включены",
+        "no_taxes_banner_content": "Налоги с этого заказа взиматься не будут. После того, как вы получили платеж, налоги больше не могут быть добавлены.",
+        "paypal": {
+          "connect": "Нажмите, чтобы подключить свою учетную запись PayPal"
+        },
+        "apple": {
+          "connect": "Нажмите, чтобы подключить свою учетную запись Apple Pay",
+          "not_available": "Apple Pay недоступен в этом браузере. Чтобы подключить учетную запись Apple Pay, вам потребуется использовать Safari на устройстве Apple."
+        },
+        "google": {
+          "connect": "Нажмите, чтобы подключиться к своей учетной записи Google Pay",
+          "error_authorizing": "Ошибка авторизации платежа"
+        },
+        "account_connected": "Аккаунт подключен",
+        "email_connected": "Аккаунт подключен:"
+      },
+      "payment_summary": {
+        "gift_card_current_balance_notice": "Текущий баланс %{amount}",
+        "credit_card_expires_on_notice": "Истекает до %{month}\/%{year}",
+        "express_payment_gateway_label": "Выражать",
+        "manual_payment_gateway_label": "Руководство по эксплуатации",
+        "billing_address_title": "Адрес для выставления счета",
+        "free_label": "Бесплатно"
+      },
+      "field_errors": {
+        "handle_phone_invalid": "Введите действительный номер телефона",
+        "handle_email_invalid": "Введите действительный адрес электронной почты",
+        "email_invalid": "Введите действительный адрес электронной почты",
+        "email_or_phone_blank": "Введите адрес электронной почты или номер мобильного телефона",
+        "email_or_phone_invalid": "Введите действующий адрес электронной почты или номер мобильного телефона",
+        "address_first_name_blank": "Введите имя",
+        "address_first_name_too_long": "Имя слишком длинное (максимум 255 символов)",
+        "address_first_name_contains_emojis": "Имя не может содержать эмодзи",
+        "address_first_name_contains_html_tags": "Имя не может содержать теги HTML.",
+        "address_last_name_blank": "Введите фамилию",
+        "address_last_name_too_long": "Фамилия слишком длинная (максимум 255 символов)",
+        "address_last_name_contains_emojis": "Фамилия не может содержать эмодзи",
+        "address_last_name_contains_html_tags": "Фамилия не может содержать теги HTML.",
+        "address_address1_blank": "Введите адрес",
+        "address_address1_too_long": "Первая адресная строка слишком длинная (максимум 255 символов)",
+        "address_address1_contains_emojis": "Address1 не может содержать эмодзи",
+        "address_address1_contains_html_tags": "Address1 не может содержать теги HTML.",
+        "address_address2_blank": "Введите квартиру, люкс и т. д.",
+        "address_address2_too_long": "Вторая адресная строка слишком длинная (максимум 255 символов)",
+        "address_address2_contains_emojis": "Address2 не может содержать эмодзи",
+        "address_address2_contains_html_tags": "Address2 не может содержать теги HTML."
       }
     }
   },
