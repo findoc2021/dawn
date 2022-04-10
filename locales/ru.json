@@ -1248,7 +1248,82 @@
         "additional_payment_requested": "Требуется оплата %{total_outstanding}",
         "checkout_review_and_pay": "Ваш заказ %{order_name} обновлен. Просмотрите эти изменения, затем оплатите, чтобы подтвердить свой заказ.",
         "order_updated_on": "Ваш заказ был обновлен %{last_edited_at}.",
-        "order_review_and_pay": "Ваш заказ обновлен. Просмотрите и оплатите, чтобы подтвердить свой заказ."
+        "order_review_and_pay": "Ваш заказ обновлен. Просмотрите и оплатите, чтобы подтвердить свой заказ.",
+        "pay_now": "Заплатить сейчас"
+      },
+      "change_currency": {
+        "currency_button_label": "%{currency} (%{currency_symbol})",
+        "credit_card_will_be_charged_html": "С вашей кредитной карты будет списано %{amount}",
+        "payment_total_label": "Сумма платежа",
+        "conversion_rate": "1 %{from_currency_code} = %{rate} %{to_currency_code}",
+        "change_currency_link": "Изменить на %{currency_name}",
+        "card_provider_fx_charges_warning": "Ваш поставщик карт может взимать комиссию за транзакции %{currency_code}.",
+        "currency_not_supported_by_shop": "Выбранная валюта больше недоступна. Все цены теперь в %{currency_code}."
+      },
+      "change_country": {
+        "cart_updated_based_on_country": "Ваша корзина обновлена ​​с учетом страны доставки."
+      },
+      "tips": {
+        "title": "Добавить совет",
+        "description": "Покажите свою поддержку команде на %{shop_name}",
+        "presets_description": "Выберите процент чаевых",
+        "custom_label": "Пользовательский совет",
+        "add_tip": "Добавить совет",
+        "update_tip": "Совет по обновлению",
+        "message": "Спасибо, мы это ценим",
+        "preset_label": "%{tip_percent}%",
+        "no_tip_label": "Никто"
+      },
+      "open_graph_meta_tag": {
+        "title_with_products": {
+          "zero": "Покупка %{product_name}",
+          "one": "Купить %{product_name} и %{count} другой предмет",
+          "other": "Купить %{product_name} и %{count} другие предметы"
+        }
+      },
+      "subscriptions": {
+        "recurring_total_intervals": {
+          "day": {
+            "one": "день",
+            "other": "%{count} дней"
+          },
+          "week": {
+            "one": "неделю",
+            "other": "%{count} недель"
+          },
+          "month": {
+            "one": "месяц",
+            "other": "%{count} месяцев"
+          },
+          "year": {
+            "one": "год",
+            "other": "%{count} лет"
+          }
+        },
+        "recurring_totals": "%{total_price} каждые %{interval}",
+        "recurring_totals_with_initial_order_shipping_discount": "Сначала платеж %{total_price_with_discount}, затем %{recurring_total}",
+        "recurring_totals_with_policies": {
+          "first_cycles": {
+            "one": "Первый платеж %{total_price}",
+            "other": "Первые %{count} платежей %{total_price} каждый"
+          },
+          "following_cycles": ", затем %{total_price} каждые %{interval}"
+        },
+        "recurring_totals_with_initial_order_shipping_discount_with_policies": {
+          "first_cycles": {
+            "one": ", затем %{count} оплата в %{total_price}",
+            "other": ", то %{count} платежей по %{total_price} каждый"
+          }
+        }
+      },
+      "customer_payment_methods": {
+        "page_title": "Способы оплаты",
+        "title": "Способы оплаты",
+        "update_card_button_label": "Обновление карты",
+        "delete_customer_mandate": {
+          "generic_error": "При обработке вашего запроса возникла проблема.",
+          "success_message": "Ваш способ оплаты успешно удален"
+        }
       }
     }
   },
