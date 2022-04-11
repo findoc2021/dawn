@@ -25,6 +25,54 @@
     },
     "cart": {
       "discounts_with_count": "застосовані %{count} знижки"
+    },
+    "checkout": {
+      "shipping": {
+        "title": "Перевезення",
+        "shipping_method_title": "Спосіб доставки",
+        "waiting_on_rate_notice": "Отримання доступних тарифів на доставку...",
+        "waiting_on_pickup_location_notice": "Отримання доступних пунктів видачі.",
+        "no_rates_for_cart_or_destination_notice": "Немає доступних способів доставки для вашого кошика або адреси",
+        "no_pickup_location_notice": "Як мінімум один із ваших товарів недоступний для самовивезення",
+        "no_rates_for_country_notice": "Тарифи на доставку для цієї адреси не знайдено.",
+        "no_rates_contact_notice": "Зв'яжіться з нами для отримання додаткової інформації",
+        "free_rate_label": "Безкоштовно",
+        "cheapest_rate_label": "Найдешевший",
+        "please_enter_your_shipping_information_notice": "Будь ласка, введіть інформацію про доставку.",
+        "estimated_delivery_date_range": "%{minimum} до %{maximum} робочих днів",
+        "shipping_line_phone_label": "Номер мобільного телефону (обов'язково)",
+        "shipping_line_phone": "Ваш кур'єр може використовувати цей номер, щоб зв'язатися з вами.",
+        "shipping_rate_discounted_amount": "Було: %{original_amount}. Зараз: %{amount}",
+        "optional_shipping_line_delivery_instructions_label": "Інструкції з доставки (необов'язково)",
+        "estimated_delivery_date": {
+          "one": "%{count} робочий день",
+          "other": "%{count} робочих днів",
+          "few": "%{count} робочих дн.",
+          "many": "%{count} робочих дн."
+        },
+        "other_method": {
+          "zero": "Інших способів немає",
+          "one": "%{count} інший метод, доступний у",
+          "other": "%{count} інші доступні методи, починаючи з",
+          "few": "Доступно варіантів: %{count}, починаючи від",
+          "many": "Доступно варіантів: %{count}, починаючи від"
+        },
+        "shipping_line_delivery_phone": "Ми можемо використовувати цей номер, щоб зателефонувати або написати вам про доставку.",
+        "shipping_line_delivery_phone_label": "номер мобільного телефону",
+        "shipping_line_delivery_instructions": "Введіть необхідну інформацію, таку як коди дверей або інструкції з висадки.",
+        "local_delivery": "Місцева доставка",
+        "subscription_shipping": "Доставка по підписці",
+        "shipping_method_one_time_purchase_group_title": "Разова покупка",
+        "shipping_method_subscription_group_title": "Передплата",
+        "one_time_purchase_shipping": "Разова доставка",
+        "subscription_delivery_description": {
+          "prepaid_delivery_frequency": {
+            "one": "для доставки %{count}",
+            "other": "для доставок %{count}",
+            "few": "за певну кількість доставок (%{count})"
+          }
+        }
+      }
     }
   },
   "sections": {
