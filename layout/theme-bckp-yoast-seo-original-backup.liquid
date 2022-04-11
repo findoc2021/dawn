@@ -1,9 +1,6 @@
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
-  <head>{% render 'yoast-seo' %}
-{% include "starapps-core" %}
-
-<script src="{{ 'jquery.3.4.0.ets.js' | asset_url }}" defer="defer"></script>
+  <head>
 <!-- Added by AVADA SEO Suite -->
 {% include 'avada-seo' %}
 <!-- /Added by AVADA SEO Suite -->
@@ -32,13 +29,12 @@
     {% render 'meta-tags' %}
 
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
-    
-
-
-<!-- Avada Boost Sales Script -->
-{% include 'avada-boost-sales' %}
-<!-- /Avada Boost Sales Script -->
-
+    <!-- starapps_scripts_start -->
+<!-- This code is automatically managed by StarApps Studio -->
+<!-- Please contact support@starapps.studio for any help -->
+{% include "starapps-language-meta" %}
+<script type="text/javascript" src="https://assets-cdn.starapps.studio/apps/vsk/iren-fashion-shop/script-1629394561.js?shop={{shop.permanent_domain}}" async></script>
+<!-- starapps_scripts_end -->
 {{ content_for_header }}
 
     {%- liquid
@@ -124,37 +120,12 @@
 {%- if  collection.products  or  search.results  or  template == "index"  or  product  -%}<script type="text/javascript" src="https://gravity-software.com/showswatches/js/shopify/variantswatchesirenfashion5572.js?v=8845ebfdf7dd674b780e6ae8111b26b2"></script> {%- endif -%}
 <!-- Code for Swatches head. Do not change GSEND -->{%- comment -%}Start of Clean Canvas Size Chart App code{%- endcomment -%}{% if product %}<script>ccPops=window.ccPops||{};ccPops.sizeChart=ccPops.sizeChart||{};ccPops.sizeChart.collections={{ product.collections | map: 'id' | json }};</script>{% endif %}{%- comment -%}End of Clean Canvas Size Chart App code{%- endcomment -%}
 
-  {% if content_for_header contains 'easyaccounts.js' %}
-    {% render 'easyaccounts' %}
-  {% endif %}
-{% include 'fa_translate_core' %} 
- 
-<script>(() => {const installerKey = 'docapp-shipping-auto-install'; const urlParams = new URLSearchParams(window.location.search); if (urlParams.get(installerKey)) {window.sessionStorage.setItem(installerKey, JSON.stringify({integrationId: urlParams.get('docapp-integration-id'), divClass: urlParams.get('docapp-install-class'), check: urlParams.get('docapp-check')}));}})();</script>
 
-<script>(() => {const previewKey = 'docapp-shipping-test'; const urlParams = new URLSearchParams(window.location.search); if (urlParams.get(previewKey)) {window.sessionStorage.setItem(previewKey, JSON.stringify({active: true, integrationId: urlParams.get('docapp-shipping-inst-test')}));}})();</script>
 
-    <!-- Facebook Pixel Code -->
-<script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '389792472510262');
-  fbq('track', 'PageView');
-</script>
-<noscript><img loading="lazy" height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=389792472510262&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Facebook Pixel Code -->
-  {% include 'sohead-reply-common' %}
-{% include 'ets_social_login_css' %}
 
 </head>
-<body>
+
+  <body>
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ "accessibility.skip_to_text" | t }}
     </a>
@@ -295,29 +266,5 @@
                 var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
         })(window,document,'https://cdn.bitrix24.ua/b14703797/crm/site_button/loader_2_sn2rq7.js');
 </script>
-<!-- Code for Swatches body. Do not change GSEND -->{% render 'easyorder' %}
-
-
-{{ 'zifyapp-fblogin.css' | asset_url | stylesheet_tag }}
-{% if shop.customer_accounts_enabled %}{% unless customer  %}{{ 'zifyapp-fblogin.js' | asset_url | script_tag }}{% endunless %}{% endif %}
-{% include 'wholesale-product-form' %}{% include 'ets_social_login_js' %}<link rel="stylesheet" href="https://gravity-software.com/js/shopify/rondell/jquery.rondellf85.css?v=123"/>
-<script src="//instant.page/5.1.0" type="module" integrity="sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw"></script>  
-  <script src="instantpage-5.1.0.js" type="module" defer></script>
-  
-<script>
-  window.renderBadge = function() {
-    var ratingBadgeContainer = document.createElement("div");
-      document.body.appendChild(ratingBadgeContainer);
-      window.gapi.load('ratingbadge', function() {
-        window.gapi.ratingbadge.render(
-          ratingBadgeContainer, {
-            // ОБЯЗАТЕЛЬНАЯ ЧАСТЬ
-            "merchant_id": MERCHANT_ID,
-            // НЕОБЯЗАТЕЛЬНАЯ ЧАСТЬ
-            "position": "POSITION"
-          });           
-     });
-  }
-</script>
-  </body>
+<!-- Code for Swatches body. Do not change GSEND --><link rel="stylesheet" href="https://gravity-software.com/js/shopify/rondell/jquery.rondellf85.css?v=123"/></body>
 </html>

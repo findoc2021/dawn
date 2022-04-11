@@ -1,0 +1,147 @@
+{%- comment -%}
+	This file has been added by the Yoast SEO for Shopify app.
+	You can learn more about this (and learn how to cleanly revert these changes) at https://yoa.st/removing-theme-changes.
+{%- endcomment -%}
+
+{%- liquid
+	comment
+	This template can be called with the "replace_vars: false" directive to prevent infinite loops
+	Especially needed for the focus keyphrase replacement
+	endcomment
+	if replace_vars == null
+		assign replace_vars = true
+	endif
+
+	capture yoast_seo_page_type
+		render 'yoast-seo-page-type'
+	endcapture
+
+	comment
+	The meta description has a different fallback than the other variables.
+	- meta description: optimize module > shopify default > settings module > auto-generated from description
+	- meta description for index (homepage): settings module > shopify default
+	- other variables:  optimize module > settings module > shopify default
+	endcomment
+	capture content
+		render 'yoast-seo-variable-from-optimize-module', variable: variable, yoast_seo_page_type: yoast_seo_page_type
+	endcapture
+
+	if variable == "description"
+		if content == "" and yoast_seo_page_type != 'index'
+			capture content
+				render 'yoast-seo-variable-from-shopify-default', variable: variable, yoast_seo_page_type: yoast_seo_page_type
+			endcapture
+			if content != ""
+				assign replace_vars = false
+			endif
+
+			if content == ""
+				capture content
+					render 'yoast-seo-variable-from-settings-module', variable: variable, yoast_seo_page_type: yoast_seo_page_type
+				endcapture
+			endif
+
+			if content == ""
+				assign content = page_description
+				if content != ""
+					assign replace_vars = false
+				endif
+			endif
+		endif
+
+		if content == "" and yoast_seo_page_type == 'index'
+			capture content
+				render 'yoast-seo-variable-from-settings-module', variable: variable, yoast_seo_page_type: yoast_seo_page_type
+			endcapture
+
+			if content == ""
+				capture content
+					render 'yoast-seo-variable-from-shopify-default', variable: variable, yoast_seo_page_type: yoast_seo_page_type
+				endcapture
+				if content != ""
+					assign replace_vars = false
+				endif
+			endif
+		endif
+	endif
+
+	if content == "" and variable != "description"
+		capture content
+			render 'yoast-seo-variable-from-settings-module', variable: variable, yoast_seo_page_type: yoast_seo_page_type
+		endcapture
+
+		if content == ""
+			assign replace_vars = false
+			capture content
+				render 'yoast-seo-variable-from-shopify-default', variable: variable
+			endcapture
+		endif
+	endif
+
+	if replace_vars and content != ""
+		case yoast_seo_page_type
+			when "product"
+				capture content
+					render 'yoast-seo-replace-variables-product', template: content
+				endcapture
+			when "product_tags"
+				capture content
+					render 'yoast-seo-replace-variables-product-tags', template: content
+				endcapture
+			when "article"
+				capture content
+					render 'yoast-seo-replace-variables-blog-post', template: content
+				endcapture
+			when "blog_post_tags"
+				capture content
+					render 'yoast-seo-replace-variables-blog-post-tags', template: content
+				endcapture
+			when "search"
+				capture content
+					render 'yoast-seo-replace-variables-search', template: content
+				endcapture
+			else
+				capture content
+					render 'yoast-seo-replace-variables-generic', template: content
+				endcapture
+		endcase
+	endif
+
+	comment
+	Standardize the whitespace in the output.
+	endcomment
+	assign content = content | replace: "\t", ' '
+	assign content = content | replace: "\n", ' '
+	assign content = content | replace: "\r", ' '
+	assign content = content | replace: "\f", ' '
+
+	capture content
+		render 'yoast-seo-variable-cleanup', content: content, search: '  ', replace: ' '
+	endcapture
+
+	comment
+	Deduplicate separators with and without space between them.
+	More than space between separators has been reduced to 1 space by standardizing whitespace above.
+
+	Correctly applying the separator de-duplication will have to be taken care of
+	in the Preview together with the meta-tags output.
+	Issue references: P3-921 & P1-877
+
+	assign separator_replacement = shop.metafields.yoast_seo.settings.siteSettings.siteDefaults.separator
+
+	capture content
+		assign search = separator_replacement | append: ' ' |  append: separator_replacement
+		assign replace = separator_replacement
+		render 'yoast-seo-variable-cleanup', content: content, search: search, replace: replace
+	endcapture
+
+	capture content
+		assign search = separator_replacement | append: separator_replacement
+		assign replace = separator_replacement
+		render 'yoast-seo-variable-cleanup', content: content, search: search, replace: replace
+	endcapture
+
+	endcomment
+
+	echo content | strip
+-%}
