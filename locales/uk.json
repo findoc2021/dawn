@@ -755,7 +755,59 @@
         "order_updates_subscribe_to_phone_notifications": "Отримуйте повідомлення про доставку за текстом",
         "order_updates_submit_subscription": "Подавати на розгляд",
         "track_shipment": "Відстежити доставку",
-        "other_options": "Інші варіанти"
+        "other_options": "Інші варіанти",
+        "picked_up_title": "Ваше замовлення прийнято",
+        "picked_up_description_html": "Ваше замовлення було отримано %{location_name} %{date}.",
+        "shop_phone_description": "Ви отримаєте текстове повідомлення з посиланням на програму «Магазин», яка допоможе відстежити ваше замовлення.",
+        "login_reorder_link_text": {
+          "one": "купи цей товар",
+          "other": "купуйте і ці продукти",
+          "few": "купити ці товари теж",
+          "many": "купити ці товари теж"
+        },
+        "marker": {
+          "current": "Поточне розташування відвантаження",
+          "shipping": "Адреси доставки"
+        },
+        "pick_up_in_store_marker": {
+          "current": "Поточне розташування відвантаження",
+          "shipping": "Вибрати місце"
+        },
+        "fulfillment": {
+          "fulfilled_table_title": "Товар у цій посилці",
+          "unfulfilled_table_title": "Предмети готуються до відправлення",
+          "product_image_label": "Зображення продукту",
+          "description_label": "Опис",
+          "quantity_label": "Кількість"
+        },
+        "shopify_pay": {
+          "order_completed_html": "Замовлення виконано з %{shopify_pay}",
+          "learn_more_label": "Дізнатись більше про Shop Pay"
+        },
+        "ready_for_delivery_title": "Ваше замовлення готове до доставки.",
+        "ready_for_delivery_description": "Ми підготували ваше замовлення.",
+        "order_status_confirmed_order_local": "Готуємо ваше замовлення до відправлення.",
+        "delivery_information_label": "Інформація про доставку:",
+        "gift_card_sent_confirmation": "Подарункові картки надіслано",
+        "out_for_delivery_local_title": "Ваше замовлення готове до доставки",
+        "out_for_delivery_local_description_html": "Ваше замовлення прибуде найближчим часом.",
+        "delivered_local_title": "Ваше замовлення доставлено",
+        "delivered_local_description_html": "Чи не отримали своє замовлення? %{let_us_know}.",
+        "let_us_know": "Дайте нам знати",
+        "qr_code": {
+          "title": "Слідкуйте за своїм телефоном",
+          "subtitle": "Відскануйте код камери телефону, щоб відстежувати його в магазині.",
+          "send_link_to_phone": "Або надішліть посилання на телефон"
+        },
+        "gift_card_confirmation_by_text": "Подарункові картки надсилаються текстом. Якщо ви не отримали свої, спробуйте надіслати їх знову або зв'яжіться з нами.",
+        "gift_card_confirmation_by_email": "Подарункові картки надсилаються електронною поштою. Якщо ви не отримали свої, спробуйте надіслати їх знову або зв'яжіться з нами.",
+        "gift_card_title": "Подарункові карти",
+        "resend_gift_cards": "Надіслати подарункові картки повторно",
+        "attempted_delivery_local_title": "Пропущена доставка",
+        "attempted_delivery_local_description_html": "Ми не змогли доставити ваше замовлення. Щоб запланувати іншу доставку %{contact_us}.",
+        "thank_you_title_payment": "Ваш платіж підтверджено",
+        "thank_you_confirmed_order_with_email_payment": "Ви сплатили за замовлення %{date}.",
+        "thank_you_confirmed_order_with_phone_payment": "Ви сплатили за замовлення %{date}."
       }
     }
   },
