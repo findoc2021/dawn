@@ -170,8 +170,54 @@
         "autocomplete_close": "Закрити пропозиції",
         "tooltip_accessibility_label": "додаткова інформація",
         "forwarding_indicator": {
-          "new_window": "Відкривається у новому вікні."
+          "new_window": "Відкривається у новому вікні.",
+          "external": "Відкриває зовнішній веб-сайт.",
+          "external_and_new_window": "Відкриває зовнішній сайт у новому вікні."
+        },
+        "checkout_context": {
+          "step_one": "%{shop_name} - Замовити"
+        },
+        "errors": {
+          "session_identifier_not_unique_error": "Щось пішло не так із вашим замовленням, спробуйте перевірити ще раз."
         }
+      },
+      "contact": {
+        "title": "Інформація",
+        "address_title": "Адреса",
+        "shipping_address_title": "Адреси доставки",
+        "delivery_option_title": "Спосіб доставки",
+        "contact_method_title": "Контакти",
+        "email_label": "Ел. адреса",
+        "email_placeholder": "Ел. адреса",
+        "email_or_phone_label": "Електронна пошта або номер мобільного телефону",
+        "email_or_phone_placeholder": "Електронна пошта або номер мобільного телефону",
+        "stored_addresses_label": "Збережені адреси",
+        "new_address_label": "Використати нову адресу",
+        "first_name_label": "Ім'я",
+        "optional_first_name_label": "Ім'я (необов'язково)",
+        "last_name_label": "Прізвище",
+        "company_label": "Компанія",
+        "optional_company_label": "Компанія (необов'язково)",
+        "address1_label": "Адреса",
+        "address2_label": "Квартира, люкс тощо.",
+        "optional_address2_label": "Квартира, люкс і т. д. (за бажанням)",
+        "city_label": "Місто",
+        "country_label": "Країна\/регіон",
+        "country_code": "Код країни\/регіону",
+        "province_label": "Провінція",
+        "province_placeholder": "Провінція",
+        "county_label": "округ",
+        "county_placeholder": "округ",
+        "state_label": "Стан",
+        "state_placeholder": "Стан",
+        "region_label": "Область, край",
+        "region_placeholder": "Область, край",
+        "prefecture_label": "Префектура",
+        "prefecture_placeholder": "Префектура",
+        "governorate_label": "мухафаза",
+        "governorate_placeholder": "мухафаза",
+        "emirate_label": "Емірат",
+        "emirate_placeholder": "Емірат"
       }
     }
   },
