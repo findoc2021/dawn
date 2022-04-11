@@ -625,7 +625,57 @@
         "redirecting_title": "Перенаправлення…",
         "redirecting_notice": "Зачекайте, поки ми перенаправимо вас.",
         "complete_your_purchase_title": "Завершіть покупку",
-        "continue_to_payment_gateway_notice": "Перейдіть до оплати, щоб додати платіжну інформацію."
+        "continue_to_payment_gateway_notice": "Перейдіть до оплати, щоб додати платіжну інформацію.",
+        "continue_to_payment_gateway_button_label": "Перейти до оплати",
+        "complete_your_purchase_title_error": "Виправте платіжну інформацію",
+        "continue_to_payment_gateway_notice_error": "Не вдалося перевірити вашу платіжну інформацію.",
+        "continue_to_payment_gateway_button_label_error": "Оновити платіжну інформацію",
+        "page_title": "Порядок обробки",
+        "title": "Порядок обробки",
+        "your_order_has_been_received_title": "Дякую за ваше замовлення",
+        "you_will_receive_confirmation": "У нас зараз багато замовлень. Незабаром ви повинні отримати підтвердження електронною поштою або текстовим повідомленням. Якщо ви не отримаєте його протягом години, повідомте нам про це.",
+        "you_will_not_be_charged": "Ви ще не платитимете",
+        "wait": {
+          "short": "Ваше замовлення обробляється.",
+          "long": "Ви отримаєте електронного листа, як тільки ваше замовлення буде оброблено. Нині великий обсяг замовлень.",
+          "no_auto_refresh_html": "Якщо ви не перенаправлені автоматично, %{link}.",
+          "refresh_this_page": "оновити цю сторінку",
+          "medium": {
+            "one": "Ваше замовлення обробляється. Розрахунковий час очікування становить %{count} хвилин.",
+            "other": "Ваше замовлення обробляється. Розрахунковий час очікування становить %{count} хвилин.",
+            "few": "Ваше замовлення обробляється. Приблизний час очікування: %{count} хв.",
+            "many": "Ваше замовлення обробляється. Приблизний час очікування: %{count} хв."
+          }
+        }
+      },
+      "failed_payment": {
+        "page_title": "Платіж не може бути оброблений",
+        "title": "Платіж не може бути оброблений",
+        "payment_not_processed_title": "Ваш платіж не може бути оброблений",
+        "payment_not_processed_text": "Вам не було звинувачено. Поверніться до кошика, щоб завершити придбання.",
+        "return_to_cart_button_label": "Повернутись до кошику"
+      },
+      "payment_gateway": {
+        "credit_card_label": "Кредитна карта",
+        "bank_deposit_label": "Банківський депозит",
+        "cash_on_delivery_label": "Післяплати (COD)",
+        "money_order_label": "Грошовий переказ"
+      },
+      "thank_you": {
+        "title": "Дякую за покупку!",
+        "confirmation_email_sent_text": "Лист із підтвердженням надіслано на %{email}",
+        "return_to_store_link_label": "продовжити покупки",
+        "print_link_label": "Роздрукувати квитанцію",
+        "payment_information_title": "Платіжна інформація",
+        "shipping_information_title": "інформація про доставку",
+        "page_title": "Дякую %{display_name}!",
+        "page_title_no_name": "Дякую вам!",
+        "cancelled_page_title": "Замовлення скасоване",
+        "customer_information_title": "Інформація для покупців",
+        "contact_information_title": "Контакти",
+        "billing_address_title": "Адреса для виставлення рахунку",
+        "shipping_address_title": "Адреси доставки",
+        "shipping_address_map_title": "Карта Google з точною вказівкою адреси доставки: %{address}"
       }
     }
   },
