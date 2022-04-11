@@ -126,6 +126,52 @@
         "estimated_delivery_time_range": "Розрахункова доставка %{min_time}–%{max_time}",
         "arrives_time": "Прибуває %{time}",
         "arrives_time_range": "Прибуття %{min_time}–%{max_time}"
+      },
+      "change_currency": {
+        "credit_card_will_be_charged_html": "З вашої кредитної картки буде списано %{amount}",
+        "currency_button_label": "%{currency} (%{currency_symbol})",
+        "payment_total_label": "Сума платежу",
+        "conversion_rate": "1 %{from_currency_code} = %{rate} %{to_currency_code}",
+        "change_currency_link": "Змінити на %{currency_name}",
+        "card_provider_fx_charges_warning": "Ваш постачальник карток може стягувати комісію за транзакції %{currency_code}.",
+        "currency_not_supported_by_shop": "Вибрана валюта недоступна. Всі ціни тепер у %{currency_code}."
+      },
+      "general": {
+        "page_title": "Перевірити",
+        "error_page_title": "Помилка",
+        "skip_to_content": "перейти до змісту",
+        "breadcrumb": "хлібні крихти",
+        "continue_button_label": "Продовжувати",
+        "complete_purchase_button_label": "Повне замовлення",
+        "pay_now_button_label": "Заплатити зараз",
+        "authenticate_purchase_button_label": "Підтвердити платіж",
+        "edit_link_label": "редагувати",
+        "all_rights_reserved": "Усі права захищені %{shop_name}",
+        "print_policies_link_label": "Роздрукувати",
+        "cart": "Кошик",
+        "close_modal_label": "Закривати",
+        "close_notice_label": "Закривати",
+        "expand_notice_label": "Переглянути більше",
+        "continue_to_shipping_method": "Продовжити доставку",
+        "continue_to_payment_method": "Перейти до оплати",
+        "continue_to_review": "Переглянути замовлення",
+        "back_to_cart": "Повернутись до кошику",
+        "back_to_contact_information": "Повернутись до інформації",
+        "back_to_shipping_method": "Повернутись до доставки",
+        "back_to_payment_method": "Повернення до оплати",
+        "choose_shipping_method": "Виберіть спосіб доставки",
+        "choose_payment_method": "Оберіть спосіб оплати",
+        "choose_billing_address": "Виберіть адресу для виставлення рахунку",
+        "contact_us_html": "Зв'яжіться з нами для отримання додаткової інформації",
+        "autocomplete_title": "Пропозиції",
+        "autocomplete_single_item": "1 товар у наявності",
+        "autocomplete_multi_item": "Доступно {{number}} елементів",
+        "autocomplete_selection": "{{number}} з {{total}}",
+        "autocomplete_close": "Закрити пропозиції",
+        "tooltip_accessibility_label": "додаткова інформація",
+        "forwarding_indicator": {
+          "new_window": "Відкривається у новому вікні."
+        }
       }
     }
   },
