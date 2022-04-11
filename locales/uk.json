@@ -217,7 +217,53 @@
         "governorate_label": "мухафаза",
         "governorate_placeholder": "мухафаза",
         "emirate_label": "Емірат",
-        "emirate_placeholder": "Емірат"
+        "emirate_placeholder": "Емірат",
+        "state_and_territory_label": "Штат\/територія",
+        "state_and_territory_placeholder": "Штат\/територія",
+        "phone_label": "Телефон",
+        "optional_phone_label": "Телефон опціонально)",
+        "phone_placeholder": "Телефон",
+        "phone_tooltip": "Якщо нам потрібно зв'язатися з вами з приводу вашого замовлення",
+        "zip_code_label": "поштовий індекс",
+        "zip_code_placeholder": "поштовий індекс",
+        "postal_code_label": "Поштовий код",
+        "postal_code_placeholder": "Поштовий код",
+        "postcode_label": "Поштовий індекс",
+        "postcode_placeholder": "Поштовий індекс",
+        "pincode_label": "Пін код",
+        "pincode_placeholder": "Пін код",
+        "region_none": "Не вибрано, нічого не вибрано",
+        "civic_number_warning": "Додати номер будинку, якщо він у вас є"
+      },
+      "delivery_options": {
+        "ship": "Судно",
+        "pick_up": "Підбирати",
+        "pick_up_in_two_hours": "Зазвичай готовий за 2 години",
+        "pick_up_in_four_hours": "Зазвичай готовий за 4 години",
+        "pick_up_immediately": "Готовий забрати зараз",
+        "pick_up_next_day": "Готовий забрати наступного дня",
+        "pick_up_in_one_hour": "Зазвичай готовий через 1 годину",
+        "pick_up_in_twenty_four_hours": "Зазвичай готовий протягом 24 годин",
+        "pick_up_in_two_to_four_days": "Зазвичай готовий через 2-4 дні",
+        "pick_up_in_five_or_more_days": "Зазвичай готовий через 5+ днів",
+        "pick_up_in_zero_to_two_hours": "Готовий забрати через 2 години",
+        "pick_up_in_two_to_four_hours": "Готовий забрати через 4 години",
+        "free_total_label": "Безкоштовно",
+        "shipping_address": "Адреси доставки",
+        "pick_up_locations": "Пункти видачі"
+      },
+      "customer_account": {
+        "not_user_label": "Чи не %{first_name}?",
+        "have_an_account_label": "У вас вже є обліковий запис?",
+        "sign_in_link_label": "Авторизуватися",
+        "sign_out_link_label": "Вийти",
+        "save_my_information_label": "Збережіть цю інформацію наступного разу"
+      },
+      "stock": {
+        "page_title": "Проблеми з інвентарем",
+        "title": "Розпродано",
+        "items_unavailable_notice": "Деякі предмети не доступні. Ваш кошик був оновлений.",
+        "product_column_header": "Товари"
       }
     }
   },
