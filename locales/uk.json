@@ -481,7 +481,51 @@
         "google": {
           "connect": "Натисніть, щоб підключитися до свого облікового запису Google Pay",
           "error_authorizing": "Помилка авторизації платежу"
-        }
+        },
+        "email_connected": "Акаунт підключено:"
+      },
+      "payment_summary": {
+        "gift_card_current_balance_notice": "Поточний баланс %{amount}",
+        "credit_card_expires_on_notice": "Спливає до %{month}\/%{year}",
+        "express_payment_gateway_label": "Висловлювати",
+        "manual_payment_gateway_label": "Інструкція з експлуатації",
+        "billing_address_title": "Адреса для виставлення рахунку",
+        "free_label": "Безкоштовно"
+      },
+      "field_errors": {
+        "handle_phone_invalid": "Введіть дійсний номер телефону",
+        "handle_email_invalid": "Введіть дійсну адресу електронної пошти",
+        "email_invalid": "Введіть дійсну адресу електронної пошти",
+        "email_or_phone_blank": "Введіть адресу електронної пошти або номер мобільного телефону",
+        "email_or_phone_invalid": "Введіть діючу адресу електронної пошти або номер мобільного телефону",
+        "address_first_name_blank": "Введіть ім'я",
+        "address_last_name_blank": "Введіть прізвище",
+        "address_address1_blank": "Введіть адресу",
+        "address_address2_blank": "Введіть квартиру, люкс тощо.",
+        "address_city_blank": "Введіть місто",
+        "address_country_blank": "Виберіть країну\/регіон",
+        "address_country_not_supported": "Ми не відправляємо до цієї країни чи регіону. Введіть нову адресу доставки та повторіть спробу.",
+        "address_province_blank": "Виберіть штат\/провінцію",
+        "address_company_blank": "Введіть назву компанії",
+        "address_phone_blank": "Введіть дійсний номер телефону",
+        "address_zip_blank": "Введіть поштовий індекс",
+        "address_zip_invalid_for_country": "Введіть дійсний поштовий індекс %{country}",
+        "address_zip_invalid_for_country_and_province": "Введіть дійсний поштовий індекс %{province}, %{country}",
+        "credit_card_name_blank": "Введіть своє ім'я так, як воно написано на вашій карті",
+        "credit_card_name_invalid": "Введіть своє ім'я так, як воно написано на вашій карті",
+        "credit_card_number_invalid": "Введіть чинний номер картки",
+        "credit_card_expiry_invalid": "Введіть дійсний термін дії картки",
+        "credit_card_month_invalid": "Введіть дійсний місяць закінчення терміну дії картки",
+        "credit_card_year_invalid": "Введіть дійсний рік закінчення терміну дії картки",
+        "credit_card_start_invalid": "Введіть дійсну дату початку дії картки",
+        "credit_card_start_month_invalid": "Введіть чинний місяць початку дії картки",
+        "credit_card_start_year_invalid": "Введіть чинний рік початку дії картки",
+        "credit_card_verification_value_blank": "Введіть CVV або код безпеки на карті",
+        "reduction_code_code_not_found": "Введіть дійсний код знижки або подарункову картку",
+        "reduction_code_discount_not_found": "Введіть дійсний код знижки",
+        "reduction_code_gift_card_code_invalid": "Введіть діючу подарункову картку",
+        "reduction_code_gift_card_unusable": "Ви не можете використовувати подарункову картку для покупки іншої подарункової картки",
+        "shipping_line_phone_blank": "Введіть номер телефону, щоб використати цей спосіб доставки"
       }
     }
   },
