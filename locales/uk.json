@@ -3,8 +3,28 @@
     "notices": {
       "cart": {
         "only_n_items_available": "У кошик можна додати лише %{count} %{name}.",
-        "too_many_items_in_cart": "Ви не можете додати більше %{name} у кошик."
+        "too_many_items_in_cart": "Ви не можете додати більше %{name} у кошик.",
+        "all_items_in_cart": "Всі %{count} %{name} у вашому кошику.",
+        "empty_update": "не можу оновити порожній кошик",
+        "missing_parameters": "немає допустимого ідентифікатора або параметра рядка",
+        "generic_error": "Помилка кошика",
+        "too_many_line_items_error": "Ваш кошик не може містити більше товарів.",
+        "link_expired": "Строк дії посилання закінчився",
+        "link_no_longer_exists": "Посилання не існує.",
+        "stock_problems_html": "Один або більше елементів більше не доступні. Ми надали <a href='%{link}'>оновлений кошик<\/a>.",
+        "changed": "Кошик змінено",
+        "items_changed": "Змінився один чи кілька елементів.",
+        "product_sold_out": "Товар '%{name}' вже розпродано.",
+        "variant_not_found": "Не можу знайти варіант",
+        "variant_requires_selling_plan": "Варіант можна придбати лише із планом продажів.",
+        "shipping_address_not_required": "Цей кошик не вимагає доставки",
+        "shipping_address_invalid": "Не вдалось розрахувати вартість доставки. Продовжуйте оформляти замовлення, щоб вибрати тариф доставки, перш ніж завершити замовлення.",
+        "selling_plan_not_applicable": "Неможливо застосувати план продажу до варіанта",
+        "selling_plan_not_available_for_company_locations": "Для замовлень компанії доступна лише разова покупка."
       }
+    },
+    "cart": {
+      "discounts_with_count": "застосовані %{count} знижки"
     }
   }
 }
