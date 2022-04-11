@@ -1,20 +1,2 @@
-{%- comment -%}
-This file has been modified by the Yoast SEO for Shopify app.
-You can learn more about this (and learn how to cleanly revert these changes) at https://yoa.st/removing-theme-changes.
-{%- endcomment -%}
-{%- liquid
-	assign disabled_by_yoast_seo = true
-	if content_for_header contains 'yoast-active-script'
-		assign disabled_by_yoast_seo = false
-	endif
--%}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of Meta Tags output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-<meta name="google-site-verification" content="Q2apdJ7k7dQJo0R3YEeq9jM4cDIsFDSjrwEFZOWmxQ0"/>
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%} 
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of Meta Tags output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
+<meta name="google-site-verification" content="Q2apdJ7k7dQJo0R3YEeq9jM4cDIsFDSjrwEFZOWmxQ0"/> 
 <meta name="p:domain_verify" content="2a5c1bf2899cb701b6e6ee5025279a3d"/>
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
