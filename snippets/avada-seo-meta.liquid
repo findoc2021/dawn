@@ -1,67 +1,24 @@
 {%- assign avada_seo_ovr_product_ids = "6660525654201,6629810634937,6629806014649,6547825885369,6736146399417,5569506214037" -%}
 {%- assign avada_seo_ovr_collection_ids = "243598426297" -%}
-{% if request.page_type == 'article' %}
-
-{% assign avada_seo_conditions = 1 %}
-
-
-{% unless avada_seo_conditions contains 0 %}
-{%- unless avada_seo_ovr_article_ids contains article.id -%}
-{%- capture avada_seo_meta_title -%}Интернет магазин {{ shop.name }} представляет вам наши новости о женской красоте и моде. Наши {{ article.author }} день за днем ищут полезную информацию для вашего внимания. Оцените наш труд {{ article.excerpt_or_content }}{%- endcapture -%}
-{%- capture avada_seo_meta_description -%}Новостной блог интернет магазина женской одежды больших размеров {{ shop.name }} по адресу {{ shop.domain }}. Предлагает к просмотру новости моды и стиля. Новостей женской одежды, обновления магазина {{ shop.name }} новинками и скидками. Бесплатной доставки и сроков распродажи женских платьев, блузок, туник, брюк, юбок, костюмов. Верхняя женская одежда и повседневная это наш ключ к вашим отзывам!{%- endcapture -%}
-{% endunless %}
-{% endunless %}
-
-{% endif %}
-
 {% if request.page_type == 'product' %}
-
-{% assign avada_seo_conditions = '' %}
-
-{% assign avada_seo_collection_ids = product.collections | map: 'id' %}
-{% if avada_seo_collection_ids contains 193314193453 %}
-{% assign avada_seo_conditions = avada_seo_conditions | append: 1 %}
-{% else %}
-{% assign avada_seo_conditions = avada_seo_conditions | append: 0 %}
-{% endif %}
-
-{% unless avada_seo_conditions contains 0 %}
 {%- unless avada_seo_ovr_product_ids contains product.id -%}
-{%- capture avada_seo_meta_title -%}{{product.title}} в интернет магазине женской одежды больших и не только, размеров. Опт, розница, собственное производство. {%- endcapture -%}
-{%- capture avada_seo_meta_description -%}Магазин Женской одежды больших размеров {{shop.name}} предлагает Вам купить по самым низким ценам в Украине женские {{ Тип продукта }}, платья, костюмы, туники, блузки, брюки, юбки, кардиганы  и многое другое собственного производства, {{ Тип продукта }}. Переходите по {{shop.domain}}. Принимаем наложенный платеж и работаем через Новую Почту и Укрпочту! {%- endcapture -%}
+{%- capture avada_seo_meta_title -%}Женские платья больших размеров собственного производства, женская одежда наложенным платежом интернет магазин женской одежды больших размеров предлагает {{ product.title }}  в Украине. {%- endcapture -%}
+{%- capture avada_seo_meta_description -%}Интернет магазин женской одежды больших размеров, который находится в Одессе, Украина и называется IrenFashion.shop. Покупайте  {{ product.title }} в {{ shop.name }}  по самой низкой цене в {{ shop.address.country }}. интернет магазин женской одежды больших размеров {{ shop.name }}. Проверить отзывы и купить {{ product.title }} сегодня. Собственное производство оптовые цены. Доставка через новую почту и Укрпочту. Наложенный платеж и онлайн оплата. Платья, сарафаны. туники, джемпера, блузки, худи, костюмы женские, спортивные и повседневные костюмы. Верхняя одежда пуховики, куртки, ветровки, пальто, кардиганы собственного производства, а так же импортных производителей из Китая, США и Европы!{%- endcapture -%}
 {% endunless %}
-{% endunless %}
-
-{% endif %}
-
-{% if request.page_type == 'product' %}
-
-{% assign avada_seo_conditions = 1 %}
-
-
-{% unless avada_seo_conditions contains 0 %}
-{%- unless avada_seo_ovr_product_ids contains product.id -%}
-{%- capture avada_seo_meta_title -%}Ветровки, куртки Женские, больших размеров. Заказывайте {{ product.title }} наложенным платежом, потому что мы автоматически производим Возрат и обмен в течнии 14 дней по первому требованию покупателя. Женская одежда собственного производства, а так же производителей из Украины, Китая, Европы и США. {{ product.price | money }} самые низкие, гарантируем качество! Лучшее соотношение цены и качества! Возможно на рынке есть дешевле, но мы гарантируем качество, в конце концов 25 летний опыт помогает нам быть лучше чем другие.{%- endcapture -%}
-{%- capture avada_seo_meta_description -%}{{ product.title }} большие размеры всегда в наличии, наложенный платеж и онлайн оплата. Производитель {{ product.vendor }} гарантирует качество и возврат денег в случае брака. Наш магазиг {{ shop.name }} специализируется на платьях, куртках, ветровках, юбках, костюмах, комбинезонах, больших размеров. Наша размерная сетка, соовтетсвует Украинским стандартам. куртка, ветровка, женская одежда размеров XXL. Оптовые цены и отправка через Новую почту или Укрпочту! 
-{%- endcapture -%}
-{% endunless %}
-{% endunless %}
-
 {% endif %}
 
 {% if request.page_type == 'collection' %}
-
-{% assign avada_seo_conditions = 1 %}
-
-
-{% unless avada_seo_conditions contains 0 %}
 {%- unless avada_seo_ovr_collection_ids contains collection.id -%}
-{%- capture avada_seo_meta_title -%}{{collection.title}} интернет магазина женской одежды больших размеров и не только {{shop.name}}
-{%- endcapture -%}
-{%- capture avada_seo_meta_description -%}{{shop.domain}} Женская одежда больших размеров, оптом и в розницу. Собственное производство, наложенный платеж. Женские платья, туники, джемпера, худи, блузки, костюмы спортивные и прогулочные, куртки, пуховики, пальто производства Китая, США и Европы. Женская одежда делового и повседневного стиля. Доставка через Укрпочту и Новую почту.{%- endcapture -%}
+{%- capture avada_seo_meta_title -%}{{ collection.title }} интернет магазина  женской одежды больших и не только, размеров IrenFashion.shop{%- endcapture -%}
+{%- capture avada_seo_meta_description -%}Покупайте  {{ collection.title }} по самой низкой цене в {{ shop.address.country }}. Проверить отзывы и купить {{ product.title }} сегодня. Собственное производство оптовые цены. Доставка через новую почту и Укрпочту. Наложенный платеж и онлайн оплата. Платья, сарафаны. туники, джемпера, блузки, худи, костюмы женские, спортивные и повседневные костюмы. Верхняя одежда пуховики, куртки, ветровки, пальто, кардиганы собственного производства, а так же импортных производителей из Китая, США и Европы!{%- endcapture -%}
 {% endunless %}
-{% endunless %}
+{% endif %}
 
+{% if request.page_type == 'article' %}
+{%- unless avada_seo_ovr_article_ids contains article.id -%}
+{%- capture avada_seo_meta_title -%}{{ article.title }} Блог, новости интернет магазина женской одежды больших размеров и не только IrenFashion.shop{%- endcapture -%}
+{%- capture avada_seo_meta_description -%}{{ article.excerpt_or_content }} интернет магазина женской одежды больших размеров и не только. Опт, розница, собственное производство в Украине. Доставка и оплата через Новую почту и Укрпочту. Деловой и повседневный стили для всех женщин.{%- endcapture -%}
+{% endunless %}
 {% endif %}
 
 {% if avada_seo_meta_title %}
