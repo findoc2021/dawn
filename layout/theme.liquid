@@ -304,5 +304,21 @@
 <script src="//instant.page/5.1.0" type="module" integrity="sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw"></script>  
   <div>data-instant-intensity="viewport"</div>
   <script src="instantpage-5.1.0.js" type="module" defer></script>
+  
+<script>
+  window.renderBadge = function() {
+    var ratingBadgeContainer = document.createElement("div");
+      document.body.appendChild(ratingBadgeContainer);
+      window.gapi.load('ratingbadge', function() {
+        window.gapi.ratingbadge.render(
+          ratingBadgeContainer, {
+            // ОБЯЗАТЕЛЬНАЯ ЧАСТЬ
+            "merchant_id": MERCHANT_ID,
+            // НЕОБЯЗАТЕЛЬНАЯ ЧАСТЬ
+            "position": "POSITION"
+          });           
+     });
+  }
+</script>
   </body>
 </html>
