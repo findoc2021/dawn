@@ -866,7 +866,63 @@
         "privacy_policy": "Політика конфіденційності",
         "terms_of_service": "Умови обслуговування",
         "legal_notice": "Офіційне повідомлення",
-        "shipping_policy": "Політика доставки"
+        "shipping_policy": "Політика доставки",
+        "terms_of_sale": "Умови продажу",
+        "subscription_policy": "Політика підписки"
+      },
+      "remember_me": {
+        "save": "Зберігати",
+        "title": "Запам'ятай мене",
+        "label": "Збережіть мою інформацію для швидкого оформлення замовлення",
+        "mobile_phone_icon_alt": "Мобільний телефон",
+        "mobile_phone_number": "номер мобільного телефону",
+        "shopify_pay_label": "Магазин Оплатити",
+        "description_html": "Наступного разу, коли ви оформлятимете покупки тут або в інших магазинах на базі Shopify, ви отримаєте текстове повідомлення з кодом для безпечної покупки за допомогою Shop Pay.",
+        "terms_and_privacy_html": "Продовжуючи, ви погоджуєтесь з %{privacy_href} та %{terms_href} Shop Pay.",
+        "errors": {
+          "optin": "Оплата в магазині недоступна"
+        },
+        "privacy_policy": "Політика конфіденційності",
+        "terms_of_service": "умови обслуговування",
+        "installments": {
+          "paid_in_installments": "Оплата на виплат через ShopPay.",
+          "view_schedule": "Переглянути розклад"
+        },
+        "title_with_logo_html": "Запам'ятай мене з %{shopify_pay}",
+        "label_address_payment_and_faster_checkouts": "Дозвольте Shop Pay заповнити мою адресу та платіжну інформацію для швидшого оформлення замовлення.",
+        "label_faster_checkouts_and_thousand_shops": "Збережіть мою інформацію за допомогою Shop Pay, щоб швидше оплачувати покупки більш ніж мільйон магазинів."
+      },
+      "notifications": {
+        "title": "Сповіщення"
+      },
+      "order_payment_collection": {
+        "custom_line_item_description": "Сума для оплати замовлення %{order_name}",
+        "additional_payment_requested": "Потрібна оплата %{total_outstanding}",
+        "checkout_review_and_pay": "Ваше замовлення %{order_name} оновлено. Перегляньте ці зміни, а потім сплатіть, щоб підтвердити своє замовлення.",
+        "order_updated_on": "Ваше замовлення було оновлено %{last_edited_at}.",
+        "order_review_and_pay": "Ваше замовлення оновлено. Перегляньте та оплатите, щоб підтвердити своє замовлення.",
+        "pay_now": "Заплатити зараз",
+        "changes_summary": {
+          "added": {
+            "one": "Доданий",
+            "other": "%{count} доданий",
+            "few": "Додано: %{count}",
+            "many": "Додано: %{count}"
+          },
+          "removed": "Віддалений",
+          "subtracted": "%{count} видалено"
+        }
+      },
+      "tips": {
+        "title": "Додати пораду",
+        "description": "Покажіть свою підтримку команді %{shop_name}",
+        "presets_description": "Виберіть відсоток чайових",
+        "custom_label": "Користувальницька порада",
+        "add_tip": "Додати пораду",
+        "update_tip": "Порада щодо оновлення",
+        "message": "Дякую, ми це цінуємо",
+        "preset_label": "%{tip_percent}%",
+        "no_tip_label": "Ніхто"
       }
     }
   },
