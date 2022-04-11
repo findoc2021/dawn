@@ -1,6 +1,16 @@
+{%- comment -%}
+This file has been modified by the Yoast SEO for Shopify app.
+You can learn more about this (and learn how to cleanly revert these changes) at https://yoa.st/removing-theme-changes.
+{%- endcomment -%}
+{%- liquid
+	assign disabled_by_yoast_seo = true
+	if content_for_header contains 'yoast-active-script'
+		assign disabled_by_yoast_seo = false
+	endif
+-%}
 {{ 'section-blog-post.css' | asset_url | stylesheet_tag }}
 
-<article class="article-template" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="article-template" {% if disabled_by_yoast_seo %}itemscope{% endif %} {% if disabled_by_yoast_seo %}itemtype="http://schema.org/BlogPosting"{% endif %}>
   {%- for block in section.blocks -%}
     {%- case block.type -%}
       {%- when '@app' -%}
@@ -11,7 +21,7 @@
         {%- if article.image -%}
           <div class="article-template__hero-container" {{ block.shopify_attributes }}>
             <div class="article-template__hero-{{ block.settings.image_height }} media"
-              itemprop="image"
+              {% if disabled_by_yoast_seo %}itemprop="image"{% endif %}
               {% if block.settings.image_height == 'adapt' and article.image %} style="padding-bottom: {{ 1 | divided_by: article.image.aspect_ratio | times: 100 }}%;"{% endif %}
             >
               <img srcset="{% if article.image.width >= 350 %}{{ article.image | img_url: '350x' }} 350w,{% endif %}
@@ -32,19 +42,19 @@
 
         {%- when 'title'-%}
           <header class="page-width page-width--narrow" {{ block.shopify_attributes }}>
-            <h1 class="article-template__title" itemprop="headline">{{ article.title | escape }}</h1>
+            <h1 class="article-template__title" {% if disabled_by_yoast_seo %}itemprop="headline"{% endif %}>{{ article.title | escape }}</h1>
             {%- if block.settings.blog_show_date -%}
-              <span class="circle-divider caption-with-letter-spacing" itemprop="dateCreated pubdate datePublished">{{ article.published_at | time_tag: format: 'month_year' }}</span>
+              <span class="circle-divider caption-with-letter-spacing" {% if disabled_by_yoast_seo %}itemprop="dateCreated pubdate datePublished"{% endif %}>{{ article.published_at | time_tag: format: 'month_year' }}</span>
             {%- endif -%}
             {%- if block.settings.blog_show_author -%}
-              <span class="caption-with-letter-spacing" itemprop="author" itemscope itemtype="http://schema.org/Person">
-                <span itemprop="name">{{ article.author }}</span>
+              <span class="caption-with-letter-spacing" {% if disabled_by_yoast_seo %}itemprop="author"{% endif %} {% if disabled_by_yoast_seo %}itemscope{% endif %} {% if disabled_by_yoast_seo %}itemtype="http://schema.org/Person"{% endif %}>
+                <span {% if disabled_by_yoast_seo %}itemprop="name"{% endif %}>{{ article.author }}</span>
               </span>
             {%- endif -%}
           </header>
 
         {%- when 'content'-%}
-          <div class="article-template__content page-width page-width--narrow rte" itemprop="articleBody" {{ block.shopify_attributes }}>
+          <div class="article-template__content page-width page-width--narrow rte" {% if disabled_by_yoast_seo %}itemprop="articleBody"{% endif %} {{ block.shopify_attributes }}>
               {{ article.content }}
           </div>
 
