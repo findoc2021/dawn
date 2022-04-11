@@ -807,7 +807,66 @@
         "attempted_delivery_local_description_html": "Ми не змогли доставити ваше замовлення. Щоб запланувати іншу доставку %{contact_us}.",
         "thank_you_title_payment": "Ваш платіж підтверджено",
         "thank_you_confirmed_order_with_email_payment": "Ви сплатили за замовлення %{date}.",
-        "thank_you_confirmed_order_with_phone_payment": "Ви сплатили за замовлення %{date}."
+        "thank_you_confirmed_order_with_phone_payment": "Ви сплатили за замовлення %{date}.",
+        "thank_you_confirmed_order_with_email_and_phone_payment": "Ви сплатили за замовлення %{date}.",
+        "order_status_confirmed_order_with_email_payment": "Ви сплатили за замовлення %{date}.",
+        "order_status_confirmed_order_with_phone_payment": "Ви сплатили за замовлення %{date}.",
+        "order_status_confirmed_order_with_email_and_phone_payment": "Ви сплатили за замовлення %{date}.",
+        "shop_qr_with_sms_upsell": {
+          "qr_code": {
+            "title": "Скануйте за допомогою телефону",
+            "description": "Магазин відправить вам оновлення доставки в режимі реального часу, як тільки ваше замовлення буде надіслано."
+          },
+          "sms": {
+            "title": "Або надішліть посилання на телефон"
+          }
+        },
+        "estimated_delivery": "Орієнтовна доставка",
+        "view_business_customer_account": "Переглянути обліковий запис"
+      },
+      "review": {
+        "title": "Розгляд",
+        "review_title": "Переглянути замовлення",
+        "checkout_as_guest": "Оформити замовлення як гість",
+        "blocks": {
+          "contact_method_title": "Контакт",
+          "billing_address_title": "Виставлення рахунків",
+          "shipping_address_title": "Доставка до",
+          "shipping_method_title": "Метод",
+          "payment_method_title": "Оплата",
+          "change_link_label": "Решта",
+          "change_contact_method_link_label": "Змінити контактну інформацію",
+          "change_billing_address_link_label": "Змінити платіжну адресу",
+          "change_shipping_address_link_label": "Змінити адресу доставки",
+          "change_shipping_method_link_label": "Змінити спосіб доставки",
+          "change_payment_method_link_label": "Змінити спосіб оплати",
+          "pick_up_in_store_shipping_method_html": "Забрати в магазині · %{location_name}"
+        }
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "Пишіть мені з новинами та пропозиціями",
+        "unsubscribe": {
+          "title": "Ви відписалися",
+          "description": "Ви більше не отримуватимете від нас нагадування про кошик."
+        },
+        "accept_sms_checkbox_label": "Пишіть мені з новинами та пропозиціями",
+        "sms": {
+          "disclaimer": {
+            "privacy_policy": "Політика конфіденційності",
+            "terms_of_service": "умови обслуговування",
+            "description_html": "Реєструючись за допомогою текстового повідомлення, ви погоджуєтеся отримувати автоматичні маркетингові повідомлення, що повторюються, включаючи нагадування про кошик, на вказаний номер телефону. Згода не є умовою покупки. Відповісти СТОП, щоби відписатися. Відповісти Допомога для допомоги. Частота повідомлень варіюється. Можуть застосовуватися тарифи на повідомлення та дані. Перегляньте наші %{privacy_policy_link} та %{terms_of_service_link}.",
+            "description_transactional_html": "Ми надішлемо вам квитанцію про замовлення та регулярні оновлення доставки у вигляді текстового повідомлення. Відповісти СТОП, щоби відписатися. Відповісти Допомога для допомоги. Частота повідомлень варіюється. Можуть застосовуватися тарифи на повідомлення та дані. Перегляньте наші %{privacy_policy_modal_link} та %{terms_of_service_modal_link}."
+          }
+        },
+        "post_accept_marketing_checkbox_label": "Ви підписані на отримання новин та пропозицій електронною поштою",
+        "pending_accept_marketing_checkbox_label": "Перевірте свою електронну пошту, щоб підтвердити передплату на новини та пропозиції"
+      },
+      "shop_policies": {
+        "refund_policy": "Політика повернення",
+        "privacy_policy": "Політика конфіденційності",
+        "terms_of_service": "Умови обслуговування",
+        "legal_notice": "Офіційне повідомлення",
+        "shipping_policy": "Політика доставки"
       }
     }
   },
