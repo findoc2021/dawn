@@ -1,0 +1,10 @@
+{
+  "shopify": {
+    "notices": {
+      "cart": {
+        "only_n_items_available": "У кошик можна додати лише %{count} %{name}.",
+        "too_many_items_in_cart": "Ви не можете додати більше %{name} у кошик."
+      }
+    }
+  }
+}
