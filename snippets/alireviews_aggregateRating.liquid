@@ -1,5 +1,17 @@
+{%- comment -%}
+This file has been modified by the Yoast SEO for Shopify app.
+You can learn more about this (and learn how to cleanly revert these changes) at https://yoa.st/removing-theme-changes.
+{%- endcomment -%}
+{%- liquid
+	assign disabled_by_yoast_seo = true
+	if content_for_header contains 'yoast-active-script'
+		assign disabled_by_yoast_seo = false
+	endif
+-%}
 {%- if request.page_type == 'product' -%}
-        <script type="application/ld+json">
+        {%- comment -%}Yoast SEO schema control block: start.{%- endcomment -%}
+{%- if disabled_by_yoast_seo or shop.metafields.yoast_seo.settings.schema.useTheme.schema or shop.metafields.yoast_seo.settings.schema.useTheme.product -%}
+<script type="application/ld+json">
           {
             "@context": "http://schema.org",
             {{ product.metafields.alireviews.seo_rating_review_key_script }}
@@ -35,5 +47,7 @@
                     {%- endfor -%}
                 ]
           }
-        </script>
+        {%- comment -%}Yoast SEO schema control block: end.{%- endcomment -%}
+</script>
+{%- endif -%}
       {%- endif -%}
