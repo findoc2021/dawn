@@ -1,0 +1,42 @@
+{%- comment -%}
+	This file has been added by the Yoast SEO for Shopify app.
+	You can learn more about this (and learn how to cleanly revert these changes) at https://yoa.st/removing-theme-changes.
+{%- endcomment -%}
+
+{%- liquid
+	assign yoast_seo_schema_disabled = false
+	assign yoast_seo_organization_schema_disabled = false
+	assign yoast_seo_website_schema_disabled = false
+	assign yoast_seo_webpage_schema_disabled = false
+	assign yoast_seo_product_schema_disabled = false
+	assign yoast_seo_article_schema_disabled = false
+	assign yoast_seo_breadcrumb_schema_disabled = false
+
+	unless shop.metafields.yoast_seo.settings.schema.outputControls.schema
+		assign yoast_seo_schema_disabled = true
+	endunless
+
+	unless shop.metafields.yoast_seo.settings.schema.outputControls.organization
+		assign yoast_seo_organization_schema_disabled = true
+	endunless
+
+	unless shop.metafields.yoast_seo.settings.schema.outputControls.website
+		assign yoast_seo_website_schema_disabled = true
+	endunless
+
+	unless shop.metafields.yoast_seo.settings.schema.outputControls.webpage
+		assign yoast_seo_webpage_schema_disabled = true
+	endunless
+
+	unless shop.metafields.yoast_seo.settings.schema.outputControls.product
+		assign yoast_seo_product_schema_disabled = true
+	endunless
+
+	unless shop.metafields.yoast_seo.settings.schema.outputControls.article
+		assign yoast_seo_article_schema_disabled = true
+	endunless
+
+	unless shop.metafields.yoast_seo.settings.schema.outputControls.breadcrumb
+		assign yoast_seo_breadcrumblist_schema_disabled = true
+	endunless
+-%}

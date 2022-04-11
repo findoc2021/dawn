@@ -1,0 +1,72 @@
+{%- comment -%}
+	This file has been added by the Yoast SEO for Shopify app.
+	You can learn more about this (and learn how to cleanly revert these changes) at https://yoa.st/removing-theme-changes.
+{%- endcomment -%}
+
+{%- liquid
+	capture product_url
+		render "yoast-seo-variable", variable: "canonical_url"
+	endcapture
+
+	assign yoast_canonical_url = product_url
+    assign current_variant = product.selected_variant
+	if current_variant
+		assign yoast_canonical_url = shop.url | append: current_variant.url
+	endif
+
+	capture description
+		render "yoast-seo-variable", variable: "description"
+	endcapture
+
+	assign product_id = product_url | append: "/#/schema/Product"
+	assign offer_id = product_url | append: "/#/schema/AggregateOffer"
+
+	assign default_variant = product.first_available_variant
+	if product.has_only_default_variant or product.available == false
+		assign default_variant = product.variants[0]
+	endif
+
+	capture product_availability
+		render "yoast-seo-product-availability", product: product, default_variant: default_variant
+	endcapture
+-%}
+{
+	"@type": "Product",
+	"@id": {{ product_id | json }},
+{%- if use_main_entity_of_page %}
+	"mainEntityOfPage": {
+		"@id": {{ yoast_canonical_url | json }}
+	},
+{%- endif %}
+	"name": {{ product.title | json }},
+{%- if description != "" %}
+	"description": {{ description | json }},
+{%- endif %}
+{%- if default_variant.sku != "" %}
+	"sku": {{ default_variant.sku | json }},
+{%- endif %}
+	"url": {{ product_url | json }},
+{%- if product.featured_media != null and product.featured_media != empty %}
+	"image": [
+		{
+			"@id": "{{ shop.url }}/#/schema/ImageObject/{{ product.featured_media.id }}"
+		}
+	],
+{%- endif %}
+	"offers": {
+		"@type": "AggregateOffer",
+		"@id": {{ offer_id | json }},
+		"availability": "https://schema.org/{{ product_availability | strip }}",
+		"offerCount": {{ product.variants.size }},
+		{%- comment -%}Schema requires a "." seperated value, Shopify uses the locale based convertion in their helper methods.{%- endcomment %}
+		"lowPrice": {{ product.price_min | divided_by: 100.0 }},
+		"highPrice": {{ product.price_max | divided_by: 100.0 }},
+		"priceCurrency": {{- cart.currency.iso_code | json -}},
+		"url": {{ product_url | json }},
+		"priceSpecification": {
+			"@type": "PriceSpecification",
+			"valueAddedTaxIncluded": {{ default_variant.taxable }}
+		}
+	}
+},
+{%- render 'yoast-seo-schema-image', image_object: product.featured_media.preview_image, image_id: product.featured_media.id -%}
