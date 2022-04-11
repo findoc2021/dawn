@@ -300,5 +300,7 @@
 
 {{ 'zifyapp-fblogin.css' | asset_url | stylesheet_tag }}
 {% if shop.customer_accounts_enabled %}{% unless customer  %}{{ 'zifyapp-fblogin.js' | asset_url | script_tag }}{% endunless %}{% endif %}
-{% include 'wholesale-product-form' %}{% include 'ets_social_login_js' %}<link rel="stylesheet" href="https://gravity-software.com/js/shopify/rondell/jquery.rondellf85.css?v=123"/></body>
+{% include 'wholesale-product-form' %}{% include 'ets_social_login_js' %}<link rel="stylesheet" href="https://gravity-software.com/js/shopify/rondell/jquery.rondellf85.css?v=123"/>
+<script src="//instant.page/5.1.0" type="module" integrity="sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw"></script>  
+  </body>
 </html>
