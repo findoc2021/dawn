@@ -69,9 +69,63 @@
           "prepaid_delivery_frequency": {
             "one": "для доставки %{count}",
             "other": "для доставок %{count}",
-            "few": "за певну кількість доставок (%{count})"
+            "few": "за певну кількість доставок (%{count})",
+            "many": "за певну кількість доставок (%{count})"
+          },
+          "subscription_delivery_frequency": {
+            "day": {
+              "one": "щодня",
+              "other": "кожні %{count} днів",
+              "few": "кожні %{count} дн.",
+              "many": "кожні %{count} дн."
+            },
+            "week": {
+              "one": "щотижня",
+              "other": "кожні %{count} тижнів",
+              "few": "кожні %{count} тиж.",
+              "many": "кожні %{count} тиж."
+            },
+            "month": {
+              "one": "кожен місяць",
+              "other": "кожні %{count} місяців",
+              "few": "кожні %{count} міс.",
+              "many": "кожні %{count} міс."
+            },
+            "year": {
+              "one": "щороку",
+              "other": "кожні %{count} років",
+              "few": "кожні %{count} рік.",
+              "many": "кожні %{count} рік."
+            }
+          },
+          "multiple_subscriptions_shipping_price_label": "%{shipping_price} за доставку",
+          "prepaid_shipping_price_label": "%{shipping_price} на доставку x %{delivery_interval_count}",
+          "initial_order_discounted": "Спочатку вартість доставки %{discounted_shipping_cost}, потім %{frequency_description}",
+          "prepaid_initial_order_discounted": "Вартість першої доставки %{discounted_shipping_price} %{prepaid_delivery_frequency}",
+          "prepaid_initial_order_discounted_with_per_delivery_price": "Вартість першої доставки %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery})",
+          "prepaid_initial_order_discounted_with_renewal": "Спочатку вартість доставки %{discounted_shipping_price} %{prepaid_delivery_frequency}, потім %{shipping_price} %{billing_cycle}",
+          "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "Спочатку вартість доставки %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery}), потім %{shipping_price} %{billing_cycle}",
+          "shipping_price_included": "Увімкнено",
+          "recurring_order_shipping_price": "потім %{recurring_order_shipping_price}",
+          "first_order_shipping_price_included": "Включено перше замовлення, за яким слідує %{recurring_order_shipping_price}",
+          "first_order_different_shipping_price": "%{first_order_shipping_price} (%{per_delivery_price} на доставку), за яким слідує %{recurring_order_shipping_price}",
+          "first_n_order_free": {
+            "one": "Перше замовлення безкоштовно",
+            "other": "Перші %{count} замовлення безкоштовно",
+            "few": "Декілька перших замовлень (%{count}) — безкоштовно",
+            "many": "Декілька перших замовлень (%{count}) — безкоштовно"
+          },
+          "free_for_first_n_order": {
+            "one": "Для першого замовлення",
+            "other": "Для перших замовлень %{count}",
+            "few": "За кілька перших замовлень (%{count})",
+            "many": "За кілька перших замовлень (%{count})"
           }
-        }
+        },
+        "estimated_delivery_time": "Розрахункова доставка %{time}",
+        "estimated_delivery_time_range": "Розрахункова доставка %{min_time}–%{max_time}",
+        "arrives_time": "Прибуває %{time}",
+        "arrives_time_range": "Прибуття %{min_time}–%{max_time}"
       }
     }
   },
