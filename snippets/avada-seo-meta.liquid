@@ -34,6 +34,21 @@
 
 {% endif %}
 
+{% if request.page_type == 'product' %}
+
+{% assign avada_seo_conditions = 1 %}
+
+
+{% unless avada_seo_conditions contains 0 %}
+{%- unless avada_seo_ovr_product_ids contains product.id -%}
+{%- capture avada_seo_meta_title -%}Женская одежда больших размеров. Заказывайте {{ product.title }} наложенным платежом. Возрат и обмен в течнии 14 дней. Женская одежда собственного производства, а так же производителей из Украины, Китая, Европы и США. {{ product.price | money }} самые низкие, гарантируем качество!{%- endcapture -%}
+{%- capture avada_seo_meta_description -%}{{ product.title }} большие размеры всегда в наличии, наложенный платеж и онлайн оплата. Производитель {{ product.vendor }} гарантирует качество и возврат денег в случае брака. Наш магазиг {{ shop.name }} специализируется на платьях, куртках, ветровках, юбках, костюмах, комбинезонах, больших размеров. Наша размерная сетка, соовтетсвует Украинским стандартам. 
+{%- endcapture -%}
+{% endunless %}
+{% endunless %}
+
+{% endif %}
+
 {% if request.page_type == 'collection' %}
 
 {% assign avada_seo_conditions = 1 %}
