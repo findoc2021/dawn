@@ -1,0 +1,21 @@
+{%- comment -%}
+	This file has been added by the Yoast SEO for Shopify app.
+	You can learn more about this (and learn how to cleanly revert these changes) at https://yoa.st/removing-theme-changes.
+{%- endcomment -%}
+
+{%- liquid
+	assign selected_variant = product.selected_variant
+	assign current_variant = product.selected_or_first_available_variant
+	assign separator_replacement = shop.metafields.yoast_seo.settings.siteSettings.siteDefaults.separator
+
+	if page_title
+		assign product_name = page_title
+	else
+		assign product_name = current_variant.product.title
+	endif
+	echo product_name
+
+	if product.variants.size > 1 and selected_variant
+		echo " " | append: separator_replacement | append: " " | append: current_variant.title
+	endif
+-%}

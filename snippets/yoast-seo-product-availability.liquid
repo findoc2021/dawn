@@ -1,0 +1,33 @@
+{%- comment -%}
+	This file has been added by the Yoast SEO for Shopify app.
+	You can learn more about this (and learn how to cleanly revert these changes) at https://yoa.st/removing-theme-changes.
+{%- endcomment -%}
+
+{%- liquid
+	if product != null and default_variant != null
+		comment
+		If none of the variations are in stock, the status of the default variant is used.
+		endcomment
+		capture availability_status
+			render "yoast-seo-product-variant-availability", variant: default_variant
+		endcapture
+
+		if availability_status != "InStock" and product.available
+			comment
+			A product is also available if the inventory_policy of one of the variants is set to "Allow users to
+			purchase this item, even if it is no longer in stock.", so we need to check whether there are actually
+			variants in stock.
+			endcomment
+			assign total_quantity = 0
+			for variant in product.variants
+				if variant.inventory_quantity > 0
+					assign total_quantity = total_quantity | plus: variant.inventory_quantity
+				endif
+			endfor
+			if total_quantity > 0
+				assign availability_status = "InStock"
+			endif
+		endif
+	endif
+-%}
+{{- availability_status -}}
