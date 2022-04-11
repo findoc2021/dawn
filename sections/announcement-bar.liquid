@@ -1,7 +1,8 @@
-{%- for block in section.blocks -%}
-  {%- case block.type -%}
 <script src="https://apps.elfsight.com/p/platform.js" defer></script>
 <div class="elfsight-app-f003423c-9167-4d9b-b72e-f9e0af14c51c"></div>
+{%- for block in section.blocks -%}
+  {%- case block.type -%}
+
     {%- when 'announcement' -%}
       <div class="announcement-bar color-{{ block.settings.color_scheme }}" role="region" aria-label="{{ 'sections.header.announcement' | t }}" {{ block.shopify_attributes }}>
         {%- if block.settings.text != blank -%}
