@@ -202,7 +202,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   src="https://www.facebook.com/tr?id=389792472510262&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Facebook Pixel Code -->
-  {% include 'sohead-reply-common' %}
+  
 {% include 'ets_social_login_css' %}
 {%- comment -%}Auto-disabled. Yoast plugin is taking care of Meta Tags output.{%- endcomment -%}
 {%- if disabled_by_yoast_seo -%}
@@ -215,7 +215,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 {%- endif -%}
     <!-- AMP Analytics --><script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
 
-</head>
+{% include 'sohead-reply-common' %}</head>
 <body>
   <!-- Google Tag Manager -->
 <amp-analytics config="https://www.googletagmanager.com/amp.json?id=GTM-PZXHQBP&gtm.url=SOURCE_URL" data-credentials="include"></amp-analytics>
