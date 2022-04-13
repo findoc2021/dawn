@@ -31,7 +31,7 @@ You can learn more about this (and learn how to cleanly revert these changes) at
     {% render 'yoast-seo' %}
 {% include "starapps-core" %}
 
-<script src="{{ 'jquery.3.4.0.ets.js' | asset_url }}" defer="defer"></script>
+<script src="{{ 'jquery.3.4.0.ets.aio.min.js' | asset_url }}" defer="defer"></script>
 <!-- Added by AVADA SEO Suite -->
 {% include 'avada-seo' %}
 <!-- /Added by AVADA SEO Suite -->
@@ -71,7 +71,7 @@ You can learn more about this (and learn how to cleanly revert these changes) at
 
     {% render 'meta-tags' %}
 
-    <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'global.aio.min.js' | asset_url }}" defer="defer"></script>
     <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -254,8 +254,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       }
     </script>
 
-    <script src="{{ 'slider.js' | asset_url }}" defer="defer"></script>
-    <script src="{{ 'variants.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'slider.aio.min.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'variants.aio.min.js' | asset_url }}" defer="defer"></script>
   <!-- GSSTART Code for Swatches body. Do not change -->
 {%- if collection.products or search.results or product or template == 'index' -%}
 
@@ -362,7 +362,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 {{ 'zifyapp-fblogin.css' | asset_url | stylesheet_tag }}
-{% if shop.customer_accounts_enabled %}{% unless customer  %}{{ 'zifyapp-fblogin.js' | asset_url | script_tag }}{% endunless %}{% endif %}
+{% if shop.customer_accounts_enabled %}{% unless customer  %}{{ 'zifyapp-fblogin.aio.min.js' | asset_url | script_tag }}{% endunless %}{% endif %}
 {% include 'wholesale-product-form' %}{% include 'ets_social_login_js' %}<link rel="stylesheet" href="https://gravity-software.com/js/shopify/rondell/jquery.rondellf85.css?v=123"/>
 <script src="//instant.page/5.1.0" type="module" integrity="sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw"></script>  
   <script src="instantpage-5.1.0.js" type="module" defer></script>

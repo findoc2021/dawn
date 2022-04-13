@@ -180,7 +180,7 @@
                 </div>
               </details>
             </share-button>
-            <script src="{{ 'share.js' | asset_url }}" defer="defer"></script>
+            <script src="{{ 'share.aio.min.js' | asset_url }}" defer="defer"></script>
           {%- when 'variant_picker' -%}
             {%- unless product.has_only_default_variant -%}
               {%- if block.settings.picker_type == 'button' -%}
@@ -304,7 +304,7 @@
               </pickup-availability>
             </div>
 
-            <script src="{{ 'pickup-availability.js' | asset_url }}" defer="defer"></script>
+            <script src="{{ 'pickup-availability.aio.min.js' | asset_url }}" defer="defer"></script>
           {%- endcase -%}
         {%- endfor -%}
       </div>
@@ -448,14 +448,14 @@
 
   customElements.define('product-modal', ProductModal);
 {% endjavascript %}
-<script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
+<script src="{{ 'product-form.aio.min.js' | asset_url }}" defer="defer"></script>
 
 {%- if first_3d_model -%}
   <script type="application/json" id="ProductJSON-{{ product.id }}">
     {{ product.media | where: 'media_type', 'model' | json }}
   </script>
 
-  <script src="{{ 'product-model.js' | asset_url }}" defer></script>
+  <script src="{{ 'product-model.aio.min.js' | asset_url }}" defer></script>
 {%- endif -%}
 
 {% schema %}
