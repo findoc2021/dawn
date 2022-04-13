@@ -34,36 +34,6 @@
 
 {% endif %}
 
-{% if request.page_type == 'product' %}
-
-{% assign avada_seo_conditions = 1 %}
-
-
-{% unless avada_seo_conditions contains 0 %}
-{%- unless avada_seo_ovr_product_ids contains product.id -%}
-{%- capture avada_seo_meta_title -%}Ветровки, куртки Женские, больших размеров. Заказывайте {{ product.title }} наложенным платежом, потому что мы автоматически производим Возрат и обмен в течнии 14 дней по первому требованию покупателя. Женская одежда собственного производства, а так же производителей из Украины, Китая, Европы и США. {{ product.price | money }} самые низкие, гарантируем качество! Лучшее соотношение цены и качества! Возможно на рынке есть дешевле, но мы гарантируем качество, в конце концов 25 летний опыт помогает нам быть лучше чем другие.{%- endcapture -%}
-{%- capture avada_seo_meta_description -%}{{ product.title }} большие размеры всегда в наличии, наложенный платеж и онлайн оплата. Производитель {{ product.vendor }} гарантирует качество и возврат денег в случае брака. Наш магазиг {{ shop.name }} специализируется на платьях, куртках, ветровках, юбках, костюмах, комбинезонах, больших размеров. Наша размерная сетка, соовтетсвует Украинским стандартам. куртка, ветровка, женская одежда размеров XXL. Оптовые цены и отправка через Новую почту или Укрпочту! 
-{%- endcapture -%}
-{% endunless %}
-{% endunless %}
-
-{% endif %}
-
-{% if request.page_type == 'collection' %}
-
-{% assign avada_seo_conditions = 1 %}
-
-
-{% unless avada_seo_conditions contains 0 %}
-{%- unless avada_seo_ovr_collection_ids contains collection.id -%}
-{%- capture avada_seo_meta_title -%}{{collection.title}} интернет магазина женской одежды больших размеров и не только {{shop.name}}
-{%- endcapture -%}
-{%- capture avada_seo_meta_description -%}{{shop.domain}} Женская одежда больших размеров, оптом и в розницу. Собственное производство, наложенный платеж. Женские платья, туники, джемпера, худи, блузки, костюмы спортивные и прогулочные, куртки, пуховики, пальто производства Китая, США и Европы. Женская одежда делового и повседневного стиля. Доставка через Укрпочту и Новую почту.{%- endcapture -%}
-{% endunless %}
-{% endunless %}
-
-{% endif %}
-
 {% if avada_seo_meta_title %}
 {%- assign seo_title = avada_seo_meta_title | strip_html | strip -%}
 {%- assign page_title = seo_title -%}
