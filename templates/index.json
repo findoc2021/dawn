@@ -20,7 +20,7 @@
           "settings": {
             "button_label_1": "подробней",
             "button_link_1": "shopify:\/\/products\/платье-женское-м-371",
-            "button_style_secondary_1": true,
+            "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
@@ -245,7 +245,7 @@
         "1628363935338af885-1": {
           "type": "product",
           "settings": {
-            "product": "пляжная-туника-fp-9402",
+            "product": "платье-женское-весеннее-шифон-модель-372",
             "secondary_background": true,
             "second_image": true,
             "image_padding": false
@@ -254,7 +254,7 @@
         "1628363935338af885-2": {
           "type": "collection",
           "settings": {
-            "collection": "plyazhnaya-zhenskaya-odezhda",
+            "collection": "большие-размеры-xxl",
             "image_padding": false,
             "color_scheme": "background-2"
           }
@@ -262,7 +262,7 @@
         "d48b979c-79ab-4c99-b58d-40a3e5e85c4c": {
           "type": "product",
           "settings": {
-            "product": "купальник-fi-1971",
+            "product": "платье-женское-модель-375-1",
             "secondary_background": true,
             "second_image": true,
             "image_padding": false
@@ -275,7 +275,7 @@
         "d48b979c-79ab-4c99-b58d-40a3e5e85c4c"
       ],
       "settings": {
-        "heading": "Готовимся загароть в стиле Iren- 15%!!!!",
+        "heading": "модели весна 2022",
         "desktop_layout": "right",
         "mobile_layout": "column"
       }
