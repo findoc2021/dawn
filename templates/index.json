@@ -41,6 +41,47 @@
         "adapt_height_first_image": false
       }
     },
+    "1628363935338af885": {
+      "type": "collage",
+      "blocks": {
+        "1628363935338af885-1": {
+          "type": "product",
+          "settings": {
+            "product": "платье-женское-весеннее-шифон-модель-372",
+            "secondary_background": true,
+            "second_image": true,
+            "image_padding": false
+          }
+        },
+        "1628363935338af885-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "большие-размеры-xxl",
+            "image_padding": false,
+            "color_scheme": "background-2"
+          }
+        },
+        "d48b979c-79ab-4c99-b58d-40a3e5e85c4c": {
+          "type": "product",
+          "settings": {
+            "product": "платье-женское-модель-375-1",
+            "secondary_background": true,
+            "second_image": true,
+            "image_padding": false
+          }
+        }
+      },
+      "block_order": [
+        "1628363935338af885-1",
+        "1628363935338af885-2",
+        "d48b979c-79ab-4c99-b58d-40a3e5e85c4c"
+      ],
+      "settings": {
+        "heading": "модели весна 2022",
+        "desktop_layout": "right",
+        "mobile_layout": "column"
+      }
+    },
     "1630452319c1c0a00d": {
       "type": "index-divider",
       "settings": {
@@ -54,6 +95,47 @@
         "tablet_padding_bottom": 0,
         "tablet_margin_top": 0,
         "tablet_margin_bottom": 0
+      }
+    },
+    "1628205071928c9169": {
+      "type": "collage",
+      "blocks": {
+        "1628205071928c9169-1": {
+          "type": "product",
+          "settings": {
+            "product": "zhenskoe-osennee-plate-sportivnogo-stilya-model-363",
+            "secondary_background": true,
+            "second_image": true,
+            "image_padding": false
+          }
+        },
+        "1628205071928c9169-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "vesna-2022",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        },
+        "d3df8447-07fd-457f-a58b-38daef059fc8": {
+          "type": "product",
+          "settings": {
+            "product": "osennee-zhenskoe-plate-ft-9345",
+            "secondary_background": true,
+            "second_image": true,
+            "image_padding": false
+          }
+        }
+      },
+      "block_order": [
+        "1628205071928c9169-1",
+        "1628205071928c9169-2",
+        "d3df8447-07fd-457f-a58b-38daef059fc8"
+      ],
+      "settings": {
+        "heading": "Весна полна сюрпризов",
+        "desktop_layout": "left",
+        "mobile_layout": "column"
       }
     },
     "featured_products": {
@@ -239,88 +321,6 @@
         "show_view_all": true
       }
     },
-    "1628363935338af885": {
-      "type": "collage",
-      "blocks": {
-        "1628363935338af885-1": {
-          "type": "product",
-          "settings": {
-            "product": "платье-женское-весеннее-шифон-модель-372",
-            "secondary_background": true,
-            "second_image": true,
-            "image_padding": false
-          }
-        },
-        "1628363935338af885-2": {
-          "type": "collection",
-          "settings": {
-            "collection": "большие-размеры-xxl",
-            "image_padding": false,
-            "color_scheme": "background-2"
-          }
-        },
-        "d48b979c-79ab-4c99-b58d-40a3e5e85c4c": {
-          "type": "product",
-          "settings": {
-            "product": "платье-женское-модель-375-1",
-            "secondary_background": true,
-            "second_image": true,
-            "image_padding": false
-          }
-        }
-      },
-      "block_order": [
-        "1628363935338af885-1",
-        "1628363935338af885-2",
-        "d48b979c-79ab-4c99-b58d-40a3e5e85c4c"
-      ],
-      "settings": {
-        "heading": "модели весна 2022",
-        "desktop_layout": "right",
-        "mobile_layout": "column"
-      }
-    },
-    "1628205071928c9169": {
-      "type": "collage",
-      "blocks": {
-        "1628205071928c9169-1": {
-          "type": "product",
-          "settings": {
-            "product": "zhenskoe-osennee-plate-sportivnogo-stilya-model-363",
-            "secondary_background": true,
-            "second_image": true,
-            "image_padding": false
-          }
-        },
-        "1628205071928c9169-2": {
-          "type": "collection",
-          "settings": {
-            "collection": "vesna-2022",
-            "image_padding": false,
-            "color_scheme": "background-1"
-          }
-        },
-        "d3df8447-07fd-457f-a58b-38daef059fc8": {
-          "type": "product",
-          "settings": {
-            "product": "osennee-zhenskoe-plate-ft-9345",
-            "secondary_background": true,
-            "second_image": true,
-            "image_padding": false
-          }
-        }
-      },
-      "block_order": [
-        "1628205071928c9169-1",
-        "1628205071928c9169-2",
-        "d3df8447-07fd-457f-a58b-38daef059fc8"
-      ],
-      "settings": {
-        "heading": "Весна полна сюрпризов",
-        "desktop_layout": "left",
-        "mobile_layout": "column"
-      }
-    },
     "162854529615676c73": {
       "type": "collage",
       "blocks": {
@@ -434,14 +434,14 @@
   },
   "order": [
     "image_banner",
+    "1628363935338af885",
     "1630452319c1c0a00d",
+    "1628205071928c9169",
     "featured_products",
     "1628204174b90c6428",
     "16294647273f5facad",
     "162843377755ffd3d4",
     "1628212274e3ed1bd9",
-    "1628363935338af885",
-    "1628205071928c9169",
     "162854529615676c73",
     "1630556942b1916b16",
     "1648748271af971426",
