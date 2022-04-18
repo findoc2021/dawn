@@ -60,7 +60,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Новинки сезона 2022",
-        "collection": "zhenskie-platya-bolshih-razmerov-sobstvennogo-proizvodstva-samye-goryachie-novinki-zhenskih-platev-kostyumov-bluzok-dzhemperov-tunik",
+        "collection": "novelties",
         "products_to_show": 12,
         "show_view_all": true,
         "swipe_on_mobile": true,
@@ -416,10 +416,19 @@
         "mobile_layout": "collage"
       }
     },
-    "16488912176250a52c": {
-      "type": "custom-liquid",
+    "1650270155565dca7e": {
+      "type": "featured-collection",
+      "disabled": true,
       "settings": {
-        "custom_liquid": ""
+        "title": "Featured collection",
+        "collection": "",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_vendor": false
       }
     }
   },
@@ -436,6 +445,6 @@
     "162854529615676c73",
     "1630556942b1916b16",
     "1648748271af971426",
-    "16488912176250a52c"
+    "1650270155565dca7e"
   ]
 }
