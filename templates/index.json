@@ -285,7 +285,7 @@
         "263ca1cd-ddc0-4a57-b088-882a1c75afad": {
           "type": "featured_collection",
           "settings": {
-            "collection": "zhenskie-platya-bolshih-razmerov"
+            "collection": "zhenskie-platya"
           }
         },
         "b00e03fc-94a0-417f-ab64-4c5253dbf1f9": {
@@ -336,7 +336,7 @@
         "162854529615676c73-2": {
           "type": "collection",
           "settings": {
-            "collection": "zhenskie-platya-bolshih-razmerov",
+            "collection": "zhenskie-platya",
             "image_padding": false,
             "color_scheme": "background-2"
           }
