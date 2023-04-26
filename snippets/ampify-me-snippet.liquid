@@ -34,13 +34,6 @@
 		{% assign amp_path = 'collections' %}
 	{% endif %}
 {% endif %}
-{% if template contains 'page' %}    
-	{% assign ampify_hide_shopify_pages_by_handle = '' | split: ',' %}
-	{% if ampify_hide_shopify_pages_by_handle contains page.handle %}
-	{% else %}
-		{% assign amp_path = 'pages/' | append: page.handle %}
-	{% endif %}
-{% endif %}
 {% if amp_path %}    
 <link rel="amphtml" href="{{ 'https://amp.irenfashion.com/' | append: amp_path  }}">
 {% endif %}
