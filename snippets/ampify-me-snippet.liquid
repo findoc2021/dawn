@@ -1,6 +1,3 @@
-{% if template contains 'index' %}    
-	{% assign amp_path = '' %}
-{% endif %}
 
 {% if template contains 'product' %}
 	{% assign ampify_show_products_with_tags = '' | split: ',' %}
@@ -26,30 +23,6 @@
 		{% assign amp_path = 'products/' | append: product.handle  %}
 	{% endif %}
 {% endif %}
-{% if template contains 'blog' %}    
-	{% assign amp_path = 'blogs/' | append: blog.handle %}
-{% endif %}
-{% if template contains 'article' %}    
-	{% assign hide_blog_posts_with_tags = '' | split: ',' %}
-	{% assign show_page = true %}
-
-	{% for tag in article.tags %}	
-		{% if hide_blog_posts_with_tags contains tag %}
-			{% assign show_page = false %}
-		{% endif %}
-	{% endfor %}
-
-	{% if show_page %}  
-		{% assign amp_path = 'blogs/' | append: article.handle %}
-	{% endif %}
-{% endif %}
-{% if template contains 'page' %}    
-	{% assign ampify_hide_shopify_pages_by_handle = '' | split: ',' %}
-	{% if ampify_hide_shopify_pages_by_handle contains page.handle %}
-	{% else %}
-		{% assign amp_path = 'pages/' | append: page.handle %}
-	{% endif %}
-{% endif %}
 {% if amp_path %}    
-<link rel="amphtml" href="{{ 'https://amp.irenfashion.com/' | append: amp_path  }}">
+<link rel="amphtml" href="{{ 'https://irenfashion.com/a/amp/' | append: amp_path  }}">
 {% endif %}
