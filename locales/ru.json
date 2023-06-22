@@ -1422,25 +1422,15 @@
       "verify_email": "Мы отправили электронное письмо на адрес %{customer_email}. Пожалуйста, нажмите на ссылку, чтобы подтвердить свой адрес электронной почты."
     },
     "filters": {
-      "product_type": {
-        "label": "Тип продукта"
-      },
       "boolean": {
         "true_label": "Да",
         "false_label": "Нет"
       },
       "availability": {
-        "label": "Доступность",
         "value": {
           "in_stock": "В наличии",
           "out_of_stock": "Распродано"
         }
-      },
-      "vendor": {
-        "label": "Бренд"
-      },
-      "price": {
-        "label": "Цена"
       }
     },
     "search": {
