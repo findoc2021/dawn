@@ -19,7 +19,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "подробней",
-            "button_link_1": "shopify:\/\/products\/vilvetovoe-dlinnoe-plate-safari-mikrovilvet",
+            "button_link_1": "shopify:\/\/products\/платье-сафари-модель-371-irenfashion",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -64,7 +64,7 @@
         "d48b979c-79ab-4c99-b58d-40a3e5e85c4c": {
           "type": "product",
           "settings": {
-            "product": "платье-женское-модель-375-1",
+            "product": "платье-женское-модель-375-1-irenfashion",
             "secondary_background": true,
             "second_image": true,
             "image_padding": false
@@ -398,7 +398,7 @@
         "adc39506-3ec5-42e1-90c3-7c14bdfe86ba": {
           "type": "product",
           "settings": {
-            "product": "vilvetovoe-dlinnoe-plate-safari-mikrovilvet",
+            "product": "платье-сафари-модель-371-irenfashion",
             "secondary_background": false,
             "second_image": false,
             "image_padding": false
