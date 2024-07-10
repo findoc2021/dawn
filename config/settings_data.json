@@ -59,21 +59,15 @@
               "color_scheme": "accent-2",
               "link": "shopify:\/\/pages\/vozvrat-i-obmen"
             }
-          },
-          "announcement_YgD9Hx": {
-            "type": "announcement",
-            "settings": {
-              "text": "Welcome to our store",
-              "color_scheme": "accent-2",
-              "link": ""
-            }
           }
         },
         "block_order": [
           "8920e8c9-9a76-4b1d-b187-74269145e16b",
           "announcement-bar-0",
-          "3fb252e2-b33e-472d-970b-95f827dff66f",
-          "announcement_YgD9Hx"
+          "3fb252e2-b33e-472d-970b-95f827dff66f"
+        ],
+        "custom_css": [
+          "p {font-style: uppercase;}"
         ],
         "settings": {
         }
