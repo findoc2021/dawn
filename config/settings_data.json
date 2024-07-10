@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "current": {
     "colors_solid_button_labels": "#fff",
@@ -50,12 +59,21 @@
               "color_scheme": "accent-2",
               "link": "shopify:\/\/pages\/vozvrat-i-obmen"
             }
+          },
+          "announcement_YgD9Hx": {
+            "type": "announcement",
+            "settings": {
+              "text": "Welcome to our store",
+              "color_scheme": "accent-2",
+              "link": ""
+            }
           }
         },
         "block_order": [
           "8920e8c9-9a76-4b1d-b187-74269145e16b",
           "announcement-bar-0",
-          "3fb252e2-b33e-472d-970b-95f827dff66f"
+          "3fb252e2-b33e-472d-970b-95f827dff66f",
+          "announcement_YgD9Hx"
         ],
         "settings": {
         }
@@ -63,7 +81,7 @@
       "header": {
         "type": "header",
         "settings": {
-          "logo": "shopify:\/\/shop_images\/12001.png",
+          "logo": "shopify:\/\/shop_images\/Simple_and_Editable_Motivational_Quote_at_Polaroid_Phone_Wallpaper.jpg",
           "logo_width": 250,
           "logo_position": "top-left",
           "menu": "main-menu",
@@ -146,20 +164,6 @@
     },
     "content_for_index": [
 
-    ],
-    "blocks": {
-      "3847134708050210359": {
-        "type": "shopify:\/\/apps\/language-translate-currency\/blocks\/switcher_embed_block\/bce4f1c0-c18c-43b0-b0b2-a1aefaa44573",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "1513253815146976218": {
-        "type": "shopify:\/\/apps\/omnisend-email-marketing-sms\/blocks\/app-embed\/44704aa2-794f-4c5d-8c8e-039c841158e9",
-        "disabled": false,
-        "settings": {
-        }
-      }
-    }
+    ]
   }
 }
